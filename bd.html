@@ -5,19 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ELMS 2026 — BD Pipeline</title>
 <style>
-:root { --bg:#0a0a0f; --card:#12121a; --border:#1e1e2e; --text:#e0e0e8; --dim:#6b6b80; --accent:#dc2626; --accent2:#ef4444; --green:#22c55e; --yellow:#eab308; --blue:#3b82f6; --purple:#a855f7; --orange:#f97316; }
+:root{--bg:#0a0a0f;--card:#12121a;--border:#1e1e2e;--text:#e0e0e8;--dim:#6b6b80;--accent:#dc2626;--accent2:#ef4444;--green:#22c55e;--yellow:#eab308;--blue:#3b82f6;--purple:#a855f7;--orange:#f97316;--pink:#ec4899}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--text)}
-a{color:var(--accent);text-decoration:none}
+body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--text);overflow-x:auto}
+
 .header{background:linear-gradient(135deg,#1a0a0a,#0a0a1a);border-bottom:1px solid var(--border);padding:20px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
 .header h1{font-size:22px;font-weight:700}.header h1 span{color:var(--accent)}
 .header-sub{color:var(--dim);font-size:12px;margin-top:4px}
+.header-stats{display:flex;gap:20px;flex-wrap:wrap}
+.stat{text-align:center}.stat-num{font-size:24px;font-weight:800}.stat-label{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:1px}
+.stat-num.green{color:var(--green)}.stat-num.blue{color:var(--blue)}.stat-num.yellow{color:var(--yellow)}.stat-num.purple{color:var(--purple)}
 .nav{display:flex;gap:8px}
-.nav a{padding:8px 16px;border-radius:6px;border:1px solid var(--border);color:var(--dim);font-size:13px;font-weight:600}
+.nav a{padding:8px 16px;border-radius:6px;border:1px solid var(--border);color:var(--dim);font-size:13px;font-weight:600;text-decoration:none}
 .nav a.active{background:rgba(220,38,38,.15);border-color:var(--accent);color:var(--text)}
-.stats{display:flex;gap:20px;flex-wrap:wrap;padding:16px 28px;border-bottom:1px solid var(--border);background:var(--card)}
-.stat{text-align:center}.stat-num{font-size:26px;font-weight:800}.stat-label{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:1px}
-.stat-num.green{color:var(--green)}.stat-num.blue{color:var(--blue)}.stat-num.yellow{color:var(--yellow)}.stat-num.purple{color:var(--purple)}.stat-num.red{color:var(--accent2)}
 
 .event-bar{padding:14px 28px;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--border);background:var(--card)}
 .ev-btn{padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--dim);cursor:pointer;font-size:13px;font-weight:600;transition:.2s;display:flex;align-items:center;gap:6px}
@@ -27,67 +27,74 @@ a{color:var(--accent);text-decoration:none}
 .ev-btn.active .cnt{background:var(--accent);color:white}
 .ev-date{font-size:11px;color:var(--dim);font-weight:400}
 
-.controls{padding:12px 28px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--border)}
-.controls input,.controls select{background:var(--bg);color:var(--text);border:1px solid var(--border);padding:7px 12px;border-radius:6px;font-size:13px;outline:none}
-.controls input:focus,.controls select:focus{border-color:var(--accent)}
-.controls input{width:240px}
+.controls{padding:12px 28px;display:flex;gap:12px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--border)}
+.controls input{background:var(--bg);color:var(--text);border:1px solid var(--border);padding:7px 12px;border-radius:6px;font-size:13px;outline:none;width:240px}
+.controls input:focus{border-color:var(--accent)}
 
-table{width:100%;border-collapse:collapse;font-size:13px}
-thead th{text-align:left;padding:10px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--dim);border-bottom:1px solid var(--border);cursor:pointer;position:sticky;top:0;background:var(--bg);z-index:2}
-thead th:hover{color:var(--text)}
-tbody tr{border-bottom:1px solid var(--border);transition:.15s;cursor:pointer}
-tbody tr:hover{background:rgba(220,38,38,.04)}
-tbody td{padding:10px 12px;vertical-align:top}
+.board{display:flex;gap:12px;padding:16px 28px;overflow-x:auto;min-height:calc(100vh - 260px);align-items:flex-start}
+.column{min-width:260px;max-width:300px;flex:1;background:var(--card);border:1px solid var(--border);border-radius:10px;display:flex;flex-direction:column;max-height:calc(100vh - 270px)}
+.column-header{padding:14px 16px 10px;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:2;background:var(--card);border-radius:10px 10px 0 0}
+.column-title{font-size:12px;text-transform:uppercase;letter-spacing:1px;font-weight:700;display:flex;align-items:center;gap:8px}
+.column-count{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:700}
+.column-value{font-size:11px;color:var(--dim);margin-top:4px}
+.column-body{padding:8px;overflow-y:auto;flex:1;min-height:80px}
+.column-body.drag-over{background:rgba(220,38,38,.06);border-radius:0 0 10px 10px}
 
-.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;white-space:nowrap}
-.tag-prospect{background:rgba(107,107,128,.15);color:var(--dim)}
-.tag-contacted{background:rgba(234,179,8,.15);color:var(--yellow)}
-.tag-interested{background:rgba(168,85,247,.15);color:var(--purple)}
-.tag-confirmed{background:rgba(34,197,94,.15);color:var(--green)}
-.tag-scouted{background:rgba(168,85,247,.15);color:var(--purple)}
-.tag-proposal-sent{background:rgba(234,179,8,.2);color:var(--yellow)}
-.tag-proposal-done{background:rgba(249,115,22,.15);color:var(--orange)}
-.tag-researched{background:rgba(59,130,246,.15);color:var(--blue)}
-
-.ev-tags{display:flex;gap:4px;flex-wrap:wrap}
-.ev-tag{display:inline-block;padding:2px 6px;border-radius:3px;font-size:10px;font-weight:600;background:rgba(255,255,255,.06);color:var(--dim)}
+.card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:8px;cursor:grab;transition:transform .15s,box-shadow .15s,border-color .15s}
+.card:hover{border-color:rgba(220,38,38,.4)}
+.card.dragging{opacity:.4;transform:scale(.97)}
+.card-name{font-weight:600;font-size:14px;display:flex;align-items:center;gap:6px}
+.card-value{font-size:13px;font-weight:700;margin-top:6px}
+.card-value.big{color:var(--green)}.card-value.medium{color:var(--yellow)}.card-value.small{color:var(--dim)}
+.card-notes{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-next{font-size:11px;color:var(--yellow);margin-top:6px;font-style:italic}
+.card-events{display:flex;gap:3px;flex-wrap:wrap;margin-top:6px}
+.ev-tag{display:inline-block;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:600;background:rgba(255,255,255,.06);color:var(--dim)}
 .ev-tag.hl{background:rgba(220,38,38,.15);color:var(--accent2)}
+.priority-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent2)}
 
-.name{font-weight:600;font-size:14px}.meta-sub{color:var(--dim);font-size:11px;margin-top:2px}
-.value{font-weight:700;color:var(--green);white-space:nowrap}
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
-.dot-high{background:var(--accent2)}.dot-norm{background:var(--dim)}
-.next{font-size:12px;color:var(--yellow);max-width:220px}
-.pipeline{padding:0 28px 28px;overflow-x:auto}
+.col-prospect .column-header{border-bottom-color:var(--dim)}.col-prospect .column-title{color:var(--dim)}.col-prospect .column-count{background:rgba(100,100,120,.15);color:var(--dim)}
+.col-scouted .column-header{border-bottom-color:var(--blue)}.col-scouted .column-title{color:var(--blue)}.col-scouted .column-count{background:rgba(59,130,246,.15);color:var(--blue)}
+.col-contacted .column-header{border-bottom-color:var(--yellow)}.col-contacted .column-title{color:var(--yellow)}.col-contacted .column-count{background:rgba(234,179,8,.15);color:var(--yellow)}
+.col-proposal-sent .column-header{border-bottom-color:var(--purple)}.col-proposal-sent .column-title{color:var(--purple)}.col-proposal-sent .column-count{background:rgba(168,85,247,.15);color:var(--purple)}
+.col-confirmed .column-header{border-bottom-color:var(--green)}.col-confirmed .column-title{color:var(--green)}.col-confirmed .column-count{background:rgba(34,197,94,.15);color:var(--green)}
 
-.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:100;justify-content:center;align-items:center;backdrop-filter:blur(4px)}
-.overlay.active{display:flex}
-.panel{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;max-width:640px;width:92%;max-height:85vh;overflow-y:auto}
-.panel h2{font-size:20px;margin-bottom:4px}
-.panel .pmeta{color:var(--dim);font-size:13px;margin-bottom:16px}
-.section{margin-bottom:14px}
-.section-title{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);margin-bottom:4px}
-.section-body{font-size:14px;line-height:1.6}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:900;opacity:0;pointer-events:none;transition:opacity .25s}
+.overlay.open{opacity:1;pointer-events:auto}
+.edit-panel{position:fixed;top:0;right:-480px;width:460px;height:100vh;background:var(--card);border-left:1px solid var(--border);z-index:901;transition:right .3s ease;overflow-y:auto;display:flex;flex-direction:column}
+.edit-panel.open{right:0}
+.edit-header{padding:20px 24px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.edit-header h2{font-size:18px;font-weight:700}
+.edit-close{background:none;border:none;color:var(--dim);font-size:24px;cursor:pointer;padding:4px 8px}
+.edit-close:hover{color:var(--text)}
+.edit-body{padding:20px 24px;flex:1}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--dim);margin-bottom:6px;font-weight:600}
+.field input,.field select,.field textarea{width:100%;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:9px 12px;font-size:13px;font-family:inherit;outline:none}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent)}
+.field textarea{resize:vertical;min-height:70px}
+.field-row{display:flex;gap:12px}.field-row .field{flex:1}
+.edit-footer{padding:16px 24px;border-top:1px solid var(--border);display:flex;gap:10px;justify-content:flex-end}
 .btn{background:var(--accent);color:white;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600}
 .btn:hover{background:var(--accent2)}
+.btn-save{background:var(--green);color:#000;font-weight:700}.btn-save:hover{background:#16a34a}
 </style>
 </head>
 <body>
 <div class="header">
   <div>
     <h1>BD <span>Pipeline</span></h1>
-    <div class="header-sub">ELMS 2026 — Hospitality & Business Development by Event</div>
+    <div class="header-sub">ELMS 2026 — Hospitality & Business Development</div>
+  </div>
+  <div class="header-stats">
+    <div class="stat"><div class="stat-num blue" id="s-total">0</div><div class="stat-label">Companies</div></div>
+    <div class="stat"><div class="stat-num green" id="s-value">0</div><div class="stat-label">Pipeline</div></div>
+    <div class="stat"><div class="stat-num purple" id="s-hp">0</div><div class="stat-label">High Priority</div></div>
   </div>
   <div class="nav">
     <a href="index.html">Sponsors</a>
     <a href="bd.html" class="active">BD Platform</a>
   </div>
-</div>
-<div class="stats">
-  <div class="stat"><div class="stat-num blue" id="s-total">0</div><div class="stat-label">Companies</div></div>
-  <div class="stat"><div class="stat-num yellow" id="s-events">5</div><div class="stat-label">Events</div></div>
-  <div class="stat"><div class="stat-num green" id="s-value">0</div><div class="stat-label">Pipeline Value</div></div>
-  <div class="stat"><div class="stat-num purple" id="s-hp">0</div><div class="stat-label">High Priority</div></div>
 </div>
 <div class="event-bar">
   <button class="ev-btn active" data-ev="all" onclick="filterEv('all')">All <span class="cnt" id="cnt-all">0</span></button>
@@ -98,52 +105,45 @@ tbody td{padding:10px 12px;vertical-align:top}
   <button class="ev-btn" data-ev="portimao" onclick="filterEv('portimao')">Portimao <span class="ev-date">Oct 10</span> <span class="cnt" id="cnt-portimao">0</span></button>
 </div>
 <div class="controls">
-  <input type="text" id="search" placeholder="Search companies..." oninput="render()">
-  <select id="f-status" onchange="render()">
-    <option value="">All Statuses</option>
-    <option value="prospect">Prospect</option>
-    <option value="scouted">Scouted</option>
-    <option value="proposal-sent">Proposal Sent</option>
-    <option value="contacted">Contacted</option>
-    <option value="confirmed">Confirmed</option>
-  </select>
-  <select id="f-priority" onchange="render()">
-    <option value="">All Priority</option>
-    <option value="high">High Priority</option>
-  </select>
+  <input type="text" id="search" placeholder="Search..." oninput="render()">
 </div>
-<div class="pipeline">
-  <table><thead><tr>
-    <th onclick="sortBy('name')">Company</th>
-    <th onclick="sortBy('status')">Status</th>
-    <th onclick="sortBy('value')">Value</th>
-    <th>Events</th>
-    <th>Next Action</th>
-  </tr></thead><tbody id="tbody"></tbody></table>
+
+<div class="board" id="board"></div>
+
+<div class="overlay" id="overlay" onclick="closePanel()"></div>
+<div class="edit-panel" id="edit-panel">
+  <div class="edit-header"><h2 id="ep-title">Edit</h2><button class="edit-close" onclick="closePanel()">x</button></div>
+  <div class="edit-body" id="ep-body"></div>
+  <div class="edit-footer"><button class="btn" onclick="closePanel()">Cancel</button><button class="btn btn-save" onclick="saveCard()">Save</button></div>
 </div>
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel" id="panel"></div>
-</div>
+
 <script src="bd-data.js"></script>
 <script>
-const LS_KEY = 'elms-bd-pipeline-v1';
-let data = JSON.parse(localStorage.getItem(LS_KEY)) || BD_DATA;
-let curEv = 'all', sf = 'name', sd = 1;
-const EV_NAMES = {'paul-ricard':'Paul Ricard','imola':'Imola','spa':'Spa','silverstone':'Silverstone','portimao':'Portimao'};
+const LS='elms-bd-v2';
+let data=JSON.parse(localStorage.getItem(LS))||BD_DATA;
+let curEv='all',editId=null;
+const COLS=[
+  {id:'confirmed',label:'Confirmed'},
+  {id:'proposal-sent',label:'Proposal Sent'},
+  {id:'contacted',label:'Contacted'},
+  {id:'scouted',label:'Scouted'},
+  {id:'prospect',label:'Prospect'}
+];
+const EV_NAMES={'paul-ricard':'Paul Ricard','imola':'Imola','spa':'Spa','silverstone':'Silverstone','portimao':'Portimao'};
 
-function init(){updateStats();render()}
-function save(){localStorage.setItem(LS_KEY, JSON.stringify(data))}
+function save(){data.lastModified=new Date().toISOString();localStorage.setItem(LS,JSON.stringify(data))}
+function valClass(v){return v>=80000?'big':v>=40000?'medium':'small'}
 
 function updateStats(){
-  const c = data.companies;
-  document.getElementById('s-total').textContent = c.length;
-  document.getElementById('s-hp').textContent = c.filter(x=>x.highPriority).length;
-  const lo = c.reduce((a,x)=>a+(x.valueLow||0),0);
-  const hi = c.reduce((a,x)=>a+(x.valueHigh||0),0);
-  document.getElementById('s-value').textContent = Math.round(lo/1000)+'k-'+Math.round(hi/1000)+'k';
-  document.getElementById('cnt-all').textContent = c.length;
+  const c=data.companies;
+  document.getElementById('s-total').textContent=c.length;
+  document.getElementById('s-hp').textContent=c.filter(x=>x.highPriority).length;
+  const lo=c.reduce((a,x)=>a+(x.valueLow||0),0);
+  const hi=c.reduce((a,x)=>a+(x.valueHigh||0),0);
+  document.getElementById('s-value').textContent=Math.round(lo/1000)+'k-'+Math.round(hi/1000)+'k';
+  document.getElementById('cnt-all').textContent=c.length;
   ['paul-ricard','imola','spa','silverstone','portimao'].forEach(ev=>{
-    document.getElementById('cnt-'+ev).textContent = c.filter(x=>x.events&&x.events.includes(ev)).length;
+    document.getElementById('cnt-'+ev).textContent=c.filter(x=>x.events&&x.events.includes(ev)).length;
   });
 }
 
@@ -158,51 +158,71 @@ function getFiltered(){
   if(curEv!=='all') list=list.filter(c=>c.events&&c.events.includes(curEv));
   const q=document.getElementById('search').value.toLowerCase();
   if(q) list=list.filter(c=>(c.name||'').toLowerCase().includes(q)||(c.notes||'').toLowerCase().includes(q));
-  const s=document.getElementById('f-status').value;
-  if(s) list=list.filter(c=>c.status===s);
-  const p=document.getElementById('f-priority').value;
-  if(p==='high') list=list.filter(c=>c.highPriority);
-  list.sort((a,b)=>{
-    let va,vb;
-    if(sf==='value'){va=a.valueHigh||0;vb=b.valueHigh||0}
-    else if(sf==='status'){va=a.status||'';vb=b.status||''}
-    else{va=a.name||'';vb=b.name||''}
-    return typeof va==='string'?va.localeCompare(vb)*sd:(va-vb)*sd;
-  });
   return list;
 }
 
-function sortBy(f){if(sf===f)sd*=-1;else{sf=f;sd=1}render()}
-
-function statusTag(s){
-  const cls={'prospect':'tag-prospect','scouted':'tag-scouted','contacted':'tag-contacted','interested':'tag-interested','confirmed':'tag-confirmed','proposal-sent':'tag-proposal-sent','proposal-done':'tag-proposal-done','researched':'tag-researched'};
-  return '<span class="tag '+(cls[s]||'tag-prospect')+'">'+(s||'prospect').replace(/-/g,' ')+'</span>';
-}
-
 function evTags(events){
-  if(!events||!events.length)return'-';
-  return '<div class="ev-tags">'+events.map(ev=>'<span class="ev-tag'+(curEv===ev?' hl':'')+'">'+( EV_NAMES[ev]||ev)+'</span>').join('')+'</div>';
+  if(!events||!events.length)return'';
+  return '<div class="card-events">'+events.map(ev=>'<span class="ev-tag'+(curEv===ev?' hl':'')+'">'+(EV_NAMES[ev]||ev)+'</span>').join('')+'</div>';
 }
 
 function render(){
+  updateStats();
   const list=getFiltered();
-  document.getElementById('tbody').innerHTML=list.map(c=>{
-    const vt=c.valueType==='event'?'/ev':'/szn';
-    return '<tr onclick="show(\''+c.id+'\')"><td><span class="dot '+(c.highPriority?'dot-high':'dot-norm')+'"></span><span class="name">'+c.name+'</span><div class="meta-sub">'+(c.notes||'').substring(0,80)+'...</div></td><td>'+statusTag(c.status)+'</td><td><span class="value">'+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k'+vt+'</span></td><td>'+evTags(c.events)+'</td><td><span class="next">'+(c.nextAction||'-')+'</span></td></tr>';
+  const board=document.getElementById('board');
+  board.innerHTML=COLS.map(col=>{
+    const cards=list.filter(c=>c.status===col.id);
+    const lo=cards.reduce((a,c)=>a+(c.valueLow||0),0);
+    const hi=cards.reduce((a,c)=>a+(c.valueHigh||0),0);
+    const vt=col.id;
+    return '<div class="column col-'+col.id+'" data-status="'+col.id+'"><div class="column-header"><div class="column-title">'+col.label+' <span class="column-count">'+cards.length+'</span></div><div class="column-value">'+Math.round(lo/1000)+'k - '+Math.round(hi/1000)+'k</div></div><div class="column-body" ondragover="dragOver(event)" ondrop="drop(event,\''+col.id+'\')">'+cards.map(c=>{
+      const typ=(c.valueType==='event')?'/ev':'/szn';
+      return '<div class="card" draggable="true" ondragstart="dragStart(event,\''+c.id+'\')" onclick="openPanel(\''+c.id+'\')"><div class="card-name">'+(c.highPriority?'<span class="priority-dot"></span>':'')+c.name+'</div><div class="card-value '+valClass(c.valueHigh)+'">'+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k'+typ+'</div>'+evTags(c.events)+'<div class="card-notes">'+(c.notes||'').substring(0,100)+'</div>'+(c.nextAction?'<div class="card-next">'+c.nextAction.substring(0,80)+'</div>':'')+'</div>';
+    }).join('')+'</div></div>';
   }).join('');
 }
 
-function show(id){
-  const c=data.companies.find(x=>x.id===id);
-  if(!c)return;
-  const vt=c.valueType==='event'?'/event':'/season';
-  document.getElementById('panel').innerHTML='<h2><span class="dot '+(c.highPriority?'dot-high':'dot-norm')+'"></span>'+c.name+'</h2><div class="pmeta">'+(c.status||'prospect').replace(/-/g,' ')+' | '+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k'+vt+'</div><div class="section"><div class="section-title">Events</div><div class="section-body">'+evTags(c.events)+'</div></div>'+(c.whyTheyFit?'<div class="section"><div class="section-title">Why They Fit</div><div class="section-body">'+c.whyTheyFit+'</div></div>':'')+(c.pitchAngle?'<div class="section"><div class="section-title">Pitch</div><div class="section-body" style="font-style:italic;color:var(--accent2)">"'+c.pitchAngle+'"</div></div>':'')+(c.keyContact?'<div class="section"><div class="section-title">Key Contact</div><div class="section-body">'+c.keyContact+'</div></div>':'')+'<div class="section"><div class="section-title">Next Action</div><div class="section-body" style="color:var(--yellow)">'+(c.nextAction||'-')+'</div></div><div class="section"><div class="section-title">Notes</div><div class="section-body" style="color:var(--dim)">'+c.notes+'</div></div><div style="margin-top:20px;display:flex;gap:8px;flex-wrap:wrap"><select id="st-sel" style="background:var(--bg);color:var(--text);border:1px solid var(--border);padding:6px 10px;border-radius:6px;font-size:13px"><option value="prospect"'+(c.status==='prospect'?' selected':'')+'>Prospect</option><option value="scouted"'+(c.status==='scouted'?' selected':'')+'>Scouted</option><option value="contacted"'+(c.status==='contacted'?' selected':'')+'>Contacted</option><option value="proposal-sent"'+(c.status==='proposal-sent'?' selected':'')+'>Proposal Sent</option><option value="confirmed"'+(c.status==='confirmed'?' selected':'')+'>Confirmed</option></select><button class="btn" onclick="updateSt(\''+c.id+'\')">Update</button><button class="btn" style="background:var(--border);margin-left:auto" onclick="closePanel()">Close</button></div>';
-  document.getElementById('overlay').classList.add('active');
+let dragId=null;
+function dragStart(e,id){dragId=id;e.target.classList.add('dragging');e.dataTransfer.effectAllowed='move'}
+function dragOver(e){e.preventDefault();e.currentTarget.classList.add('drag-over')}
+function drop(e,status){
+  e.preventDefault();e.currentTarget.classList.remove('drag-over');
+  if(!dragId)return;
+  const c=data.companies.find(x=>x.id===dragId);
+  if(c){c.status=status;save();render()}
+  dragId=null;
 }
-function closePanel(){document.getElementById('overlay').classList.remove('active')}
-function updateSt(id){const c=data.companies.find(x=>x.id===id);if(!c)return;c.status=document.getElementById('st-sel').value;save();updateStats();render();closePanel()}
+document.addEventListener('dragend',()=>{document.querySelectorAll('.drag-over,.dragging').forEach(el=>el.classList.remove('drag-over','dragging'))});
+
+function openPanel(id){
+  editId=id;
+  const c=data.companies.find(x=>x.id===id);if(!c)return;
+  document.getElementById('ep-title').textContent=c.name;
+  document.getElementById('ep-body').innerHTML=`
+    <div class="field"><label>Status</label><select id="ed-status">${COLS.map(col=>'<option value="'+col.id+'"'+(c.status===col.id?' selected':'')+'>'+col.label+'</option>').join('')}</select></div>
+    <div class="field-row"><div class="field"><label>Value Low</label><input id="ed-lo" type="number" value="${c.valueLow||0}"></div><div class="field"><label>Value High</label><input id="ed-hi" type="number" value="${c.valueHigh||0}"></div></div>
+    <div class="field"><label>Key Contact</label><input id="ed-contact" value="${(c.keyContact||'').replace(/"/g,'&quot;')}"></div>
+    <div class="field"><label>Next Action</label><textarea id="ed-next">${c.nextAction||''}</textarea></div>
+    <div class="field"><label>Notes</label><textarea id="ed-notes" style="min-height:100px">${c.notes||''}</textarea></div>
+    ${c.whyTheyFit?'<div class="field"><label>Why They Fit</label><div style="font-size:13px;line-height:1.5;color:var(--text)">'+c.whyTheyFit+'</div></div>':''}
+    ${c.pitchAngle?'<div class="field"><label>Pitch Angle</label><div style="font-size:13px;font-style:italic;color:var(--accent2)">"'+c.pitchAngle+'"</div></div>':''}
+  `;
+  document.getElementById('overlay').classList.add('open');
+  document.getElementById('edit-panel').classList.add('open');
+}
+function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('edit-panel').classList.remove('open');editId=null}
+function saveCard(){
+  const c=data.companies.find(x=>x.id===editId);if(!c)return;
+  c.status=document.getElementById('ed-status').value;
+  c.valueLow=parseInt(document.getElementById('ed-lo').value)||0;
+  c.valueHigh=parseInt(document.getElementById('ed-hi').value)||0;
+  c.keyContact=document.getElementById('ed-contact').value;
+  c.nextAction=document.getElementById('ed-next').value;
+  c.notes=document.getElementById('ed-notes').value;
+  save();render();closePanel();
+}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel()});
-init();
+render();
 </script>
 </body>
 </html>
