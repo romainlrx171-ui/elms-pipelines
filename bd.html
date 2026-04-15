@@ -123,11 +123,11 @@ const LS='elms-bd-v2';
 let data=JSON.parse(localStorage.getItem(LS))||BD_DATA;
 let curEv='all',editId=null;
 const COLS=[
-  {id:'confirmed',label:'Confirmed'},
-  {id:'proposal-sent',label:'Proposal Sent'},
-  {id:'contacted',label:'Contacted'},
+  {id:'prospect',label:'Prospect'},
   {id:'scouted',label:'Scouted'},
-  {id:'prospect',label:'Prospect'}
+  {id:'contacted',label:'Contacted'},
+  {id:'proposal-sent',label:'Proposal Sent'},
+  {id:'confirmed',label:'Confirmed'}
 ];
 const EV_NAMES={'paul-ricard':'Paul Ricard','imola':'Imola','spa':'Spa','silverstone':'Silverstone','portimao':'Portimao'};
 

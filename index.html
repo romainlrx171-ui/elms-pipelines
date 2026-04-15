@@ -124,12 +124,12 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 const LS='elms-sp-v2';
 let data=JSON.parse(localStorage.getItem(LS))||SPONSOR_DATA;
 const COLS=[
-  {id:'closed-won',label:'Closed Won'},
-  {id:'proposal-sent',label:'Proposal Sent'},
-  {id:'proposal-done',label:'Proposal Done'},
-  {id:'scouted',label:'Scouted'},
+  {id:'prospect',label:'Prospect'},
   {id:'researched',label:'Researched'},
-  {id:'prospect',label:'Prospect'}
+  {id:'scouted',label:'Scouted'},
+  {id:'proposal-done',label:'Proposal Done'},
+  {id:'proposal-sent',label:'Proposal Sent'},
+  {id:'closed-won',label:'Closed Won'}
 ];
 let editId=null;
 
