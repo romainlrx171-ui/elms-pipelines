@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELMS 2026 — Sponsor Pipeline</title>
+<style>
+:root { --bg:#0a0a0f; --card:#12121a; --border:#1e1e2e; --text:#e0e0e8; --dim:#6b6b80; --accent:#dc2626; --accent2:#ef4444; --green:#22c55e; --yellow:#eab308; --blue:#3b82f6; --purple:#a855f7; --orange:#f97316; }
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--text)}
+a{color:var(--accent);text-decoration:none}
+.header{background:linear-gradient(135deg,#1a0a0a,#0a0a1a);border-bottom:1px solid var(--border);padding:20px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.header h1{font-size:22px;font-weight:700}.header h1 span{color:var(--accent)}
+.header-sub{color:var(--dim);font-size:12px;margin-top:4px}
+.nav{display:flex;gap:8px}
+.nav a{padding:8px 16px;border-radius:6px;border:1px solid var(--border);color:var(--dim);font-size:13px;font-weight:600}
+.nav a.active{background:rgba(220,38,38,.15);border-color:var(--accent);color:var(--text)}
+.stats{display:flex;gap:20px;flex-wrap:wrap;padding:16px 28px;border-bottom:1px solid var(--border);background:var(--card)}
+.stat{text-align:center}.stat-num{font-size:26px;font-weight:800}.stat-label{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:1px}
+.stat-num.red{color:var(--accent2)}.stat-num.green{color:var(--green)}.stat-num.blue{color:var(--blue)}.stat-num.yellow{color:var(--yellow)}.stat-num.purple{color:var(--purple)}
+.goal-bar-wrap{padding:10px 28px;background:var(--card);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:16px}
+.goal-label{font-size:12px;color:var(--dim);white-space:nowrap}
+.goal-bar{flex:1;height:10px;background:#1a1a2e;border-radius:5px;overflow:hidden}
+.goal-fill{height:100%;border-radius:5px;transition:.5s}
+.controls{padding:12px 28px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--border)}
+.controls input,.controls select{background:var(--bg);color:var(--text);border:1px solid var(--border);padding:7px 12px;border-radius:6px;font-size:13px;outline:none}
+.controls input:focus,.controls select:focus{border-color:var(--accent)}
+.controls input{width:240px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead th{text-align:left;padding:10px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--dim);border-bottom:1px solid var(--border);cursor:pointer;position:sticky;top:0;background:var(--bg);z-index:2}
+thead th:hover{color:var(--text)}
+tbody tr{border-bottom:1px solid var(--border);transition:.15s;cursor:pointer}
+tbody tr:hover{background:rgba(220,38,38,.04)}
+tbody td{padding:10px 12px;vertical-align:top}
+.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;white-space:nowrap}
+.tag-closed-won{background:rgba(34,197,94,.2);color:var(--green)}
+.tag-proposal-sent{background:rgba(234,179,8,.2);color:var(--yellow)}
+.tag-proposal-done{background:rgba(249,115,22,.2);color:var(--orange)}
+.tag-scouted{background:rgba(168,85,247,.2);color:var(--purple)}
+.tag-researched{background:rgba(59,130,246,.15);color:var(--blue)}
+.tag-prospect{background:rgba(107,107,128,.15);color:var(--dim)}
+.name{font-weight:600;font-size:14px}.hq{color:var(--dim);font-size:11px;margin-top:2px}
+.value{font-weight:700;color:var(--green);white-space:nowrap}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.dot-high{background:var(--accent2)}.dot-norm{background:var(--dim)}
+.next{font-size:12px;color:var(--yellow);max-width:250px}
+.notes{font-size:11px;color:var(--dim);max-width:300px}
+.pipeline{padding:0 28px 28px;overflow-x:auto}
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:100;justify-content:center;align-items:center;backdrop-filter:blur(4px)}
+.overlay.active{display:flex}
+.panel{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;max-width:640px;width:92%;max-height:85vh;overflow-y:auto}
+.panel h2{font-size:20px;margin-bottom:4px}
+.panel .meta{color:var(--dim);font-size:13px;margin-bottom:16px}
+.section{margin-bottom:14px}
+.section-title{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);margin-bottom:4px}
+.section-body{font-size:14px;line-height:1.6}
+.btn{background:var(--accent);color:white;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600}
+.btn:hover{background:var(--accent2)}
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <h1>Sponsor <span>Pipeline</span></h1>
+    <div class="header-sub">ELMS 2026 — Romain Leroux Racing</div>
+  </div>
+  <div class="nav">
+    <a href="index.html" class="active">Sponsors</a>
+    <a href="bd.html">BD Platform</a>
+  </div>
+</div>
+<div class="stats">
+  <div class="stat"><div class="stat-num green" id="s-won">0</div><div class="stat-label">Secured</div></div>
+  <div class="stat"><div class="stat-num yellow" id="s-sent">0</div><div class="stat-label">Proposals Sent</div></div>
+  <div class="stat"><div class="stat-num purple" id="s-scouted">0</div><div class="stat-label">Scouted</div></div>
+  <div class="stat"><div class="stat-num blue" id="s-total">0</div><div class="stat-label">Total</div></div>
+  <div class="stat"><div class="stat-num red" id="s-gap">140k</div><div class="stat-label">Gap</div></div>
+</div>
+<div class="goal-bar-wrap">
+  <span class="goal-label">EUR 160k / 300k target</span>
+  <div class="goal-bar"><div class="goal-fill" id="goal-fill" style="width:53%;background:linear-gradient(90deg,var(--green),var(--yellow))"></div></div>
+  <span class="goal-label" id="goal-pct">53%</span>
+</div>
+<div class="controls">
+  <input type="text" id="search" placeholder="Search companies..." oninput="render()">
+  <select id="f-universe" onchange="render()"><option value="">All Universes</option></select>
+  <select id="f-status" onchange="render()">
+    <option value="">All Statuses</option>
+    <option value="closed-won">Closed Won</option>
+    <option value="proposal-sent">Proposal Sent</option>
+    <option value="proposal-done">Proposal Done</option>
+    <option value="scouted">Scouted</option>
+    <option value="researched">Researched</option>
+    <option value="prospect">Prospect</option>
+  </select>
+  <select id="f-priority" onchange="render()">
+    <option value="">All Priority</option>
+    <option value="high">High Priority</option>
+  </select>
+</div>
+<div class="pipeline">
+  <table><thead><tr>
+    <th onclick="sortBy('name')">Company</th>
+    <th onclick="sortBy('universe')">Universe</th>
+    <th onclick="sortBy('status')">Status</th>
+    <th onclick="sortBy('value')">Value</th>
+    <th>Next Action</th>
+    <th>Notes</th>
+  </tr></thead><tbody id="tbody"></tbody></table>
+</div>
+<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
+  <div class="panel" id="panel"></div>
+</div>
+<script src="sp-data.js"></script>
+<script>
+const LS_KEY = 'elms-sponsor-pipeline-v1';
+let data = JSON.parse(localStorage.getItem(LS_KEY)) || SPONSOR_DATA;
+let sf = 'name', sd = 1;
+
+function init() {
+  const universes = [...new Set(data.companies.map(c=>c.universe))].sort();
+  document.getElementById('f-universe').innerHTML = '<option value="">All Universes</option>' + universes.map(u=>'<option>'+u+'</option>').join('');
+  updateStats();
+  render();
+}
+
+function save() { localStorage.setItem(LS_KEY, JSON.stringify(data)); }
+
+function updateStats() {
+  const c = data.companies;
+  const won = c.filter(x=>x.status==='closed-won');
+  const secured = won.reduce((a,x)=>a+(x.valueLow||0),0);
+  document.getElementById('s-won').textContent = Math.round(secured/1000)+'k';
+  document.getElementById('s-sent').textContent = c.filter(x=>x.status==='proposal-sent').length;
+  document.getElementById('s-scouted').textContent = c.filter(x=>x.status==='scouted').length;
+  document.getElementById('s-total').textContent = c.length;
+  const target = 300000;
+  const gap = Math.max(0, target - secured);
+  document.getElementById('s-gap').textContent = Math.round(gap/1000)+'k';
+  const pct = Math.round(secured/target*100);
+  document.getElementById('goal-fill').style.width = pct+'%';
+  document.getElementById('goal-pct').textContent = pct+'%';
+}
+
+function getFiltered() {
+  let list = [...data.companies];
+  const q = document.getElementById('search').value.toLowerCase();
+  if(q) list = list.filter(c=>(c.name||'').toLowerCase().includes(q)||(c.notes||'').toLowerCase().includes(q)||(c.universe||'').toLowerCase().includes(q));
+  const u = document.getElementById('f-universe').value;
+  if(u) list = list.filter(c=>c.universe===u);
+  const s = document.getElementById('f-status').value;
+  if(s) list = list.filter(c=>c.status===s);
+  const p = document.getElementById('f-priority').value;
+  if(p==='high') list = list.filter(c=>c.highPriority);
+  list.sort((a,b)=>{
+    let va,vb;
+    if(sf==='value'){va=a.valueHigh||0;vb=b.valueHigh||0}
+    else if(sf==='status'){const o={['closed-won']:0,['proposal-sent']:1,['proposal-done']:2,scouted:3,researched:4,prospect:5};va=o[a.status]??9;vb=o[b.status]??9}
+    else if(sf==='universe'){va=a.universe||'';vb=b.universe||''}
+    else{va=a.name||'';vb=b.name||''}
+    if(typeof va==='string') return va.localeCompare(vb)*sd;
+    return (va-vb)*sd;
+  });
+  return list;
+}
+
+function sortBy(f){if(sf===f)sd*=-1;else{sf=f;sd=1}render()}
+
+function statusTag(s){
+  const cls={'closed-won':'tag-closed-won','proposal-sent':'tag-proposal-sent','proposal-done':'tag-proposal-done',scouted:'tag-scouted',researched:'tag-researched',prospect:'tag-prospect'};
+  return '<span class="tag '+(cls[s]||'tag-prospect')+'">'+(s||'prospect').replace(/-/g,' ')+'</span>';
+}
+
+function render(){
+  const list = getFiltered();
+  document.getElementById('tbody').innerHTML = list.map(c=>'<tr onclick="show(\''+c.id+'\')"><td><span class="dot '+(c.highPriority?'dot-high':'dot-norm')+'"></span><span class="name">'+c.name+'</span></td><td>'+c.universe+'</td><td>'+statusTag(c.status)+'</td><td><span class="value">'+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k</span></td><td><span class="next">'+(c.nextAction||'-')+'</span></td><td><span class="notes">'+(c.notes||'').substring(0,120)+'...</span></td></tr>').join('');
+}
+
+function show(id){
+  const c = data.companies.find(x=>x.id===id);
+  if(!c)return;
+  document.getElementById('panel').innerHTML = '<h2><span class="dot '+(c.highPriority?'dot-high':'dot-norm')+'"></span>'+c.name+'</h2><div class="meta">'+c.universe+' | '+(c.status||'prospect').replace(/-/g,' ')+' | '+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k</div><div class="section"><div class="section-title">Notes</div><div class="section-body">'+c.notes+'</div></div><div class="section"><div class="section-title">Next Action</div><div class="section-body" style="color:var(--yellow)">'+(c.nextAction||'-')+'</div></div><div style="margin-top:20px;display:flex;gap:8px;flex-wrap:wrap"><select id="st-sel" style="background:var(--bg);color:var(--text);border:1px solid var(--border);padding:6px 10px;border-radius:6px;font-size:13px"><option value="prospect"'+(c.status==='prospect'?' selected':'')+'>Prospect</option><option value="researched"'+(c.status==='researched'?' selected':'')+'>Researched</option><option value="scouted"'+(c.status==='scouted'?' selected':'')+'>Scouted</option><option value="proposal-done"'+(c.status==='proposal-done'?' selected':'')+'>Proposal Done</option><option value="proposal-sent"'+(c.status==='proposal-sent'?' selected':'')+'>Proposal Sent</option><option value="closed-won"'+(c.status==='closed-won'?' selected':'')+'>Closed Won</option></select><button class="btn" onclick="updateSt(\''+c.id+'\')">Update</button><button class="btn" style="background:var(--border);margin-left:auto" onclick="closePanel()">Close</button></div>';
+  document.getElementById('overlay').classList.add('active');
+}
+function closePanel(){document.getElementById('overlay').classList.remove('active')}
+function updateSt(id){const c=data.companies.find(x=>x.id===id);if(!c)return;c.status=document.getElementById('st-sel').value;save();updateStats();render();closePanel()}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel()});
+init();
+</script>
+</body>
+</html>
