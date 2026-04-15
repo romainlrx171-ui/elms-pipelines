@@ -119,7 +119,7 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 <div class="edit-panel" id="edit-panel">
   <div class="edit-header"><h2 id="ep-title">Edit</h2><button class="edit-close" onclick="closePanel()">x</button></div>
   <div class="edit-body" id="ep-body"></div>
-  <div class="edit-footer"><button class="btn" onclick="closePanel()">Cancel</button><button class="btn btn-save" onclick="saveCard()">Save</button></div>
+  <div class="edit-footer"><button class="btn" style="background:#dc2626;margin-right:auto" onclick="deleteCard()">Delete</button><button class="btn" onclick="closePanel()">Cancel</button><button class="btn btn-save" onclick="saveCard()">Save</button></div>
 </div>
 
 <script src="bd-data.js"></script>
@@ -217,6 +217,7 @@ function openPanel(id){
   document.getElementById('edit-panel').classList.add('open');
 }
 function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('edit-panel').classList.remove('open');editId=null}
+function deleteCard(){if(!editId)return;if(!confirm('Delete this company from the pipeline?'))return;data.companies=data.companies.filter(c=>c.id!==editId);save();updateStats();render();closePanel()}
 function saveCard(){
   const c=data.companies.find(x=>x.id===editId);if(!c)return;
   c.status=document.getElementById('ed-status').value;
