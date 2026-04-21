@@ -29,13 +29,13 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 .controls input:focus,.controls select:focus{border-color:var(--accent)}
 .controls input{width:240px}
 
-.board{display:flex;gap:12px;padding:16px 28px;overflow-x:auto;min-height:calc(100vh - 200px);align-items:flex-start}
-.column{min-width:260px;max-width:300px;flex:1;background:var(--card);border:1px solid var(--border);border-radius:10px;display:flex;flex-direction:column;max-height:calc(100vh - 210px)}
+.board{display:flex;gap:12px;padding:16px 28px;overflow-x:auto;align-items:flex-start}
+.column{min-width:260px;max-width:300px;flex:1;background:var(--card);border:1px solid var(--border);border-radius:10px;display:flex;flex-direction:column}
 .column-header{padding:14px 16px 10px;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:2;background:var(--card);border-radius:10px 10px 0 0}
 .column-title{font-size:12px;text-transform:uppercase;letter-spacing:1px;font-weight:700;display:flex;align-items:center;gap:8px}
 .column-count{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:700}
 .column-value{font-size:11px;color:var(--dim);margin-top:4px}
-.column-body{padding:8px;overflow-y:auto;flex:1;min-height:80px}
+.column-body{padding:8px;flex:1;min-height:80px}
 .column-body.drag-over{background:rgba(220,38,38,.06);border-radius:0 0 10px 10px}
 
 .card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:8px;cursor:grab;transition:transform .15s,box-shadow .15s,border-color .15s}
