@@ -44,6 +44,9 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 .card-name{font-weight:600;font-size:14px;display:flex;align-items:center;gap:6px}
 .card-value{font-size:13px;font-weight:700;margin-top:6px}
 .card-value.big{color:var(--green)}.card-value.medium{color:var(--yellow)}.card-value.small{color:var(--dim)}
+.card-rev{font-size:11px;color:#60a5fa;margin-top:4px;font-weight:600}
+.card-rev.na{color:var(--dim);font-weight:400;font-style:italic}
+.column-rev{font-size:10px;color:#60a5fa;margin-top:2px;font-weight:600}
 .card-notes{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card-next{font-size:11px;color:var(--yellow);margin-top:6px;font-style:italic}
 .card-links{display:flex;gap:4px;margin-top:6px;flex-wrap:wrap}
@@ -99,6 +102,7 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
     <div class="stat"><div class="stat-num green" id="s-won">0</div><div class="stat-label">Secured</div></div>
     <div class="stat"><div class="stat-num purple" id="s-pipe">0</div><div class="stat-label">Pipeline</div></div>
     <div class="stat"><div class="stat-num red" id="s-gap">140k</div><div class="stat-label">Gap</div></div>
+    <div class="stat"><div class="stat-num blue" id="s-rev">0</div><div class="stat-label">Target Rev (EUR M)</div></div>
   </div>
   <div class="nav">
     <a href="index.html" class="active">Sponsors</a>
@@ -128,6 +132,16 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 <script>
 const LS='elms-sp-v2';
 let data=JSON.parse(localStorage.getItem(LS))||SPONSOR_DATA;
+// Migrate: hydrate revenueM from sp-data.js for companies missing it in local cache
+(function(){
+  const revMap={};
+  SPONSOR_DATA.companies.forEach(c=>{revMap[c.id]=c.revenueM});
+  let touched=false;
+  data.companies.forEach(c=>{
+    if(!('revenueM' in c)){c.revenueM=revMap[c.id]!==undefined?revMap[c.id]:null;touched=true}
+  });
+  if(touched){localStorage.setItem(LS,JSON.stringify(data))}
+})();
 const COLS=[
   {id:'prospect',label:'Prospect'},
   {id:'researched',label:'Researched'},
@@ -161,6 +175,8 @@ function getFiltered(){
   return list;
 }
 
+function fmtRev(m){return m==null?'&mdash;':(m>=1000?(m/1000).toFixed(1)+'B':m+'M')}
+
 function render(){
   const list=getFiltered();
   const won=data.companies.filter(c=>c.status==='closed-won');
@@ -174,12 +190,21 @@ function render(){
   document.getElementById('goal-pct').textContent=pct+'%';
   document.getElementById('goal-text').textContent='EUR '+Math.round(secured/1000)+'k / 300k';
 
+  // Total revenue of all companies currently targeted (everything NOT closed-won)
+  const targets=data.companies.filter(c=>c.status!=='closed-won');
+  const totalRev=targets.reduce((a,c)=>a+(c.revenueM||0),0);
+  const knownRev=targets.filter(c=>c.revenueM!=null).length;
+  document.getElementById('s-rev').textContent=fmtRev(totalRev);
+  document.getElementById('s-rev').title=knownRev+' of '+targets.length+' targets have disclosed revenue';
+
   const board=document.getElementById('board');
   board.innerHTML=COLS.map(col=>{
     const cards=list.filter(c=>c.status===col.id);
     const lo=cards.reduce((a,c)=>a+(c.valueLow||0),0);
     const hi=cards.reduce((a,c)=>a+(c.valueHigh||0),0);
-    return '<div class="column col-'+col.id+'" data-status="'+col.id+'"><div class="column-header"><div class="column-title">'+col.label+' <span class="column-count">'+cards.length+'</span></div><div class="column-value">'+Math.round(lo/1000)+'k - '+Math.round(hi/1000)+'k</div></div><div class="column-body" ondragover="dragOver(event)" ondrop="drop(event,\''+col.id+'\')">'+cards.map(c=>'<div class="card" draggable="true" ondragstart="dragStart(event,\''+c.id+'\')" onclick="openPanel(\''+c.id+'\')"><div class="card-name">'+(c.highPriority?'<span class="priority-dot"></span>':'')+c.name+'</div><div class="card-universe">'+universeTag(c.universe)+'</div><div class="card-value '+valClass(c.valueHigh)+'">'+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k</div><div class="card-notes">'+(c.notes||'').substring(0,100)+'</div>'+(c.nextAction?'<div class="card-next">'+c.nextAction.substring(0,80)+'</div>':'')+'<div class="card-links">'+(c.website?'<a class="card-link" href="'+c.website+'" target="_blank" onclick="event.stopPropagation()">Website</a>':'')+(c.linkedinUrl?'<a class="card-link li" href="'+c.linkedinUrl+'" target="_blank" onclick="event.stopPropagation()">'+c.linkedinName+'</a>':'')+'</div></div>').join('')+'</div></div>';
+    const colRev=cards.reduce((a,c)=>a+(c.revenueM||0),0);
+    const colRevKnown=cards.filter(c=>c.revenueM!=null).length;
+    return '<div class="column col-'+col.id+'" data-status="'+col.id+'"><div class="column-header"><div class="column-title">'+col.label+' <span class="column-count">'+cards.length+'</span></div><div class="column-value">'+Math.round(lo/1000)+'k - '+Math.round(hi/1000)+'k</div>'+(colRev>0?'<div class="column-rev">Rev: EUR '+fmtRev(colRev)+' ('+colRevKnown+'/'+cards.length+')</div>':'')+'</div><div class="column-body" ondragover="dragOver(event)" ondrop="drop(event,\''+col.id+'\')">'+cards.map(c=>'<div class="card" draggable="true" ondragstart="dragStart(event,\''+c.id+'\')" onclick="openPanel(\''+c.id+'\')"><div class="card-name">'+(c.highPriority?'<span class="priority-dot"></span>':'')+c.name+'</div><div class="card-universe">'+universeTag(c.universe)+'</div><div class="card-value '+valClass(c.valueHigh)+'">'+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k</div><div class="card-rev'+(c.revenueM==null?' na':'')+'">Rev: '+(c.revenueM==null?'not disclosed':'EUR '+fmtRev(c.revenueM))+'</div><div class="card-notes">'+(c.notes||'').substring(0,100)+'</div>'+(c.nextAction?'<div class="card-next">'+c.nextAction.substring(0,80)+'</div>':'')+'<div class="card-links">'+(c.website?'<a class="card-link" href="'+c.website+'" target="_blank" onclick="event.stopPropagation()">Website</a>':'')+(c.linkedinUrl?'<a class="card-link li" href="'+c.linkedinUrl+'" target="_blank" onclick="event.stopPropagation()">'+c.linkedinName+'</a>':'')+'</div></div>').join('')+'</div></div>';
   }).join('');
 }
 
@@ -203,7 +228,7 @@ function openPanel(id){
     <div class="field"><label>Status</label><select id="ed-status">${COLS.map(col=>'<option value="'+col.id+'"'+(c.status===col.id?' selected':'')+'>'+col.label+'</option>').join('')}</select></div>
     <div class="field"><label>Universe</label><input id="ed-universe" value="${c.universe||''}"></div>
     ${c.website?'<div class="field"><label>Website</label><a href="'+c.website+'" target="_blank" style="color:var(--accent);font-size:13px">'+c.website+'</a></div>':''}
-    <div class="field-row"><div class="field"><label>Value Low</label><input id="ed-lo" type="number" value="${c.valueLow||0}"></div><div class="field"><label>Value High</label><input id="ed-hi" type="number" value="${c.valueHigh||0}"></div></div>
+    <div class="field-row"><div class="field"><label>Value Low</label><input id="ed-lo" type="number" value="${c.valueLow||0}"></div><div class="field"><label>Value High</label><input id="ed-hi" type="number" value="${c.valueHigh||0}"></div><div class="field"><label>Revenue (EUR M)</label><input id="ed-rev" type="number" placeholder="not disclosed" value="${c.revenueM==null?'':c.revenueM}"></div></div>
     <div class="field"><label>Next Action</label><textarea id="ed-next">${c.nextAction||''}</textarea></div>
     <div class="field"><label>Notes</label><textarea id="ed-notes" style="min-height:100px">${c.notes||''}</textarea></div>
   `;
@@ -218,6 +243,8 @@ function saveCard(){
   c.universe=document.getElementById('ed-universe').value;
   c.valueLow=parseInt(document.getElementById('ed-lo').value)||0;
   c.valueHigh=parseInt(document.getElementById('ed-hi').value)||0;
+  const revRaw=document.getElementById('ed-rev').value.trim();
+  c.revenueM=revRaw===''?null:(parseFloat(revRaw)||null);
   c.nextAction=document.getElementById('ed-next').value;
   c.notes=document.getElementById('ed-notes').value;
   save();render();closePanel();
