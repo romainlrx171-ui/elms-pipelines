@@ -45,6 +45,8 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 .card-value{font-size:13px;font-weight:700;margin-top:6px}
 .card-value.big{color:var(--green)}.card-value.medium{color:var(--yellow)}.card-value.small{color:var(--dim)}
 .card-rev{font-size:11px;color:#60a5fa;margin-top:4px;font-weight:600}
+.card-rev.est{color:#93c5fd;font-weight:500}
+.card-rev .est-tag{font-size:9px;color:var(--dim);font-weight:400;margin-left:4px;text-transform:uppercase;letter-spacing:.5px}
 .card-rev.na{color:var(--dim);font-weight:400;font-style:italic}
 .column-rev{font-size:10px;color:#60a5fa;margin-top:2px;font-weight:600}
 .card-notes{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
@@ -132,13 +134,17 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 <script>
 const LS='elms-sp-v2';
 let data=JSON.parse(localStorage.getItem(LS))||SPONSOR_DATA;
-// Migrate: hydrate revenueM from sp-data.js for companies missing it in local cache
+// Migrate: hydrate revenueM / revenueEstimate from sp-data.js when local cache is stale
 (function(){
-  const revMap={};
-  SPONSOR_DATA.companies.forEach(c=>{revMap[c.id]=c.revenueM});
+  const srcMap={};
+  SPONSOR_DATA.companies.forEach(c=>{srcMap[c.id]=c});
   let touched=false;
   data.companies.forEach(c=>{
-    if(!('revenueM' in c)){c.revenueM=revMap[c.id]!==undefined?revMap[c.id]:null;touched=true}
+    const src=srcMap[c.id];if(!src)return;
+    if(!('revenueM' in c)){c.revenueM=src.revenueM!==undefined?src.revenueM:null;touched=true}
+    if(!('revenueEstimate' in c) && src.revenueEstimate){c.revenueEstimate=true;touched=true}
+    // If local has null revenue but sp-data now has a value (estimate), adopt it
+    if(c.revenueM==null && src.revenueM!=null){c.revenueM=src.revenueM;if(src.revenueEstimate)c.revenueEstimate=true;touched=true}
   });
   if(touched){localStorage.setItem(LS,JSON.stringify(data))}
 })();
@@ -204,7 +210,7 @@ function render(){
     const hi=cards.reduce((a,c)=>a+(c.valueHigh||0),0);
     const colRev=cards.reduce((a,c)=>a+(c.revenueM||0),0);
     const colRevKnown=cards.filter(c=>c.revenueM!=null).length;
-    return '<div class="column col-'+col.id+'" data-status="'+col.id+'"><div class="column-header"><div class="column-title">'+col.label+' <span class="column-count">'+cards.length+'</span></div><div class="column-value">'+Math.round(lo/1000)+'k - '+Math.round(hi/1000)+'k</div>'+(colRev>0?'<div class="column-rev">Rev: EUR '+fmtRev(colRev)+' ('+colRevKnown+'/'+cards.length+')</div>':'')+'</div><div class="column-body" ondragover="dragOver(event)" ondrop="drop(event,\''+col.id+'\')">'+cards.map(c=>'<div class="card" draggable="true" ondragstart="dragStart(event,\''+c.id+'\')" onclick="openPanel(\''+c.id+'\')"><div class="card-name">'+(c.highPriority?'<span class="priority-dot"></span>':'')+c.name+'</div><div class="card-universe">'+universeTag(c.universe)+'</div><div class="card-value '+valClass(c.valueHigh)+'">'+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k</div><div class="card-rev'+(c.revenueM==null?' na':'')+'">Rev: '+(c.revenueM==null?'not disclosed':'EUR '+fmtRev(c.revenueM))+'</div><div class="card-notes">'+(c.notes||'').substring(0,100)+'</div>'+(c.nextAction?'<div class="card-next">'+c.nextAction.substring(0,80)+'</div>':'')+'<div class="card-links">'+(c.website?'<a class="card-link" href="'+c.website+'" target="_blank" onclick="event.stopPropagation()">Website</a>':'')+(c.linkedinUrl?'<a class="card-link li" href="'+c.linkedinUrl+'" target="_blank" onclick="event.stopPropagation()">'+c.linkedinName+'</a>':'')+'</div></div>').join('')+'</div></div>';
+    return '<div class="column col-'+col.id+'" data-status="'+col.id+'"><div class="column-header"><div class="column-title">'+col.label+' <span class="column-count">'+cards.length+'</span></div><div class="column-value">'+Math.round(lo/1000)+'k - '+Math.round(hi/1000)+'k</div>'+(colRev>0?'<div class="column-rev">Rev: EUR '+fmtRev(colRev)+' ('+colRevKnown+'/'+cards.length+')</div>':'')+'</div><div class="column-body" ondragover="dragOver(event)" ondrop="drop(event,\''+col.id+'\')">'+cards.map(c=>'<div class="card" draggable="true" ondragstart="dragStart(event,\''+c.id+'\')" onclick="openPanel(\''+c.id+'\')"><div class="card-name">'+(c.highPriority?'<span class="priority-dot"></span>':'')+c.name+'</div><div class="card-universe">'+universeTag(c.universe)+'</div><div class="card-value '+valClass(c.valueHigh)+'">'+(c.valueLow/1000)+'-'+(c.valueHigh/1000)+'k</div><div class="card-rev'+(c.revenueM==null?' na':(c.revenueEstimate?' est':''))+'">Rev: '+(c.revenueM==null?'not disclosed':'EUR '+fmtRev(c.revenueM))+(c.revenueEstimate?'<span class="est-tag">est.</span>':'')+'</div><div class="card-notes">'+(c.notes||'').substring(0,100)+'</div>'+(c.nextAction?'<div class="card-next">'+c.nextAction.substring(0,80)+'</div>':'')+'<div class="card-links">'+(c.website?'<a class="card-link" href="'+c.website+'" target="_blank" onclick="event.stopPropagation()">Website</a>':'')+(c.linkedinUrl?'<a class="card-link li" href="'+c.linkedinUrl+'" target="_blank" onclick="event.stopPropagation()">'+c.linkedinName+'</a>':'')+'</div></div>').join('')+'</div></div>';
   }).join('');
 }
 
@@ -228,7 +234,7 @@ function openPanel(id){
     <div class="field"><label>Status</label><select id="ed-status">${COLS.map(col=>'<option value="'+col.id+'"'+(c.status===col.id?' selected':'')+'>'+col.label+'</option>').join('')}</select></div>
     <div class="field"><label>Universe</label><input id="ed-universe" value="${c.universe||''}"></div>
     ${c.website?'<div class="field"><label>Website</label><a href="'+c.website+'" target="_blank" style="color:var(--accent);font-size:13px">'+c.website+'</a></div>':''}
-    <div class="field-row"><div class="field"><label>Value Low</label><input id="ed-lo" type="number" value="${c.valueLow||0}"></div><div class="field"><label>Value High</label><input id="ed-hi" type="number" value="${c.valueHigh||0}"></div><div class="field"><label>Revenue (EUR M)</label><input id="ed-rev" type="number" placeholder="not disclosed" value="${c.revenueM==null?'':c.revenueM}"></div></div>
+    <div class="field-row"><div class="field"><label>Value Low</label><input id="ed-lo" type="number" value="${c.valueLow||0}"></div><div class="field"><label>Value High</label><input id="ed-hi" type="number" value="${c.valueHigh||0}"></div><div class="field"><label>Revenue (EUR M)</label><input id="ed-rev" type="number" placeholder="not disclosed" value="${c.revenueM==null?'':c.revenueM}"><label style="display:flex;align-items:center;gap:6px;margin-top:6px;font-size:11px;color:var(--dim);text-transform:none;letter-spacing:0"><input id="ed-rev-est" type="checkbox" style="width:auto" ${c.revenueEstimate?'checked':''}>estimate</label></div></div>
     <div class="field"><label>Next Action</label><textarea id="ed-next">${c.nextAction||''}</textarea></div>
     <div class="field"><label>Notes</label><textarea id="ed-notes" style="min-height:100px">${c.notes||''}</textarea></div>
   `;
@@ -245,6 +251,7 @@ function saveCard(){
   c.valueHigh=parseInt(document.getElementById('ed-hi').value)||0;
   const revRaw=document.getElementById('ed-rev').value.trim();
   c.revenueM=revRaw===''?null:(parseFloat(revRaw)||null);
+  c.revenueEstimate=c.revenueM!=null && document.getElementById('ed-rev-est').checked;
   c.nextAction=document.getElementById('ed-next').value;
   c.notes=document.getElementById('ed-notes').value;
   save();render();closePanel();
