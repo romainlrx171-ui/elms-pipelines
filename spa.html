@@ -1000,8 +1000,9 @@ Pilote ELMS 2026
       <div class="modal-section">🏢 Company</div>
       <div class="modal-row">
         <div class="modal-field"><label>Société *</label><input type="text" id="t-company"></div>
-        <div class="modal-field"><label>HQ / Taille</label><input type="text" id="t-hq" placeholder="Ex: London · £126M rev"></div>
+        <div class="modal-field"><label>Website</label><input type="url" id="t-website" placeholder="https://..."></div>
       </div>
+      <div class="modal-field"><label>HQ / Taille</label><input type="text" id="t-hq" placeholder="Ex: London · £126M rev"></div>
       <div class="modal-row">
         <div class="modal-field"><label>Géo *</label>
           <select id="t-geo">
@@ -1325,6 +1326,15 @@ Pilote ELMS 2026
     font-size: 12px;
   }
   .source-pill.warm { filter: drop-shadow(0 0 4px rgba(255,165,0,0.5)); }
+  .web-link {
+    display: inline-block;
+    margin-left: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    opacity: 0.6;
+    transition: opacity 0.15s;
+  }
+  .web-link:hover { opacity: 1; filter: drop-shadow(0 0 4px rgba(74,158,255,0.6)); }
   .conf-dot {
     display: inline-block;
     width: 8px;
@@ -1353,7 +1363,7 @@ const VERSION = '1.0';
 
 const DEFAULT_TARGETS = [
   // ===== TIER 1 — HIGH confidence, fast-flex, anchor-capable =====
-  { id:'tgt-rwl', company:'Rolling Wireless', geo:'LU', category:'tech', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-rwl', company:'Rolling Wireless', geo:'LU', category:'tech', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both', website:'https://www.rollingwireless.com',
     hq:'Luxembourg City — 15 rue Edward Steichen',
     contact:'Cyrille Demousseau (CSO, FR) = fastest path · Dan Schieler (CEO) = ultimate signer · Andreas Kohn (COO)',
     linkedin:'Search LinkedIn: "Cyrille Demousseau Rolling Wireless" / "Dan Schieler Rolling Wireless"',
@@ -1364,7 +1374,7 @@ const DEFAULT_TARGETS = [
     next:'T1 cold via LinkedIn DM FR à Cyrille Demousseau + cold email parallèle',
     notes:'Vérifier EUROPASOLAR investor list pour OEM conflicts avant send. Complémentaire au cluster IoT existant (Trasna/AdvanIDe/1NCE) = pas de conflit cap-table.' },
 
-  { id:'tgt-loy', company:'Groupe Louyet (Aston Martin Antwerp)', geo:'BE', category:'luxe', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-loy', company:'Groupe Louyet (Aston Martin Antwerp)', geo:'BE', category:'luxe', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both', website:'https://www.louyet.com',
     hq:'Charleroi region · €800M rev · 13 marques luxe · 1400 employés',
     contact:'Laurent Louyet (CEO, family — Manager of the Year 2024) · Charles-Henry Vermeulen (group-level)',
     linkedin:'https://be.linkedin.com/in/laurent-louyet-7720535a · https://www.linkedin.com/in/charles-henry-vermeulen-a5848327/',
@@ -1375,7 +1385,7 @@ const DEFAULT_TARGETS = [
     next:'LinkedIn DM FR à Laurent Louyet direct',
     notes:'Approche FR (Charleroi/Bruxelles). Secondary path: David Eloy (Aston Martin Brussels, voir entrée séparée).' },
 
-  { id:'tgt-qtx', company:'Quantexa', geo:'UK', category:'tech', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-qtx', company:'Quantexa', geo:'UK', category:'tech', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both', website:'https://www.quantexa.com',
     hq:'London — 4th Floor, Holden House, 57 Rathbone Place W1T 1JU · ~$130M ARR · valuation $2.6B',
     contact:'Matt Hooper (CMO — fastest, owns budget) · Vishal Marria (Founder/CEO — ultimate)',
     linkedin:'Search: "Matt Hooper Quantexa CMO" + "Vishal Marria Quantexa CEO"',
@@ -1386,7 +1396,7 @@ const DEFAULT_TARGETS = [
     next:'EN cold email Matt Hooper (CMO) + LinkedIn DM. Hook: féliciter HMRC win.',
     notes:'Meilleur ICP fit du lot. Activation: car decal + hospitality 6-10 prospect CROs Tier-1 banks EU.' },
 
-  { id:'tgt-okn', company:'OakNorth Bank', geo:'UK', category:'finance', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-okn', company:'OakNorth Bank', geo:'UK', category:'finance', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both', website:'https://www.oaknorth.com',
     hq:'London — 57 Broadwick Street W1F 9QS (Soho) · £223M pre-tax profit FY25 · 600+ employés',
     contact:'Rishi Khosla (Co-founder/CEO, OBE — décide direct) · Joel Perlman (Co-founder/SMD)',
     linkedin:'https://uk.linkedin.com/in/rishikhosla1 · https://uk.linkedin.com/in/joel-perlman-765b9688',
@@ -1397,7 +1407,7 @@ const DEFAULT_TARGETS = [
     next:'LinkedIn DM EN direct Rishi Khosla (poste régulièrement, accessible)',
     notes:'EVITER topic Affinity Partners (Kushner) — politically sensitive. Hospitality 10-15 top UK borrower-entrepreneurs.' },
 
-  { id:'tgt-wlg', company:'Wireless Logic', geo:'UK', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:75000, channel:'both',
+  { id:'tgt-wlg', company:'Wireless Logic', geo:'UK', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:75000, channel:'both', website:'https://www.wirelesslogic.com',
     hq:'UK · ~€220M revenue · CVC PE-backed',
     contact:'Oliver Tucker (CEO, founder)',
     linkedin:'Search: "Oliver Tucker Wireless Logic CEO"',
@@ -1408,7 +1418,7 @@ const DEFAULT_TARGETS = [
     next:'Open with Spa as entry point — fresh narrative, sidesteps ELMS stall. "One-race anchor, decide in 14 days."',
     notes:'ELMS WARM. Deck déjà existant. Voir sp-data.js pour intel complet.' },
 
-  { id:'tgt-ese', company:'Eseye', geo:'UK', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:60000, channel:'both',
+  { id:'tgt-ese', company:'Eseye', geo:'UK', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:60000, channel:'both', website:'https://www.eseye.com',
     hq:'Guildford UK · ~€60M · LDC PE-backed',
     contact:'Nick Earle (CEO)',
     linkedin:'Search: "Nick Earle Eseye"',
@@ -1419,7 +1429,7 @@ const DEFAULT_TARGETS = [
     next:'Pure Spa pitch, separate envelope de ELMS. "Spa 24h = UK B2B hospitality window 2026."',
     notes:'ELMS WARM. Pure-Spa angle marche mieux que upsell.' },
 
-  { id:'tgt-hms', company:'HMS Networks / Ixxat', geo:'SE', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:100000, channel:'linkedin',
+  { id:'tgt-hms', company:'HMS Networks / Ixxat', geo:'SE', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:100000, channel:'linkedin', website:'https://www.hms-networks.com',
     hq:'Sweden · €335M revenue',
     contact:'Staffan Dahlström (Founder/CEO, owns 12.17%)',
     linkedin:'Search: "Staffan Dahlström HMS Networks"',
@@ -1430,7 +1440,7 @@ const DEFAULT_TARGETS = [
     next:'Upsell — combine ELMS + Spa en single "season-long endurance partner" Tier-1 anchor.',
     notes:'ELMS WARM. Best HIGH-confidence upsell candidate.' },
 
-  { id:'tgt-lau', company:'Lauterbach', geo:'DE', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-lau', company:'Lauterbach', geo:'DE', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:50000, channel:'both', website:'https://www.lauterbach.com',
     hq:'Munich area · ~€50M · family-owned',
     contact:'Stephan Lauterbach (Founder/CTO, family-owned)',
     linkedin:'Search: "Stephan Lauterbach"',
@@ -1442,7 +1452,7 @@ const DEFAULT_TARGETS = [
     notes:'ELMS WARM. Already tagged Spa-friendly in pipeline.' },
 
   // ===== TIER 2 — MED to MED-HIGH, second wave =====
-  { id:'tgt-evs', company:'EVS Broadcast Equipment', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED-HIGH', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-evs', company:'EVS Broadcast Equipment', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED-HIGH', status:'ready', ticket:50000, channel:'both', website:'https://evs.com',
     hq:'Seraing/Liège — 30 MIN DE SPA · €208M rev 2025 · listed Euronext Brussels',
     contact:'Nicolas Bourdon (CCO, owns marketing budget — fastest) · Serge Van Herck (CEO)',
     linkedin:'https://be.linkedin.com/in/sergev1 · Search: "Nicolas Bourdon EVS Broadcast"',
@@ -1453,7 +1463,7 @@ const DEFAULT_TARGETS = [
     next:'FR cold email Nicolas Bourdon + LinkedIn DM Van Herck',
     notes:'Liégeois = culturellement aligné. Speed dépend cycle budget marketing.' },
 
-  { id:'tgt-bre', company:'Bremont Watches', geo:'UK', category:'luxe', tier:2, source:'cold', confidence:'MED-HIGH', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-bre', company:'Bremont Watches', geo:'UK', category:'luxe', tier:2, source:'cold', confidence:'MED-HIGH', status:'ready', ticket:50000, channel:'both', website:'https://www.bremont.com',
     hq:'"The Wing" — Henley-on-Thames, Oxfordshire · £21.9M FY · ~140 employés',
     contact:'Davide Cerrato (CEO depuis 2023, ex-Tudor/Panerai) — décide direct',
     linkedin:'https://uk.linkedin.com/in/davide-cerrato-a9b6a31',
@@ -1464,7 +1474,7 @@ const DEFAULT_TARGETS = [
     next:'EN cold email Cerrato direct. Pitch comme commercial turnaround play, PAS founder-emotional.',
     notes:'CAUTION: loss-making + Ackman scrutinizes spend. Limited edition watch (300-500 pcs × £4k) finance le sponsorship.' },
 
-  { id:'tgt-mat', company:'Materialise', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-mat', company:'Materialise', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'both', website:'https://www.materialise.com',
     hq:'Leuven — Technologielaan 15, 3001 · ~€266M rev 2025 · listed Nasdaq MTLS',
     contact:'Fried Vancraen (Founder/Chairman — emotional engagement) · Brigitte de Vet-Veithen (CEO depuis 2024)',
     linkedin:'https://www.linkedin.com/in/brigittedevet/ · Search: "Fried Vancraen Materialise"',
@@ -1475,7 +1485,7 @@ const DEFAULT_TARGETS = [
     next:'EN LinkedIn DM Vancraen (Chairman, founder, no committee)',
     notes:'No visible motorsport sponsorship history = educational sell required.' },
 
-  { id:'tgt-iba', company:'IBA Group', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'email',
+  { id:'tgt-iba', company:'IBA Group', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'email', website:'https://www.iba-worldwide.com',
     hq:'Louvain-la-Neuve — Chemin du Cyclotron 3 · €352M rev 2024 · listed IBAB.BR · B-Corp',
     contact:'Olivier Legrain (CEO depuis 2012, owner-operator mindset) · Henri de Romrée (Deputy CEO)',
     linkedin:'https://be.linkedin.com/in/olivier-legrain-065829144',
@@ -1486,7 +1496,7 @@ const DEFAULT_TARGETS = [
     next:'FR cold email Legrain — pitch cause/health, PAS sponsorship marketing',
     notes:'Race for Dementia parallel = unlock real. Aucun precedent motorsport = sell éducationnel.' },
 
-  { id:'tgt-tga', company:'Targa Telematics', geo:'IT', category:'tech', tier:2, source:'elms_warm', confidence:'MED-HIGH', status:'t2_sent', ticket:75000, channel:'both',
+  { id:'tgt-tga', company:'Targa Telematics', geo:'IT', category:'tech', tier:2, source:'elms_warm', confidence:'MED-HIGH', status:'t2_sent', ticket:75000, channel:'both', website:'https://www.targatelematics.com',
     hq:'Treviso, Italy · €125M · Investindustrial PE-backed',
     contact:'Nicola De Mattia (CEO)',
     linkedin:'Search: "Nicola De Mattia Targa Telematics"',
@@ -1497,7 +1507,7 @@ const DEFAULT_TARGETS = [
     next:'Reframe ELMS pitch en pitch Spa-anchor = repositions cold prospect',
     notes:'ELMS WARM. Touch 3 déjà envoyé sur ELMS. Spa = perfect re-engagement hook.' },
 
-  { id:'tgt-kis', company:'Kistler Group', geo:'CH', category:'tech', tier:2, source:'elms_warm', confidence:'MED-HIGH', status:'ready', ticket:75000, channel:'both',
+  { id:'tgt-kis', company:'Kistler Group', geo:'CH', category:'tech', tier:2, source:'elms_warm', confidence:'MED-HIGH', status:'ready', ticket:75000, channel:'both', website:'https://www.kistler.com',
     hq:'Winterthur, Switzerland · CHF 448M · family-owned',
     contact:'Marc Schaad (CEO)',
     linkedin:'Search: "Marc Schaad Kistler"',
@@ -1509,7 +1519,7 @@ const DEFAULT_TARGETS = [
     notes:'ELMS WARM. Déjà tagged Spa.' },
 
   // ===== TIER 3 — LOW or special angle =====
-  { id:'tgt-ame', company:'Aston Martin Brussels (Eloy & Becker)', geo:'BE', category:'luxe', tier:3, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'both',
+  { id:'tgt-ame', company:'Aston Martin Brussels (Eloy & Becker)', geo:'BE', category:'luxe', tier:3, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'both', website:'https://www.astonmartinbrussels.com',
     hq:'Zaventem · D&D Cars / Eloy & Becker',
     contact:'David Eloy (CEO Aston Martin Brussels)',
     linkedin:'https://be.linkedin.com/in/david-eloy-a8a46b6',
@@ -1520,7 +1530,7 @@ const DEFAULT_TARGETS = [
     next:'FR cold email + LinkedIn DM David Eloy',
     notes:'Second Aston path Benelux. Possibilité co-deal Louyet + Eloy si timing.' },
 
-  { id:'tgt-bow', company:'Bowmore (Suntory Global Spirits)', geo:'UK', category:'luxe', tier:3, source:'cold', confidence:'MED-LOW', status:'ready', ticket:50000, channel:'email',
+  { id:'tgt-bow', company:'Bowmore (Suntory Global Spirits)', geo:'UK', category:'luxe', tier:3, source:'cold', confidence:'MED-LOW', status:'ready', ticket:50000, channel:'email', website:'https://www.bowmore.com',
     hq:'Islay (distillerie) + Glasgow (UK ops) · Suntory Global Spirits parent',
     contact:'Global Brand Director Bowmore (poste ouvert / récemment pourvu) · David Wilson (MD Global Travel Retail)',
     linkedin:'Search: "Bowmore Global Brand Director" + "David Wilson Suntory Global Spirits"',
@@ -1531,7 +1541,7 @@ const DEFAULT_TARGETS = [
     next:'Find ex-manager du programme Bowmore × Aston 2019-23 via LinkedIn',
     notes:'Reactivation angle = unique. Patience requise vs Tier 1.' },
 
-  { id:'tgt-hoa', company:'C. Hoare & Co', geo:'UK', category:'finance', tier:3, source:'cold', confidence:'LOW', status:'to_scout', ticket:50000, channel:'email',
+  { id:'tgt-hoa', company:'C. Hoare & Co', geo:'UK', category:'finance', tier:3, source:'cold', confidence:'LOW', status:'to_scout', ticket:50000, channel:'email', website:'https://www.hoaresbank.co.uk',
     hq:'37 Fleet Street, London EC4P 4DQ (depuis 1690) · ~£135M rev · 440 employés',
     contact:'Rennie Hoare (Partner, Head Philanthropy — next-gen face) · Alexander Hoare (Partner, social impact)',
     linkedin:'Search: "Rennie Hoare C. Hoare" + "Alexander Hoare hoaresbank"',
@@ -1542,7 +1552,7 @@ const DEFAULT_TARGETS = [
     next:'EN cold email Rennie Hoare — opening narratif Jackie Stewart, framing philanthropie pas sponsorship',
     notes:'Pitch comme sponsorship = instant no. Tax-deductible via Golden Bottle Trust si bien structuré.' },
 
-  { id:'tgt-sch', company:'Schweizer Electronic AG', geo:'DE', category:'tech', tier:3, source:'elms_warm', confidence:'MED', status:'to_scout', ticket:75000, channel:'both',
+  { id:'tgt-sch', company:'Schweizer Electronic AG', geo:'DE', category:'tech', tier:3, source:'elms_warm', confidence:'MED', status:'to_scout', ticket:75000, channel:'both', website:'https://www.schweizer.de',
     hq:'Germany · €173M rev · 4e génération famille',
     contact:'Nicolas-Fabian Schweizer (CEO, 4e gen famille)',
     linkedin:'Search: "Nicolas-Fabian Schweizer"',
@@ -1711,9 +1721,12 @@ function renderTable(targets) {
     const confDot = t.confidence
       ? `<span class="conf-dot" title="${t.confidence}" style="background:${CONFIDENCE_COLORS[t.confidence]||'#888'}"></span>`
       : '';
+    const websiteLink = t.website
+      ? `<a href="${escapeHtml(t.website)}" target="_blank" rel="noopener" class="web-link" onclick="event.stopPropagation()" title="${escapeHtml(t.website)}">🌐</a>`
+      : '';
     return `
     <tr onclick="openEditModal('${t.id}')">
-      <td class="company">${escapeHtml(t.company)} ${sourcePill}</td>
+      <td class="company">${escapeHtml(t.company)} ${websiteLink} ${sourcePill}</td>
       <td class="geo"><span class="geo-flag">${GEO_FLAGS[t.geo] || '🌍'}</span></td>
       <td><span class="cat-pill cat-${t.category}">${CAT_LABELS[t.category] || t.category}</span></td>
       <td class="tier-cell"><span class="tier-badge tier-${t.tier}">${t.tier}</span>${confDot}</td>
@@ -1747,6 +1760,7 @@ let currentEditId = null;
 function fillModal(t) {
   document.getElementById('t-id').value = t.id || '';
   document.getElementById('t-company').value = t.company || '';
+  document.getElementById('t-website').value = t.website || '';
   document.getElementById('t-hq').value = t.hq || '';
   document.getElementById('t-geo').value = t.geo || 'UK';
   document.getElementById('t-category').value = t.category || 'tech';
@@ -1797,6 +1811,7 @@ function saveTarget() {
   const data = {
     id: currentEditId || genId(),
     company,
+    website: document.getElementById('t-website').value.trim(),
     hq: document.getElementById('t-hq').value.trim(),
     geo: document.getElementById('t-geo').value,
     category: document.getElementById('t-category').value,
@@ -1876,7 +1891,7 @@ function syncIntel() {
   const current = loadPipeline();
   const byId = {}; current.forEach(t => byId[t.id] = t);
   const byName = {}; current.forEach(t => byName[t.company.toLowerCase().trim()] = t);
-  const intelFields = ['hq','contact','linkedin','email','hook','signal','speed','confidence','source','category','geo','tier'];
+  const intelFields = ['website','hq','contact','linkedin','email','hook','signal','speed','confidence','source','category','geo','tier'];
   const workingFields = ['status','next','notes','ticket','channel'];
   let updated = 0, added = 0;
   const merged = [...current];
