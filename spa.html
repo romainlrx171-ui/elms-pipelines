@@ -350,6 +350,137 @@
     padding-top: 20px;
     border-top: 1px solid var(--border);
   }
+
+  /* App nav (tabs) — sticky */
+  .app-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(15, 20, 25, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .app-nav-tabs {
+    display: flex;
+    gap: 4px;
+    background: var(--bg);
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .app-nav-tab {
+    background: none;
+    border: none;
+    color: var(--muted);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+    letter-spacing: 0.3px;
+  }
+  .app-nav-tab:hover { color: var(--text); }
+  .app-nav-tab.active {
+    background: var(--accent);
+    color: #0f1419;
+  }
+  .app-nav-tab .tab-count {
+    background: rgba(0,0,0,0.2);
+    padding: 1px 8px;
+    border-radius: 10px;
+    margin-left: 6px;
+    font-size: 11px;
+  }
+  .app-nav-mini {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .mini-stat { display: flex; align-items: baseline; gap: 6px; }
+  .mini-stat-num { font-weight: 800; font-size: 18px; color: var(--accent); }
+  .mini-stat-num.green { color: var(--green); }
+  .mini-stat-num.blue { color: var(--accent-2); }
+  .mini-stat-num.red { color: var(--red); }
+  .mini-stat-label {
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .mini-progress {
+    flex: 1;
+    min-width: 200px;
+    max-width: 320px;
+    height: 8px;
+    background: var(--bg);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 8px;
+  }
+  .mini-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-2), var(--green));
+    transition: width 0.4s;
+  }
+
+  /* View switching */
+  .view { display: none; }
+  .view.active { display: block; }
+
+  /* Pipeline view header */
+  .pipeline-hero {
+    background: linear-gradient(135deg, #1a2028 0%, #232a35 100%);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .pipeline-hero h2 { margin: 0; border: none; padding: 0; font-size: 22px; }
+  .pipeline-hero p { color: var(--muted); font-size: 13px; margin: 4px 0 0; }
+  .pipeline-filters {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .filter-btn {
+    background: var(--panel-2);
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 14px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .filter-btn:hover { color: var(--text); border-color: var(--accent); }
+  .filter-btn.active { background: var(--accent); color: #0f1419; border-color: var(--accent); }
+  .filter-btn .count { opacity: 0.7; margin-left: 4px; font-size: 11px; }
+
+  @media (max-width: 900px) {
+    .app-nav { padding: 8px 10px; gap: 8px; }
+    .app-nav-mini { width: 100%; justify-content: space-between; }
+    .mini-progress { display: none; }
+  }
 </style>
 </head>
 <body>
@@ -378,6 +509,16 @@
     </div>
   </div>
 </header>
+
+<nav class="app-nav" id="appNav">
+  <div class="app-nav-tabs">
+    <button class="app-nav-tab" data-view="pipeline" onclick="switchView('pipeline')">📊 Pipeline live</button>
+    <button class="app-nav-tab" data-view="brief" onclick="switchView('brief')">📋 Brief stratégique</button>
+  </div>
+  <div class="app-nav-mini" id="appNavMini"></div>
+</nav>
+
+<div id="view-brief" class="view">
 
 <section>
   <h2><span class="num">1.</span>Contexte stratégique</h2>
@@ -767,19 +908,36 @@ Pilote ELMS 2026
   </ul>
 </section>
 
+</div> <!-- /view-brief -->
+
+<div id="view-pipeline" class="view">
+
 <section id="pipeline">
-  <h2><span class="num">8.</span>Pipeline tracker — live state</h2>
-  <p style="color: var(--muted); margin-bottom: 16px;">Pipeline persistant dans ton navigateur (localStorage). Export JSON pour backup. Ajoute tes propres cibles, change le statut, suis l'avancée.</p>
+  <div class="pipeline-hero">
+    <div>
+      <h2>📊 Pipeline live — Spa 2026 anchor</h2>
+      <p>Persistant dans ce navigateur. Export JSON pour backup. Click une ligne pour éditer.</p>
+    </div>
+    <div class="pipe-controls" style="margin-bottom: 0;">
+      <button class="pipe-btn pipe-btn-primary" onclick="openAddModal()">+ Ajouter une cible</button>
+      <button class="pipe-btn" onclick="exportPipeline()">↓ Export JSON</button>
+      <button class="pipe-btn" onclick="document.getElementById('importFile').click()">↑ Import JSON</button>
+      <button class="pipe-btn pipe-btn-danger" onclick="resetPipeline()">↺ Reset</button>
+      <input type="file" id="importFile" accept=".json" style="display:none" onchange="importPipeline(event)">
+    </div>
+  </div>
 
   <div class="pipe-stats" id="pipeStats"></div>
 
-  <div class="pipe-controls">
-    <button class="pipe-btn pipe-btn-primary" onclick="openAddModal()">+ Ajouter une cible</button>
-    <button class="pipe-btn" onclick="exportPipeline()">↓ Export JSON</button>
-    <button class="pipe-btn" onclick="document.getElementById('importFile').click()">↑ Import JSON</button>
-    <button class="pipe-btn pipe-btn-danger" onclick="resetPipeline()">↺ Reset aux 12 cibles</button>
-    <input type="file" id="importFile" accept=".json" style="display:none" onchange="importPipeline(event)">
-    <span class="pipe-info" id="pipeInfo"></span>
+  <div class="pipeline-filters" id="pipelineFilters">
+    <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">Tous <span class="count" id="fc-all"></span></button>
+    <button class="filter-btn" data-filter="geo:UK" onclick="setFilter('geo:UK')">🇬🇧 UK <span class="count" id="fc-uk"></span></button>
+    <button class="filter-btn" data-filter="geo:BE" onclick="setFilter('geo:BE')">🇧🇪 Benelux <span class="count" id="fc-be"></span></button>
+    <button class="filter-btn" data-filter="tier:1" onclick="setFilter('tier:1')">⭐ Tier 1 <span class="count" id="fc-t1"></span></button>
+    <button class="filter-btn" data-filter="cat:luxe" onclick="setFilter('cat:luxe')">💎 Luxe <span class="count" id="fc-luxe"></span></button>
+    <button class="filter-btn" data-filter="cat:tech" onclick="setFilter('cat:tech')">🏭 Tech <span class="count" id="fc-tech"></span></button>
+    <button class="filter-btn" data-filter="cat:finance" onclick="setFilter('cat:finance')">🏦 Finance <span class="count" id="fc-fin"></span></button>
+    <button class="filter-btn" data-filter="active" onclick="setFilter('active')">🔥 En cours <span class="count" id="fc-active"></span></button>
   </div>
 
   <div class="pipe-table-wrap">
@@ -801,7 +959,13 @@ Pilote ELMS 2026
       <tbody id="pipeBody"></tbody>
     </table>
   </div>
+
+  <p style="color: var(--muted); font-size: 12px; margin-top: 16px; text-align: center;">
+    <span id="pipeInfo"></span>
+  </p>
 </section>
+
+</div> <!-- /view-pipeline -->
 
 <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
   <div class="modal" onclick="event.stopPropagation()">
@@ -1185,10 +1349,76 @@ function genId() {
   return 'tgt-' + Math.random().toString(36).slice(2, 9);
 }
 
+let currentFilter = 'all';
+
 function renderPipeline() {
   const targets = loadPipeline();
   renderStats(targets);
-  renderTable(targets);
+  renderMiniStats(targets);
+  renderFilterCounts(targets);
+  renderTable(applyFilter(targets, currentFilter));
+}
+
+function applyFilter(targets, filter) {
+  if (filter === 'all') return targets;
+  if (filter === 'active') return targets.filter(t => ['t1_sent','t2_sent','t3_sent','replied','meeting','proposal'].includes(t.status));
+  const [k, v] = filter.split(':');
+  if (k === 'geo') return targets.filter(t => t.geo === v);
+  if (k === 'tier') return targets.filter(t => String(t.tier) === v);
+  if (k === 'cat') return targets.filter(t => t.category === v);
+  return targets;
+}
+
+function setFilter(filter) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === filter));
+  renderTable(applyFilter(loadPipeline(), filter));
+}
+
+function renderFilterCounts(targets) {
+  const setText = (id, n) => { const el = document.getElementById(id); if (el) el.textContent = n; };
+  setText('fc-all', targets.length);
+  setText('fc-uk', targets.filter(t => t.geo === 'UK').length);
+  setText('fc-be', targets.filter(t => t.geo === 'BE').length);
+  setText('fc-t1', targets.filter(t => t.tier === 1).length);
+  setText('fc-luxe', targets.filter(t => t.category === 'luxe').length);
+  setText('fc-tech', targets.filter(t => t.category === 'tech').length);
+  setText('fc-fin', targets.filter(t => t.category === 'finance').length);
+  setText('fc-active', targets.filter(t => ['t1_sent','t2_sent','t3_sent','replied','meeting','proposal'].includes(t.status)).length);
+}
+
+function renderMiniStats(targets) {
+  const total = targets.length;
+  const contacted = targets.filter(t => ['t1_sent','t2_sent','t3_sent','replied','meeting','proposal','won','lost'].includes(t.status)).length;
+  const engaged = targets.filter(t => ['replied','meeting','proposal'].includes(t.status)).length;
+  const won = targets.filter(t => t.status === 'won').length;
+  const wonValue = targets.filter(t => t.status === 'won').reduce((s,t) => s + (t.ticket||0), 0);
+  const pct = total ? Math.round((contacted / total) * 100) : 0;
+
+  const mini = document.getElementById('appNavMini');
+  if (!mini) return;
+  mini.innerHTML = `
+    <div class="mini-stat"><span class="mini-stat-num blue">${contacted}/${total}</span><span class="mini-stat-label">Contactés</span></div>
+    <div class="mini-progress"><div class="mini-progress-fill" style="width: ${pct}%"></div></div>
+    <div class="mini-stat"><span class="mini-stat-num">${engaged}</span><span class="mini-stat-label">Engagés</span></div>
+    <div class="mini-stat"><span class="mini-stat-num green">${won}</span><span class="mini-stat-label">Won${wonValue ? ` (€${wonValue.toLocaleString('fr-FR')})` : ''}</span></div>
+  `;
+}
+
+function switchView(view) {
+  document.querySelectorAll('.view').forEach(el => el.classList.toggle('active', el.id === `view-${view}`));
+  document.querySelectorAll('.app-nav-tab').forEach(el => el.classList.toggle('active', el.dataset.view === view));
+  localStorage.setItem('spa-2026-view', view);
+  if (history.replaceState) history.replaceState(null, '', '#' + view);
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function initView() {
+  let view = (location.hash || '').replace('#', '');
+  if (!['brief','pipeline'].includes(view)) {
+    view = localStorage.getItem('spa-2026-view') || 'pipeline';
+  }
+  switchView(view);
 }
 
 function renderStats(targets) {
@@ -1370,7 +1600,9 @@ function resetPipeline() {
   renderPipeline();
 }
 
+initView();
 renderPipeline();
+window.addEventListener('hashchange', initView);
 </script>
 
 </body>
