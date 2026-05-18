@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>24h Spa 2026 — Sponsor Outreach Brief</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --panel: #1a2028;
+    --panel-2: #232a35;
+    --border: #2a323d;
+    --text: #e8ecf0;
+    --muted: #8a96a4;
+    --accent: #d4af37;
+    --accent-2: #4a9eff;
+    --uk: #c8102e;
+    --benelux: #ffcc00;
+    --green: #2ecc71;
+    --red: #ff5555;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    padding: 32px 48px 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  header.hero {
+    background: linear-gradient(135deg, #1a2028 0%, #232a35 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 36px 40px;
+    margin-bottom: 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::after {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(212,175,55,0.15) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .race-tag {
+    display: inline-block;
+    background: var(--accent);
+    color: #0f1419;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .key-facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+  }
+  .fact {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .fact-label {
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+  .fact-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h2 .num {
+    color: var(--accent);
+    margin-right: 8px;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 24px 0 12px;
+    color: var(--accent-2);
+  }
+  section {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 24px;
+  }
+  .narrative {
+    background: rgba(212,175,55,0.05);
+    border-left: 3px solid var(--accent);
+    padding: 16px 20px;
+    margin: 16px 0;
+    font-style: italic;
+    color: #d8dde3;
+    border-radius: 4px;
+  }
+  .matrix {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    gap: 1px;
+    background: var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .matrix > div {
+    background: var(--panel-2);
+    padding: 16px 18px;
+  }
+  .matrix-header {
+    background: var(--panel) !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+  }
+  .matrix-axis {
+    font-weight: 700;
+    background: var(--panel) !important;
+  }
+  .uk-cell { border-top: 2px solid var(--uk); }
+  .be-cell { border-top: 2px solid var(--benelux); }
+  .matrix ol {
+    list-style: none;
+    padding: 0;
+  }
+  .matrix li {
+    padding: 4px 0;
+    font-size: 14px;
+  }
+  .matrix li strong {
+    color: var(--text);
+  }
+  .targets-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .target-card {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 22px;
+    position: relative;
+  }
+  .target-card.uk { border-left: 4px solid var(--uk); }
+  .target-card.benelux { border-left: 4px solid var(--benelux); }
+  .target-card .tier {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .target-card .tier.t1 { color: var(--green); border-color: var(--green); }
+  .target-card .tier.t2 { color: var(--accent); border-color: var(--accent); }
+  .target-card .tier.t3 { color: var(--muted); }
+  .target-card h4 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    padding-right: 60px;
+  }
+  .target-card .meta {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .target-row {
+    display: flex;
+    gap: 8px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    align-items: flex-start;
+  }
+  .target-row .label {
+    color: var(--muted);
+    min-width: 90px;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    padding-top: 2px;
+  }
+  .target-row .val {
+    flex: 1;
+    color: var(--text);
+  }
+  table.approach {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  table.approach th, table.approach td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  table.approach th {
+    background: var(--panel-2);
+    color: var(--muted);
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  table.approach td:first-child {
+    font-weight: 600;
+    color: var(--muted);
+    width: 25%;
+  }
+  table.approach td.uk-col { color: #ffd6db; }
+  table.approach td.be-col { color: #fff7d6; }
+  .template-block {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin: 12px 0;
+    font-family: 'SF Mono', Menlo, Consolas, monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+  }
+  .template-block .placeholder {
+    background: rgba(212,175,55,0.2);
+    color: var(--accent);
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+  .template-block .subject {
+    color: var(--accent-2);
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .timeline-step {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    position: relative;
+  }
+  .timeline-step .week {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+  .timeline-step h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .timeline-step ul {
+    padding-left: 18px;
+    font-size: 13px;
+    color: #c8ced6;
+  }
+  .timeline-step ul li { margin-bottom: 4px; }
+  .checklist {
+    list-style: none;
+    padding: 0;
+  }
+  .checklist li {
+    padding: 10px 14px;
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .checklist li::before {
+    content: '☐';
+    color: var(--accent);
+    font-size: 18px;
+    line-height: 1;
+  }
+  .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .pill.uk { background: var(--uk); color: white; }
+  .pill.benelux { background: var(--benelux); color: #1a1a1a; }
+  .pill.luxe { background: rgba(212,175,55,0.2); color: var(--accent); border: 1px solid var(--accent); }
+  .pill.tech { background: rgba(74,158,255,0.2); color: var(--accent-2); border: 1px solid var(--accent-2); }
+  .footer-note {
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <span class="race-tag">CROWDSTRIKE 24 HOURS OF SPA — 24-28 JUIN 2026</span>
+  <h1>1 Anchor Sponsor à €50k</h1>
+  <p class="subtitle">Ecurie Ecosse Blackthorn × Aston Martin Vantage GT3 EVO — 70e anniversaire de la victoire Le Mans 1956</p>
+
+  <div class="key-facts">
+    <div class="fact">
+      <div class="fact-label">Course</div>
+      <div class="fact-value">24-28 juin 2026</div>
+    </div>
+    <div class="fact">
+      <div class="fact-label">Team</div>
+      <div class="fact-value">Ecurie Ecosse Blackthorn</div>
+    </div>
+    <div class="fact">
+      <div class="fact-label">Voiture</div>
+      <div class="fact-value">Aston Martin Vantage GT3 EVO</div>
+    </div>
+    <div class="fact">
+      <div class="fact-label">Ticket cible</div>
+      <div class="fact-value">€50k anchor (1 sponsor)</div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2><span class="num">1.</span>Contexte stratégique</h2>
+
+  <h3>Le team</h3>
+  <ul style="padding-left: 20px; color: #c8ced6;">
+    <li><strong>Blackthorn Racing</strong> — Aston Martin AMR Partner Team, basé Cotswolds (Oxfordshire), owner Claude Bovet</li>
+    <li><strong>Ecurie Ecosse</strong> — team écossais légendaire fondé Édimbourg 1951, vainqueur 24h Le Mans 1956 + 1-2 en 1957 avec Jaguar D-Type</li>
+    <li><strong>Sponsors actuels :</strong> Lionscrest Advisors + Universa Investments (Nassim Taleb tail-hedge) + Race for Dementia (charity Sir Jackie Stewart)</li>
+    <li><strong>Drivers 2026 :</strong> Jonny Adam (AMR works), Giacomo Petrobelli, Tom Wood, Kobe Pauwels, potentiellement Dario Franchitti (Indy 500 winner écossais)</li>
+    <li><strong>Programme 2026 :</strong> Asian Le Mans Series + GT World Challenge Europe (Paul Ricard, Monza, Spa 24h, Nürburgring, Barcelone) + reserve list 24h Le Mans</li>
+  </ul>
+
+  <h3>Pourquoi ce moment est unique</h3>
+  <ul style="padding-left: 20px; color: #c8ced6;">
+    <li><strong>70e anniversaire</strong> du double sacre Le Mans 1956-57 d'Ecurie Ecosse → fenêtre de storytelling exceptionnelle, irreprenable</li>
+    <li><strong>Spa 24h = blue riband event</strong> du GT World Challenge Europe, retransmission internationale, 100k visiteurs</li>
+    <li><strong>Anchor unique</strong> = pas de saturation visuelle ni de compétition pour l'attention du sponsor</li>
+    <li><strong>Hospitality privée Aston Martin</strong> = expérience VIP irreprenable pour les clients du sponsor</li>
+  </ul>
+
+  <h3>Profil de l'anchor idéal</h3>
+  <p style="color: #c8ced6;">Une marque ou entreprise qui valorise (1) accès Aston Martin, (2) hospitality client UHNW/C-suite à Spa pendant 4 jours, (3) co-branding exclusif sur une seule activation premium. Pas de chasseur de visibilité de masse — chasseur d'expérience et d'histoire.</p>
+</section>
+
+<section>
+  <h2><span class="num">2.</span>Matrix des 12 cibles — 2 géos × 2 catégories</h2>
+
+  <div class="matrix">
+    <div class="matrix-header"></div>
+    <div class="matrix-header uk-cell">🇬🇧 UK / Écosse — Heritage narrative</div>
+    <div class="matrix-header be-cell">🇧🇪 Benelux — Home race + geo</div>
+
+    <div class="matrix-axis">💎 Luxe / Brand</div>
+    <div class="uk-cell">
+      <ol>
+        <li><strong>1.</strong> The Macallan / Edrington (Édimbourg)</li>
+        <li><strong>2.</strong> Bowmore / Beam Suntory</li>
+        <li><strong>3.</strong> Bremont Watches (UK)</li>
+        <li><strong>4.</strong> C. Hoare & Co (UK's oldest private bank)</li>
+      </ol>
+    </div>
+    <div class="be-cell">
+      <ol>
+        <li><strong>7.</strong> D'Ieteren Group (importateur Aston BE)</li>
+        <li><strong>8.</strong> Banque de Luxembourg</li>
+        <li><strong>9.</strong> Quintet Private Bank (Lux)</li>
+      </ol>
+    </div>
+
+    <div class="matrix-axis">🏭 B2B Tech</div>
+    <div class="uk-cell">
+      <ol>
+        <li><strong>5.</strong> Quantexa (UK AI/FS, pre-IPO)</li>
+        <li><strong>6.</strong> OakNorth Bank (UK SME fintech)</li>
+      </ol>
+    </div>
+    <div class="be-cell">
+      <ol>
+        <li><strong>10.</strong> EVS Broadcast (Liège, 30 min Spa)</li>
+        <li><strong>11.</strong> Materialise (Leuven, 3D printing)</li>
+        <li><strong>12.</strong> IBA Group (Louvain-la-Neuve, MedTech)</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">3.</span>Les 12 cibles — détail</h2>
+
+  <h3 style="color: var(--uk);">🇬🇧 UK / Écosse — 6 cibles</h3>
+  <div class="targets-grid">
+
+    <div class="target-card uk">
+      <span class="tier t1">TIER 1</span>
+      <h4>1. The Macallan</h4>
+      <div class="meta"><span class="pill uk">UK</span> <span class="pill luxe">Luxe</span> · Edrington Group · Édimbourg</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">Director of Brand Partnerships + Global Brand Director Macallan</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">Édimbourg HQ = Ecurie Ecosse origin city. 70e LM win narrative parfait. Single cask "70th Spa" limited edition activable</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Edrington sponsors RC44 sailing, golf majors, BAFTA. 50k = ticket d'entrée</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">Cold email Director Brand Partnerships + LinkedIn DM en parallèle</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">3-4 sem decision (comité brand)</span></div>
+    </div>
+
+    <div class="target-card uk">
+      <span class="tier t1">TIER 1</span>
+      <h4>2. Bowmore</h4>
+      <div class="meta"><span class="pill uk">UK</span> <span class="pill luxe">Luxe</span> · Beam Suntory · Islay</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">Global Brand Director Bowmore (Beam Suntory EMEA)</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">Partenariat Bowmore × Aston Martin 2020-22 historique. 70e anniversaire = pretexte parfait de réactivation marketing</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Budget Aston-related déjà alloué historiquement. Ticket micro pour groupe Beam Suntory</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">Cold LinkedIn DM Brand Director + email partnerships@bowmore.com</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">2-3 sem si interest (réactivation = décision rapide)</span></div>
+    </div>
+
+    <div class="target-card uk">
+      <span class="tier t2">TIER 2</span>
+      <h4>3. Bremont Watches</h4>
+      <div class="meta"><span class="pill uk">UK</span> <span class="pill luxe">Luxe</span> · Henley-on-Thames</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">Co-founder Nick English (ou Giles English) directement</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">British luxury watches déjà motorsport-active (Jaguar Heritage, Goodwood). Limited co-brand series "Ecurie Ecosse 70th" jouable</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Vend montres 4-15k£. 10 montres limited edition = 50k anchor financé</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">LinkedIn DM Nick English (founder direct) + cold email partnerships</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">2-3 sem (founder decision, structure agile)</span></div>
+    </div>
+
+    <div class="target-card uk">
+      <span class="tier t2">TIER 2</span>
+      <h4>4. C. Hoare & Co</h4>
+      <div class="meta"><span class="pill uk">UK</span> <span class="pill luxe">Luxe</span> · UK's oldest private bank · London · 1672</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">Senior Partner Alexander Hoare ou Henry Hoare (family-owned)</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">Heritage 1672 match heritage 1951 Ecurie Ecosse. Hospitality UHNW client discreet</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Family-owned = décision en 2 semaines possible. Pas de comité corporate</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">Cold email senior partner + LinkedIn DM</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">2-3 sem si family interest</span></div>
+    </div>
+
+    <div class="target-card uk">
+      <span class="tier t1">TIER 1</span>
+      <h4>5. Quantexa</h4>
+      <div class="meta"><span class="pill uk">UK</span> <span class="pill tech">Tech</span> · AI/FS · London · £126M rev</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">CEO Vishal Marria (founder) + CMO Dan Higgins</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">Pre-IPO 2026 = brand build CRITICAL. UK FS AI, clients = banks UHNW = paddock-ICP parfait. Universa déjà sponsor signale fit</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">$546M raised, 49% YoY growth. Marketing budget en phase d'expansion</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">LinkedIn DM CMO + cold email partnerships ou direct CEO</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">3-4 sem (decision marketing + CFO sign-off)</span></div>
+    </div>
+
+    <div class="target-card uk">
+      <span class="tier t2">TIER 2</span>
+      <h4>6. OakNorth Bank</h4>
+      <div class="meta"><span class="pill uk">UK</span> <span class="pill tech">Tech</span> · SME fintech · London</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">CEO Rishi Khosla (co-founder) + Head of Brand</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">UK SME bank profitable, expansion US active = brand investment phase. Premium event hospitality dans leur playbook</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Profitable depuis 2018, valuation $2.8B. Founder decision direct possible</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">LinkedIn DM Rishi Khosla direct + cold email CMO</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">3-4 sem</span></div>
+    </div>
+
+  </div>
+
+  <h3 style="color: var(--benelux); margin-top: 36px;">🇧🇪 Benelux — 6 cibles</h3>
+  <div class="targets-grid">
+
+    <div class="target-card benelux">
+      <span class="tier t1">TIER 1</span>
+      <h4>7. D'Ieteren Group</h4>
+      <div class="meta"><span class="pill benelux">Benelux</span> <span class="pill luxe">Luxe</span> · Bruxelles · €5B+ rev · Listed family</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">CEO Francis Deprez + Head of Brand Communications + D'Ieteren Auto Aston Martin Brand Manager</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val"><strong>IMPORTATEUR OFFICIEL ASTON MARTIN BELGIQUE.</strong> Course = vitrine commerciale Belgique pour leur dealer network. 0 risque cap-table, 100% alignement brand</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Listed €5B revenue, famille Van der Mersch / D'Ieteren contrôle. 50k = trivial</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">Cold email D'Ieteren Auto Brand Manager Aston Martin + LinkedIn parallèle</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">2-3 sem si direct Aston brand manager (pas de comité corporate)</span></div>
+    </div>
+
+    <div class="target-card benelux">
+      <span class="tier t1">TIER 1</span>
+      <h4>8. Banque de Luxembourg</h4>
+      <div class="meta"><span class="pill benelux">Benelux</span> <span class="pill luxe">Luxe</span> · Luxembourg · Crédit Mutuel CM-CIC</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">Head of Marketing & Communications + Head of UHNW Client Relations</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">UHNW family wealth, client hospitality use case classique. Luxembourg = 200km Spa = local. Aston Martin clientèle parfaitement alignée</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Crédit Mutuel parent group. Budgets hospitality client UHNW = naturel</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">Cold email Marketing Head + LinkedIn DM client relations</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">4-6 sem (decision marketing + risk + UHNW client team)</span></div>
+    </div>
+
+    <div class="target-card benelux">
+      <span class="tier t2">TIER 2</span>
+      <h4>9. Quintet Private Bank</h4>
+      <div class="meta"><span class="pill benelux">Benelux</span> <span class="pill luxe">Luxe</span> · Luxembourg · ex-KBL</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">CMO + Head of Client Experience + Group Head of Brand</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">Rebranding phase agressive depuis 2020 (KBL → Quintet). Marketing budget en croissance, cherche events distinctifs pour rebuild positioning UHNW</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">~€100B AUM. Owned by Precision Capital (Al-Thani family Qatar). Budget marketing solide</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">LinkedIn CMO + cold email partnerships@quintet.com</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">4-5 sem</span></div>
+    </div>
+
+    <div class="target-card benelux">
+      <span class="tier t1">TIER 1</span>
+      <h4>10. EVS Broadcast Equipment</h4>
+      <div class="meta"><span class="pill benelux">Benelux</span> <span class="pill tech">Tech</span> · Liège · €150M+ · Listed</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">CEO Serge Van Herck + CMO + Head of Sponsorship/Events</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val"><strong>HQ Liège = 30 minutes de Spa.</strong> Tech broadcast présente dans toutes les diffusions GT racing — cohérence narrative parfaite. Course locale = home pride. Sponsoring déjà tradition motorsport-tech</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Listed Bruxelles, profitable, croissance tournée vers sports premium</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">Cold LinkedIn DM CEO Serge Van Herck direct + email events</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">3-4 sem</span></div>
+    </div>
+
+    <div class="target-card benelux">
+      <span class="tier t2">TIER 2</span>
+      <h4>11. Materialise</h4>
+      <div class="meta"><span class="pill benelux">Benelux</span> <span class="pill tech">Tech</span> · Leuven · €270M · 3D printing</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">Founder/CEO Fried Vancraen + CMO + VP Automotive</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">Belgian tech mid-market. Auto manufacturing applications (Aston Martin = potential customer for 3D printed parts). Leuven = 130km Spa</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">€270M revenue, profitable. Founder-led = décision fluide</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">LinkedIn DM founder Fried Vancraen + cold email Auto VP</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">3-5 sem</span></div>
+    </div>
+
+    <div class="target-card benelux">
+      <span class="tier t2">TIER 2</span>
+      <h4>12. IBA Group</h4>
+      <div class="meta"><span class="pill benelux">Benelux</span> <span class="pill tech">Tech</span> · Louvain-la-Neuve · €330M · MedTech</div>
+      <div class="target-row"><span class="label">Décideur</span><span class="val">CEO Olivier Legrain + Head of Brand + Head of Investor Relations</span></div>
+      <div class="target-row"><span class="label">Hook</span><span class="val">Belgian proton therapy €330M. Premium MedTech, clients hospitals + UHNW philanthropes. Geo Belgique + brand prestige requis</span></div>
+      <div class="target-row"><span class="label">Capacité</span><span class="val">Listed Bruxelles. Use case = client hospitality oncology centers + investor relations</span></div>
+      <div class="target-row"><span class="label">Channel</span><span class="val">Cold email investor relations / brand + LinkedIn DM CEO</span></div>
+      <div class="target-row"><span class="label">Timing</span><span class="val">4-6 sem</span></div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">4.</span>Les 2 approches — UK vs Benelux</h2>
+
+  <table class="approach">
+    <thead>
+      <tr>
+        <th></th>
+        <th>🇬🇧 UK / Écosse approach</th>
+        <th>🇧🇪 Benelux approach</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hook ouverture</td>
+        <td class="uk-col">"70th anniversary of Ecurie Ecosse's Le Mans 1956 Scottish win"</td>
+        <td class="be-col">"Your home race. Your VIPs. Your activation."</td>
+      </tr>
+      <tr>
+        <td>Tonalité</td>
+        <td class="uk-col">Storytelling-driven, émotionnel, patriotisme britannique, prestige</td>
+        <td class="be-col">Utilitaire, ROI-driven, business hospitality, géo-logique</td>
+      </tr>
+      <tr>
+        <td>Langue</td>
+        <td class="uk-col">EN, premium UK register</td>
+        <td class="be-col">FR (BE/Lux), NL (Flandres), EN fallback. Subject line en langue locale</td>
+      </tr>
+      <tr>
+        <td>Channel principal</td>
+        <td class="uk-col">LinkedIn DM founder/director + cold email parallèle</td>
+        <td class="be-col">LinkedIn DM CMO/Brand + cold email avec géo-signal fort dans subject</td>
+      </tr>
+      <tr>
+        <td>Asset à pousser</td>
+        <td class="uk-col">Heritage Deck (5 slides : Le Mans 1956-57 history + 2026 narrative + Aston Vantage + activation + price)</td>
+        <td class="be-col">Business Deck (logistics Spa + footfall + client hospitality ROI + Aston access + price)</td>
+      </tr>
+      <tr>
+        <td>Call-to-action</td>
+        <td class="uk-col">"15 min call to walk you through the heritage story"</td>
+        <td class="be-col">"30 min call to walk you through the activation logistics"</td>
+      </tr>
+      <tr>
+        <td>Closing time estimé</td>
+        <td class="uk-col">3-4 semaines (decision émotionnelle)</td>
+        <td class="be-col">4-6 semaines (decision rationnelle, comité)</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2><span class="num">5.</span>Cold templates — drafts à raffiner</h2>
+
+  <h3>🇬🇧 UK Heritage template — Cold email Tier 1</h3>
+  <div class="template-block">
+<span class="subject">Subject: 70 years after Le Mans '56 — one anchor seat at Spa for [BRAND]</span>
+[First name],
+
+In June 1956, Ecurie Ecosse — a small Scottish team from Edinburgh — won the 24 Hours of Le Mans against the world's biggest factories. They did it again in 1957.
+
+This year marks the 70th anniversary. The team returns to the Spa 24 Hours, June 24-28, with an Aston Martin Vantage GT3 EVO. Drivers include Jonny Adam (Aston Martin works) and Dario Franchitti.
+
+I'm racing with them at Spa. We have one anchor sponsor seat available — not a busy livery, not a billboard. One brand on the car. Private hospitality. Garage access for 15-20 of your guests across 4 days.
+
+<span class="placeholder">[BRAND-SPECIFIC LINE: Edinburgh heritage / Scottish DNA / British prestige / motorsport history]</span>
+
+€50k. A story you'll tell for 18 months. One race that connects [BRAND] to one of the great heritage moments in motorsport.
+
+15 minutes to walk you through it?
+
+Romain Leroux
+ELMS 2026 race driver
+[phone]
+  </div>
+
+  <h3>🇧🇪 Benelux Business template — Cold email Tier 1</h3>
+  <div class="template-block">
+<span class="subject">Subject: Spa 24h — votre activation client à 30 min de [BRAND HQ]</span>
+[Prénom],
+
+Du 24 au 28 juin, les 24 Heures de Spa accueillent 100 000 visiteurs à <span class="placeholder">[XX km de votre siège]</span>.
+
+Je cours cette année avec Ecurie Ecosse Blackthorn — Aston Martin Vantage GT3 EVO, team britannique légendaire (vainqueur Le Mans 1956). Nous avons une seule place anchor sponsor disponible.
+
+L'offre concrète :
+• Box Aston Martin dédiée 4 jours (24-28 juin)
+• Hospitality privée pour 15-20 clients VIP de [BRAND]
+• Accès paddock, garage, briefings drivers
+• <span class="placeholder">[BRAND-SPECIFIC : showroom Aston Martin / clients UHNW Benelux / activation Liège-Bruxelles]</span>
+• Co-branding discret sur véhicule + comm digitale
+
+€50k. Course unique, ROI calculable client par client.
+
+30 min call cette semaine pour vous présenter la logistique complète ?
+
+Romain Leroux
+Pilote ELMS 2026
+[téléphone]
+  </div>
+
+  <h3>Variants LinkedIn DM (200-250 chars)</h3>
+  <div class="template-block">
+<span class="subject">UK Heritage DM:</span>
+[First name] — racing at Spa 24h with Ecurie Ecosse Blackthorn (70th anniversary of their Le Mans '56 win, Aston Vantage GT3). 1 anchor sponsor seat open. €50k. Worth a 15-min call to walk you through the heritage angle?
+
+<span class="subject">Benelux Business DM:</span>
+[Prénom] — je cours Spa 24h en juin avec Ecurie Ecosse Blackthorn (Aston Vantage GT3). 1 place anchor sponsor dispo, hospitality privée 4 jours. À [XX km] de chez vous. 30 min cette semaine pour parler activation ?
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">6.</span>Plan de bataille — 4 semaines</h2>
+
+  <div class="timeline">
+    <div class="timeline-step">
+      <div class="week">SEMAINE 1 (J+1 → J+7)</div>
+      <h4>Préparation</h4>
+      <ul>
+        <li>/sponsor-scout 4 Tier-1 (Macallan, D'Ieteren, Quantexa, Bowmore)</li>
+        <li>/sponsor-scout 4 Tier-2 (Bremont, Hoare, Quintet, EVS)</li>
+        <li>Draft Heritage Deck (5 slides)</li>
+        <li>Draft Business Deck (5 slides)</li>
+        <li>Finaliser cold templates × 2 variantes</li>
+      </ul>
+    </div>
+    <div class="timeline-step">
+      <div class="week">SEMAINE 2 (J+8 → J+14)</div>
+      <h4>Wave 1 envoi</h4>
+      <ul>
+        <li>Envoi Tier-1 cold : 8 emails + 8 LinkedIn DM (16 shots)</li>
+        <li>4 cibles UK avec template Heritage</li>
+        <li>4 cibles Benelux avec template Business</li>
+        <li>Daily monitor réponses</li>
+      </ul>
+    </div>
+    <div class="timeline-step">
+      <div class="week">SEMAINE 3 (J+15 → J+21)</div>
+      <h4>Wave 2 + Follow-up</h4>
+      <ul>
+        <li>D+7 follow-up auto Tier-1</li>
+        <li>Envoi Tier-2 (8 shots supplémentaires)</li>
+        <li>Calls + qualif sur Tier-1 respondents</li>
+        <li>Total shots cumulés : 24</li>
+      </ul>
+    </div>
+    <div class="timeline-step">
+      <div class="week">SEMAINE 4 (J+22 → J+28)</div>
+      <h4>Closing</h4>
+      <ul>
+        <li>D+14 breakup messages sur silents</li>
+        <li>Negotiation/proposal stage warmest leads</li>
+        <li>Tier-3 wildcards si pipeline maigre</li>
+        <li><strong>Cible : 1 close avant fin S4</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">7.</span>Launch checklist</h2>
+  <ul class="checklist">
+    <li>Valider la liste 12 cibles (ou ajouter/retirer)</li>
+    <li>Décider : 1 deck commun adaptable OU 2 decks distincts (Heritage UK + Business Benelux) — reco : 2 distincts</li>
+    <li>Préparer les assets visuels Spa (photo Aston Vantage GT3 EVO Blackthorn, photo Jaguar D-Type 1956, photo Spa-Francorchamps)</li>
+    <li>/sponsor-scout sur les 4 Tier-1 prioritaires (Macallan + D'Ieteren + Quantexa + Bowmore)</li>
+    <li>/sponsor-scout sur les 4 Tier-2 (Bremont + Hoare + Quintet + EVS)</li>
+    <li>Lookup LinkedIn pour identifier les décideurs exacts (Brand Director, CMO, Founder) — 12 profils ciblés</li>
+    <li>Finaliser cold templates × 2 versions × 2 channels = 4 messages</li>
+    <li>Aligner ce que tu peux vraiment offrir niveau livery + hospitality (vérifier avec Blackthorn / Ecurie Ecosse côté team)</li>
+    <li>Confirmer auprès du team que la "anchor sponsor" position est réellement disponible (pas déjà promise)</li>
+    <li>Setup tracking pipeline dans sp-data.js ou fichier dédié Spa-2026</li>
+    <li>Lancer Wave 1 lundi semaine prochaine — 16 shots</li>
+  </ul>
+</section>
+
+<section id="pipeline">
+  <h2><span class="num">8.</span>Pipeline tracker — live state</h2>
+  <p style="color: var(--muted); margin-bottom: 16px;">Pipeline persistant dans ton navigateur (localStorage). Export JSON pour backup. Ajoute tes propres cibles, change le statut, suis l'avancée.</p>
+
+  <div class="pipe-stats" id="pipeStats"></div>
+
+  <div class="pipe-controls">
+    <button class="pipe-btn pipe-btn-primary" onclick="openAddModal()">+ Ajouter une cible</button>
+    <button class="pipe-btn" onclick="exportPipeline()">↓ Export JSON</button>
+    <button class="pipe-btn" onclick="document.getElementById('importFile').click()">↑ Import JSON</button>
+    <button class="pipe-btn pipe-btn-danger" onclick="resetPipeline()">↺ Reset aux 12 cibles</button>
+    <input type="file" id="importFile" accept=".json" style="display:none" onchange="importPipeline(event)">
+    <span class="pipe-info" id="pipeInfo"></span>
+  </div>
+
+  <div class="pipe-table-wrap">
+    <table class="pipe-table" id="pipeTable">
+      <thead>
+        <tr>
+          <th>Société</th>
+          <th>Géo</th>
+          <th>Type</th>
+          <th>Tier</th>
+          <th>Décideur</th>
+          <th>Channel</th>
+          <th>Statut</th>
+          <th>Ticket</th>
+          <th>Next action</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="pipeBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <h3 id="modalTitle">Ajouter une cible</h3>
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="t-id">
+      <div class="modal-row">
+        <div class="modal-field"><label>Société *</label><input type="text" id="t-company"></div>
+        <div class="modal-field"><label>Géo *</label>
+          <select id="t-geo">
+            <option value="UK">🇬🇧 UK / Écosse</option>
+            <option value="BE">🇧🇪 Benelux</option>
+            <option value="FR">🇫🇷 France</option>
+            <option value="DE">🇩🇪 Allemagne</option>
+            <option value="OTHER">🌍 Autre</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-row">
+        <div class="modal-field"><label>Catégorie *</label>
+          <select id="t-category">
+            <option value="luxe">💎 Luxe / Brand</option>
+            <option value="tech">🏭 B2B Tech</option>
+            <option value="finance">🏦 Finance / Banking</option>
+            <option value="auto">🚗 Auto / Tier-1</option>
+            <option value="other">📦 Autre</option>
+          </select>
+        </div>
+        <div class="modal-field"><label>Tier</label>
+          <select id="t-tier">
+            <option value="1">Tier 1 — Top priorité</option>
+            <option value="2">Tier 2 — Solide</option>
+            <option value="3">Tier 3 — Wildcard</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-field"><label>Décideur (nom + rôle)</label><input type="text" id="t-contact" placeholder="Ex: Nick English, Co-founder Bremont"></div>
+      <div class="modal-row">
+        <div class="modal-field"><label>Channel</label>
+          <select id="t-channel">
+            <option value="email">Cold email</option>
+            <option value="linkedin">LinkedIn DM</option>
+            <option value="both">Email + LinkedIn</option>
+            <option value="phone">Phone</option>
+            <option value="event">Event / IRL</option>
+          </select>
+        </div>
+        <div class="modal-field"><label>Ticket cible (€)</label><input type="number" id="t-ticket" value="50000"></div>
+      </div>
+      <div class="modal-field"><label>Statut *</label>
+        <select id="t-status">
+          <option value="to_scout">🟠 À researcher</option>
+          <option value="ready">🟡 Intel done, ready to send</option>
+          <option value="t1_sent">🔵 T1 envoyé (cold)</option>
+          <option value="t2_sent">🟣 T2 envoyé (follow-up)</option>
+          <option value="t3_sent">🟣 T3 envoyé (breakup)</option>
+          <option value="replied">💗 A répondu</option>
+          <option value="meeting">🔷 Meeting booked</option>
+          <option value="proposal">🟢 Proposal envoyé</option>
+          <option value="won">✅ Won — signé</option>
+          <option value="lost">⚫ Lost / pass</option>
+        </select>
+      </div>
+      <div class="modal-field"><label>Hook / pourquoi cette cible</label><textarea id="t-hook" rows="2"></textarea></div>
+      <div class="modal-field"><label>Next action (quoi + quand)</label><input type="text" id="t-next" placeholder="Ex: Envoyer T1 lundi 26/05"></div>
+      <div class="modal-field"><label>Notes / dernière action</label><textarea id="t-notes" rows="3"></textarea></div>
+    </div>
+    <div class="modal-footer">
+      <button class="pipe-btn pipe-btn-danger" id="deleteBtn" onclick="deleteTarget()" style="display:none">Supprimer</button>
+      <div style="flex:1"></div>
+      <button class="pipe-btn" onclick="closeModal()">Annuler</button>
+      <button class="pipe-btn pipe-btn-primary" onclick="saveTarget()">Sauvegarder</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .pipe-stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .pipe-stat {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    text-align: center;
+  }
+  .pipe-stat-num {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--accent);
+  }
+  .pipe-stat-label {
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+  }
+  .pipe-stat-value {
+    font-size: 12px;
+    color: var(--accent-2);
+    margin-top: 4px;
+    font-weight: 600;
+  }
+  .pipe-controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .pipe-btn {
+    background: var(--panel-2);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .pipe-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .pipe-btn-primary { background: var(--accent); color: #0f1419; border-color: var(--accent); }
+  .pipe-btn-primary:hover { background: #e8c354; color: #0f1419; }
+  .pipe-btn-danger { color: var(--red); }
+  .pipe-btn-danger:hover { border-color: var(--red); }
+  .pipe-info { color: var(--muted); font-size: 12px; margin-left: auto; }
+  .pipe-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--panel-2);
+  }
+  .pipe-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .pipe-table thead th {
+    background: var(--panel);
+    color: var(--muted);
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 12px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+  }
+  .pipe-table tbody tr {
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+  .pipe-table tbody tr:hover { background: rgba(212,175,55,0.05); }
+  .pipe-table td { padding: 10px 12px; vertical-align: middle; }
+  .pipe-table td.company { font-weight: 600; color: var(--text); }
+  .pipe-table td.geo, .pipe-table td.tier-cell { text-align: center; }
+  .pipe-status-select {
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .pipe-status-select:focus { outline: none; border-color: var(--accent); }
+  .status-pill {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .status-to_scout { background: rgba(255,165,0,0.15); color: #ffa500; }
+  .status-ready { background: rgba(255,221,0,0.15); color: #ffdd00; }
+  .status-t1_sent { background: rgba(74,158,255,0.15); color: #4a9eff; }
+  .status-t2_sent, .status-t3_sent { background: rgba(168,85,247,0.15); color: #c084fc; }
+  .status-replied { background: rgba(236,72,153,0.2); color: #f472b6; }
+  .status-meeting { background: rgba(64,200,255,0.2); color: #40c8ff; }
+  .status-proposal { background: rgba(155,255,128,0.2); color: #9bff80; }
+  .status-won { background: rgba(46,204,113,0.25); color: #2ecc71; font-weight: 800; }
+  .status-lost { background: rgba(120,120,120,0.2); color: #888; }
+  .tier-badge {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 11px;
+  }
+  .tier-1 { background: var(--green); color: #000; }
+  .tier-2 { background: var(--accent); color: #0f1419; }
+  .tier-3 { background: var(--muted); color: #fff; }
+  .geo-flag { font-size: 16px; }
+  .cat-pill {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .cat-luxe { background: rgba(212,175,55,0.15); color: var(--accent); }
+  .cat-tech { background: rgba(74,158,255,0.15); color: var(--accent-2); }
+  .cat-finance { background: rgba(155,255,128,0.15); color: #9bff80; }
+  .cat-auto { background: rgba(255,100,100,0.15); color: #ff8888; }
+  .cat-other { background: rgba(120,120,120,0.15); color: var(--muted); }
+  .pipe-next-action { color: var(--accent-2); font-size: 12px; font-style: italic; }
+  .pipe-empty {
+    text-align: center;
+    padding: 40px;
+    color: var(--muted);
+  }
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-header {
+    padding: 18px 22px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .modal-header h3 { font-size: 18px; }
+  .modal-close {
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .modal-close:hover { color: var(--text); }
+  .modal-body {
+    padding: 20px 22px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  .modal-field {
+    margin-bottom: 14px;
+    flex: 1;
+  }
+  .modal-field label {
+    display: block;
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .modal-field input, .modal-field select, .modal-field textarea {
+    width: 100%;
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 9px 12px;
+    font-size: 13px;
+    font-family: inherit;
+    outline: none;
+  }
+  .modal-field input:focus, .modal-field select:focus, .modal-field textarea:focus {
+    border-color: var(--accent);
+  }
+  .modal-field textarea { resize: vertical; }
+  .modal-row {
+    display: flex;
+    gap: 14px;
+  }
+  .modal-footer {
+    padding: 14px 22px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+</style>
+
+<div class="footer-note">
+  Document généré pour Romain Leroux · 18 mai 2026 · Cible : 1 anchor sponsor €50k · Échéance Spa : 24-28 juin 2026<br>
+  <span style="color: var(--accent);">Pipeline live</span> — persisté dans le navigateur. Export JSON pour backup.
+</div>
+
+<script>
+const STORAGE_KEY = 'spa-2026-pipeline';
+const VERSION = '1.0';
+
+const DEFAULT_TARGETS = [
+  { id: 'tgt-1',  company: 'The Macallan / Edrington', geo: 'UK', category: 'luxe',    tier: 1, contact: 'Director Brand Partnerships + Global Brand Director Macallan', channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Édimbourg HQ = Ecurie Ecosse origin city. Single cask "70th Spa" limited edition. 70e anniversary Le Mans win narrative.', next: 'Lancer /sponsor-scout pour intel', notes: '' },
+  { id: 'tgt-2',  company: 'Bowmore / Beam Suntory',   geo: 'UK', category: 'luxe',    tier: 1, contact: 'Global Brand Director Bowmore (Beam Suntory EMEA)',          channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Partenariat Bowmore × Aston Martin 2020-22 historique. 70e = trigger réactivation marketing.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-3',  company: 'Bremont Watches',           geo: 'UK', category: 'luxe',    tier: 2, contact: 'Co-founder Nick English (ou Giles English)',                channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'British luxury watches motorsport-active. Limited co-brand series "Ecurie Ecosse 70th" jouable.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-4',  company: 'C. Hoare & Co',             geo: 'UK', category: 'finance', tier: 2, contact: 'Senior Partner Alexander Hoare ou Henry Hoare',              channel: 'email',    status: 'to_scout', ticket: 50000, hook: 'UK\'s oldest private bank (1672). Heritage match heritage. Family-owned = décision rapide.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-5',  company: 'Quantexa',                  geo: 'UK', category: 'tech',    tier: 1, contact: 'CEO Vishal Marria (founder) + CMO Dan Higgins',              channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Pre-IPO 2026 = brand build CRITICAL. UK FS AI, clients = banks UHNW = paddock-ICP. £126M rev.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-6',  company: 'OakNorth Bank',             geo: 'UK', category: 'tech',    tier: 2, contact: 'CEO Rishi Khosla (co-founder) + Head of Brand',              channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'UK SME bank profitable, expansion US active = brand investment phase. Premium event hospitality dans leur playbook.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-7',  company: 'D\'Ieteren Group',          geo: 'BE', category: 'luxe',    tier: 1, contact: 'CEO Francis Deprez + Head of Brand Comm + D\'Ieteren Auto Aston Brand Manager', channel: 'both', status: 'to_scout', ticket: 50000, hook: 'IMPORTATEUR OFFICIEL ASTON MARTIN BELGIQUE. Course = vitrine commerciale Belgique. Listed €5B+.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-8',  company: 'Banque de Luxembourg',      geo: 'BE', category: 'finance', tier: 1, contact: 'Head of Marketing & Communications + Head UHNW Client Relations', channel: 'both', status: 'to_scout', ticket: 50000, hook: 'UHNW family wealth, client hospitality use case classique. Luxembourg = 200km Spa = local. Aston Martin clientèle alignée.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-9',  company: 'Quintet Private Bank',      geo: 'BE', category: 'finance', tier: 2, contact: 'CMO + Head of Client Experience',                            channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Rebranding phase agressive depuis 2020 (KBL → Quintet). Marketing budget en croissance.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-10', company: 'EVS Broadcast Equipment',   geo: 'BE', category: 'tech',    tier: 1, contact: 'CEO Serge Van Herck + CMO + Head Sponsorship',               channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'HQ Liège = 30 MIN DE SPA. Broadcast tech présente dans toutes les diffusions GT racing. Course locale = home pride.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-11', company: 'Materialise',               geo: 'BE', category: 'tech',    tier: 2, contact: 'Founder/CEO Fried Vancraen + CMO + VP Automotive',           channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'Belgian tech €270M. Auto manufacturing apps (Aston Martin = potential customer). Leuven = 130km Spa.', next: 'Lancer /sponsor-scout', notes: '' },
+  { id: 'tgt-12', company: 'IBA Group',                 geo: 'BE', category: 'tech',    tier: 2, contact: 'CEO Olivier Legrain + Head of Brand + IR',                   channel: 'email',    status: 'to_scout', ticket: 50000, hook: 'Belgian proton therapy €330M. Premium MedTech, clients hospitals + UHNW philanthropes. Louvain-la-Neuve.', next: 'Lancer /sponsor-scout', notes: '' }
+];
+
+const STATUS_LABELS = {
+  to_scout: '🟠 À researcher',
+  ready: '🟡 Ready to send',
+  t1_sent: '🔵 T1 envoyé',
+  t2_sent: '🟣 T2 envoyé',
+  t3_sent: '🟣 T3 envoyé',
+  replied: '💗 A répondu',
+  meeting: '🔷 Meeting booked',
+  proposal: '🟢 Proposal envoyé',
+  won: '✅ Won',
+  lost: '⚫ Lost'
+};
+
+const STATUS_GROUPS = [
+  { key: 'to_send', label: 'À envoyer', includes: ['to_scout','ready'] },
+  { key: 'in_flight', label: 'En cours', includes: ['t1_sent','t2_sent','t3_sent'] },
+  { key: 'engaged', label: 'Engagés', includes: ['replied','meeting','proposal'] },
+  { key: 'won', label: 'Gagnés', includes: ['won'] },
+  { key: 'lost', label: 'Perdus', includes: ['lost'] }
+];
+
+const GEO_FLAGS = { UK: '🇬🇧', BE: '🇧🇪', FR: '🇫🇷', DE: '🇩🇪', OTHER: '🌍' };
+const CAT_LABELS = { luxe: 'Luxe', tech: 'Tech', finance: 'Finance', auto: 'Auto', other: 'Autre' };
+
+function loadPipeline() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      return parsed.targets || [];
+    }
+  } catch (e) {}
+  return JSON.parse(JSON.stringify(DEFAULT_TARGETS));
+}
+
+function savePipeline(targets) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: VERSION, targets, updated: new Date().toISOString() }));
+  renderPipeline();
+}
+
+function genId() {
+  return 'tgt-' + Math.random().toString(36).slice(2, 9);
+}
+
+function renderPipeline() {
+  const targets = loadPipeline();
+  renderStats(targets);
+  renderTable(targets);
+}
+
+function renderStats(targets) {
+  const stats = document.getElementById('pipeStats');
+  const counts = {};
+  let totalValue = 0;
+  let wonValue = 0;
+  STATUS_GROUPS.forEach(g => { counts[g.key] = 0; });
+  targets.forEach(t => {
+    STATUS_GROUPS.forEach(g => { if (g.includes.includes(t.status)) counts[g.key]++; });
+    if (t.status !== 'lost') totalValue += (t.ticket || 0);
+    if (t.status === 'won') wonValue += (t.ticket || 0);
+  });
+  stats.innerHTML = STATUS_GROUPS.map(g =>
+    `<div class="pipe-stat"><div class="pipe-stat-num">${counts[g.key]}</div><div class="pipe-stat-label">${g.label}</div></div>`
+  ).join('') +
+  `<div class="pipe-stat" style="grid-column: span 5; background: rgba(212,175,55,0.05);"><div style="display:flex;justify-content:space-around;align-items:center;"><div><div class="pipe-stat-num">${targets.length}</div><div class="pipe-stat-label">Total cibles</div></div><div><div class="pipe-stat-num">€${totalValue.toLocaleString('fr-FR')}</div><div class="pipe-stat-label">Pipeline value</div></div><div><div class="pipe-stat-num" style="color: var(--green);">€${wonValue.toLocaleString('fr-FR')}</div><div class="pipe-stat-label">Won €</div></div></div></div>`;
+  stats.style.gridTemplateColumns = 'repeat(5, 1fr)';
+  document.getElementById('pipeInfo').textContent = `${targets.length} cibles · sauvegarde locale`;
+}
+
+function renderTable(targets) {
+  const body = document.getElementById('pipeBody');
+  if (targets.length === 0) {
+    body.innerHTML = '<tr><td colspan="10" class="pipe-empty">Aucune cible. Clique "Ajouter une cible" ou "Reset" pour repartir des 12 cibles par défaut.</td></tr>';
+    return;
+  }
+  const sortOrder = { 1: 0, 2: 1, 3: 2 };
+  targets.sort((a, b) => (sortOrder[a.tier] - sortOrder[b.tier]) || a.company.localeCompare(b.company));
+  body.innerHTML = targets.map(t => `
+    <tr onclick="openEditModal('${t.id}')">
+      <td class="company">${escapeHtml(t.company)}</td>
+      <td class="geo"><span class="geo-flag">${GEO_FLAGS[t.geo] || '🌍'}</span></td>
+      <td><span class="cat-pill cat-${t.category}">${CAT_LABELS[t.category] || t.category}</span></td>
+      <td class="tier-cell"><span class="tier-badge tier-${t.tier}">${t.tier}</span></td>
+      <td style="max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${escapeHtml(t.contact || '')}</td>
+      <td>${t.channel || ''}</td>
+      <td onclick="event.stopPropagation()">
+        <select class="pipe-status-select" onchange="quickStatus('${t.id}', this.value)">
+          ${Object.entries(STATUS_LABELS).map(([k, lab]) => `<option value="${k}" ${t.status === k ? 'selected' : ''}>${lab}</option>`).join('')}
+        </select>
+      </td>
+      <td>€${(t.ticket || 0).toLocaleString('fr-FR')}</td>
+      <td class="pipe-next-action">${escapeHtml(t.next || '')}</td>
+      <td style="text-align:right;color:var(--muted);">✎</td>
+    </tr>
+  `).join('');
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+}
+
+function quickStatus(id, status) {
+  const targets = loadPipeline();
+  const t = targets.find(x => x.id === id);
+  if (t) { t.status = status; savePipeline(targets); }
+}
+
+let currentEditId = null;
+
+function openAddModal() {
+  currentEditId = null;
+  document.getElementById('modalTitle').textContent = 'Ajouter une cible';
+  document.getElementById('t-id').value = '';
+  document.getElementById('t-company').value = '';
+  document.getElementById('t-geo').value = 'UK';
+  document.getElementById('t-category').value = 'tech';
+  document.getElementById('t-tier').value = '2';
+  document.getElementById('t-contact').value = '';
+  document.getElementById('t-channel').value = 'both';
+  document.getElementById('t-ticket').value = 50000;
+  document.getElementById('t-status').value = 'to_scout';
+  document.getElementById('t-hook').value = '';
+  document.getElementById('t-next').value = '';
+  document.getElementById('t-notes').value = '';
+  document.getElementById('deleteBtn').style.display = 'none';
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function openEditModal(id) {
+  const targets = loadPipeline();
+  const t = targets.find(x => x.id === id);
+  if (!t) return;
+  currentEditId = id;
+  document.getElementById('modalTitle').textContent = 'Éditer ' + t.company;
+  document.getElementById('t-id').value = t.id;
+  document.getElementById('t-company').value = t.company || '';
+  document.getElementById('t-geo').value = t.geo || 'UK';
+  document.getElementById('t-category').value = t.category || 'tech';
+  document.getElementById('t-tier').value = String(t.tier || 2);
+  document.getElementById('t-contact').value = t.contact || '';
+  document.getElementById('t-channel').value = t.channel || 'both';
+  document.getElementById('t-ticket').value = t.ticket || 50000;
+  document.getElementById('t-status').value = t.status || 'to_scout';
+  document.getElementById('t-hook').value = t.hook || '';
+  document.getElementById('t-next').value = t.next || '';
+  document.getElementById('t-notes').value = t.notes || '';
+  document.getElementById('deleteBtn').style.display = 'inline-block';
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal(e) {
+  if (e && e.target.classList && !e.target.classList.contains('modal-overlay')) return;
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+
+function saveTarget() {
+  const company = document.getElementById('t-company').value.trim();
+  if (!company) { alert('Société requise'); return; }
+  const targets = loadPipeline();
+  const data = {
+    id: currentEditId || genId(),
+    company,
+    geo: document.getElementById('t-geo').value,
+    category: document.getElementById('t-category').value,
+    tier: parseInt(document.getElementById('t-tier').value),
+    contact: document.getElementById('t-contact').value.trim(),
+    channel: document.getElementById('t-channel').value,
+    ticket: parseInt(document.getElementById('t-ticket').value) || 0,
+    status: document.getElementById('t-status').value,
+    hook: document.getElementById('t-hook').value.trim(),
+    next: document.getElementById('t-next').value.trim(),
+    notes: document.getElementById('t-notes').value.trim(),
+    updated: new Date().toISOString()
+  };
+  if (currentEditId) {
+    const idx = targets.findIndex(x => x.id === currentEditId);
+    if (idx >= 0) targets[idx] = { ...targets[idx], ...data };
+  } else {
+    data.created = new Date().toISOString();
+    targets.push(data);
+  }
+  savePipeline(targets);
+  closeModal();
+}
+
+function deleteTarget() {
+  if (!currentEditId) return;
+  if (!confirm('Supprimer cette cible ?')) return;
+  const targets = loadPipeline().filter(t => t.id !== currentEditId);
+  savePipeline(targets);
+  closeModal();
+}
+
+function exportPipeline() {
+  const data = { version: VERSION, exported: new Date().toISOString(), targets: loadPipeline() };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `spa-2026-pipeline-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importPipeline(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (!data.targets || !Array.isArray(data.targets)) throw new Error('Invalid');
+      if (!confirm(`Importer ${data.targets.length} cibles ? Cela remplacera le pipeline actuel.`)) return;
+      savePipeline(data.targets);
+    } catch (e) {
+      alert('Fichier JSON invalide');
+    }
+  };
+  reader.readAsText(file);
+  event.target.value = '';
+}
+
+function resetPipeline() {
+  if (!confirm('Reset aux 12 cibles initiales ? Toutes tes modifications seront perdues.')) return;
+  localStorage.removeItem(STORAGE_KEY);
+  renderPipeline();
+}
+
+renderPipeline();
+</script>
+
+</body>
+</html>
