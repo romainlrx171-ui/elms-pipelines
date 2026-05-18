@@ -920,6 +920,7 @@ Pilote ELMS 2026
     </div>
     <div class="pipe-controls" style="margin-bottom: 0;">
       <button class="pipe-btn pipe-btn-primary" onclick="openAddModal()">+ Ajouter une cible</button>
+      <button class="pipe-btn" onclick="syncIntel()" title="Met à jour l'intel (LinkedIn/email/hook) depuis canonical sans toucher tes statuts/notes">⟳ Sync intel canonical</button>
       <button class="pipe-btn" onclick="exportPipeline()">↓ Export JSON</button>
       <button class="pipe-btn" onclick="document.getElementById('importFile').click()">↑ Import JSON</button>
       <button class="pipe-btn pipe-btn-danger" onclick="resetPipeline()">↺ Reset</button>
@@ -975,19 +976,47 @@ Pilote ELMS 2026
     </div>
     <div class="modal-body">
       <input type="hidden" id="t-id">
+
+      <div class="modal-section">📊 Tracking</div>
+      <div class="modal-row">
+        <div class="modal-field"><label>Statut *</label>
+          <select id="t-status">
+            <option value="to_scout">🟠 À researcher</option>
+            <option value="ready">🟡 Intel done, ready to send</option>
+            <option value="t1_sent">🔵 T1 envoyé (cold)</option>
+            <option value="t2_sent">🟣 T2 envoyé (follow-up)</option>
+            <option value="t3_sent">🟣 T3 envoyé (breakup)</option>
+            <option value="replied">💗 A répondu</option>
+            <option value="meeting">🔷 Meeting booked</option>
+            <option value="proposal">🟢 Proposal envoyé</option>
+            <option value="won">✅ Won — signé</option>
+            <option value="lost">⚫ Lost / pass</option>
+          </select>
+        </div>
+        <div class="modal-field"><label>Ticket cible (€)</label><input type="number" id="t-ticket" value="50000"></div>
+      </div>
+      <div class="modal-field"><label>Next action (quoi + quand)</label><input type="text" id="t-next" placeholder="Ex: Envoyer T1 lundi 26/05"></div>
+
+      <div class="modal-section">🏢 Company</div>
       <div class="modal-row">
         <div class="modal-field"><label>Société *</label><input type="text" id="t-company"></div>
+        <div class="modal-field"><label>HQ / Taille</label><input type="text" id="t-hq" placeholder="Ex: London · £126M rev"></div>
+      </div>
+      <div class="modal-row">
         <div class="modal-field"><label>Géo *</label>
           <select id="t-geo">
             <option value="UK">🇬🇧 UK / Écosse</option>
-            <option value="BE">🇧🇪 Benelux</option>
-            <option value="FR">🇫🇷 France</option>
+            <option value="BE">🇧🇪 Belgique</option>
+            <option value="LU">🇱🇺 Luxembourg</option>
+            <option value="NL">🇳🇱 Pays-Bas</option>
             <option value="DE">🇩🇪 Allemagne</option>
+            <option value="FR">🇫🇷 France</option>
+            <option value="CH">🇨🇭 Suisse</option>
+            <option value="SE">🇸🇪 Suède</option>
+            <option value="IT">🇮🇹 Italie</option>
             <option value="OTHER">🌍 Autre</option>
           </select>
         </div>
-      </div>
-      <div class="modal-row">
         <div class="modal-field"><label>Catégorie *</label>
           <select id="t-category">
             <option value="luxe">💎 Luxe / Brand</option>
@@ -997,44 +1026,51 @@ Pilote ELMS 2026
             <option value="other">📦 Autre</option>
           </select>
         </div>
+      </div>
+      <div class="modal-row">
+        <div class="modal-field"><label>Source</label>
+          <select id="t-source">
+            <option value="cold">🥶 Cold (no prior)</option>
+            <option value="elms_warm">🔥 ELMS warm (existing pipeline)</option>
+          </select>
+        </div>
         <div class="modal-field"><label>Tier</label>
           <select id="t-tier">
             <option value="1">Tier 1 — Top priorité</option>
             <option value="2">Tier 2 — Solide</option>
-            <option value="3">Tier 3 — Wildcard</option>
+            <option value="3">Tier 3 — Wildcard / special</option>
+          </select>
+        </div>
+        <div class="modal-field"><label>Confiance</label>
+          <select id="t-confidence">
+            <option value="HIGH">🟢 HIGH</option>
+            <option value="MED-HIGH">🟢 MED-HIGH</option>
+            <option value="MED">🟡 MED</option>
+            <option value="MED-LOW">🟠 MED-LOW</option>
+            <option value="LOW">🔴 LOW</option>
           </select>
         </div>
       </div>
-      <div class="modal-field"><label>Décideur (nom + rôle)</label><input type="text" id="t-contact" placeholder="Ex: Nick English, Co-founder Bremont"></div>
-      <div class="modal-row">
-        <div class="modal-field"><label>Channel</label>
-          <select id="t-channel">
-            <option value="email">Cold email</option>
-            <option value="linkedin">LinkedIn DM</option>
-            <option value="both">Email + LinkedIn</option>
-            <option value="phone">Phone</option>
-            <option value="event">Event / IRL</option>
-          </select>
-        </div>
-        <div class="modal-field"><label>Ticket cible (€)</label><input type="number" id="t-ticket" value="50000"></div>
-      </div>
-      <div class="modal-field"><label>Statut *</label>
-        <select id="t-status">
-          <option value="to_scout">🟠 À researcher</option>
-          <option value="ready">🟡 Intel done, ready to send</option>
-          <option value="t1_sent">🔵 T1 envoyé (cold)</option>
-          <option value="t2_sent">🟣 T2 envoyé (follow-up)</option>
-          <option value="t3_sent">🟣 T3 envoyé (breakup)</option>
-          <option value="replied">💗 A répondu</option>
-          <option value="meeting">🔷 Meeting booked</option>
-          <option value="proposal">🟢 Proposal envoyé</option>
-          <option value="won">✅ Won — signé</option>
-          <option value="lost">⚫ Lost / pass</option>
+
+      <div class="modal-section">👤 Contacts</div>
+      <div class="modal-field"><label>Décideur(s) — nom + rôle</label><textarea id="t-contact" rows="2" placeholder="Ex: Rishi Khosla (Co-founder/CEO) — décide direct"></textarea></div>
+      <div class="modal-field"><label>LinkedIn URL(s) ou search queries</label><textarea id="t-linkedin" rows="2" placeholder="https://linkedin.com/in/... ou 'Search: ...'"></textarea></div>
+      <div class="modal-field"><label>Email guess(es) + confiance</label><input type="text" id="t-email" placeholder="rishi.khosla@oaknorth.co.uk (MED-HIGH)"></div>
+      <div class="modal-field"><label>Channel</label>
+        <select id="t-channel">
+          <option value="email">📧 Cold email</option>
+          <option value="linkedin">💼 LinkedIn DM</option>
+          <option value="both">📧+💼 Email + LinkedIn</option>
+          <option value="phone">☎️ Phone</option>
+          <option value="event">🎪 Event / IRL</option>
         </select>
       </div>
-      <div class="modal-field"><label>Hook / pourquoi cette cible</label><textarea id="t-hook" rows="2"></textarea></div>
-      <div class="modal-field"><label>Next action (quoi + quand)</label><input type="text" id="t-next" placeholder="Ex: Envoyer T1 lundi 26/05"></div>
-      <div class="modal-field"><label>Notes / dernière action</label><textarea id="t-notes" rows="3"></textarea></div>
+
+      <div class="modal-section">💬 Intel</div>
+      <div class="modal-field"><label>Hook / pourquoi cette cible</label><textarea id="t-hook" rows="3"></textarea></div>
+      <div class="modal-field"><label>Recent signal (90 derniers jours)</label><textarea id="t-signal" rows="2" placeholder="News, funding, leadership change..."></textarea></div>
+      <div class="modal-field"><label>Speed assessment</label><input type="text" id="t-speed" placeholder="Ex: FAST — founder-led, no committee"></div>
+      <div class="modal-field"><label>Notes</label><textarea id="t-notes" rows="3"></textarea></div>
     </div>
     <div class="modal-footer">
       <button class="pipe-btn pipe-btn-danger" id="deleteBtn" onclick="deleteTarget()" style="display:none">Supprimer</button>
@@ -1272,6 +1308,31 @@ Pilote ELMS 2026
     display: flex;
     gap: 14px;
   }
+  .modal-section {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--accent);
+    margin: 18px 0 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+  }
+  .modal-section:first-of-type { margin-top: 0; }
+  .source-pill {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 12px;
+  }
+  .source-pill.warm { filter: drop-shadow(0 0 4px rgba(255,165,0,0.5)); }
+  .conf-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
   .modal-footer {
     padding: 14px 22px;
     border-top: 1px solid var(--border);
@@ -1291,18 +1352,206 @@ const STORAGE_KEY = 'spa-2026-pipeline';
 const VERSION = '1.0';
 
 const DEFAULT_TARGETS = [
-  { id: 'tgt-1',  company: 'The Macallan / Edrington', geo: 'UK', category: 'luxe',    tier: 1, contact: 'Director Brand Partnerships + Global Brand Director Macallan', channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Édimbourg HQ = Ecurie Ecosse origin city. Single cask "70th Spa" limited edition. 70e anniversary Le Mans win narrative.', next: 'Lancer /sponsor-scout pour intel', notes: '' },
-  { id: 'tgt-2',  company: 'Bowmore / Beam Suntory',   geo: 'UK', category: 'luxe',    tier: 1, contact: 'Global Brand Director Bowmore (Beam Suntory EMEA)',          channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Partenariat Bowmore × Aston Martin 2020-22 historique. 70e = trigger réactivation marketing.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-3',  company: 'Bremont Watches',           geo: 'UK', category: 'luxe',    tier: 2, contact: 'Co-founder Nick English (ou Giles English)',                channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'British luxury watches motorsport-active. Limited co-brand series "Ecurie Ecosse 70th" jouable.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-4',  company: 'C. Hoare & Co',             geo: 'UK', category: 'finance', tier: 2, contact: 'Senior Partner Alexander Hoare ou Henry Hoare',              channel: 'email',    status: 'to_scout', ticket: 50000, hook: 'UK\'s oldest private bank (1672). Heritage match heritage. Family-owned = décision rapide.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-5',  company: 'Quantexa',                  geo: 'UK', category: 'tech',    tier: 1, contact: 'CEO Vishal Marria (founder) + CMO Dan Higgins',              channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Pre-IPO 2026 = brand build CRITICAL. UK FS AI, clients = banks UHNW = paddock-ICP. £126M rev.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-6',  company: 'OakNorth Bank',             geo: 'UK', category: 'tech',    tier: 2, contact: 'CEO Rishi Khosla (co-founder) + Head of Brand',              channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'UK SME bank profitable, expansion US active = brand investment phase. Premium event hospitality dans leur playbook.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-7',  company: 'D\'Ieteren Group',          geo: 'BE', category: 'luxe',    tier: 1, contact: 'CEO Francis Deprez + Head of Brand Comm + D\'Ieteren Auto Aston Brand Manager', channel: 'both', status: 'to_scout', ticket: 50000, hook: 'IMPORTATEUR OFFICIEL ASTON MARTIN BELGIQUE. Course = vitrine commerciale Belgique. Listed €5B+.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-8',  company: 'Banque de Luxembourg',      geo: 'BE', category: 'finance', tier: 1, contact: 'Head of Marketing & Communications + Head UHNW Client Relations', channel: 'both', status: 'to_scout', ticket: 50000, hook: 'UHNW family wealth, client hospitality use case classique. Luxembourg = 200km Spa = local. Aston Martin clientèle alignée.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-9',  company: 'Quintet Private Bank',      geo: 'BE', category: 'finance', tier: 2, contact: 'CMO + Head of Client Experience',                            channel: 'both',     status: 'to_scout', ticket: 50000, hook: 'Rebranding phase agressive depuis 2020 (KBL → Quintet). Marketing budget en croissance.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-10', company: 'EVS Broadcast Equipment',   geo: 'BE', category: 'tech',    tier: 1, contact: 'CEO Serge Van Herck + CMO + Head Sponsorship',               channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'HQ Liège = 30 MIN DE SPA. Broadcast tech présente dans toutes les diffusions GT racing. Course locale = home pride.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-11', company: 'Materialise',               geo: 'BE', category: 'tech',    tier: 2, contact: 'Founder/CEO Fried Vancraen + CMO + VP Automotive',           channel: 'linkedin', status: 'to_scout', ticket: 50000, hook: 'Belgian tech €270M. Auto manufacturing apps (Aston Martin = potential customer). Leuven = 130km Spa.', next: 'Lancer /sponsor-scout', notes: '' },
-  { id: 'tgt-12', company: 'IBA Group',                 geo: 'BE', category: 'tech',    tier: 2, contact: 'CEO Olivier Legrain + Head of Brand + IR',                   channel: 'email',    status: 'to_scout', ticket: 50000, hook: 'Belgian proton therapy €330M. Premium MedTech, clients hospitals + UHNW philanthropes. Louvain-la-Neuve.', next: 'Lancer /sponsor-scout', notes: '' }
+  // ===== TIER 1 — HIGH confidence, fast-flex, anchor-capable =====
+  { id:'tgt-rwl', company:'Rolling Wireless', geo:'LU', category:'tech', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+    hq:'Luxembourg City — 15 rue Edward Steichen',
+    contact:'Cyrille Demousseau (CSO, FR) = fastest path · Dan Schieler (CEO) = ultimate signer · Andreas Kohn (COO)',
+    linkedin:'Search LinkedIn: "Cyrille Demousseau Rolling Wireless" / "Dan Schieler Rolling Wireless"',
+    email:'cyrille.demousseau@rollingwireless.com · dan.schieler@rollingwireless.com (MED — verify via Hunter.io)',
+    hook:'Luxembourg HQ 1h45 de Spa. Post-Fibocom European pivot oct 2024 ($150M EUROPASOLAR). 60M modules vendus aux OEMs (VW/BMW/Mercedes Tier-1s) = ICP paddock parfait. 5G Rel-16 first-to-market.',
+    signal:'EUROPASOLAR $150M acquisition oct 2024. First 5G Rel-16 automotive module GCF-approved 2026. Member 5GAA.',
+    speed:'FAST — small leadership, post-Fibocom European pivot, CEO+CSO can sign €50k directly.',
+    next:'T1 cold via LinkedIn DM FR à Cyrille Demousseau + cold email parallèle',
+    notes:'Vérifier EUROPASOLAR investor list pour OEM conflicts avant send. Complémentaire au cluster IoT existant (Trasna/AdvanIDe/1NCE) = pas de conflit cap-table.' },
+
+  { id:'tgt-loy', company:'Groupe Louyet (Aston Martin Antwerp)', geo:'BE', category:'luxe', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+    hq:'Charleroi region · €800M rev · 13 marques luxe · 1400 employés',
+    contact:'Laurent Louyet (CEO, family — Manager of the Year 2024) · Charles-Henry Vermeulen (group-level)',
+    linkedin:'https://be.linkedin.com/in/laurent-louyet-7720535a · https://www.linkedin.com/in/charles-henry-vermeulen-a5848327/',
+    email:'laurent.louyet@louyet.com OU l.louyet@louyet.be (MED)',
+    hook:'A repris le dealership Aston Martin Antwerp en 2026 — besoin urgent activation. Spa = home race à 1h30 du showroom. Activation hospitalité clients HNW Aston + co-branding éditorial = lancement Aston Antwerp authentique, pas une pub.',
+    signal:'Acquisition Aston Martin Antwerp 2026 (fresh). Forbes Belgium feature stratégie luxe.',
+    speed:'TRULY FAST — family CEO, 0 layers, Hormozi-textbook timing avec activation à 0€ planifiée.',
+    next:'LinkedIn DM FR à Laurent Louyet direct',
+    notes:'Approche FR (Charleroi/Bruxelles). Secondary path: David Eloy (Aston Martin Brussels, voir entrée séparée).' },
+
+  { id:'tgt-qtx', company:'Quantexa', geo:'UK', category:'tech', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+    hq:'London — 4th Floor, Holden House, 57 Rathbone Place W1T 1JU · ~$130M ARR · valuation $2.6B',
+    contact:'Matt Hooper (CMO — fastest, owns budget) · Vishal Marria (Founder/CEO — ultimate)',
+    linkedin:'Search: "Matt Hooper Quantexa CMO" + "Vishal Marria Quantexa CEO"',
+    email:'matt.hooper@quantexa.com · vishal.marria@quantexa.com (MED-HIGH)',
+    hook:'Pre-IPO 2026 = brand-credibility-buying mode. ICP = CROs/CDOs banques globales = exactement ton audience paddock Spa. Asset pour IPO roadshow deck. £50k = ligne marketing high-leverage, pas sponsorship.',
+    signal:'14 mai 2026: GAGNÉ contrat HMRC £175m sur 10 ans (AI tax-fraud detection) — flagship UK gov reference. London Tech Week 2026 speaker.',
+    speed:'FAST — founder-led, pre-IPO urgency, CMO budget authority mid-six-figures sans comité.',
+    next:'EN cold email Matt Hooper (CMO) + LinkedIn DM. Hook: féliciter HMRC win.',
+    notes:'Meilleur ICP fit du lot. Activation: car decal + hospitality 6-10 prospect CROs Tier-1 banks EU.' },
+
+  { id:'tgt-okn', company:'OakNorth Bank', geo:'UK', category:'finance', tier:1, source:'cold', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+    hq:'London — 57 Broadwick Street W1F 9QS (Soho) · £223M pre-tax profit FY25 · 600+ employés',
+    contact:'Rishi Khosla (Co-founder/CEO, OBE — décide direct) · Joel Perlman (Co-founder/SMD)',
+    linkedin:'https://uk.linkedin.com/in/rishikhosla1 · https://uk.linkedin.com/in/joel-perlman-765b9688',
+    email:'rishi.khosla@oaknorth.co.uk · joel.perlman@oaknorth.co.uk (MED-HIGH)',
+    hook:'ICP = UK lower-mid-market entrepreneurs (£1-100M turnover) = audience Spa hospitality. Khosla Anglophile, entrepreneur-glorifying narrative = Ecurie Ecosse 70th match parfait. Pre-IPO + US push = brand investment phase.',
+    signal:'Avril 2026: US lending overtake UK projeté 12 mois. Acquisition Community Unity Bank (Michigan). OpenAI partnership.',
+    speed:'FAST — founder-led, profitable, CEO décide en 1 call, média-active.',
+    next:'LinkedIn DM EN direct Rishi Khosla (poste régulièrement, accessible)',
+    notes:'EVITER topic Affinity Partners (Kushner) — politically sensitive. Hospitality 10-15 top UK borrower-entrepreneurs.' },
+
+  { id:'tgt-wlg', company:'Wireless Logic', geo:'UK', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:75000, channel:'both',
+    hq:'UK · ~€220M revenue · CVC PE-backed',
+    contact:'Oliver Tucker (CEO, founder)',
+    linkedin:'Search: "Oliver Tucker Wireless Logic CEO"',
+    email:'oliver.tucker@wirelesslogic.com (MED — verify)',
+    hook:'UK-HQ, founder-led, PE growth mandate, biggest pipeline band (€75-150k). Existing ELMS deck = warm. 24h endurance UK enterprise hospitality moment.',
+    signal:'Existing intel in sp-data.js (researched status).',
+    speed:'FAST-MED — PE growth mandate prioritizes brand investment.',
+    next:'Open with Spa as entry point — fresh narrative, sidesteps ELMS stall. "One-race anchor, decide in 14 days."',
+    notes:'ELMS WARM. Deck déjà existant. Voir sp-data.js pour intel complet.' },
+
+  { id:'tgt-ese', company:'Eseye', geo:'UK', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:60000, channel:'both',
+    hq:'Guildford UK · ~€60M · LDC PE-backed',
+    contact:'Nick Earle (CEO)',
+    linkedin:'Search: "Nick Earle Eseye"',
+    email:'nick.earle@eseye.com (MED)',
+    hook:'UK founder-PE, clients Amazon/Shell/Bosch = paddock buyer DNA exact. Déjà tagged paul-ricard/silverstone — Spa slots naturally.',
+    signal:'Existing intel in sp-data.js (researched).',
+    speed:'FAST — UK PE, decisive structure.',
+    next:'Pure Spa pitch, separate envelope de ELMS. "Spa 24h = UK B2B hospitality window 2026."',
+    notes:'ELMS WARM. Pure-Spa angle marche mieux que upsell.' },
+
+  { id:'tgt-hms', company:'HMS Networks / Ixxat', geo:'SE', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:100000, channel:'linkedin',
+    hq:'Sweden · €335M revenue',
+    contact:'Staffan Dahlström (Founder/CEO, owns 12.17%)',
+    linkedin:'Search: "Staffan Dahlström HMS Networks"',
+    email:'staffan.dahlstrom@hms.se (MED)',
+    hook:'Founder still owns + runs. CAN bus literally runs INSIDE Aston Vantage GT3 EVO — narrative bridge identique à Ferrari, juste swap car. €100-150k band justifié.',
+    signal:'Existing intel sp-data.js (researched).',
+    speed:'FAST — founder controls.',
+    next:'Upsell — combine ELMS + Spa en single "season-long endurance partner" Tier-1 anchor.',
+    notes:'ELMS WARM. Best HIGH-confidence upsell candidate.' },
+
+  { id:'tgt-lau', company:'Lauterbach', geo:'DE', category:'tech', tier:1, source:'elms_warm', confidence:'HIGH', status:'ready', ticket:50000, channel:'both',
+    hq:'Munich area · ~€50M · family-owned',
+    contact:'Stephan Lauterbach (Founder/CTO, family-owned)',
+    linkedin:'Search: "Stephan Lauterbach"',
+    email:'stephan.lauterbach@lauterbach.com (MED)',
+    hook:'Family-owned = no committee. Already tagged Spa in pipeline. German enterprise R&D travels to Spa as tradition. TRACE32 inside Aston ECU narrative.',
+    signal:'Existing intel sp-data.js (researched).',
+    speed:'FAST — family-owned, founder can sign in a week.',
+    next:'Pure Spa pitch — clean single-decision ask.',
+    notes:'ELMS WARM. Already tagged Spa-friendly in pipeline.' },
+
+  // ===== TIER 2 — MED to MED-HIGH, second wave =====
+  { id:'tgt-evs', company:'EVS Broadcast Equipment', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED-HIGH', status:'ready', ticket:50000, channel:'both',
+    hq:'Seraing/Liège — 30 MIN DE SPA · €208M rev 2025 · listed Euronext Brussels',
+    contact:'Nicolas Bourdon (CCO, owns marketing budget — fastest) · Serge Van Herck (CEO)',
+    linkedin:'https://be.linkedin.com/in/sergev1 · Search: "Nicolas Bourdon EVS Broadcast"',
+    email:'serge.vanherck@evs.com · nicolas.bourdon@evs.com (MED)',
+    hook:'EVS produit la majorité broadcasts motorsport mondiaux. Spa = home race littérale. Aston GT3 Ecurie Ecosse aux 24h avec EVS visible = première fois marque côté piste, pas côté régie. Slow-mo/XtraMotion case study live.',
+    signal:'T-Motion robotics launch NAB Las Vegas avril 2026. Q1 2026 order book €182M (+11.3%). Christophe Demelenne joint EVP Corp Operations.',
+    speed:'MED — listed mais CCO peut signer mid-five-figures sans board.',
+    next:'FR cold email Nicolas Bourdon + LinkedIn DM Van Herck',
+    notes:'Liégeois = culturellement aligné. Speed dépend cycle budget marketing.' },
+
+  { id:'tgt-bre', company:'Bremont Watches', geo:'UK', category:'luxe', tier:2, source:'cold', confidence:'MED-HIGH', status:'ready', ticket:50000, channel:'both',
+    hq:'"The Wing" — Henley-on-Thames, Oxfordshire · £21.9M FY · ~140 employés',
+    contact:'Davide Cerrato (CEO depuis 2023, ex-Tudor/Panerai) — décide direct',
+    linkedin:'https://uk.linkedin.com/in/davide-cerrato-a9b6a31',
+    email:'davide.cerrato@bremont.com (MED)',
+    hook:'⚠️ N\'EST PLUS founder-led: Bill Ackman owns 63% depuis avril 2024. Cerrato CEO sous pression turnaround. Slot motorsport OUVERT depuis fin partnership Williams F1 2023. Limited edition co-brandée Ecurie Ecosse 70th = template Jaguar E-Type qu\'ils savent exécuter.',
+    signal:'Watches&Wonders 2026 avril: Supernova Chronograph. FY operating loss trimmed £14M→£9.8M. Ackman push retail US.',
+    speed:'FAST — Ackman + 1 CEO, pas de comité brand traditionnel. Cerrato incentivized to ship visible wins.',
+    next:'EN cold email Cerrato direct. Pitch comme commercial turnaround play, PAS founder-emotional.',
+    notes:'CAUTION: loss-making + Ackman scrutinizes spend. Limited edition watch (300-500 pcs × £4k) finance le sponsorship.' },
+
+  { id:'tgt-mat', company:'Materialise', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'both',
+    hq:'Leuven — Technologielaan 15, 3001 · ~€266M rev 2025 · listed Nasdaq MTLS',
+    contact:'Fried Vancraen (Founder/Chairman — emotional engagement) · Brigitte de Vet-Veithen (CEO depuis 2024)',
+    linkedin:'https://www.linkedin.com/in/brigittedevet/ · Search: "Fried Vancraen Materialise"',
+    email:'brigitte.devet@materialise.be · fried.vancraen@materialise.be (MED)',
+    hook:'Belgian engineering pride. Aston Martin utilise déjà fabrication additive (parts moteur, prototypage). Co-développement parts imprimées sur la voiture = publicité technique authentique. Récit "Belgian additive powering British craft at home race".',
+    signal:'Q1 2026 results 8 mai — profitability surge. CO-AM Pro Platform mid-June launch. HP partnership expanded. PEEK cranio-maxillofacial implants launched.',
+    speed:'MED — listed mais Vancraen Chairman + CEO 2 ans = still operational not bureaucratic.',
+    next:'EN LinkedIn DM Vancraen (Chairman, founder, no committee)',
+    notes:'No visible motorsport sponsorship history = educational sell required.' },
+
+  { id:'tgt-iba', company:'IBA Group', geo:'BE', category:'tech', tier:2, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'email',
+    hq:'Louvain-la-Neuve — Chemin du Cyclotron 3 · €352M rev 2024 · listed IBAB.BR · B-Corp',
+    contact:'Olivier Legrain (CEO depuis 2012, owner-operator mindset) · Henri de Romrée (Deputy CEO)',
+    linkedin:'https://be.linkedin.com/in/olivier-legrain-065829144',
+    email:'olivier.legrain@iba-group.com · henri.deromree@iba-group.com (MED)',
+    hook:'B-Corp values brand + Race for Dementia déjà sponsor du team = bridge cause/santé naturel. Spa = home race belge. Activation cause-driven : VIP weekend pour clients hôpitaux/centres protonthérapie EU (KOLs IBA), récit santé/vitesse/Belgian engineering.',
+    signal:'Mar 2026: Telix Pharmaceuticals contract (4 KIUBE cyclotrons US). Share buyback announcements avr/mai. Re-certified B Corp top 10% global.',
+    speed:'MED — listed mais Legrain tenure 14 ans + valeurs = cause-aligned décision plus rapide qu\'une pure marketing.',
+    next:'FR cold email Legrain — pitch cause/health, PAS sponsorship marketing',
+    notes:'Race for Dementia parallel = unlock real. Aucun precedent motorsport = sell éducationnel.' },
+
+  { id:'tgt-tga', company:'Targa Telematics', geo:'IT', category:'tech', tier:2, source:'elms_warm', confidence:'MED-HIGH', status:'t2_sent', ticket:75000, channel:'both',
+    hq:'Treviso, Italy · €125M · Investindustrial PE-backed',
+    contact:'Nicola De Mattia (CEO)',
+    linkedin:'Search: "Nicola De Mattia Targa Telematics"',
+    email:'nicola.demattia@targatelematics.com (MED)',
+    hook:'PE-backed = budget agility. Stellantis/VW Group clients = hospitality use case réel. Reframe stalled ELMS pitch as "Spa 24h anchor + ELMS exposure".',
+    signal:'Existing intel sp-data.js. T3 sent date noted.',
+    speed:'MED-HIGH — PE, CEO peut décider.',
+    next:'Reframe ELMS pitch en pitch Spa-anchor = repositions cold prospect',
+    notes:'ELMS WARM. Touch 3 déjà envoyé sur ELMS. Spa = perfect re-engagement hook.' },
+
+  { id:'tgt-kis', company:'Kistler Group', geo:'CH', category:'tech', tier:2, source:'elms_warm', confidence:'MED-HIGH', status:'ready', ticket:75000, channel:'both',
+    hq:'Winterthur, Switzerland · CHF 448M · family-owned',
+    contact:'Marc Schaad (CEO)',
+    linkedin:'Search: "Marc Schaad Kistler"',
+    email:'marc.schaad@kistler.com (MED)',
+    hook:'Sensors sur les F1 cars = Spa 24h native territory. Tagged events: [paul-ricard, imola, spa] déjà dans pipeline. Family-owned. Tech-partnership angle (sensors sur Aston) rather than logo-only.',
+    signal:'Existing intel sp-data.js (researched).',
+    speed:'MED-HIGH — family-owned CH.',
+    next:'Open with Spa as entry point — tech-partnership angle',
+    notes:'ELMS WARM. Déjà tagged Spa.' },
+
+  // ===== TIER 3 — LOW or special angle =====
+  { id:'tgt-ame', company:'Aston Martin Brussels (Eloy & Becker)', geo:'BE', category:'luxe', tier:3, source:'cold', confidence:'MED', status:'ready', ticket:50000, channel:'both',
+    hq:'Zaventem · D&D Cars / Eloy & Becker',
+    contact:'David Eloy (CEO Aston Martin Brussels)',
+    linkedin:'https://be.linkedin.com/in/david-eloy-a8a46b6',
+    email:'david.eloy@astonmartinbrussels.com (MED)',
+    hook:'Importateur officiel Aston Martin Brussels (Zaventem). Course = vitrine commerciale Belgique pour clients HNW Aston Brussels. Complémentaire à Louyet (Antwerp).',
+    signal:'Pas de news majeur récent — recherche limitée.',
+    speed:'FAST — dealer indépendant, family.',
+    next:'FR cold email + LinkedIn DM David Eloy',
+    notes:'Second Aston path Benelux. Possibilité co-deal Louyet + Eloy si timing.' },
+
+  { id:'tgt-bow', company:'Bowmore (Suntory Global Spirits)', geo:'UK', category:'luxe', tier:3, source:'cold', confidence:'MED-LOW', status:'ready', ticket:50000, channel:'email',
+    hq:'Islay (distillerie) + Glasgow (UK ops) · Suntory Global Spirits parent',
+    contact:'Global Brand Director Bowmore (poste ouvert / récemment pourvu) · David Wilson (MD Global Travel Retail)',
+    linkedin:'Search: "Bowmore Global Brand Director" + "David Wilson Suntory Global Spirits"',
+    email:'first.last@suntoryglobalspirits.com (54%) OU @beamsuntory.com (81% legacy) — verify Hunter.io',
+    hook:'Partnership Aston × Bowmore 2019-23 ENDED en 2023 (Masters\' Selection 22YO = last). MAIS legal/brand-fit pathway déjà walked = unlock significatif. "Dormant Aston Martin relationship reactivation pour 70th anniversary Ecurie Ecosse" = pitch unique.',
+    signal:'2024 mai: "immersive experience" continuation référencée. Suntory Global Spirits UK launched fév 2025 (Glasgow). Laphroaig × Willem Dafoe limited edition.',
+    speed:'SLOW-MED — Japanese parent + global brand committee. MAIS precedent Aston Martin shorten timeline si tombé sur bon contact.',
+    next:'Find ex-manager du programme Bowmore × Aston 2019-23 via LinkedIn',
+    notes:'Reactivation angle = unique. Patience requise vs Tier 1.' },
+
+  { id:'tgt-hoa', company:'C. Hoare & Co', geo:'UK', category:'finance', tier:3, source:'cold', confidence:'LOW', status:'to_scout', ticket:50000, channel:'email',
+    hq:'37 Fleet Street, London EC4P 4DQ (depuis 1690) · ~£135M rev · 440 employés',
+    contact:'Rennie Hoare (Partner, Head Philanthropy — next-gen face) · Alexander Hoare (Partner, social impact)',
+    linkedin:'Search: "Rennie Hoare C. Hoare" + "Alexander Hoare hoaresbank"',
+    email:'rennie.hoare@hoaresbank.co.uk · alexander.hoare@hoaresbank.co.uk (MED)',
+    hook:'⚠️ NOT sponsorship — pitch as PHILANTHROPY + UHNW hospitality. Sir Jackie Stewart Race for Dementia (déjà sponsor team, Stewart a couru pour Ecurie Ecosse) = bridge crucial. Frame: Spa weekend = Race for Dementia fundraising activation + 20 top family-office clients C. Hoare hospitality.',
+    signal:'Golden Bottle Trust philanthropy program (£30M+ donné historique).',
+    speed:'SLOW-FAST hybrid — partners ont authorité totale (no committee) mais culture délibérée. UN partner champion kills it en 1 sem, sinon dies.',
+    next:'EN cold email Rennie Hoare — opening narratif Jackie Stewart, framing philanthropie pas sponsorship',
+    notes:'Pitch comme sponsorship = instant no. Tax-deductible via Golden Bottle Trust si bien structuré.' },
+
+  { id:'tgt-sch', company:'Schweizer Electronic AG', geo:'DE', category:'tech', tier:3, source:'elms_warm', confidence:'MED', status:'to_scout', ticket:75000, channel:'both',
+    hq:'Germany · €173M rev · 4e génération famille',
+    contact:'Nicolas-Fabian Schweizer (CEO, 4e gen famille)',
+    linkedin:'Search: "Nicolas-Fabian Schweizer"',
+    email:'nicolas.schweizer@schweizer.de (MED)',
+    hook:'Family-owned German auto-PCB (84% auto revenue). €100-180k band = 50k anchor reachable. Spa = THE annual German enterprise endurance weekend.',
+    signal:'Existing intel sp-data.js (prospect).',
+    speed:'MED — family-owned décide.',
+    next:'Pure Spa pitch — single-race ask easier first sale than full ELMS',
+    notes:'ELMS WARM (prospect stage). Family business = first sale single-race smarter.' }
 ];
 
 const STATUS_LABELS = {
@@ -1326,8 +1575,10 @@ const STATUS_GROUPS = [
   { key: 'lost', label: 'Perdus', includes: ['lost'] }
 ];
 
-const GEO_FLAGS = { UK: '🇬🇧', BE: '🇧🇪', FR: '🇫🇷', DE: '🇩🇪', OTHER: '🌍' };
+const GEO_FLAGS = { UK: '🇬🇧', BE: '🇧🇪', LU: '🇱🇺', NL: '🇳🇱', FR: '🇫🇷', DE: '🇩🇪', CH: '🇨🇭', SE: '🇸🇪', IT: '🇮🇹', OTHER: '🌍' };
 const CAT_LABELS = { luxe: 'Luxe', tech: 'Tech', finance: 'Finance', auto: 'Auto', other: 'Autre' };
+const SOURCE_LABELS = { cold: '🥶 Cold', elms_warm: '🔥 ELMS warm' };
+const CONFIDENCE_COLORS = { 'HIGH': '#2ecc71', 'MED-HIGH': '#88e371', 'MED': '#ffdd00', 'MED-LOW': '#ffa500', 'LOW': '#ff5555' };
 
 function loadPipeline() {
   try {
@@ -1447,14 +1698,26 @@ function renderTable(targets) {
     return;
   }
   const sortOrder = { 1: 0, 2: 1, 3: 2 };
-  targets.sort((a, b) => (sortOrder[a.tier] - sortOrder[b.tier]) || a.company.localeCompare(b.company));
-  body.innerHTML = targets.map(t => `
+  const confOrder = { 'HIGH': 0, 'MED-HIGH': 1, 'MED': 2, 'MED-LOW': 3, 'LOW': 4 };
+  targets.sort((a, b) =>
+    (sortOrder[a.tier] - sortOrder[b.tier]) ||
+    ((confOrder[a.confidence||'MED'] ?? 2) - (confOrder[b.confidence||'MED'] ?? 2)) ||
+    a.company.localeCompare(b.company)
+  );
+  body.innerHTML = targets.map(t => {
+    const sourcePill = t.source === 'elms_warm'
+      ? `<span class="source-pill warm" title="Warm via existing ELMS pipeline">🔥</span>`
+      : '';
+    const confDot = t.confidence
+      ? `<span class="conf-dot" title="${t.confidence}" style="background:${CONFIDENCE_COLORS[t.confidence]||'#888'}"></span>`
+      : '';
+    return `
     <tr onclick="openEditModal('${t.id}')">
-      <td class="company">${escapeHtml(t.company)}</td>
+      <td class="company">${escapeHtml(t.company)} ${sourcePill}</td>
       <td class="geo"><span class="geo-flag">${GEO_FLAGS[t.geo] || '🌍'}</span></td>
       <td><span class="cat-pill cat-${t.category}">${CAT_LABELS[t.category] || t.category}</span></td>
-      <td class="tier-cell"><span class="tier-badge tier-${t.tier}">${t.tier}</span></td>
-      <td style="max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${escapeHtml(t.contact || '')}</td>
+      <td class="tier-cell"><span class="tier-badge tier-${t.tier}">${t.tier}</span>${confDot}</td>
+      <td style="max-width: 240px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${escapeHtml(t.contact || '')}</td>
       <td>${t.channel || ''}</td>
       <td onclick="event.stopPropagation()">
         <select class="pipe-status-select" onchange="quickStatus('${t.id}', this.value)">
@@ -1464,8 +1727,8 @@ function renderTable(targets) {
       <td>€${(t.ticket || 0).toLocaleString('fr-FR')}</td>
       <td class="pipe-next-action">${escapeHtml(t.next || '')}</td>
       <td style="text-align:right;color:var(--muted);">✎</td>
-    </tr>
-  `).join('');
+    </tr>`;
+  }).join('');
 }
 
 function escapeHtml(s) {
@@ -1481,21 +1744,32 @@ function quickStatus(id, status) {
 
 let currentEditId = null;
 
+function fillModal(t) {
+  document.getElementById('t-id').value = t.id || '';
+  document.getElementById('t-company').value = t.company || '';
+  document.getElementById('t-hq').value = t.hq || '';
+  document.getElementById('t-geo').value = t.geo || 'UK';
+  document.getElementById('t-category').value = t.category || 'tech';
+  document.getElementById('t-source').value = t.source || 'cold';
+  document.getElementById('t-tier').value = String(t.tier || 2);
+  document.getElementById('t-confidence').value = t.confidence || 'MED';
+  document.getElementById('t-contact').value = t.contact || '';
+  document.getElementById('t-linkedin').value = t.linkedin || '';
+  document.getElementById('t-email').value = t.email || '';
+  document.getElementById('t-channel').value = t.channel || 'both';
+  document.getElementById('t-ticket').value = t.ticket || 50000;
+  document.getElementById('t-status').value = t.status || 'to_scout';
+  document.getElementById('t-hook').value = t.hook || '';
+  document.getElementById('t-signal').value = t.signal || '';
+  document.getElementById('t-speed').value = t.speed || '';
+  document.getElementById('t-next').value = t.next || '';
+  document.getElementById('t-notes').value = t.notes || '';
+}
+
 function openAddModal() {
   currentEditId = null;
   document.getElementById('modalTitle').textContent = 'Ajouter une cible';
-  document.getElementById('t-id').value = '';
-  document.getElementById('t-company').value = '';
-  document.getElementById('t-geo').value = 'UK';
-  document.getElementById('t-category').value = 'tech';
-  document.getElementById('t-tier').value = '2';
-  document.getElementById('t-contact').value = '';
-  document.getElementById('t-channel').value = 'both';
-  document.getElementById('t-ticket').value = 50000;
-  document.getElementById('t-status').value = 'to_scout';
-  document.getElementById('t-hook').value = '';
-  document.getElementById('t-next').value = '';
-  document.getElementById('t-notes').value = '';
+  fillModal({});
   document.getElementById('deleteBtn').style.display = 'none';
   document.getElementById('modalOverlay').classList.add('open');
 }
@@ -1506,18 +1780,7 @@ function openEditModal(id) {
   if (!t) return;
   currentEditId = id;
   document.getElementById('modalTitle').textContent = 'Éditer ' + t.company;
-  document.getElementById('t-id').value = t.id;
-  document.getElementById('t-company').value = t.company || '';
-  document.getElementById('t-geo').value = t.geo || 'UK';
-  document.getElementById('t-category').value = t.category || 'tech';
-  document.getElementById('t-tier').value = String(t.tier || 2);
-  document.getElementById('t-contact').value = t.contact || '';
-  document.getElementById('t-channel').value = t.channel || 'both';
-  document.getElementById('t-ticket').value = t.ticket || 50000;
-  document.getElementById('t-status').value = t.status || 'to_scout';
-  document.getElementById('t-hook').value = t.hook || '';
-  document.getElementById('t-next').value = t.next || '';
-  document.getElementById('t-notes').value = t.notes || '';
+  fillModal(t);
   document.getElementById('deleteBtn').style.display = 'inline-block';
   document.getElementById('modalOverlay').classList.add('open');
 }
@@ -1534,14 +1797,21 @@ function saveTarget() {
   const data = {
     id: currentEditId || genId(),
     company,
+    hq: document.getElementById('t-hq').value.trim(),
     geo: document.getElementById('t-geo').value,
     category: document.getElementById('t-category').value,
+    source: document.getElementById('t-source').value,
     tier: parseInt(document.getElementById('t-tier').value),
+    confidence: document.getElementById('t-confidence').value,
     contact: document.getElementById('t-contact').value.trim(),
+    linkedin: document.getElementById('t-linkedin').value.trim(),
+    email: document.getElementById('t-email').value.trim(),
     channel: document.getElementById('t-channel').value,
     ticket: parseInt(document.getElementById('t-ticket').value) || 0,
     status: document.getElementById('t-status').value,
     hook: document.getElementById('t-hook').value.trim(),
+    signal: document.getElementById('t-signal').value.trim(),
+    speed: document.getElementById('t-speed').value.trim(),
     next: document.getElementById('t-next').value.trim(),
     notes: document.getElementById('t-notes').value.trim(),
     updated: new Date().toISOString()
@@ -1595,9 +1865,33 @@ function importPipeline(event) {
 }
 
 function resetPipeline() {
-  if (!confirm('Reset aux 12 cibles initiales ? Toutes tes modifications seront perdues.')) return;
+  if (!confirm('Reset aux cibles canoniques ? Toutes tes modifications seront perdues.')) return;
   localStorage.removeItem(STORAGE_KEY);
   renderPipeline();
+}
+
+// Re-sync intel fields (linkedin/email/hook/signal/speed/confidence/hq/contact) from canonical
+// WITHOUT touching the user's working state (status/next/notes/ticket).
+function syncIntel() {
+  const current = loadPipeline();
+  const byId = {}; current.forEach(t => byId[t.id] = t);
+  const byName = {}; current.forEach(t => byName[t.company.toLowerCase().trim()] = t);
+  const intelFields = ['hq','contact','linkedin','email','hook','signal','speed','confidence','source','category','geo','tier'];
+  const workingFields = ['status','next','notes','ticket','channel'];
+  let updated = 0, added = 0;
+  const merged = [...current];
+  DEFAULT_TARGETS.forEach(canon => {
+    const existing = byId[canon.id] || byName[canon.company.toLowerCase().trim()];
+    if (existing) {
+      intelFields.forEach(f => { if (canon[f] !== undefined) existing[f] = canon[f]; });
+      updated++;
+    } else {
+      merged.push({ ...canon, created: new Date().toISOString() });
+      added++;
+    }
+  });
+  savePipeline(merged);
+  alert(`Sync OK : ${updated} cibles mises à jour (intel), ${added} cibles ajoutées. Tes statuts/notes/next sont préservés.`);
 }
 
 initView();
