@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outreach Engine — Overview</title>
+<link rel="stylesheet" href="_shared.css">
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1><span class="accent-multi">Outreach Engine</span> — Overview</h1>
+    <div class="header-sub">Cross-program dashboard · <code>romain@romain-leroux.racing</code></div>
+  </div>
+  <div class="nav">
+    <a class="active overview" href="index.html">Overview</a>
+    <a href="elms.html">ELMS</a>
+    <a href="spa.html">24h Spa</a>
+    <a href="stratos.html">Stratos</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div id="totals" class="kpis"></div>
+
+  <section class="block">
+    <h2>Programs <span class="count" id="program-count">—</span></h2>
+    <div id="programs"></div>
+  </section>
+
+  <section class="block">
+    <h2>Comment ça marche</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;font-size:13px;line-height:1.6;color:var(--muted)">
+      <div>
+        <strong style="color:var(--text)">3 programmes isolés</strong><br>
+        Chaque prospect est verrouillé à <em>un seul</em> programme à la création. SQLite refuse tout changement de programme via trigger d'immutabilité.
+      </div>
+      <div>
+        <strong style="color:var(--text)">Garde-fous SMTP</strong><br>
+        Avant chaque envoi : (1) <code>prospect.program == campaign.program</code>, (2) email pas actif dans 2 programs simultanément, (3) spacing 48h+ sur même domaine entre programs.
+      </div>
+      <div>
+        <strong style="color:var(--text)">Footer par programme</strong><br>
+        Chaque mail signe avec un footer différent selon le programme (ELMS · Spa · Stratos). Visible dans l'audit trail.
+      </div>
+      <div>
+        <strong style="color:var(--text)">Dashboard anonymisé</strong><br>
+        Aucun email/téléphone/LinkedIn n'est exporté vers GitHub. Tu vois <code>has_email: ✓</code> mais l'adresse ne quitte jamais la DB locale.
+      </div>
+    </div>
+  </section>
+
+  <footer class="meta">
+    <span>Source : <code>Desktop\code\outreach-engine\data\outreach.db</code> · Refresh via <code>python scripts/15_export_github_pages.py</code></span>
+    <span id="generated">…</span>
+  </footer>
+
+</div>
+
+<script src="_shared.js"></script>
+<script>
+(async () => {
+  const d = await loadJSON('data/overview.json');
+  document.getElementById('generated').textContent = 'Généré : ' + fmtDateTime(d.generated_at);
+
+  const t = d.totals;
+  document.getElementById('totals').innerHTML = `
+    <div class="kpi"><div class="kpi-label">Prospects total</div><div class="kpi-value">${fmtNum(t.prospects_total)}</div></div>
+    <div class="kpi green"><div class="kpi-label">Actifs</div><div class="kpi-value">${fmtNum(t.prospects_active)}</div></div>
+    <div class="kpi blue"><div class="kpi-label">Campagnes actives</div><div class="kpi-value">${fmtNum(t.campaigns_active)}</div></div>
+    <div class="kpi"><div class="kpi-label">Sends total</div><div class="kpi-value">${fmtNum(t.sends_total)}</div></div>
+    <div class="kpi"><div class="kpi-label">Replies</div><div class="kpi-value">${fmtNum(t.replies_total)}</div><div class="kpi-sub">${t.replies_positive} positifs</div></div>
+    <div class="kpi yellow"><div class="kpi-label">Upcoming 14j</div><div class="kpi-value">${fmtNum(t.upcoming_14d)}</div></div>
+  `;
+
+  document.getElementById('program-count').textContent = d.programs.length;
+  const programLink = {
+    'ELMS_SPONSORS': 'elms.html',
+    'SPA_24H': 'spa.html',
+    'STRATOS_B2B': 'stratos.html',
+  };
+  const programClass = {
+    'ELMS_SPONSORS': 'elms',
+    'SPA_24H': 'spa',
+    'STRATOS_B2B': 'stratos',
+  };
+  const html = d.programs.map(p => {
+    const k = p.kpis;
+    const cls = programClass[p.program] || '';
+    return `
+      <a href="${programLink[p.program]}" style="display:block;text-decoration:none;color:inherit;margin-bottom:12px">
+        <div style="background:var(--bg3);border:1px solid var(--line);border-radius:10px;padding:18px 22px;border-left:4px solid var(--${cls});transition:all 0.15s">
+          <div style="display:flex;justify-content:space-between;align-items:start;gap:16px;flex-wrap:wrap">
+            <div>
+              <div style="font-size:16px;font-weight:700;margin-bottom:4px">${p.label}</div>
+              <div style="color:var(--dim);font-size:12px">
+                ${k.prospects_total} prospects · ${k.campaigns_active} campagne(s) active(s) · ${k.upcoming_14d} envoi(s) prévus 14j
+              </div>
+            </div>
+            <div style="display:flex;gap:18px">
+              <div style="text-align:right">
+                <div style="color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:0.5px">Actifs</div>
+                <div style="font-size:22px;font-weight:800;color:var(--green)">${k.prospects_active}</div>
+              </div>
+              <div style="text-align:right">
+                <div style="color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:0.5px">Sends</div>
+                <div style="font-size:22px;font-weight:800">${k.sends_total}</div>
+              </div>
+              <div style="text-align:right">
+                <div style="color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:0.5px">Replies</div>
+                <div style="font-size:22px;font-weight:800;color:var(--purple)">${k.replies_total}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    `;
+  }).join('');
+  document.getElementById('programs').innerHTML = html;
+})().catch(err => {
+  document.body.insertAdjacentHTML('beforeend',
+    `<div class="container"><div class="empty"><div class="big">⚠</div>Erreur de chargement : ${err.message}</div></div>`);
+});
+</script>
+
+</body>
+</html>

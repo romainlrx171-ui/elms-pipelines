@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-05-25T10:28:10Z",
+  "totals": {
+    "prospects_total": 29,
+    "prospects_active": 7,
+    "sends_total": 1,
+    "replies_total": 1,
+    "replies_positive": 0,
+    "campaigns_active": 1,
+    "upcoming_14d": 7
+  },
+  "programs": [
+    {
+      "program": "ELMS_SPONSORS",
+      "label": "ELMS 2026 — Ferrari Kessel",
+      "kpis": {
+        "prospects_total": 21,
+        "prospects_active": 7,
+        "prospects_paused": 14,
+        "prospects_replied": 0,
+        "prospects_bounced": 0,
+        "prospects_with_email": 21,
+        "prospects_without_email": 0,
+        "prospects_with_linkedin": 3,
+        "by_status": {
+          "paused": 14,
+          "active": 7
+        },
+        "by_tier": {
+          "LOW": 7,
+          "HIGH": 10,
+          "MED": 2,
+          "MED-HIGH": 2
+        },
+        "by_geo": {
+          "unknown": 7,
+          "France": 2,
+          "Germany": 1,
+          "Paris": 6,
+          "Denver": 1,
+          "Detroit": 1,
+          "Hong Kong": 1,
+          "Greece": 1,
+          "Saint-Germain-en-Laye": 1
+        },
+        "campaigns_total": 2,
+        "campaigns_active": 1,
+        "sends_total": 1,
+        "replies_total": 1,
+        "replies_positive": 0,
+        "upcoming_14d": 7
+      }
+    },
+    {
+      "program": "SPA_24H",
+      "label": "24h Spa 2026 — Aston / Ecurie Ecosse",
+      "kpis": {
+        "prospects_total": 8,
+        "prospects_active": 0,
+        "prospects_paused": 8,
+        "prospects_replied": 0,
+        "prospects_bounced": 0,
+        "prospects_with_email": 8,
+        "prospects_without_email": 0,
+        "prospects_with_linkedin": 0,
+        "by_status": {
+          "paused": 8
+        },
+        "by_tier": {
+          "LOW": 7,
+          "HIGH": 1
+        },
+        "by_geo": {
+          "Cologne, Germany": 1,
+          "Munich": 1,
+          "UK": 2,
+          "Belgium": 1,
+          "unknown": 1,
+          "California, US": 1,
+          "London": 1
+        },
+        "campaigns_total": 1,
+        "campaigns_active": 0,
+        "sends_total": 0,
+        "replies_total": 0,
+        "replies_positive": 0,
+        "upcoming_14d": 0
+      }
+    },
+    {
+      "program": "STRATOS_B2B",
+      "label": "Stratos Académie — B2B Corporate",
+      "kpis": {
+        "prospects_total": 0,
+        "prospects_active": 0,
+        "prospects_paused": 0,
+        "prospects_replied": 0,
+        "prospects_bounced": 0,
+        "prospects_with_email": 0,
+        "prospects_without_email": 0,
+        "prospects_with_linkedin": 0,
+        "by_status": {},
+        "by_tier": {},
+        "by_geo": {},
+        "campaigns_total": 0,
+        "campaigns_active": 0,
+        "sends_total": 0,
+        "replies_total": 0,
+        "replies_positive": 0,
+        "upcoming_14d": 0
+      }
+    }
+  ]
+}

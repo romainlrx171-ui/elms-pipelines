@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outreach Engine — ELMS 2026</title>
+<link rel="stylesheet" href="_shared.css">
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1><span class="accent-elms">ELMS 2026</span> — Ferrari GT3 / Kessel Racing</h1>
+    <div class="header-sub">Pipeline B2B sponsoring saison ELMS · sender <code>romain@romain-leroux.racing</code></div>
+  </div>
+  <div class="nav">
+    <a href="index.html">Overview</a>
+    <a class="active elms" href="elms.html">ELMS</a>
+    <a href="spa.html">24h Spa</a>
+    <a href="stratos.html">Stratos</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div id="kpis" class="kpis"></div>
+
+  <section class="block">
+    <h2>Campagnes <span class="count" id="camp-count">—</span></h2>
+    <div id="campaigns"></div>
+  </section>
+
+  <section class="block">
+    <h2>Envois prévus (14j) <span class="count" id="up-count">—</span></h2>
+    <div id="upcoming"></div>
+  </section>
+
+  <section class="block">
+    <h2>Prospects <span class="count" id="prospect-count">—</span></h2>
+    <div class="filters">
+      <span style="color:var(--dim);font-size:11px;align-self:center;text-transform:uppercase;letter-spacing:0.5px;margin-right:4px">Statut</span>
+      <button class="filter-btn active neutral" data-status="all">Tous</button>
+      <button class="filter-btn" data-status="active">Actifs</button>
+      <button class="filter-btn" data-status="paused">Paused</button>
+      <button class="filter-btn" data-status="replied">Replied</button>
+      <button class="filter-btn" data-status="bounced">Bounced</button>
+    </div>
+    <div class="filters">
+      <span style="color:var(--dim);font-size:11px;align-self:center;text-transform:uppercase;letter-spacing:0.5px;margin-right:4px">Tier</span>
+      <button class="filter-btn tier active neutral" data-tier="all">Tous</button>
+      <button class="filter-btn tier" data-tier="HIGH">HIGH</button>
+      <button class="filter-btn tier" data-tier="MED-HIGH">MED-HIGH</button>
+      <button class="filter-btn tier" data-tier="MED">MED</button>
+      <button class="filter-btn tier" data-tier="LOW">LOW</button>
+    </div>
+    <div style="overflow-x:auto">
+      <table id="prospects-table">
+        <thead>
+          <tr>
+            <th>Société / Rôle</th>
+            <th>Tier</th>
+            <th>Statut</th>
+            <th style="text-align:center" title="Avons-nous une adresse email ?">Email ?</th>
+            <th style="text-align:center">LinkedIn ?</th>
+            <th>Géo</th>
+            <th style="text-align:center">Sends</th>
+            <th>Dernier envoi</th>
+            <th>Prochain</th>
+            <th>Dernière reply</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="meta">
+    <span>Source : <code>outreach.db</code> filtré <code>program = 'ELMS_SPONSORS'</code></span>
+    <span id="generated">…</span>
+  </footer>
+
+</div>
+
+<script src="_shared.js"></script>
+<script>
+(async () => {
+  const d = await loadJSON('data/elms.json');
+  document.getElementById('generated').textContent = 'Généré : ' + fmtDateTime(d.generated_at);
+
+  const k = d.kpis;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi elms"><div class="kpi-label">Prospects ELMS</div><div class="kpi-value">${fmtNum(k.prospects_total)}</div></div>
+    <div class="kpi green"><div class="kpi-label">Actifs</div><div class="kpi-value">${fmtNum(k.prospects_active)}</div></div>
+    <div class="kpi yellow"><div class="kpi-label">Paused</div><div class="kpi-value">${fmtNum(k.prospects_paused)}</div></div>
+    <div class="kpi"><div class="kpi-label">Avec email</div><div class="kpi-value">${fmtNum(k.prospects_with_email)}</div><div class="kpi-sub">/ ${k.prospects_total}</div></div>
+    <div class="kpi"><div class="kpi-label">Sends total</div><div class="kpi-value">${fmtNum(k.sends_total)}</div></div>
+    <div class="kpi"><div class="kpi-label">Replies</div><div class="kpi-value">${fmtNum(k.replies_total)}</div><div class="kpi-sub">${k.replies_positive} positifs</div></div>
+    <div class="kpi yellow"><div class="kpi-label">Upcoming 14j</div><div class="kpi-value">${fmtNum(k.upcoming_14d)}</div></div>
+  `;
+
+  document.getElementById('camp-count').textContent = d.campaigns.length;
+  document.getElementById('campaigns').innerHTML = d.campaigns.length === 0
+    ? `<div class="empty"><div class="big">·</div>Aucune campagne ELMS pour l'instant</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Campagne</th><th>Statut</th><th>Goal</th>
+        <th style="text-align:center">Assignments</th>
+        <th style="text-align:center">Sends</th>
+        <th style="text-align:center">Bounced</th>
+        <th style="text-align:center">Replies</th>
+        <th>Démarrée</th></tr></thead><tbody>
+        ${d.campaigns.map(c => `
+          <tr>
+            <td><strong>${c.name}</strong><div style="color:var(--dim);font-size:11px">${c.id}</div></td>
+            <td>${badge(c.status)}</td>
+            <td style="color:var(--muted);font-size:12px;max-width:240px">${c.goal || ''}</td>
+            <td style="text-align:center">${c.assignments}</td>
+            <td style="text-align:center"><strong>${c.sends_ok}</strong>/${c.sends_total}</td>
+            <td style="text-align:center">${c.sends_bounced || '—'}</td>
+            <td style="text-align:center">${c.replies_total} <span style="color:var(--green)">(${c.replies_positive}+)</span></td>
+            <td>${fmtDate(c.started_at || c.created_at)}</td>
+          </tr>
+        `).join('')}
+        </tbody></table></div>`;
+
+  document.getElementById('up-count').textContent = d.upcoming.length;
+  document.getElementById('upcoming').innerHTML = d.upcoming.length === 0
+    ? `<div class="empty"><div class="big">·</div>Rien de prévu sur les 14 prochains jours</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Quand</th><th>Société</th><th>Touch</th>
+      </tr></thead><tbody>
+      ${d.upcoming.map(u => `
+        <tr>
+          <td><strong>${fmtDateTime(u.scheduled_for)}</strong></td>
+          <td>${u.company}</td>
+          <td>T${u.touch_n}</td>
+        </tr>
+      `).join('')}</tbody></table></div>`;
+
+  document.getElementById('prospect-count').textContent = d.prospects.length;
+  const tbody = document.querySelector('#prospects-table tbody');
+  tbody.innerHTML = d.prospects.map(renderProspectRow).join('');
+
+  attachFilters('#prospects-table', '.filter-btn[data-status]', '.filter-btn.tier[data-tier]');
+})().catch(err => {
+  document.body.insertAdjacentHTML('beforeend',
+    `<div class="container"><div class="empty"><div class="big">⚠</div>Erreur de chargement : ${err.message}</div></div>`);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outreach Engine — Stratos Académie</title>
+<link rel="stylesheet" href="_shared.css">
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1><span class="accent-stratos">Stratos Académie</span> — B2B Corporate</h1>
+    <div class="header-sub">Outreach corporate Yvelines / IDF Ouest · sender à définir (pas <code>romain@romain-leroux.racing</code>)</div>
+  </div>
+  <div class="nav">
+    <a href="index.html">Overview</a>
+    <a href="elms.html">ELMS</a>
+    <a href="spa.html">24h Spa</a>
+    <a class="active stratos" href="stratos.html">Stratos</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <section class="block" style="border-color:var(--stratos);border-width:1px;background:var(--stratos-soft)">
+    <h2 style="color:var(--stratos)">⏸  Programme en attente</h2>
+    <p style="color:var(--muted);line-height:1.7">
+      Le programme <strong>Stratos Académie B2B</strong> est défini dans l'engine mais aucun prospect n'y est encore assigné — Romain a décidé 2026-05-25 de le mettre de côté en priorité 2 le temps que les programmes ELMS et 24h Spa tournent en production.
+    </p>
+    <div style="margin-top:18px;padding:14px 18px;background:var(--bg2);border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--muted)">
+      <strong style="color:var(--text)">Pré-requis avant activation</strong>
+      <ul style="margin:8px 0 0 18px;line-height:1.7">
+        <li>Sender Stratos confirmé (sub-domain dédié, <em>pas</em> <code>romain@romain-leroux.racing</code>)</li>
+        <li>SPF + DKIM + DMARC vérifiés sur ce sender</li>
+        <li>Warmup 5-7 jours si domaine jamais cold-envoyé</li>
+        <li>Landing page <code>/team-building-simulateur-f1-saint-germain</code> live</li>
+        <li>1-pager B2B Corporate PDF exporté</li>
+        <li>Validation TIER A1 (5 cibles top : Médiane, Webdyn, Esaote, Phycea, Tech-AP)</li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="kpis" class="kpis"></div>
+
+  <section class="block">
+    <h2>Cibles définies (mémoire projet)</h2>
+    <p style="color:var(--muted);font-size:13px;line-height:1.7">
+      30 prospects B2B corporate identifiés dans <code>Desktop\STRATOS-B2B-OUTREACH-2026-05-24\</code> :
+      TIER A1 hot (5) · A2 warm (10) · B test (10) · C hold (5). Tous Yvelines / IDF Ouest à ≤10 km de Saint-Germain.
+    </p>
+    <p style="color:var(--muted);font-size:13px;line-height:1.7;margin-top:10px">
+      Une fois les pré-requis levés, importer via :
+      <code>python scripts/01_import_prospects.py stratos-b2b-seed.json --program STRATOS_B2B</code>
+    </p>
+  </section>
+
+  <footer class="meta">
+    <span>Source : <code>outreach.db</code> filtré <code>program = 'STRATOS_B2B'</code></span>
+    <span id="generated">…</span>
+  </footer>
+
+</div>
+
+<script src="_shared.js"></script>
+<script>
+(async () => {
+  const d = await loadJSON('data/stratos.json');
+  document.getElementById('generated').textContent = 'Généré : ' + fmtDateTime(d.generated_at);
+  const k = d.kpis;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi stratos"><div class="kpi-label">Prospects Stratos</div><div class="kpi-value">${fmtNum(k.prospects_total)}</div></div>
+    <div class="kpi"><div class="kpi-label">Actifs</div><div class="kpi-value">${fmtNum(k.prospects_active)}</div></div>
+    <div class="kpi"><div class="kpi-label">Campagnes actives</div><div class="kpi-value">${fmtNum(k.campaigns_active)}</div></div>
+    <div class="kpi"><div class="kpi-label">Sends</div><div class="kpi-value">${fmtNum(k.sends_total)}</div></div>
+    <div class="kpi"><div class="kpi-label">Replies</div><div class="kpi-value">${fmtNum(k.replies_total)}</div></div>
+  `;
+})().catch(err => {
+  document.body.insertAdjacentHTML('beforeend',
+    `<div class="container"><div class="empty"><div class="big">⚠</div>Erreur de chargement : ${err.message}</div></div>`);
+});
+</script>
+
+</body>
+</html>
