@@ -14,6 +14,8 @@
   --spa-soft: rgba(37, 99, 235, 0.15);
   --stratos: #f97316;
   --stratos-soft: rgba(249, 115, 22, 0.15);
+  --bd: #a855f7;
+  --bd-soft: rgba(168, 85, 247, 0.15);
 
   --green: #22c55e;
   --yellow: #eab308;
@@ -79,6 +81,7 @@ a { color: inherit; text-decoration: none; }
 .nav a.active.elms { background: var(--elms-soft); color: var(--elms); }
 .nav a.active.spa { background: var(--spa-soft); color: var(--spa); }
 .nav a.active.stratos { background: var(--stratos-soft); color: var(--stratos); }
+.nav a.active.bd { background: var(--bd-soft); color: var(--bd); }
 .nav a.active.overview { background: rgba(255,255,255,0.08); color: var(--text); }
 
 .container {
@@ -121,6 +124,7 @@ a { color: inherit; text-decoration: none; }
 .kpi.elms .kpi-value { color: var(--elms); }
 .kpi.spa .kpi-value { color: var(--spa); }
 .kpi.stratos .kpi-value { color: var(--stratos); }
+.kpi.bd .kpi-value { color: var(--bd); }
 .kpi.green .kpi-value { color: var(--green); }
 .kpi.yellow .kpi-value { color: var(--yellow); }
 .kpi.red .kpi-value { color: var(--red); }

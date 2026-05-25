@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outreach Engine — Send-bench</title>
+<link rel="stylesheet" href="_shared.css">
+<style>
+  .perf-bar {
+    display: inline-block;
+    width: 100px;
+    height: 8px;
+    background: var(--bg3);
+    border-radius: 4px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  .perf-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s;
+  }
+  .perf-good { background: var(--green); }
+  .perf-warn { background: var(--yellow); }
+  .perf-bad { background: var(--red); }
+  .perf-zero { background: var(--bg3); }
+  .program-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+  .program-tag.elms { background: var(--elms-soft); color: var(--elms); }
+  .program-tag.spa { background: var(--spa-soft); color: var(--spa); }
+  .program-tag.stratos { background: var(--stratos-soft); color: var(--stratos); }
+  .program-tag.bd { background: var(--bd-soft); color: var(--bd); }
+  .insight {
+    padding: 14px 18px;
+    background: var(--bg3);
+    border-left: 3px solid var(--blue);
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .insight strong { color: var(--text); }
+  .baseline {
+    color: var(--dim);
+    font-size: 11px;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1><span class="accent-multi">📊 Send-bench</span> — Performance & Learning</h1>
+    <div class="header-sub">Reply rate · bounce rate · subject performance · réponses récentes par programme</div>
+  </div>
+  <div class="nav">
+    <a href="index.html">Overview</a>
+    <a href="elms.html">ELMS</a>
+    <a href="spa.html">24h Spa</a>
+    <a href="bd.html">BD</a>
+    <a href="stratos.html">Stratos</a>
+    <a class="active overview" href="send-bench.html">📊 Send-bench</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div id="totals" class="kpis"></div>
+
+  <section class="block">
+    <h2>Benchmarks Hormozi 2026</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;font-size:13px">
+      <div class="insight">
+        <strong>Reply rate ≥ 8%</strong> — Cold email Hormozi B2B benchmark.<br>
+        <span class="baseline">< 5% = revoir hook/subject · 5-8% = OK · ≥ 8% = scaler</span>
+      </div>
+      <div class="insight">
+        <strong>Positive reply ≥ 1.5%</strong> — Meeting-bookable signal.<br>
+        <span class="baseline">Filtrer les OOO/négatifs avant ce calcul</span>
+      </div>
+      <div class="insight">
+        <strong>Bounce rate < 3%</strong> — Reputation safe.<br>
+        <span class="baseline">> 5% = Hunter verify obligatoire avant tout nouveau send</span>
+      </div>
+      <div class="insight">
+        <strong>Primary inbox ≥ 70%</strong> — Bonne déliverabilité.<br>
+        <span class="baseline">Si < 50% = pause + warmup</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Performance par programme <span class="count" id="prog-count">—</span></h2>
+    <div id="program-perf"></div>
+  </section>
+
+  <section class="block">
+    <h2>Performance par touch <span class="count" id="touch-count">—</span></h2>
+    <p style="color:var(--dim);font-size:12px;margin-bottom:14px">Le T1 ouvre la conversation. T2/T3 sont des relances. Si reply rate T1 < T2 → ton T1 ne convertit pas (subject ou hook à revoir).</p>
+    <div id="touches"></div>
+  </section>
+
+  <section class="block">
+    <h2>Top subject lines <span class="count" id="subj-count">—</span></h2>
+    <p style="color:var(--dim);font-size:12px;margin-bottom:14px">Trié par reply rate. Min 1 send pour figurer. À ≥ 5 sends/subject les données deviennent stables.</p>
+    <div id="subjects"></div>
+  </section>
+
+  <section class="block">
+    <h2>Réponses récentes <span class="count" id="reply-count">—</span></h2>
+    <p style="color:var(--dim);font-size:12px;margin-bottom:14px">30 dernières replies, anonymisé (société + sentiment + touch). Click sur le programme pour aller à sa page.</p>
+    <div id="replies"></div>
+  </section>
+
+  <footer class="meta">
+    <span>Source : <code>sends</code> + <code>replies</code> tables de <code>outreach.db</code></span>
+    <span id="generated">…</span>
+  </footer>
+
+</div>
+
+<script src="_shared.js"></script>
+<script>
+function progTag(p) {
+  const cls = ({
+    ELMS_SPONSORS: 'elms',
+    SPA_24H: 'spa',
+    STRATOS_B2B: 'stratos',
+    BD_ELMS_HOSPITALITY: 'bd',
+  })[p] || '';
+  const label = ({
+    ELMS_SPONSORS: 'ELMS',
+    SPA_24H: 'Spa',
+    STRATOS_B2B: 'Stratos',
+    BD_ELMS_HOSPITALITY: 'BD',
+  })[p] || p;
+  return `<span class="program-tag ${cls}">${label}</span>`;
+}
+
+function rateClass(rate, goodMin, warnMin) {
+  if (rate >= goodMin) return 'perf-good';
+  if (rate >= warnMin) return 'perf-warn';
+  return rate > 0 ? 'perf-bad' : 'perf-zero';
+}
+
+function rateBar(rate, goodMin = 0.08, warnMin = 0.05, max = 0.20) {
+  const pct = Math.min(100, (rate / max) * 100);
+  const cls = rateClass(rate, goodMin, warnMin);
+  return `<span class="perf-bar"><span class="perf-fill ${cls}" style="width:${pct}%"></span></span><strong>${(rate * 100).toFixed(1)}%</strong>`;
+}
+
+function bounceBar(rate, max = 0.10) {
+  // For bounce, low is good (inverse colors)
+  const pct = Math.min(100, (rate / max) * 100);
+  let cls = 'perf-good';
+  if (rate >= 0.05) cls = 'perf-bad';
+  else if (rate >= 0.03) cls = 'perf-warn';
+  if (rate === 0) cls = 'perf-zero';
+  return `<span class="perf-bar"><span class="perf-fill ${cls}" style="width:${pct}%"></span></span><strong>${(rate * 100).toFixed(1)}%</strong>`;
+}
+
+(async () => {
+  const d = await loadJSON('data/send-bench.json');
+  document.getElementById('generated').textContent = 'Généré : ' + fmtDateTime(d.generated_at);
+
+  const t = d.totals;
+  const replyRate = t.reply_rate || 0;
+  const bounceRate = t.bounce_rate || 0;
+  document.getElementById('totals').innerHTML = `
+    <div class="kpi"><div class="kpi-label">Sends total</div><div class="kpi-value">${fmtNum(t.sends_total)}</div></div>
+    <div class="kpi green"><div class="kpi-label">Reply rate global</div><div class="kpi-value">${(replyRate*100).toFixed(1)}%</div><div class="kpi-sub">${t.replies_total} replies (${t.replies_positive} +)</div></div>
+    <div class="kpi ${bounceRate >= 0.05 ? 'red' : (bounceRate >= 0.03 ? 'yellow' : 'green')}"><div class="kpi-label">Bounce rate</div><div class="kpi-value">${(bounceRate*100).toFixed(1)}%</div><div class="kpi-sub">${t.sends_bounced} bounces</div></div>
+    <div class="kpi yellow"><div class="kpi-label">Replies positifs</div><div class="kpi-value">${fmtNum(t.replies_positive)}</div></div>
+  `;
+
+  // Programs
+  document.getElementById('prog-count').textContent = d.programs.length;
+  const noProg = d.programs.length === 0;
+  document.getElementById('program-perf').innerHTML = noProg
+    ? `<div class="empty"><div class="big">·</div>Aucun send encore. Reviens ici après la 1ère Wave.</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Programme</th>
+        <th style="text-align:center">Sends</th>
+        <th>Reply rate</th>
+        <th>Positive rate</th>
+        <th>Bounce rate</th>
+        <th style="text-align:center">OOO</th>
+        <th style="text-align:center">Spam ↓</th>
+      </tr></thead><tbody>
+      ${d.programs.map(p => `
+        <tr>
+          <td>${progTag(p.program)}</td>
+          <td style="text-align:center">${p.sends_total}</td>
+          <td>${rateBar(p.reply_rate)}</td>
+          <td>${rateBar(p.positive_rate, 0.015, 0.008, 0.05)}</td>
+          <td>${bounceBar(p.bounce_rate)}</td>
+          <td style="text-align:center">${p.replies_ooo || 0}</td>
+          <td style="text-align:center">${p.placement_spam || 0}</td>
+        </tr>
+      `).join('')}
+      </tbody></table></div>`;
+
+  // Touches
+  document.getElementById('touch-count').textContent = d.touches.length;
+  document.getElementById('touches').innerHTML = d.touches.length === 0
+    ? `<div class="empty"><div class="big">·</div>Pas encore de data par touch.</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Programme</th>
+        <th style="text-align:center">Touch</th>
+        <th style="text-align:center">Sends</th>
+        <th style="text-align:center">Replies</th>
+        <th>Reply rate</th>
+        <th style="text-align:center">Bounced</th>
+      </tr></thead><tbody>
+      ${d.touches.map(t => `
+        <tr>
+          <td>${progTag(t.program)}</td>
+          <td style="text-align:center"><strong>T${t.touch_n}</strong></td>
+          <td style="text-align:center">${t.sends_total}</td>
+          <td style="text-align:center">${t.replies_total}</td>
+          <td>${rateBar(t.reply_rate)}</td>
+          <td style="text-align:center">${t.bounced || 0}</td>
+        </tr>
+      `).join('')}
+      </tbody></table></div>`;
+
+  // Subjects
+  document.getElementById('subj-count').textContent = d.subjects.length;
+  document.getElementById('subjects').innerHTML = d.subjects.length === 0
+    ? `<div class="empty"><div class="big">·</div>Pas encore de subjects à analyser.</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Subject</th>
+        <th>Programme</th>
+        <th style="text-align:center">Sends</th>
+        <th style="text-align:center">Replies</th>
+        <th>Reply rate</th>
+      </tr></thead><tbody>
+      ${d.subjects.map(s => `
+        <tr>
+          <td style="font-family:'SF Mono','Consolas',monospace;font-size:12px;max-width:480px">${s.subject}</td>
+          <td>${progTag(s.program)}</td>
+          <td style="text-align:center">${s.sends_total}</td>
+          <td style="text-align:center">${s.replies_total}</td>
+          <td>${rateBar(s.reply_rate)}</td>
+        </tr>
+      `).join('')}
+      </tbody></table></div>`;
+
+  // Recent replies
+  document.getElementById('reply-count').textContent = d.recent_replies.length;
+  document.getElementById('replies').innerHTML = d.recent_replies.length === 0
+    ? `<div class="empty"><div class="big">·</div>Aucune réponse reçue encore.</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Quand</th>
+        <th>Société</th>
+        <th>Programme</th>
+        <th>Sentiment</th>
+        <th style="text-align:center">Méthode</th>
+        <th style="text-align:center">Touch</th>
+      </tr></thead><tbody>
+      ${d.recent_replies.map(r => `
+        <tr>
+          <td><strong>${fmtDateTime(r.received_at)}</strong></td>
+          <td>${r.company}</td>
+          <td>${progTag(r.program)}</td>
+          <td>${badge(r.sentiment || 'unknown')}</td>
+          <td style="text-align:center;color:var(--dim);font-size:11px">${r.method || '—'}</td>
+          <td style="text-align:center">T${r.touch_n}</td>
+        </tr>
+      `).join('')}
+      </tbody></table></div>`;
+})().catch(err => {
+  document.body.insertAdjacentHTML('beforeend',
+    `<div class="container"><div class="empty"><div class="big">⚠</div>Erreur de chargement : ${err.message}</div></div>`);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-05-25T17:10:22Z",
+  "totals": {
+    "sends_total": 1,
+    "sends_bounced": 0,
+    "replies_total": 1,
+    "replies_positive": 0,
+    "reply_rate": 1.0,
+    "bounce_rate": 0.0
+  },
+  "programs": [
+    {
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "sends_ok": 1,
+      "sends_bounced": 0,
+      "sends_error": 0,
+      "replies_total": 1,
+      "replies_positive": 0,
+      "replies_negative": 0,
+      "replies_ooo": 0,
+      "replies_unsubscribe": 0,
+      "placement_primary": 0,
+      "placement_promotions": 0,
+      "placement_spam": 0,
+      "reply_rate": 1.0,
+      "bounce_rate": 0.0,
+      "positive_rate": 0.0
+    }
+  ],
+  "touches": [
+    {
+      "touch_n": 1,
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 1,
+      "bounced": 0,
+      "reply_rate": 1.0
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "quick test of the new sender",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    }
+  ],
+  "recent_replies": [
+    {
+      "company": "self (test)",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-05-24T22:11:41Z",
+      "sentiment": "unclassified",
+      "method": "keyword",
+      "touch_n": 1
+    }
+  ]
+}
