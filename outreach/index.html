@@ -68,28 +68,8 @@
   const d = await loadJSON('data/overview.json');
   document.getElementById('generated').textContent = 'Généré : ' + fmtDateTime(d.generated_at);
 
-  // BD program comes from bd-data.js (not engine), inject as 4th program
-  let bdProgram = null;
-  if (window.BD_DATA && Array.isArray(window.BD_DATA.companies)) {
-    const cs = BD_DATA.companies;
-    bdProgram = {
-      program: 'BD_ELMS_HOSPITALITY',
-      label: 'BD Hospitality — 5 circuits ELMS',
-      kpis: {
-        prospects_total: cs.length,
-        prospects_active: cs.filter(c => ['scouted','proposal-sent','meeting-booked','negotiating','prospect'].includes(c.status)).length,
-        campaigns_active: 0,
-        sends_total: 0,
-        replies_total: 0,
-        replies_positive: 0,
-        upcoming_14d: 0,
-      },
-    };
-    // Merge BD into totals
-    d.totals.prospects_total += bdProgram.kpis.prospects_total;
-    d.totals.prospects_active += bdProgram.kpis.prospects_active;
-    d.programs.push(bdProgram);
-  }
+  // BD now comes live from the engine (overview.json includes BD_ELMS_HOSPITALITY).
+  // The old static bd-data.js injection was removed to avoid double-counting.
 
   const t = d.totals;
   document.getElementById('totals').innerHTML = `

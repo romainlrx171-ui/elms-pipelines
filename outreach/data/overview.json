@@ -1,39 +1,38 @@
 {
-  "generated_at": "2026-05-25T17:10:22Z",
+  "generated_at": "2026-06-01T15:05:34Z",
   "totals": {
-    "prospects_total": 29,
-    "prospects_active": 7,
-    "sends_total": 1,
-    "replies_total": 1,
+    "prospects_total": 375,
+    "prospects_active": 61,
+    "sends_total": 32,
+    "replies_total": 3,
     "replies_positive": 0,
-    "campaigns_active": 1,
-    "upcoming_14d": 7
+    "campaigns_active": 33,
+    "upcoming_14d": 362
   },
   "programs": [
     {
       "program": "ELMS_SPONSORS",
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
-        "prospects_total": 21,
-        "prospects_active": 7,
-        "prospects_paused": 14,
+        "prospects_total": 227,
+        "prospects_active": 0,
+        "prospects_paused": 227,
         "prospects_replied": 0,
         "prospects_bounced": 0,
-        "prospects_with_email": 21,
+        "prospects_with_email": 227,
         "prospects_without_email": 0,
-        "prospects_with_linkedin": 3,
+        "prospects_with_linkedin": 200,
         "by_status": {
-          "paused": 14,
-          "active": 7
+          "paused": 227
         },
         "by_tier": {
-          "LOW": 7,
-          "HIGH": 10,
-          "MED": 2,
-          "MED-HIGH": 2
+          "HIGH": 173,
+          "LOW": 51,
+          "MED": 3
         },
         "by_geo": {
-          "unknown": 7,
+          "EU": 82,
+          "unknown": 131,
           "France": 2,
           "Germany": 1,
           "Paris": 6,
@@ -43,48 +42,81 @@
           "Greece": 1,
           "Saint-Germain-en-Laye": 1
         },
-        "campaigns_total": 2,
-        "campaigns_active": 1,
+        "campaigns_total": 3,
+        "campaigns_active": 0,
         "sends_total": 1,
         "replies_total": 1,
         "replies_positive": 0,
-        "upcoming_14d": 7
+        "upcoming_14d": 240
       }
     },
     {
       "program": "SPA_24H",
       "label": "24h Spa 2026 — Aston / Ecurie Ecosse",
       "kpis": {
-        "prospects_total": 8,
-        "prospects_active": 0,
-        "prospects_paused": 8,
+        "prospects_total": 73,
+        "prospects_active": 27,
+        "prospects_paused": 45,
         "prospects_replied": 0,
-        "prospects_bounced": 0,
-        "prospects_with_email": 8,
+        "prospects_bounced": 1,
+        "prospects_with_email": 73,
         "prospects_without_email": 0,
-        "prospects_with_linkedin": 0,
+        "prospects_with_linkedin": 47,
         "by_status": {
-          "paused": 8
+          "paused": 45,
+          "active": 27,
+          "bounced": 1
         },
         "by_tier": {
-          "LOW": 7,
-          "HIGH": 1
+          "LOW": 3,
+          "MED": 29,
+          "HIGH": 29,
+          "MED-HIGH": 12
         },
         "by_geo": {
-          "Cologne, Germany": 1,
-          "Munich": 1,
-          "UK": 2,
-          "Belgium": 1,
-          "unknown": 1,
-          "California, US": 1,
-          "London": 1
+          "EU": 45,
+          "unknown": 28
         },
-        "campaigns_total": 1,
-        "campaigns_active": 0,
-        "sends_total": 0,
+        "campaigns_total": 17,
+        "campaigns_active": 16,
+        "sends_total": 15,
+        "replies_total": 2,
+        "replies_positive": 0,
+        "upcoming_14d": 55
+      }
+    },
+    {
+      "program": "BD_ELMS_HOSPITALITY",
+      "label": "BD Platform — ELMS Executive Hospitality",
+      "kpis": {
+        "prospects_total": 75,
+        "prospects_active": 34,
+        "prospects_paused": 40,
+        "prospects_replied": 0,
+        "prospects_bounced": 0,
+        "prospects_with_email": 75,
+        "prospects_without_email": 0,
+        "prospects_with_linkedin": 41,
+        "by_status": {
+          "active": 34,
+          "paused": 40,
+          "unsubscribed": 1
+        },
+        "by_tier": {
+          "MED": 35,
+          "LOW": 28,
+          "HIGH": 12
+        },
+        "by_geo": {
+          "unknown": 35,
+          "EU": 40
+        },
+        "campaigns_total": 18,
+        "campaigns_active": 17,
+        "sends_total": 16,
         "replies_total": 0,
         "replies_positive": 0,
-        "upcoming_14d": 0
+        "upcoming_14d": 67
       }
     },
     {

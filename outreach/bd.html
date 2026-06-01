@@ -3,45 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Outreach Engine — BD Hospitality ELMS</title>
+<title>Outreach Engine — BD Platform Hospitality</title>
 <link rel="stylesheet" href="_shared.css">
-<style>
-  .accent-bd { color: var(--purple); }
-  .nav a.active.bd { background: rgba(168,85,247,0.15); color: var(--purple); }
-  .kpi.bd .kpi-value { color: var(--purple); }
-  .filter-btn.active.bd { background: rgba(168,85,247,0.15); border-color: var(--purple); color: var(--purple); }
-  .filter-btn.event {
-    display: inline-flex; align-items: center; gap: 6px;
-  }
-  .badge.status-prospect { background: rgba(107,114,128,0.15); color: var(--muted); }
-  .badge.status-scouted { background: rgba(59,130,246,0.15); color: var(--blue); }
-  .badge.status-proposal-sent { background: rgba(168,85,247,0.15); color: var(--purple); }
-  .badge.status-meeting-booked { background: rgba(34,197,94,0.15); color: var(--green); }
-  .badge.status-negotiating { background: rgba(234,179,8,0.15); color: var(--yellow); }
-  .badge.status-closed-won { background: var(--green); color: #fff; }
-  .badge.status-closed-lost { background: rgba(239,68,68,0.15); color: var(--red); }
-  .priority-flag {
-    display: inline-block; margin-left: 6px;
-    color: var(--yellow); font-size: 11px; font-weight: 700;
-  }
-  .event-chip {
-    display: inline-block; padding: 1px 6px; border-radius: 3px;
-    background: var(--bg3); color: var(--muted);
-    font-size: 10px; font-weight: 600; margin-right: 4px; margin-bottom: 2px;
-  }
-  .deal-value {
-    font-weight: 700; color: var(--green);
-    font-size: 12px; white-space: nowrap;
-  }
-  .deal-value-low { color: var(--muted); }
-</style>
 </head>
 <body>
 
 <div class="header">
   <div>
-    <h1><span class="accent-bd">BD Hospitality</span> — ELMS 2026 (5 circuits européens)</h1>
-    <div class="header-sub">Plateforme hospitality pour clients VIP · Ferrari GT3 · Paul Ricard · Imola · Spa · Silverstone · Portimão</div>
+    <h1><span class="accent-bd">BD Platform</span> — ELMS Executive Hospitality</h1>
+    <div class="header-sub">Business-development hospitality outreach · sender <code>romain@romain-leroux.racing</code></div>
   </div>
   <div class="nav">
     <a href="index.html">Overview</a>
@@ -49,75 +19,56 @@
     <a href="spa.html">24h Spa</a>
     <a class="active bd" href="bd.html">BD</a>
     <a href="stratos.html">Stratos</a>
+    <a href="send-bench.html">📊 Send-bench</a>
   </div>
 </div>
 
 <div class="container">
 
-  <section class="block" style="border-color:var(--purple);background:rgba(168,85,247,0.05)">
-    <h2 style="color:var(--purple)">📣 Plateforme à promouvoir</h2>
-    <p style="color:var(--muted);line-height:1.7;margin-bottom:14px">
-      Offre <strong style="color:var(--text)">ELMS Hospitality Platform 2026</strong> — accès garage Ferrari GT3 + hospitality VIP pour les clients/prospects de l'entreprise sponsor, déclinable sur 1 à 5 events selon ticket. Différencié des offres sponsorship "logos" : <strong style="color:var(--text)">on vend du temps avec leurs clients clés</strong>, pas de la visibilité.
-    </p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px">
-      <div style="background:var(--bg3);padding:14px;border-radius:8px">
-        <div style="color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:0.5px">Ticket par event</div>
-        <div style="font-size:22px;font-weight:800;color:var(--green);margin-top:4px">€20-50k</div>
-      </div>
-      <div style="background:var(--bg3);padding:14px;border-radius:8px">
-        <div style="color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:0.5px">Ticket saison (5 events)</div>
-        <div style="font-size:22px;font-weight:800;color:var(--green);margin-top:4px">€50-200k</div>
-      </div>
-      <div style="background:var(--bg3);padding:14px;border-radius:8px">
-        <div style="color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:0.5px">ICP</div>
-        <div style="font-size:13px;font-weight:600;margin-top:4px">Mid-market relationship-driven: M&A · wealth · luxury RE · semicon distrib · pharma · M&A advisory</div>
-      </div>
-    </div>
-  </section>
-
   <div id="kpis" class="kpis"></div>
 
   <section class="block">
-    <h2>Filter par event ELMS <span class="count" id="event-count">5</span></h2>
-    <div class="filters" id="event-filters">
-      <button class="filter-btn active bd" data-event="all">Tous</button>
-      <button class="filter-btn event" data-event="paul-ricard">🇫🇷 Paul Ricard <span style="color:var(--dim)">· 3 mai</span></button>
-      <button class="filter-btn event" data-event="imola">🇮🇹 Imola <span style="color:var(--dim)">· 5 juil</span></button>
-      <button class="filter-btn event" data-event="spa">🇧🇪 Spa <span style="color:var(--dim)">· 23 août</span></button>
-      <button class="filter-btn event" data-event="silverstone">🇬🇧 Silverstone <span style="color:var(--dim)">· 13 sept</span></button>
-      <button class="filter-btn event" data-event="portimao">🇵🇹 Portimão <span style="color:var(--dim)">· 10 oct</span></button>
-    </div>
+    <h2>Campagnes <span class="count" id="camp-count">—</span></h2>
+    <div id="campaigns"></div>
   </section>
 
   <section class="block">
-    <h2>Prospects BD <span class="count" id="prospect-count">—</span></h2>
+    <h2>Envois prévus (14j) <span class="count" id="up-count">—</span></h2>
+    <div id="upcoming"></div>
+  </section>
+
+  <section class="block">
+    <h2>Prospects <span class="count" id="prospect-count">—</span></h2>
     <div class="filters">
       <span style="color:var(--dim);font-size:11px;align-self:center;text-transform:uppercase;letter-spacing:0.5px;margin-right:4px">Statut</span>
-      <button class="filter-btn active bd" data-status="all">Tous</button>
-      <button class="filter-btn" data-status="prospect">Prospect</button>
-      <button class="filter-btn" data-status="scouted">Scouted</button>
-      <button class="filter-btn" data-status="proposal-sent">Proposal sent</button>
-      <button class="filter-btn" data-status="meeting-booked">Meeting</button>
-      <button class="filter-btn" data-status="negotiating">Negotiating</button>
-      <button class="filter-btn" data-status="closed-won">Won</button>
+      <button class="filter-btn active neutral" data-status="all">Tous</button>
+      <button class="filter-btn" data-status="active">Actifs</button>
+      <button class="filter-btn" data-status="paused">Paused</button>
+      <button class="filter-btn" data-status="replied">Replied</button>
+      <button class="filter-btn" data-status="bounced">Bounced</button>
     </div>
     <div class="filters">
-      <span style="color:var(--dim);font-size:11px;align-self:center;text-transform:uppercase;letter-spacing:0.5px;margin-right:4px">Priorité</span>
-      <button class="filter-btn active bd" data-priority="all">Tous</button>
-      <button class="filter-btn" data-priority="high">⭐ High priority uniquement</button>
+      <span style="color:var(--dim);font-size:11px;align-self:center;text-transform:uppercase;letter-spacing:0.5px;margin-right:4px">Tier</span>
+      <button class="filter-btn tier active neutral" data-tier="all">Tous</button>
+      <button class="filter-btn tier" data-tier="HIGH">HIGH</button>
+      <button class="filter-btn tier" data-tier="MED-HIGH">MED-HIGH</button>
+      <button class="filter-btn tier" data-tier="MED">MED</button>
+      <button class="filter-btn tier" data-tier="LOW">LOW</button>
     </div>
     <div style="overflow-x:auto">
       <table id="prospects-table">
         <thead>
           <tr>
-            <th>Société</th>
-            <th>Industrie / HQ</th>
+            <th>Société / Rôle</th>
+            <th>Tier</th>
             <th>Statut</th>
-            <th>Events ciblés</th>
-            <th>Valeur</th>
-            <th>Contact clé</th>
-            <th style="text-align:center">LinkedIn</th>
-            <th>Next action</th>
+            <th style="text-align:center" title="Avons-nous une adresse email ?">Email ?</th>
+            <th style="text-align:center">LinkedIn ?</th>
+            <th>Géo</th>
+            <th style="text-align:center">Sends</th>
+            <th>Dernier envoi</th>
+            <th>Prochain</th>
+            <th>Dernière reply</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -126,127 +77,76 @@
   </section>
 
   <footer class="meta">
-    <span>Source : <code>../bd-data.js</code> (pipeline stratégique manuelle, pas encore migré dans l'engine SMTP)</span>
+    <span>Source : <code>outreach.db</code> filtré <code>program = 'BD_ELMS_HOSPITALITY'</code> · données anonymisées (aucun email/nom exporté)</span>
     <span id="generated">…</span>
   </footer>
 
 </div>
 
 <script src="_shared.js"></script>
-<script src="../bd-data.js"></script>
 <script>
-(() => {
-  if (!window.BD_DATA) {
-    document.body.insertAdjacentHTML('beforeend',
-      '<div class="container"><div class="empty"><div class="big">⚠</div>bd-data.js introuvable</div></div>');
-    return;
-  }
-  const d = BD_DATA;
-  document.getElementById('generated').textContent = 'Dernière modif : ' + fmtDateTime(d.lastModified);
+(async () => {
+  const d = await loadJSON('data/bd.json');
+  document.getElementById('generated').textContent = 'Généré : ' + fmtDateTime(d.generated_at);
 
-  const companies = d.companies || [];
-  const total = companies.length;
-  const byStatus = {};
-  companies.forEach(c => byStatus[c.status] = (byStatus[c.status] || 0) + 1);
-  const highPrio = companies.filter(c => c.highPriority).length;
-  const withContact = companies.filter(c => c.keyContact && c.keyContact.length > 0).length;
-  const withLinkedIn = companies.filter(c => c.linkedinUrl).length;
-  const seasonValue = companies.reduce((acc, c) => acc + ((c.valueLow + c.valueHigh) / 2), 0);
-
+  const k = d.kpis;
   document.getElementById('kpis').innerHTML = `
-    <div class="kpi bd"><div class="kpi-label">Prospects BD</div><div class="kpi-value">${total}</div></div>
-    <div class="kpi yellow"><div class="kpi-label">⭐ High Priority</div><div class="kpi-value">${highPrio}</div></div>
-    <div class="kpi"><div class="kpi-label">Contact identifié</div><div class="kpi-value">${withContact}</div><div class="kpi-sub">/ ${total}</div></div>
-    <div class="kpi"><div class="kpi-label">LinkedIn mappé</div><div class="kpi-value">${withLinkedIn}</div><div class="kpi-sub">/ ${total}</div></div>
-    <div class="kpi green"><div class="kpi-label">Valeur pipeline (moyenne)</div><div class="kpi-value">€${(seasonValue/1000).toFixed(0)}k</div><div class="kpi-sub">low+high / 2</div></div>
-    <div class="kpi" style="grid-column:span 1"><div class="kpi-label">Proposal sent</div><div class="kpi-value">${byStatus['proposal-sent'] || 0}</div></div>
+    <div class="kpi bd"><div class="kpi-label">Prospects BD</div><div class="kpi-value">${fmtNum(k.prospects_total)}</div></div>
+    <div class="kpi green"><div class="kpi-label">Actifs</div><div class="kpi-value">${fmtNum(k.prospects_active)}</div></div>
+    <div class="kpi yellow"><div class="kpi-label">Paused</div><div class="kpi-value">${fmtNum(k.prospects_paused)}</div></div>
+    <div class="kpi"><div class="kpi-label">Avec email</div><div class="kpi-value">${fmtNum(k.prospects_with_email)}</div><div class="kpi-sub">/ ${k.prospects_total}</div></div>
+    <div class="kpi"><div class="kpi-label">Sends total</div><div class="kpi-value">${fmtNum(k.sends_total)}</div></div>
+    <div class="kpi"><div class="kpi-label">Replies</div><div class="kpi-value">${fmtNum(k.replies_total)}</div><div class="kpi-sub">${k.replies_positive} positifs</div></div>
+    <div class="kpi yellow"><div class="kpi-label">Upcoming 14j</div><div class="kpi-value">${fmtNum(k.upcoming_14d)}</div></div>
   `;
 
-  // Build event map
-  const events = {};
-  (d.events || []).forEach(e => { events[e.id] = e; });
+  document.getElementById('camp-count').textContent = d.campaigns.length;
+  document.getElementById('campaigns').innerHTML = d.campaigns.length === 0
+    ? `<div class="empty"><div class="big">·</div>Aucune campagne BD pour l'instant</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Campagne</th><th>Statut</th><th>Goal</th>
+        <th style="text-align:center">Assignments</th>
+        <th style="text-align:center">Sends</th>
+        <th style="text-align:center">Bounced</th>
+        <th style="text-align:center">Replies</th>
+        <th>Démarrée</th></tr></thead><tbody>
+        ${d.campaigns.map(c => `
+          <tr>
+            <td><strong>${c.name}</strong><div style="color:var(--dim);font-size:11px">${c.id}</div></td>
+            <td>${badge(c.status)}</td>
+            <td style="color:var(--muted);font-size:12px;max-width:240px">${c.goal || ''}</td>
+            <td style="text-align:center">${c.assignments}</td>
+            <td style="text-align:center"><strong>${c.sends_ok}</strong>/${c.sends_total}</td>
+            <td style="text-align:center">${c.sends_bounced || '—'}</td>
+            <td style="text-align:center">${c.replies_total} <span style="color:var(--green)">(${c.replies_positive}+)</span></td>
+            <td>${fmtDate(c.started_at || c.created_at)}</td>
+          </tr>
+        `).join('')}
+        </tbody></table></div>`;
 
-  function eventChip(eid) {
-    const e = events[eid];
-    if (!e) return `<span class="event-chip">${eid}</span>`;
-    return `<span class="event-chip" title="${e.name} · ${e.date}">${e.emoji} ${e.name.slice(0, 12)}</span>`;
-  }
+  document.getElementById('up-count').textContent = d.upcoming.length;
+  document.getElementById('upcoming').innerHTML = d.upcoming.length === 0
+    ? `<div class="empty"><div class="big">·</div>Rien de prévu sur les 14 prochains jours</div>`
+    : `<div style="overflow-x:auto"><table><thead><tr>
+        <th>Quand</th><th>Société</th><th>Touch</th>
+      </tr></thead><tbody>
+      ${d.upcoming.map(u => `
+        <tr>
+          <td><strong>${fmtDateTime(u.scheduled_for)}</strong></td>
+          <td>${u.company}</td>
+          <td>T${u.touch_n}</td>
+        </tr>
+      `).join('')}</tbody></table></div>`;
 
-  document.getElementById('prospect-count').textContent = total;
-  const sorted = [...companies].sort((a, b) => {
-    if (a.highPriority !== b.highPriority) return b.highPriority - a.highPriority;
-    return ((b.valueHigh + b.valueLow) / 2) - ((a.valueHigh + a.valueLow) / 2);
-  });
-
-  function rowHtml(c) {
-    const eventsHtml = (c.events || []).map(eventChip).join('');
-    const valueStr = c.valueLow && c.valueHigh
-      ? `<span class="deal-value">€${(c.valueLow/1000).toFixed(0)}k - €${(c.valueHigh/1000).toFixed(0)}k</span>`
-      : '<span class="deal-value-low">—</span>';
-    const ctcLabel = c.keyContact || '<span class="flag-no">—</span>';
-    const li = c.linkedinUrl
-      ? `<a href="${c.linkedinUrl}" target="_blank" rel="noopener" style="color:var(--blue)">↗</a>`
-      : '<span class="flag-no">—</span>';
-    const prio = c.highPriority ? '<span class="priority-flag">⭐</span>' : '';
-    const next = c.nextAction || '<span class="flag-no">—</span>';
-    const eventsKey = (c.events || []).join('|');
-    return `
-      <tr data-status="${c.status}" data-priority="${c.highPriority ? 'high' : 'normal'}" data-events="${eventsKey}">
-        <td><strong>${c.name}</strong>${prio}
-            ${c.website ? `<div style="color:var(--dim);font-size:11px;margin-top:2px"><a href="${c.website}" target="_blank" rel="noopener" style="color:var(--dim)">${c.website.replace(/https?:\\/\\//, '').replace(/\\/$/, '')}</a></div>` : ''}</td>
-        <td style="font-size:12px;color:var(--muted);max-width:200px">
-          ${c.industry ? `<div style="color:var(--text)">${c.industry}</div>` : ''}
-          ${c.hq ? `<div>${c.hq}</div>` : ''}
-          ${c.revenue ? `<div style="color:var(--dim)">${c.revenue}</div>` : ''}
-        </td>
-        <td><span class="badge status-${c.status}">${c.status}</span></td>
-        <td>${eventsHtml || '<span class="flag-no">—</span>'}</td>
-        <td>${valueStr}</td>
-        <td style="font-size:12px;max-width:220px">${ctcLabel}</td>
-        <td style="text-align:center">${li}</td>
-        <td style="font-size:12px;color:var(--muted);max-width:280px">${next}</td>
-      </tr>
-    `;
-  }
-
+  document.getElementById('prospect-count').textContent = d.prospects.length;
   const tbody = document.querySelector('#prospects-table tbody');
-  tbody.innerHTML = sorted.map(rowHtml).join('');
+  tbody.innerHTML = d.prospects.map(renderProspectRow).join('');
 
-  // Filters
-  const state = { status: 'all', priority: 'all', event: 'all' };
-  function applyFilters() {
-    tbody.querySelectorAll('tr').forEach(tr => {
-      const okStatus = state.status === 'all' || tr.dataset.status === state.status;
-      const okPrio = state.priority === 'all' || tr.dataset.priority === state.priority;
-      const okEvent = state.event === 'all' || (tr.dataset.events || '').split('|').includes(state.event);
-      tr.style.display = (okStatus && okPrio && okEvent) ? '' : 'none';
-    });
-  }
-  document.querySelectorAll('.filter-btn[data-status]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn[data-status]').forEach(b => b.classList.remove('active', 'bd'));
-      btn.classList.add('active', 'bd');
-      state.status = btn.dataset.status;
-      applyFilters();
-    });
-  });
-  document.querySelectorAll('.filter-btn[data-priority]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn[data-priority]').forEach(b => b.classList.remove('active', 'bd'));
-      btn.classList.add('active', 'bd');
-      state.priority = btn.dataset.priority;
-      applyFilters();
-    });
-  });
-  document.querySelectorAll('.filter-btn[data-event]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn[data-event]').forEach(b => b.classList.remove('active', 'bd'));
-      btn.classList.add('active', 'bd');
-      state.event = btn.dataset.event;
-      applyFilters();
-    });
-  });
-})();
+  attachFilters('#prospects-table', '.filter-btn[data-status]', '.filter-btn.tier[data-tier]');
+})().catch(err => {
+  document.body.insertAdjacentHTML('beforeend',
+    `<div class="container"><div class="empty"><div class="big">⚠</div>Erreur de chargement : ${err.message}</div></div>`);
+});
 </script>
 
 </body>
