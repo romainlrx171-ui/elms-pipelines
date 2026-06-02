@@ -1,17 +1,18 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-02T17:00:19Z",
+  "generated_at": "2026-06-02T20:00:11Z",
   "kpis": {
     "prospects_total": 227,
     "prospects_active": 3,
-    "prospects_paused": 224,
+    "prospects_paused": 222,
     "prospects_replied": 0,
     "prospects_bounced": 0,
     "prospects_with_email": 227,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 200,
     "by_status": {
-      "paused": 224,
+      "paused": 222,
+      "do_not_contact": 2,
       "active": 3
     },
     "by_tier": {
@@ -2474,7 +2475,7 @@
       "company": "FEV Group",
       "role": "Chief Financial Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "do_not_contact",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -2504,7 +2505,7 @@
       "company": "FEV Group",
       "role": "President",
       "tier": "LOW",
-      "status": "paused",
+      "status": "do_not_contact",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",

@@ -1,9 +1,9 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-02T17:00:19Z",
+  "generated_at": "2026-06-02T20:00:11Z",
   "kpis": {
     "prospects_total": 75,
-    "prospects_active": 34,
+    "prospects_active": 32,
     "prospects_paused": 40,
     "prospects_replied": 0,
     "prospects_bounced": 0,
@@ -11,9 +11,9 @@
     "prospects_without_email": 0,
     "prospects_with_linkedin": 41,
     "by_status": {
-      "active": 34,
+      "active": 32,
       "paused": 40,
-      "do_not_contact": 1
+      "do_not_contact": 3
     },
     "by_tier": {
       "MED": 35,
@@ -607,7 +607,7 @@
       "company": "FEV Group",
       "role": "Deputy Head of Central Marketing",
       "tier": "MED",
-      "status": "active",
+      "status": "do_not_contact",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -637,7 +637,7 @@
       "company": "FEV Group",
       "role": "President & CEO",
       "tier": "MED",
-      "status": "active",
+      "status": "do_not_contact",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -779,7 +779,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
+      "next_scheduled": "2026-06-08T09:30:00Z",
       "next_touch_n": 2
     },
     {
@@ -2665,12 +2665,6 @@
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-heitec-mppti5rj__michael-friess",
-      "company": "HEITEC AG",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-horiba-mpq8kmow__alastair-evanson",
       "company": "HORIBA MIRA",
       "touch_n": 2,
@@ -2769,6 +2763,12 @@
     {
       "prospect_id": "bd-platform-emc-mpqchadg__ema-ziga",
       "company": "EMC Test NRW GmbH",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-08T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-heitec-mppti5rj__michael-friess",
+      "company": "HEITEC AG",
       "touch_n": 2,
       "scheduled_for": "2026-06-08T09:30:00Z"
     },
