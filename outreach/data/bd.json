@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-02T20:00:11Z",
+  "generated_at": "2026-06-02T22:00:20Z",
   "kpis": {
     "prospects_total": 75,
     "prospects_active": 32,
@@ -119,8 +119,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_alexander_hughes_jean_marie_simon",
@@ -149,8 +149,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_ankorstore_nicolas_cohen",
@@ -299,8 +299,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_bda_partners_charlie_maynard",
@@ -419,8 +419,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_drake_star_partners_gregory_bedrosian",
@@ -749,8 +749,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-heitec-mppti5rj__michael-friess",
@@ -899,8 +899,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-iabg-mpqb6ehy__rudolf-schwarz",
@@ -1229,8 +1229,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_marchesini_group_valerio_soli",
@@ -1259,8 +1259,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_mews_matthijs_welle",
@@ -1349,8 +1349,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_mirabaud_camille_vial",
@@ -1649,8 +1649,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_norman_k_nicolas_l_hermite",
@@ -1769,8 +1769,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_personio_hanno_renner",
@@ -1799,8 +1799,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_personio_naman_khan",
@@ -1829,8 +1829,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_pigment_eleonore_crespo",
@@ -1859,8 +1859,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-14T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_pigment_romain_niccoli",
@@ -1889,8 +1889,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-13T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_puratos_group_pierre_tossut",
@@ -1919,8 +1919,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-14T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_rsm_uk_mike_tillson",
@@ -1949,8 +1949,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-14T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-serma-mpqbtugc__philippe-berlie",

@@ -1,17 +1,18 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-02T20:00:11Z",
+  "generated_at": "2026-06-02T22:00:20Z",
   "kpis": {
     "prospects_total": 227,
     "prospects_active": 3,
-    "prospects_paused": 222,
+    "prospects_paused": 198,
     "prospects_replied": 0,
     "prospects_bounced": 0,
     "prospects_with_email": 227,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 200,
     "by_status": {
-      "paused": 222,
+      "paused": 198,
+      "archived": 24,
       "do_not_contact": 2,
       "active": 3
     },
@@ -37,7 +38,7 @@
     "sends_total": 2,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 267
+    "upcoming_14d": 4
   },
   "prospects": [
     {
@@ -67,8 +68,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-02T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_1global_pyrros_koussios",
@@ -97,8 +98,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-02T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_1nce_tbd",
@@ -217,8 +218,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-02T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_abax_martijn_unknown",
@@ -247,8 +248,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-02T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_abax_sofia_unknown",
@@ -277,8 +278,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-02T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_atesteo_lei_kan",
@@ -307,8 +308,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_atesteo_sebastian_buenger",
@@ -337,15 +338,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_avisto_tbd",
       "company": "AVISTO",
       "role": "Chief Operations Officer",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -397,8 +398,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "actility_olivier_hersent",
@@ -427,15 +428,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "actility_savvin_unknown",
       "company": "Actility",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 20,
       "geo": null,
       "language": "EN",
@@ -465,7 +466,7 @@
       "company": "Actility",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 20,
       "geo": null,
       "language": "EN",
@@ -517,8 +518,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_advens_david_buhan",
@@ -547,8 +548,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_advens_guillaume_djourabtchi",
@@ -577,8 +578,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_alpitronic_mika_unknown",
@@ -607,8 +608,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_alpitronic_patrik_unknown",
@@ -637,8 +638,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apex_ai_dejan_pangercic",
@@ -667,8 +668,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apex_ai_jan_becker",
@@ -697,8 +698,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_applus_idiada_fernando_basabe",
@@ -727,8 +728,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_applus_idiada_richard_bartlett",
@@ -757,8 +758,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_aurora_labs_oren_sokoler",
@@ -787,8 +788,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_aurora_labs_ori_lederman",
@@ -817,8 +818,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_aurora_labs_zohar_fox",
@@ -847,8 +848,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_btc_embedded_systems_robin_unknown",
@@ -877,8 +878,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_btc_embedded_systems_stefan_unknown",
@@ -907,8 +908,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_btc_embedded_systems_tbd",
@@ -937,8 +938,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_beck_elektronik_nicolai_unknown",
@@ -967,8 +968,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_beck_elektronik_stefan_unknown",
@@ -997,8 +998,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_beck_elektronik_tbd",
@@ -1027,8 +1028,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_c2a_security_michael_unknown",
@@ -1057,8 +1058,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_c2a_security_roy_unknown",
@@ -1087,15 +1088,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_c2a_security_tbd",
       "company": "C2A Security",
       "role": "CEO and Founder of Salezify",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -1147,8 +1148,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_cadfem_josef_unknown",
@@ -1177,8 +1178,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cadfem_tbd",
@@ -1207,8 +1208,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "ceva_boukaya_unknown",
@@ -1237,8 +1238,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "ceva_franz_dugand",
@@ -1267,15 +1268,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "ceva_nguyen_unknown",
       "company": "CEVA",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 20,
       "geo": null,
       "language": "EN",
@@ -1305,7 +1306,7 @@
       "company": "CEVA",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 20,
       "geo": null,
       "language": "EN",
@@ -1357,8 +1358,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cicor_group_marco_kechele",
@@ -1387,8 +1388,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cicor_group_peter_neumann",
@@ -1417,8 +1418,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_codico_magnus_unknown",
@@ -1447,8 +1448,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_codico_walter_unknown",
@@ -1477,8 +1478,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_codico_tbd",
@@ -1507,8 +1508,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cognata_danny_atsmon",
@@ -1537,8 +1538,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cognata_gadi_sznajder",
@@ -1567,8 +1568,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cognata_sergio_nacht",
@@ -1597,8 +1598,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_cohda_wireless_andrea_unknown",
@@ -1627,8 +1628,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_cohda_wireless_kash_unknown",
@@ -1657,8 +1658,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cohda_wireless_tbd",
@@ -1687,15 +1688,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_comms365_martine_unknown",
       "company": "Comms365",
       "role": "Chief Financial Officer",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -1747,8 +1748,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_comms365_tbd",
@@ -1777,8 +1778,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_commsignia_jozsef_unknown",
@@ -1807,8 +1808,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_commsignia_laszlo_unknown",
@@ -1837,8 +1838,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_commsignia_tbd",
@@ -1867,15 +1868,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "compredict_fietzek_unknown",
       "company": "Compredict",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": "Germany",
       "language": "EN",
@@ -1905,7 +1906,7 @@
       "company": "Compredict",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 20,
       "geo": null,
       "language": "EN",
@@ -1957,8 +1958,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_compredict_rafael_fietzek",
@@ -1987,8 +1988,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_compredict_stephane_foulard",
@@ -2017,8 +2018,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cubic_telecom_barry_napier",
@@ -2047,8 +2048,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cubic_telecom_peter_wyatt",
@@ -2077,8 +2078,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cubic_telecom_shane_sorohan",
@@ -2107,8 +2108,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_cybelangel_romain_unknown",
@@ -2137,8 +2138,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_cybelangel_tbd",
@@ -2167,15 +2168,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_emc_test_nrw_tbd",
       "company": "EMC Test NRW",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -2227,8 +2228,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_elmos_jan_dienstuhl",
@@ -2257,8 +2258,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_elmos_margarita_mamberger",
@@ -2287,15 +2288,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_eseye_ana_unknown",
       "company": "Eseye",
       "role": "Managing Director",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -2347,8 +2348,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_eseye_tbd",
@@ -2377,8 +2378,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_excelfore_ling_unknown",
@@ -2437,8 +2438,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_excelfore_tbd",
@@ -2467,8 +2468,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_fev_group_markus_kersting",
@@ -2535,7 +2536,7 @@
       "company": "FTDI Chip",
       "role": "Sales Manager, Marketing Director",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -2587,8 +2588,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_filigran_dmytro_unknown",
@@ -2617,8 +2618,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_filigran_tbd",
@@ -2647,8 +2648,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_foretellix_doron_ilan",
@@ -2677,8 +2678,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_foretellix_udi_jacobi",
@@ -2707,8 +2708,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_foretellix_yoav_hollander",
@@ -2737,8 +2738,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_foretellix_ziv_binyamini",
@@ -2767,15 +2768,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_glyn_high_tech_distribution_tbd",
       "company": "GLYN High-Tech Distribution",
       "role": null,
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -2827,8 +2828,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_gatewatcher_tbd",
@@ -2857,8 +2858,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_geotab_colin_sutherland",
@@ -2887,8 +2888,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_geotab_dario_murkovic",
@@ -2917,8 +2918,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_geotab_neil_cawse",
@@ -2947,15 +2948,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_guardknox_anat_unknown",
       "company": "GuardKnox",
       "role": "CFO",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -3007,15 +3008,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_guardknox_tbd",
       "company": "GuardKnox",
       "role": "Chief Executive Officer and Co-Founder",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -3067,8 +3068,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_heitec_tbd",
@@ -3097,8 +3098,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_horiba_mira_declan_allen",
@@ -3127,8 +3128,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_horiba_mira_graeme_stewart",
@@ -3157,8 +3158,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_horiba_mira_tim_nathan",
@@ -3187,8 +3188,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_heilind_electronics_europe_grzegorz_lyszczarz",
@@ -3217,8 +3218,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_heilind_electronics_europe_stefan_barrig",
@@ -3247,8 +3248,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_heliox_tbd",
@@ -3307,8 +3308,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_iabg_patrick_unknown",
@@ -3337,8 +3338,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_iabg_tbd",
@@ -3367,8 +3368,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_ipg_automotive_martin_elbs",
@@ -3397,8 +3398,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_ineltek_tbd",
@@ -3427,8 +3428,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "infovista_alexandre_lecoq",
@@ -3577,8 +3578,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "infovista_yasmeen_adl",
@@ -3637,8 +3638,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_karamba_security_adar_unknown",
@@ -3667,15 +3668,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_karamba_security_tal_unknown",
       "company": "Karamba Security",
       "role": "VP R&D and Co-founder",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -3727,8 +3728,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_kempower_monil_unknown",
@@ -3757,8 +3758,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_kempower_tbd",
@@ -3787,8 +3788,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_kigen_said_unknown",
@@ -3817,8 +3818,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_kigen_susmitha_unknown",
@@ -3847,8 +3848,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_kigen_tbd",
@@ -3877,8 +3878,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_kistler_group_alexis_unknown",
@@ -3907,8 +3908,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_kistler_group_tbd",
@@ -3937,8 +3938,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_konrad_technologies_murali_unknown",
@@ -3967,8 +3968,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_konrad_technologies_robin_unknown",
@@ -3997,8 +3998,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_konrad_technologies_tbd",
@@ -4027,8 +4028,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_lauterbach_lothar_lauterbach",
@@ -4057,8 +4058,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_lauterbach_thomas_ullmann",
@@ -4087,8 +4088,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_melexis_karen_van_griensven",
@@ -4117,8 +4118,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_melexis_marc_biron",
@@ -4147,8 +4148,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_monogoto_leonardo_unknown",
@@ -4177,8 +4178,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_monogoto_maor_unknown",
@@ -4207,8 +4208,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_monogoto_tbd",
@@ -4237,8 +4238,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_muller_bbm_carl_christian_unknown",
@@ -4267,8 +4268,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_muller_bbm_manuel_unknown",
@@ -4297,8 +4298,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_muller_bbm_tbd",
@@ -4327,8 +4328,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_onomondo_peter_unknown",
@@ -4357,8 +4358,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_onomondo_rasmus_unknown",
@@ -4387,8 +4388,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_onomondo_tbd",
@@ -4417,8 +4418,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_option_nv_meltem_unknown",
@@ -4447,15 +4448,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_option_nv_tbd",
       "company": "Option NV",
       "role": "Past President",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -4507,8 +4508,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "pccw_antoine_champagne",
@@ -4537,15 +4538,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "pccw_frederick_chui",
       "company": "PCCW Global",
       "role": "CEO",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 70,
       "geo": "Hong Kong",
       "language": "EN",
@@ -4597,15 +4598,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_pelion_ed_unknown",
       "company": "Pelion",
       "role": "Chief Executive Officer",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -4635,7 +4636,7 @@
       "company": "Pelion",
       "role": "Co-Founder",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -4687,8 +4688,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_premo_group_andres_garcia_morilla",
@@ -4717,8 +4718,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_prodrive_technologies_mark_roeloffzen",
@@ -4777,8 +4778,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_proemion_brent_unknown",
@@ -4807,8 +4808,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_proemion_tbd",
@@ -4837,8 +4838,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_rutronik_automotive_bu_fabian_plentz",
@@ -4867,8 +4868,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_rutronik_automotive_bu_michael_badinger",
@@ -4897,8 +4898,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_rutronik_automotive_bu_thomas_rudel",
@@ -4927,15 +4928,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_segger_microcontroller_franco_unknown",
       "company": "SEGGER Microcontroller",
       "role": "Founder",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -4995,7 +4996,7 @@
       "company": "SEGGER Microcontroller",
       "role": "Vice President of Sales, U.S.",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -5047,8 +5048,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_schweizer_electronic_ag_marc_bunz",
@@ -5077,8 +5078,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_schweizer_electronic_ag_nicolas_fabian_schweizer",
@@ -5107,8 +5108,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_sekoia_io_cyril_unknown",
@@ -5137,8 +5138,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_sekoia_io_fabien_unknown",
@@ -5167,8 +5168,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_sekoia_io_tbd",
@@ -5197,8 +5198,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_sequans_communications_carlos_unknown",
@@ -5227,8 +5228,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_sequans_communications_gary_unknown",
@@ -5257,8 +5258,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_sequans_communications_tbd",
@@ -5287,8 +5288,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_shiftmove_francine_gervazio",
@@ -5317,15 +5318,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_sibros_hemant_sikaria",
       "company": "Sibros",
       "role": "Co-Founder & CEO",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -5347,8 +5348,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_sibros_vijay_sharma",
@@ -5377,8 +5378,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_silicon_mobility_nathalie_unknown",
@@ -5407,8 +5408,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_silicon_mobility_tbd",
@@ -5437,8 +5438,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_sonatus_jeff_chou",
@@ -5467,8 +5468,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_sonatus_yu_fang",
@@ -5497,8 +5498,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_soracom_kenta_unknown",
@@ -5527,8 +5528,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_soracom_richard_unknown",
@@ -5557,8 +5558,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_soracom_tbd",
@@ -5587,8 +5588,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_texa_bruno_vianello",
@@ -5617,8 +5618,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_tttech_auto_dirk_linzmeier",
@@ -5647,8 +5648,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_tttech_auto_friedhelm_pickhard",
@@ -5677,8 +5678,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_tttech_auto_harald_triplat",
@@ -5707,8 +5708,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_twaice_manuel_unknown",
@@ -5737,8 +5738,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_twaice_michael_unknown",
@@ -5767,8 +5768,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_twaice_tbd",
@@ -5797,8 +5798,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_targa_telematics_adriano_scardellato",
@@ -5827,8 +5828,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_teltonika_mobility_elisa_unknown",
@@ -5857,8 +5858,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_teltonika_mobility_justinas_unknown",
@@ -5887,8 +5888,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_teltonika_mobility_tbd",
@@ -5917,8 +5918,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_tracetronic_tbd",
@@ -5947,8 +5948,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_utac_connor_mccormack",
@@ -5977,8 +5978,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_utac_laurent_benoit",
@@ -6007,8 +6008,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_upstream_security_yoav_levy",
@@ -6037,8 +6038,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_upstream_security_yonatan_appel",
@@ -6067,15 +6068,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_vicone_edward_unknown",
       "company": "VicOne",
       "role": "Vice President of Strategic Partnership",
       "tier": "LOW",
-      "status": "paused",
+      "status": "archived",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -6127,8 +6128,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_vicone_tbd",
@@ -6157,8 +6158,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_wallix_group_benoit_unknown",
@@ -6187,8 +6188,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_wallix_group_edwige_unknown",
@@ -6217,8 +6218,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_wallix_group_tbd",
@@ -6247,8 +6248,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_wireless_logic_cyril_deschanel",
@@ -6277,8 +6278,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_wireless_logic_oliver_tucker",
@@ -6307,8 +6308,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_wireless_logic_richard_miller",
@@ -6337,8 +6338,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_workz_adrian_unknown",
@@ -6367,8 +6368,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_workz_mark_unknown",
@@ -6397,8 +6398,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_workz_tbd",
@@ -6427,8 +6428,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_yeswehack_guillaume_vassault_houliere",
@@ -6457,8 +6458,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_yeswehack_marine_magnant",
@@ -6487,8 +6488,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_yeswehack_rodolphe_harand",
@@ -6517,8 +6518,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_yeswehack_romain_lecoeuvre",
@@ -6547,8 +6548,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_b_plus_gmbh_alexander_unknown",
@@ -6577,8 +6578,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_b_plus_gmbh_christine_unknown",
@@ -6607,8 +6608,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_b_plus_gmbh_tbd",
@@ -6637,8 +6638,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_dspace_carsten_hoff",
@@ -6667,8 +6668,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_emnify_mathias_unknown",
@@ -6697,8 +6698,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_emnify_matt_unknown",
@@ -6727,8 +6728,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_emnify_tbd",
@@ -6757,8 +6758,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "test_romain_lrx171",
@@ -6817,8 +6818,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_u_blox_camila_japur",
@@ -6847,8 +6848,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     }
   ],
   "campaigns": [
@@ -6900,292 +6901,10 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "elms_1global_hakan_koc",
-      "company": "1GLOBAL",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-02T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_pyrros_koussios",
-      "company": "1GLOBAL",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-02T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_abax_tbd",
-      "company": "ABAX",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-02T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_sofia_unknown",
-      "company": "ABAX",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-02T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_martijn_unknown",
-      "company": "ABAX",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-02T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_sebastian_buenger",
-      "company": "ATESTEO",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_lei_kan",
-      "company": "ATESTEO",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T09:38:00Z"
-    },
-    {
-      "prospect_id": "actility_olivier_hersent",
-      "company": "Actility",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T10:05:00Z"
-    },
-    {
-      "prospect_id": "actility_koopman_unknown",
-      "company": "Actility",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_david_buhan",
-      "company": "Advens",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_alexandre_fayeulle",
-      "company": "Advens",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_abax_tbd",
-      "company": "ABAX",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_guillaume_djourabtchi",
-      "company": "Advens",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
-      "company": "Alpitronic",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_mika_unknown",
-      "company": "Alpitronic",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-03T14:37:00Z"
-    },
-    {
       "prospect_id": "infovista_alexandre_lecoq",
       "company": "Infovista",
       "touch_n": 1,
       "scheduled_for": "2026-06-04T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_jan_becker",
-      "company": "Apex.AI",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_pyrros_koussios",
-      "company": "1GLOBAL",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-04T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_dejan_pangercic",
-      "company": "Apex.AI",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_richard_bartlett",
-      "company": "Applus+ IDIADA",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_fernando_basabe",
-      "company": "Applus+ IDIADA",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_zohar_fox",
-      "company": "Aurora Labs",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_alexandre_fayeulle",
-      "company": "Advens",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-04T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_ori_lederman",
-      "company": "Aurora Labs",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_oren_sokoler",
-      "company": "Aurora Labs",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_martijn_unknown",
-      "company": "ABAX",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-04T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_btc_embedded_systems_tbd",
-      "company": "BTC Embedded Systems",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-04T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_robin_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_hakan_koc",
-      "company": "1GLOBAL",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_sebastian_buenger",
-      "company": "ATESTEO",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_stefan_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_hakan_koc",
-      "company": "1GLOBAL",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_sebastian_buenger",
-      "company": "ATESTEO",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_lei_kan",
-      "company": "ATESTEO",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_beck_elektronik_tbd",
-      "company": "Beck Elektronik",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_pyrros_koussios",
-      "company": "1GLOBAL",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_dejan_pangercic",
-      "company": "Apex.AI",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_nicolai_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T10:32:00Z"
-    },
-    {
-      "prospect_id": "actility_koopman_unknown",
-      "company": "Actility",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_richard_bartlett",
-      "company": "Applus+ IDIADA",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_stefan_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_david_buhan",
-      "company": "Advens",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_fernando_basabe",
-      "company": "Applus+ IDIADA",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_stefan_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_michael_unknown",
-      "company": "C2A Security",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_david_buhan",
-      "company": "Advens",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_zohar_fox",
-      "company": "Aurora Labs",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_roy_unknown",
-      "company": "C2A Security",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T11:42:00Z"
     },
     {
       "prospect_id": "infovista_dina_rodrigues",
@@ -7194,1312 +6913,16 @@
       "scheduled_for": "2026-06-05T12:00:00Z"
     },
     {
-      "prospect_id": "elms_apollo_abax_sofia_unknown",
-      "company": "ABAX",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_guillaume_djourabtchi",
-      "company": "Advens",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_zohar_fox",
-      "company": "Aurora Labs",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_cadfem_tbd",
-      "company": "CADFEM",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
-      "company": "Alpitronic",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_oren_sokoler",
-      "company": "Aurora Labs",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cadfem_josef_unknown",
-      "company": "CADFEM",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-05T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_martijn_unknown",
-      "company": "ABAX",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
-      "company": "Alpitronic",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_btc_embedded_systems_tbd",
-      "company": "BTC Embedded Systems",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cadfem_josef_unknown",
-      "company": "CADFEM",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T15:03:00Z"
-    },
-    {
-      "prospect_id": "infovista_rick_hamilton",
-      "company": "Infovista",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cadfem_derek_unknown",
-      "company": "CADFEM",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_robin_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T09:38:00Z"
-    },
-    {
-      "prospect_id": "ceva_franz_dugand",
-      "company": "CEVA",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_jan_becker",
-      "company": "Apex.AI",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_robin_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_stefan_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T10:05:00Z"
-    },
-    {
-      "prospect_id": "ceva_boukaya_unknown",
-      "company": "CEVA",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_hakan_koc",
-      "company": "1GLOBAL",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-08T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_lei_kan",
-      "company": "ATESTEO",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T10:32:00Z"
-    },
-    {
-      "prospect_id": "actility_olivier_hersent",
-      "company": "Actility",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_beck_elektronik_tbd",
-      "company": "Beck Elektronik",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_alexander_hagemann",
-      "company": "Cicor Group",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_pyrros_koussios",
-      "company": "1GLOBAL",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-08T10:57:00Z"
-    },
-    {
-      "prospect_id": "actility_olivier_hersent",
-      "company": "Actility",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_dejan_pangercic",
-      "company": "Apex.AI",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_beck_elektronik_tbd",
-      "company": "Beck Elektronik",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_nicolai_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_peter_neumann",
-      "company": "Cicor Group",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T10:57:00Z"
-    },
-    {
-      "prospect_id": "actility_koopman_unknown",
-      "company": "Actility",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_richard_bartlett",
-      "company": "Applus+ IDIADA",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_marco_kechele",
-      "company": "Cicor Group",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_fernando_basabe",
-      "company": "Applus+ IDIADA",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_stefan_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_michael_unknown",
-      "company": "C2A Security",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_magnus_unknown",
-      "company": "Codico",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_abax_tbd",
-      "company": "ABAX",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_alexandre_fayeulle",
-      "company": "Advens",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_ori_lederman",
-      "company": "Aurora Labs",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_michael_unknown",
-      "company": "C2A Security",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_roy_unknown",
-      "company": "C2A Security",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_codico_tbd",
-      "company": "Codico",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_sofia_unknown",
-      "company": "ABAX",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_guillaume_djourabtchi",
-      "company": "Advens",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_ori_lederman",
-      "company": "Aurora Labs",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_cadfem_tbd",
-      "company": "CADFEM",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_walter_unknown",
-      "company": "Codico",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-08T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_mika_unknown",
-      "company": "Alpitronic",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-08T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_oren_sokoler",
-      "company": "Aurora Labs",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_martijn_unknown",
-      "company": "ABAX",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-08T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_mika_unknown",
-      "company": "Alpitronic",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_btc_embedded_systems_tbd",
-      "company": "BTC Embedded Systems",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T15:28:00Z"
-    },
-    {
       "prospect_id": "infovista_yasmeen_adl",
       "company": "Infovista",
       "touch_n": 2,
       "scheduled_for": "2026-06-09T08:00:00Z"
     },
     {
-      "prospect_id": "elms_cognata_danny_atsmon",
-      "company": "Cognata",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cadfem_derek_unknown",
-      "company": "CADFEM",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-09T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_sergio_nacht",
-      "company": "Cognata",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_gadi_sznajder",
-      "company": "Cognata",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_sebastian_buenger",
-      "company": "ATESTEO",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-09T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_jan_becker",
-      "company": "Apex.AI",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_stefan_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cohda_wireless_andrea_unknown",
-      "company": "Cohda Wireless",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_cohda_wireless_tbd",
-      "company": "Cohda Wireless",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_nicolai_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cohda_wireless_kash_unknown",
-      "company": "Cohda Wireless",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_comms365_will_unknown",
-      "company": "Comms365",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_david_buhan",
-      "company": "Advens",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-09T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_comms365_tbd",
-      "company": "Comms365",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_codico_tbd",
-      "company": "Codico",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-09T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_commsignia_jozsef_unknown",
-      "company": "Commsignia",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-09T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_sofia_unknown",
-      "company": "ABAX",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-09T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cadfem_josef_unknown",
-      "company": "CADFEM",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_commsignia_tbd",
-      "company": "Commsignia",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_danny_atsmon",
-      "company": "Cognata",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_commsignia_laszlo_unknown",
-      "company": "Commsignia",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T09:38:00Z"
-    },
-    {
-      "prospect_id": "ceva_franz_dugand",
-      "company": "CEVA",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_sergio_nacht",
-      "company": "Cognata",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_stephane_foulard",
-      "company": "Compredict",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T10:05:00Z"
-    },
-    {
-      "prospect_id": "ceva_boukaya_unknown",
-      "company": "CEVA",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_rafael_fietzek",
-      "company": "Compredict",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_lei_kan",
-      "company": "ATESTEO",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-10T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_alexander_hagemann",
-      "company": "Cicor Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cohda_wireless_andrea_unknown",
-      "company": "Cohda Wireless",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_matthias_von_blohn",
-      "company": "Compredict",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T10:57:00Z"
-    },
-    {
-      "prospect_id": "actility_olivier_hersent",
-      "company": "Actility",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-10T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_shane_sorohan",
-      "company": "Cubic Telecom",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_marco_kechele",
-      "company": "Cicor Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cohda_wireless_kash_unknown",
-      "company": "Cohda Wireless",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_barry_napier",
-      "company": "Cubic Telecom",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_magnus_unknown",
-      "company": "Codico",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_comms365_will_unknown",
-      "company": "Comms365",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_peter_wyatt",
-      "company": "Cubic Telecom",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_abax_tbd",
-      "company": "ABAX",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-10T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_alexandre_fayeulle",
-      "company": "Advens",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-10T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_roy_unknown",
-      "company": "C2A Security",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_comms365_tbd",
-      "company": "Comms365",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cybelangel_romain_unknown",
-      "company": "CybelAngel",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-10T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_advens_guillaume_djourabtchi",
-      "company": "Advens",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-10T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_cadfem_tbd",
-      "company": "CADFEM",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_commsignia_jozsef_unknown",
-      "company": "Commsignia",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
-      "company": "Alpitronic",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-10T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_oren_sokoler",
-      "company": "Aurora Labs",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-10T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_cybelangel_tbd",
-      "company": "CybelAngel",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_commsignia_tbd",
-      "company": "Commsignia",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_elmos_arne_schneider",
-      "company": "Elmos",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cadfem_derek_unknown",
-      "company": "CADFEM",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-11T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_commsignia_laszlo_unknown",
-      "company": "Commsignia",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_elmos_margarita_mamberger",
-      "company": "Elmos",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T10:05:00Z"
-    },
-    {
-      "prospect_id": "ceva_franz_dugand",
-      "company": "CEVA",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-11T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_gadi_sznajder",
-      "company": "Cognata",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_stephane_foulard",
-      "company": "Compredict",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_elmos_jan_dienstuhl",
-      "company": "Elmos",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_jan_becker",
-      "company": "Apex.AI",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_rafael_fietzek",
-      "company": "Compredict",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_eseye_tbd",
-      "company": "Eseye",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apex_ai_dejan_pangercic",
-      "company": "Apex.AI",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_alexander_hagemann",
-      "company": "Cicor Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-11T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_peter_neumann",
-      "company": "Cicor Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_cohda_wireless_tbd",
-      "company": "Cohda Wireless",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_matthias_von_blohn",
-      "company": "Compredict",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_eseye_tamer_unknown",
-      "company": "Eseye",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T11:18:00Z"
-    },
-    {
-      "prospect_id": "actility_koopman_unknown",
-      "company": "Actility",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_nicolai_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_peter_neumann",
-      "company": "Cicor Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-11T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_excelfore_tbd",
-      "company": "Excelfore",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_fernando_basabe",
-      "company": "Applus+ IDIADA",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_excelfore_mark_unknown",
-      "company": "Excelfore",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-11T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_magnus_unknown",
-      "company": "Codico",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-11T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_walter_unknown",
-      "company": "Codico",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_cadfem_tbd",
-      "company": "CADFEM",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_mika_unknown",
-      "company": "Alpitronic",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T15:54:00Z"
-    },
-    {
       "prospect_id": "infovista_alexandre_lecoq",
       "company": "Infovista",
       "touch_n": 2,
       "scheduled_for": "2026-06-12T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms_cybelangel_tbd",
-      "company": "CybelAngel",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_danny_atsmon",
-      "company": "Cognata",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_cybelangel_tbd",
-      "company": "CybelAngel",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_elmos_arne_schneider",
-      "company": "Elmos",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_fibocom_lingpeng_ying",
-      "company": "Fibocom",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_robin_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_sergio_nacht",
-      "company": "Cognata",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_elmos_margarita_mamberger",
-      "company": "Elmos",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_filigran_dmytro_unknown",
-      "company": "Filigran",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_btc_embedded_systems_stefan_unknown",
-      "company": "BTC Embedded Systems",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T10:57:00Z"
-    },
-    {
-      "prospect_id": "ceva_boukaya_unknown",
-      "company": "CEVA",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_gadi_sznajder",
-      "company": "Cognata",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_stephane_foulard",
-      "company": "Compredict",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_elmos_jan_dienstuhl",
-      "company": "Elmos",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_filigran_dmytro_unknown",
-      "company": "Filigran",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_filigran_tbd",
-      "company": "Filigran",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cohda_wireless_andrea_unknown",
-      "company": "Cohda Wireless",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_eseye_tbd",
-      "company": "Eseye",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_ziv_binyamini",
-      "company": "Foretellix",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_applus_idiada_richard_bartlett",
-      "company": "Applus+ IDIADA",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_matthias_von_blohn",
-      "company": "Compredict",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_shane_sorohan",
-      "company": "Cubic Telecom",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_eseye_tamer_unknown",
-      "company": "Eseye",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_yoav_hollander",
-      "company": "Foretellix",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_yoav_hollander",
-      "company": "Foretellix",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_udi_jacobi",
-      "company": "Foretellix",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_zohar_fox",
-      "company": "Aurora Labs",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_barry_napier",
-      "company": "Cubic Telecom",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_excelfore_mark_unknown",
-      "company": "Excelfore",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_udi_jacobi",
-      "company": "Foretellix",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_doron_ilan",
-      "company": "Foretellix",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_ori_lederman",
-      "company": "Aurora Labs",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_roy_unknown",
-      "company": "C2A Security",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_magnus_unknown",
-      "company": "Codico",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_comms365_tbd",
-      "company": "Comms365",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_walter_unknown",
-      "company": "Codico",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_commsignia_jozsef_unknown",
-      "company": "Commsignia",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-12T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_btc_embedded_systems_tbd",
-      "company": "BTC Embedded Systems",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T15:54:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cadfem_josef_unknown",
-      "company": "CADFEM",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-12T15:54:00Z"
-    },
-    {
-      "prospect_id": "infovista_rick_hamilton",
-      "company": "Infovista",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms_gatewatcher_tbd",
-      "company": "Gatewatcher",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_gatewatcher_nicolas_unknown",
-      "company": "Gatewatcher",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_commsignia_tbd",
-      "company": "Commsignia",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_geotab_neil_cawse",
-      "company": "Geotab",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_commsignia_laszlo_unknown",
-      "company": "Commsignia",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_elmos_arne_schneider",
-      "company": "Elmos",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_fibocom_lingpeng_ying",
-      "company": "Fibocom",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_geotab_dario_murkovic",
-      "company": "Geotab",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms_geotab_colin_sutherland",
-      "company": "Geotab",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T10:57:00Z"
-    },
-    {
-      "prospect_id": "elms_1global_pyrros_koussios",
-      "company": "1GLOBAL",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-15T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_beck_elektronik_tbd",
-      "company": "Beck Elektronik",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_compredict_rafael_fietzek",
-      "company": "Compredict",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_filigran_dmytro_unknown",
-      "company": "Filigran",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_filigran_tbd",
-      "company": "Filigran",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_guardknox_jillian_unknown",
-      "company": "GuardKnox",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T11:18:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cohda_wireless_andrea_unknown",
-      "company": "Cohda Wireless",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_cohda_wireless_tbd",
-      "company": "Cohda Wireless",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_eseye_tbd",
-      "company": "Eseye",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_ziv_binyamini",
-      "company": "Foretellix",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_heitec_manuel_unknown",
-      "company": "HEITEC",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T11:42:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_beck_elektronik_stefan_unknown",
-      "company": "Beck Elektronik",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_marco_kechele",
-      "company": "Cicor Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cohda_wireless_kash_unknown",
-      "company": "Cohda Wireless",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_shane_sorohan",
-      "company": "Cubic Telecom",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_barry_napier",
-      "company": "Cubic Telecom",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_eseye_tamer_unknown",
-      "company": "Eseye",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_excelfore_tbd",
-      "company": "Excelfore",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_heitec_tbd",
-      "company": "HEITEC",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T14:12:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_c2a_security_michael_unknown",
-      "company": "C2A Security",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_cicor_group_marco_kechele",
-      "company": "Cicor Group",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_comms365_will_unknown",
-      "company": "Comms365",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_peter_wyatt",
-      "company": "Cubic Telecom",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_excelfore_tbd",
-      "company": "Excelfore",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_horiba_mira_declan_allen",
-      "company": "HORIBA MIRA",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-15T14:37:00Z"
-    },
-    {
-      "prospect_id": "elms_abax_tbd",
-      "company": "ABAX",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_codico_tbd",
-      "company": "Codico",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_comms365_will_unknown",
-      "company": "Comms365",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_cubic_telecom_peter_wyatt",
-      "company": "Cubic Telecom",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cybelangel_romain_unknown",
-      "company": "CybelAngel",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_excelfore_mark_unknown",
-      "company": "Excelfore",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_udi_jacobi",
-      "company": "Foretellix",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_foretellix_doron_ilan",
-      "company": "Foretellix",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T15:03:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_sofia_unknown",
-      "company": "ABAX",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-15T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_cybelangel_romain_unknown",
-      "company": "CybelAngel",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T15:28:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_abax_martijn_unknown",
-      "company": "ABAX",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-15T15:54:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_walter_unknown",
-      "company": "Codico",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T15:54:00Z"
     }
   ]
 }

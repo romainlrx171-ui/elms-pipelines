@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T20:00:11Z",
+  "generated_at": "2026-06-02T22:00:20Z",
   "totals": {
     "prospects_total": 375,
     "prospects_active": 61,
@@ -7,7 +7,7 @@
     "replies_total": 3,
     "replies_positive": 0,
     "campaigns_active": 34,
-    "upcoming_14d": 411
+    "upcoming_14d": 148
   },
   "programs": [
     {
@@ -16,14 +16,15 @@
       "kpis": {
         "prospects_total": 227,
         "prospects_active": 3,
-        "prospects_paused": 222,
+        "prospects_paused": 198,
         "prospects_replied": 0,
         "prospects_bounced": 0,
         "prospects_with_email": 227,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 200,
         "by_status": {
-          "paused": 222,
+          "paused": 198,
+          "archived": 24,
           "do_not_contact": 2,
           "active": 3
         },
@@ -49,7 +50,7 @@
         "sends_total": 2,
         "replies_total": 1,
         "replies_positive": 0,
-        "upcoming_14d": 267
+        "upcoming_14d": 4
       }
     },
     {
@@ -58,16 +59,17 @@
       "kpis": {
         "prospects_total": 73,
         "prospects_active": 26,
-        "prospects_paused": 45,
+        "prospects_paused": 39,
         "prospects_replied": 0,
         "prospects_bounced": 2,
         "prospects_with_email": 73,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 47,
         "by_status": {
-          "paused": 45,
+          "paused": 39,
           "active": 26,
-          "bounced": 2
+          "bounced": 2,
+          "archived": 6
         },
         "by_tier": {
           "LOW": 3,

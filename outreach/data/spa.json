@@ -1,19 +1,20 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-02T20:00:11Z",
+  "generated_at": "2026-06-02T22:00:20Z",
   "kpis": {
     "prospects_total": 73,
     "prospects_active": 26,
-    "prospects_paused": 45,
+    "prospects_paused": 39,
     "prospects_replied": 0,
     "prospects_bounced": 2,
     "prospects_with_email": 73,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 47,
     "by_status": {
-      "paused": 45,
+      "paused": 39,
       "active": 26,
-      "bounced": 2
+      "bounced": 2,
+      "archived": 6
     },
     "by_tier": {
       "LOW": 3,
@@ -60,8 +61,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-alpitronic-mpq5m8re__philipp-senoner",
@@ -150,8 +151,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_aston_martin_brussels_david_eloy",
@@ -180,8 +181,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_bamford_watch_department_george_bamford",
@@ -210,8 +211,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_bremont_watch_davide_cerrato",
@@ -240,8 +241,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_carto_javier_de_la_torre",
@@ -270,8 +271,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_causaly_yiannis_kiachopoulos",
@@ -300,8 +301,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_cinemo_bernd_stockinger",
@@ -330,8 +331,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_complyadvantage_charles_delingpole",
@@ -360,8 +361,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_coralogix_ariel_assaraf",
@@ -390,8 +391,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-deepl__jaroslaw-kutylowski",
@@ -450,8 +451,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_eseye_nick_earle",
@@ -480,8 +481,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_falkonry_nikunj_mehta",
@@ -510,8 +511,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-groupe-louyet__laurent-louyet",
@@ -570,15 +571,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-06T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_hawk_tobias_schweiger",
       "company": "Hawk",
       "role": "Founder/CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "archived",
       "confidence": 80,
       "geo": "EU",
       "language": "EN",
@@ -600,8 +601,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-06T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-hawk-ai__tobias-schweiger",
@@ -690,8 +691,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-06T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_iba_group_olivier_legrain",
@@ -720,8 +721,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-06T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_instrumental_anna_katrina_shedletsky",
@@ -750,8 +751,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-06T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-jcb__graeme-macdonald",
@@ -930,8 +931,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_landingai_dan_maloney",
@@ -960,8 +961,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_lauterbach_stephan_lauterbach",
@@ -990,15 +991,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_louyet_group_laurent_louyet",
       "company": "Louyet Group",
       "role": "CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "archived",
       "confidence": 80,
       "geo": "EU",
       "language": "EN",
@@ -1020,8 +1021,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_materialise_brigitte_de_vet",
@@ -1050,8 +1051,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_materialise_fried_vancraen",
@@ -1080,8 +1081,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-melexis-gerald__gerald-meyer",
@@ -1230,8 +1231,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_ovhcloud_benjamin_revcolevschi",
@@ -1260,8 +1261,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_ovhcloud_octave_klaba",
@@ -1290,8 +1291,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_oaknorth_rishi_khosla",
@@ -1320,8 +1321,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_outsight_raul_bravo",
@@ -1350,8 +1351,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_parallel_domain_kevin_mcnamara",
@@ -1380,8 +1381,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-physicsx__jacomo-corbo",
@@ -1448,7 +1449,7 @@
       "company": "PhysicsX",
       "role": "Co-founder",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "archived",
       "confidence": 80,
       "geo": "EU",
       "language": "EN",
@@ -1470,15 +1471,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_physicsx_robin_tuluie",
       "company": "PhysicsX",
       "role": "Co-founder/CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "archived",
       "confidence": 80,
       "geo": "EU",
       "language": "EN",
@@ -1500,8 +1501,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_pleo_jeppe_rindom",
@@ -1530,8 +1531,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T11:42:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_pleo_niccolo_perra",
@@ -1560,8 +1561,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_provizio_barry_lunn",
@@ -1590,8 +1591,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-punch-mpqu8t2o__gaspar-gascon",
@@ -1710,8 +1711,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T14:37:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_quantexa_vishal_marria",
@@ -1740,8 +1741,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-09T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-rolling-wireless__cyrille-demousseau",
@@ -1830,8 +1831,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-09T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_showpad_louis_jonckheere",
@@ -1860,8 +1861,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-09T11:18:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_showpad_pieterjan_bouten",
@@ -1890,8 +1891,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-09T10:57:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-sibros__hemant-sikaria",
@@ -1950,8 +1951,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-09T14:12:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-tttech-mpoyzj00__stefan-poledna",
@@ -2048,7 +2049,7 @@
       "company": "Tractable",
       "role": "Founder/CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "archived",
       "confidence": 80,
       "geo": "EU",
       "language": "EN",
@@ -2070,8 +2071,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-umicore-mpquwis0__evelien-goovaerts",
@@ -2160,8 +2161,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_vortexa_fabio_kuhn",
@@ -2190,15 +2191,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T10:05:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_wireless_logic_oliver_tucker",
       "company": "Wireless Logic",
       "role": "Founder/CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "archived",
       "confidence": 80,
       "geo": "EU",
       "language": "EN",
@@ -2220,8 +2221,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T10:32:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     }
   ],
   "campaigns": [
