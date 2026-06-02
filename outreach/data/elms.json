@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-01T15:32:52Z",
+  "generated_at": "2026-06-02T00:00:26Z",
   "kpis": {
     "prospects_total": 227,
     "prospects_active": 0,
@@ -35,7 +35,7 @@
     "sends_total": 1,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 240
+    "upcoming_14d": 290
   },
   "prospects": [
     {
@@ -8336,6 +8336,306 @@
       "company": "CADFEM",
       "touch_n": 3,
       "scheduled_for": "2026-06-12T15:54:00Z"
+    },
+    {
+      "prospect_id": "elms_gatewatcher_tbd",
+      "company": "Gatewatcher",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T09:15:00Z"
+    },
+    {
+      "prospect_id": "elms_fev_group_stefan_pischinger",
+      "company": "FEV Group",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T09:38:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_gatewatcher_nicolas_unknown",
+      "company": "Gatewatcher",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T09:38:00Z"
+    },
+    {
+      "prospect_id": "elms_commsignia_tbd",
+      "company": "Commsignia",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T10:05:00Z"
+    },
+    {
+      "prospect_id": "elms_fev_group_stefan_pischinger",
+      "company": "FEV Group",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T10:05:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_neil_cawse",
+      "company": "Geotab",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T10:05:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_commsignia_laszlo_unknown",
+      "company": "Commsignia",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T10:32:00Z"
+    },
+    {
+      "prospect_id": "elms_elmos_arne_schneider",
+      "company": "Elmos",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T10:32:00Z"
+    },
+    {
+      "prospect_id": "elms_fibocom_lingpeng_ying",
+      "company": "Fibocom",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T10:32:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_dario_murkovic",
+      "company": "Geotab",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T10:32:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_colin_sutherland",
+      "company": "Geotab",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T10:57:00Z"
+    },
+    {
+      "prospect_id": "elms_1global_pyrros_koussios",
+      "company": "1GLOBAL",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-15T11:18:00Z"
+    },
+    {
+      "prospect_id": "elms_beck_elektronik_tbd",
+      "company": "Beck Elektronik",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T11:18:00Z"
+    },
+    {
+      "prospect_id": "elms_compredict_rafael_fietzek",
+      "company": "Compredict",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T11:18:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_filigran_dmytro_unknown",
+      "company": "Filigran",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T11:18:00Z"
+    },
+    {
+      "prospect_id": "elms_filigran_tbd",
+      "company": "Filigran",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T11:18:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_guardknox_jillian_unknown",
+      "company": "GuardKnox",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T11:18:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_cohda_wireless_andrea_unknown",
+      "company": "Cohda Wireless",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T11:42:00Z"
+    },
+    {
+      "prospect_id": "elms_cohda_wireless_tbd",
+      "company": "Cohda Wireless",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T11:42:00Z"
+    },
+    {
+      "prospect_id": "elms_eseye_tbd",
+      "company": "Eseye",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T11:42:00Z"
+    },
+    {
+      "prospect_id": "elms_foretellix_ziv_binyamini",
+      "company": "Foretellix",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T11:42:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_heitec_manuel_unknown",
+      "company": "HEITEC",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T11:42:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_beck_elektronik_stefan_unknown",
+      "company": "Beck Elektronik",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_cicor_group_marco_kechele",
+      "company": "Cicor Group",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_cohda_wireless_kash_unknown",
+      "company": "Cohda Wireless",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_cubic_telecom_shane_sorohan",
+      "company": "Cubic Telecom",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_cubic_telecom_barry_napier",
+      "company": "Cubic Telecom",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_eseye_tamer_unknown",
+      "company": "Eseye",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_excelfore_tbd",
+      "company": "Excelfore",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_heitec_tbd",
+      "company": "HEITEC",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T14:12:00Z"
+    },
+    {
+      "prospect_id": "elms_1nce_tbd",
+      "company": "1NCE",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-15T14:37:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_c2a_security_michael_unknown",
+      "company": "C2A Security",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T14:37:00Z"
+    },
+    {
+      "prospect_id": "elms_cicor_group_marco_kechele",
+      "company": "Cicor Group",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T14:37:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_comms365_will_unknown",
+      "company": "Comms365",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T14:37:00Z"
+    },
+    {
+      "prospect_id": "elms_cubic_telecom_peter_wyatt",
+      "company": "Cubic Telecom",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T14:37:00Z"
+    },
+    {
+      "prospect_id": "elms_excelfore_tbd",
+      "company": "Excelfore",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T14:37:00Z"
+    },
+    {
+      "prospect_id": "elms_horiba_mira_declan_allen",
+      "company": "HORIBA MIRA",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-15T14:37:00Z"
+    },
+    {
+      "prospect_id": "elms_abax_tbd",
+      "company": "ABAX",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_codico_tbd",
+      "company": "Codico",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_comms365_will_unknown",
+      "company": "Comms365",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_cubic_telecom_peter_wyatt",
+      "company": "Cubic Telecom",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_cybelangel_romain_unknown",
+      "company": "CybelAngel",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_excelfore_mark_unknown",
+      "company": "Excelfore",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_foretellix_udi_jacobi",
+      "company": "Foretellix",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_foretellix_doron_ilan",
+      "company": "Foretellix",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-15T15:03:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_abax_sofia_unknown",
+      "company": "ABAX",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-15T15:28:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_cybelangel_romain_unknown",
+      "company": "CybelAngel",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T15:28:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_abax_martijn_unknown",
+      "company": "ABAX",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-15T15:54:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_codico_walter_unknown",
+      "company": "Codico",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T15:54:00Z"
+    },
+    {
+      "prospect_id": "infovista_david_tulis",
+      "company": "Infovista",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T17:30:00Z"
     }
   ]
 }

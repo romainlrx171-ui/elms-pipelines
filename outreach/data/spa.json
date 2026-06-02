@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-01T15:32:52Z",
+  "generated_at": "2026-06-02T00:00:26Z",
   "kpis": {
     "prospects_total": 73,
     "prospects_active": 27,
@@ -30,7 +30,7 @@
     "sends_total": 15,
     "replies_total": 2,
     "replies_positive": 0,
-    "upcoming_14d": 55
+    "upcoming_14d": 66
   },
   "prospects": [
     {
@@ -2811,6 +2811,72 @@
       "company": "Tractable",
       "touch_n": 3,
       "scheduled_for": "2026-06-11T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-alpitronic-mpq5m8re__philipp-senoner",
+      "company": "Alpitronic",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-hawk-ai__wolfgang-berner",
+      "company": "Hawk AI",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-jcb__graeme-macdonald",
+      "company": "JCB (J.C. Bamford Excavators)",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-kempower-mppp8zdn__paula-savonen",
+      "company": "Kempower",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-kempower-mppp8zdn__jussi-vanhanen",
+      "company": "Kempower",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-mpogxocw__daphne-sannen",
+      "company": "Melexis",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-physicsx__jacomo-corbo",
+      "company": "PhysicsX",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-punch-mpqu8t2o__gaspar-gascon",
+      "company": "Punch Powertrain",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-punch-mpqu8t2o__koen-morrhey",
+      "company": "Punch Powertrain",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-rolling-wireless__patrick-bossert",
+      "company": "Rolling Wireless",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-umicore-mpquwis0__evelien-goovaerts",
+      "company": "Umicore",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
     }
   ]
 }
