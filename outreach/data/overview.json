@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-02T15:00:25Z",
+  "generated_at": "2026-06-02T16:00:12Z",
   "totals": {
     "prospects_total": 375,
-    "prospects_active": 61,
-    "sends_total": 32,
+    "prospects_active": 64,
+    "sends_total": 33,
     "replies_total": 3,
     "replies_positive": 0,
-    "campaigns_active": 33,
-    "upcoming_14d": 417
+    "campaigns_active": 34,
+    "upcoming_14d": 421
   },
   "programs": [
     {
@@ -15,15 +15,16 @@
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
         "prospects_total": 227,
-        "prospects_active": 0,
-        "prospects_paused": 227,
+        "prospects_active": 3,
+        "prospects_paused": 224,
         "prospects_replied": 0,
         "prospects_bounced": 0,
         "prospects_with_email": 227,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 200,
         "by_status": {
-          "paused": 227
+          "paused": 224,
+          "active": 3
         },
         "by_tier": {
           "HIGH": 173,
@@ -43,11 +44,11 @@
           "Saint-Germain-en-Laye": 1
         },
         "campaigns_total": 3,
-        "campaigns_active": 0,
-        "sends_total": 1,
+        "campaigns_active": 1,
+        "sends_total": 2,
         "replies_total": 1,
         "replies_positive": 0,
-        "upcoming_14d": 266
+        "upcoming_14d": 270
       }
     },
     {

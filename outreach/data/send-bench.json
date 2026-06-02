@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-01T15:32:52Z",
+  "generated_at": "2026-06-02T16:00:12Z",
   "totals": {
-    "sends_total": 32,
+    "sends_total": 33,
     "sends_bounced": 0,
     "replies_total": 3,
     "replies_positive": 0,
-    "reply_rate": 0.0938,
+    "reply_rate": 0.0909,
     "bounce_rate": 0.0
   },
   "programs": [
@@ -29,8 +29,8 @@
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -41,7 +41,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 1.0,
+      "reply_rate": 0.5,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -76,10 +76,10 @@
     {
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
-      "sends_total": 1,
+      "sends_total": 2,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 1.0
+      "reply_rate": 0.5
     },
     {
       "touch_n": 1,
@@ -111,6 +111,13 @@
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
+    },
+    {
+      "subject": "the real version of your F1 image",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
     },
     {
       "subject": "Your strategic accounts, 48 hours",
