@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-02T16:00:12Z",
+  "generated_at": "2026-06-02T17:00:19Z",
   "kpis": {
     "prospects_total": 227,
     "prospects_active": 3,
@@ -36,7 +36,7 @@
     "sends_total": 2,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 270
+    "upcoming_14d": 267
   },
   "prospects": [
     {
@@ -2496,8 +2496,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T09:38:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_fev_group_stefan_pischinger",
@@ -2526,8 +2526,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T09:15:00Z",
-      "next_touch_n": 0
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_ftdi_chip_tbd",
@@ -3576,8 +3576,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-08T08:00:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "infovista_yasmeen_adl",
@@ -7259,6 +7259,12 @@
       "scheduled_for": "2026-06-05T15:03:00Z"
     },
     {
+      "prospect_id": "infovista_rick_hamilton",
+      "company": "Infovista",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-08T08:00:00Z"
+    },
+    {
       "prospect_id": "elms_apollo_cadfem_derek_unknown",
       "company": "CADFEM",
       "touch_n": 0,
@@ -7979,21 +7985,9 @@
       "scheduled_for": "2026-06-12T08:00:00Z"
     },
     {
-      "prospect_id": "elms_fev_group_stefan_pischinger",
-      "company": "FEV Group",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-12T09:15:00Z"
-    },
-    {
       "prospect_id": "elms_cybelangel_tbd",
       "company": "CybelAngel",
       "touch_n": 1,
-      "scheduled_for": "2026-06-12T09:38:00Z"
-    },
-    {
-      "prospect_id": "elms_fev_group_markus_kersting",
-      "company": "FEV Group",
-      "touch_n": 0,
       "scheduled_for": "2026-06-12T09:38:00Z"
     },
     {
@@ -8011,12 +8005,6 @@
     {
       "prospect_id": "elms_elmos_arne_schneider",
       "company": "Elmos",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_fev_group_markus_kersting",
-      "company": "FEV Group",
       "touch_n": 1,
       "scheduled_for": "2026-06-12T10:05:00Z"
     },
@@ -8231,16 +8219,16 @@
       "scheduled_for": "2026-06-12T15:54:00Z"
     },
     {
+      "prospect_id": "infovista_rick_hamilton",
+      "company": "Infovista",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-15T08:00:00Z"
+    },
+    {
       "prospect_id": "elms_gatewatcher_tbd",
       "company": "Gatewatcher",
       "touch_n": 0,
       "scheduled_for": "2026-06-15T09:15:00Z"
-    },
-    {
-      "prospect_id": "elms_fev_group_stefan_pischinger",
-      "company": "FEV Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T09:38:00Z"
     },
     {
       "prospect_id": "elms_apollo_gatewatcher_nicolas_unknown",
@@ -8251,12 +8239,6 @@
     {
       "prospect_id": "elms_commsignia_tbd",
       "company": "Commsignia",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms_fev_group_stefan_pischinger",
-      "company": "FEV Group",
       "touch_n": 2,
       "scheduled_for": "2026-06-15T10:05:00Z"
     },

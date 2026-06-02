@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-02T00:00:26Z",
+  "generated_at": "2026-06-02T17:00:19Z",
   "kpis": {
     "prospects_total": 75,
     "prospects_active": 34,
@@ -13,7 +13,7 @@
     "by_status": {
       "active": 34,
       "paused": 40,
-      "unsubscribed": 1
+      "do_not_contact": 1
     },
     "by_tier": {
       "MED": 35,
@@ -29,7 +29,7 @@
     "sends_total": 16,
     "replies_total": 0,
     "replies_positive": 0,
-    "upcoming_14d": 85
+    "upcoming_14d": 81
   },
   "prospects": [
     {
@@ -629,8 +629,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-fev-mppokx02__patrick-hupperich",
@@ -659,15 +659,15 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-fev-mppokx02__ulrich-andree",
       "company": "FEV Group",
       "role": "Global Vice President Marketing & Communications",
       "tier": "MED",
-      "status": "unsubscribed",
+      "status": "do_not_contact",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -676,8 +676,8 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "declined",
+      "outcome_at": "2026-06-02T16:19:32Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:44",
       "updated_at": "2026-06-01 11:32:44",
@@ -779,8 +779,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-05T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-heitec-mppti5rj__steffen-ruckl",
@@ -2581,12 +2581,6 @@
       "scheduled_for": "2026-06-03T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-fev-mppokx02__patrick-hupperich",
-      "company": "FEV Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-heitec-mppti5rj__steffen-ruckl",
       "company": "HEITEC AG",
       "touch_n": 1,
@@ -2665,14 +2659,14 @@
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-fev-mppokx02__marius-strasdat",
-      "company": "FEV Group",
-      "touch_n": 1,
+      "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
+      "company": "Geotab",
+      "touch_n": 2,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
-      "company": "Geotab",
+      "prospect_id": "bd-platform-heitec-mppti5rj__michael-friess",
+      "company": "HEITEC AG",
       "touch_n": 2,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
@@ -2779,12 +2773,6 @@
       "scheduled_for": "2026-06-08T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-fev-mppokx02__patrick-hupperich",
-      "company": "FEV Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-heitec-mppti5rj__steffen-ruckl",
       "company": "HEITEC AG",
       "touch_n": 2,
@@ -2839,12 +2827,6 @@
       "scheduled_for": "2026-06-08T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-fev-mppokx02__marius-strasdat",
-      "company": "FEV Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-ipg-mppol07t__mara-schmidt",
       "company": "IPG Automotive",
       "touch_n": 2,
@@ -2895,6 +2877,12 @@
     {
       "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
       "company": "Geotab",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-11T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-heitec-mppti5rj__michael-friess",
+      "company": "HEITEC AG",
       "touch_n": 3,
       "scheduled_for": "2026-06-11T09:30:00Z"
     },
@@ -2973,18 +2961,6 @@
     {
       "prospect_id": "bd-platform-emc-mpqchadg__ema-ziga",
       "company": "EMC Test NRW GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-fev-mppokx02__patrick-hupperich",
-      "company": "FEV Group",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-fev-mppokx02__marius-strasdat",
-      "company": "FEV Group",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },

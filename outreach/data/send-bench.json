@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-02T16:00:12Z",
+  "generated_at": "2026-06-02T17:00:19Z",
   "totals": {
-    "sends_total": 33,
-    "sends_bounced": 0,
+    "sends_total": 34,
+    "sends_bounced": 1,
     "replies_total": 3,
     "replies_positive": 0,
-    "reply_rate": 0.0909,
-    "bounce_rate": 0.0
+    "reply_rate": 0.0882,
+    "bounce_rate": 0.0294
   },
   "programs": [
     {
@@ -47,20 +47,20 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 15,
+      "sends_total": 16,
       "sends_ok": 15,
-      "sends_bounced": 0,
+      "sends_bounced": 1,
       "sends_error": 0,
       "replies_total": 2,
       "replies_positive": 0,
       "replies_negative": 0,
-      "replies_ooo": 0,
+      "replies_ooo": 1,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1333,
-      "bounce_rate": 0.0,
+      "reply_rate": 0.125,
+      "bounce_rate": 0.0625,
       "positive_rate": 0.0
     }
   ],
@@ -84,10 +84,10 @@
     {
       "touch_n": 1,
       "program": "SPA_24H",
-      "sends_total": 15,
+      "sends_total": 16,
       "replies_total": 2,
-      "bounced": 0,
-      "reply_rate": 0.1333
+      "bounced": 1,
+      "reply_rate": 0.125
     }
   ],
   "subjects": [
@@ -106,11 +106,11 @@
       "reply_rate": 1.0
     },
     {
-      "subject": "Cologne to Spa, 90 minutes",
+      "subject": "Melexis Q1, H2 growth, and Spa",
       "program": "SPA_24H",
-      "sends_total": 1,
-      "replies_total": 1,
-      "reply_rate": 1.0
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
     },
     {
       "subject": "the real version of your F1 image",
@@ -212,13 +212,6 @@
     },
     {
       "subject": "On your APM Terminals framework",
-      "program": "SPA_24H",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Melexis Q1, H2 growth, and Spa",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -328,7 +321,7 @@
       "company": "Rolling Wireless",
       "program": "SPA_24H",
       "received_at": "2026-06-01T11:25:57Z",
-      "sentiment": "unclassified",
+      "sentiment": "ooo",
       "method": "keyword",
       "touch_n": 1
     },
@@ -336,7 +329,7 @@
       "company": "DeepL",
       "program": "SPA_24H",
       "received_at": "2026-06-01T04:14:42Z",
-      "sentiment": "unclassified",
+      "sentiment": "bounce",
       "method": "keyword",
       "touch_n": 1
     },
