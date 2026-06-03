@@ -1,35 +1,35 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-02T22:00:20Z",
+  "generated_at": "2026-06-03T11:00:13Z",
   "kpis": {
-    "prospects_total": 75,
-    "prospects_active": 32,
+    "prospects_total": 81,
+    "prospects_active": 38,
     "prospects_paused": 40,
     "prospects_replied": 0,
     "prospects_bounced": 0,
-    "prospects_with_email": 75,
+    "prospects_with_email": 81,
     "prospects_without_email": 0,
-    "prospects_with_linkedin": 41,
+    "prospects_with_linkedin": 45,
     "by_status": {
-      "active": 32,
+      "active": 38,
       "paused": 40,
       "do_not_contact": 3
     },
     "by_tier": {
-      "MED": 35,
+      "MED": 41,
       "LOW": 28,
       "HIGH": 12
     },
     "by_geo": {
-      "unknown": 35,
+      "unknown": 41,
       "EU": 40
     },
-    "campaigns_total": 18,
-    "campaigns_active": 17,
+    "campaigns_total": 21,
+    "campaigns_active": 20,
     "sends_total": 16,
     "replies_total": 0,
     "replies_positive": 0,
-    "upcoming_14d": 81
+    "upcoming_14d": 99
   },
   "prospects": [
     {
@@ -361,6 +361,36 @@
       "last_sentiment": null,
       "next_scheduled": null,
       "next_touch_n": null
+    },
+    {
+      "id": "bd-platform-bekaert-mpx24swz__annie-xu",
+      "company": "Bekaert",
+      "role": "President Rubber Reinforcement (per web; Apollo title null)",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:bd-platform",
+      "has_email": true,
+      "has_linkedin": false,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:58",
+      "updated_at": "2026-06-03 10:20:58",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "bd_clairfield_international_thierry_chetrit",
@@ -1923,6 +1953,96 @@
       "next_touch_n": null
     },
     {
+      "id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
+      "company": "Quartix",
+      "role": "Sales & Marketing Director",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:bd-platform",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:58",
+      "updated_at": "2026-06-03 10:20:58",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "bd-platform-quartix-mpx2nfvy__andy-walters",
+      "company": "Quartix",
+      "role": "Executive Chairman & CEO (co-founder)",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:bd-platform",
+      "has_email": true,
+      "has_linkedin": false,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:58",
+      "updated_at": "2026-06-03 10:20:58",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "bd-platform-quartix-mpx2nfvy__sean-maher",
+      "company": "Quartix",
+      "role": "Sales Director",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:bd-platform",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:58",
+      "updated_at": "2026-06-03 10:20:58",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
       "id": "bd_rsm_uk_mike_tillson",
       "company": "RSM UK",
       "role": "Corporate Finance Partner",
@@ -2040,6 +2160,66 @@
       "last_reply_at": null,
       "last_sentiment": null,
       "next_scheduled": "2026-06-01T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "bd-platform-stratio-mpx3n7b9__ricardo-margalho",
+      "company": "Stratio Automotive",
+      "role": "Co-Founder & CEO",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:bd-platform",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:58",
+      "updated_at": "2026-06-03 10:20:58",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "bd-platform-stratio-mpx3n7b9__rui-sales",
+      "company": "Stratio Automotive",
+      "role": "President & Co-Founder",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:bd-platform",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:58",
+      "updated_at": "2026-06-03 10:20:58",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
       "next_touch_n": 1
     },
     {
@@ -2284,6 +2464,51 @@
     }
   ],
   "campaigns": [
+    {
+      "id": "cmp_bd_platform_bekaert_mpx24swz",
+      "name": "Bekaert — executive_hospitality (bd-platform)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:37",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:37",
+      "assignments": 1,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
+      "id": "cmp_bd_platform_quartix_mpx2nfvy",
+      "name": "Quartix — executive_hospitality (bd-platform)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:37",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:37",
+      "assignments": 3,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
+      "id": "cmp_bd_platform_stratio_mpx3n7b9",
+      "name": "Stratio Automotive — executive_hospitality (bd-platform)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:37",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:37",
+      "assignments": 2,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
     {
       "id": "cmp_bd_platform_utac_mpqbi4gz",
       "name": "UTAC — executive_hospitality (bd-platform)",
@@ -2635,6 +2860,42 @@
       "scheduled_for": "2026-06-03T09:30:00Z"
     },
     {
+      "prospect_id": "bd-platform-bekaert-mpx24swz__annie-xu",
+      "company": "Bekaert",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__sean-maher",
+      "company": "Quartix",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
+      "company": "Quartix",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
+      "company": "Quartix",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-stratio-mpx3n7b9__ricardo-margalho",
+      "company": "Stratio Automotive",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-stratio-mpx3n7b9__rui-sales",
+      "company": "Stratio Automotive",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
       "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
       "company": "Applus+ IDIADA",
       "touch_n": 2,
@@ -2851,6 +3112,42 @@
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
+      "prospect_id": "bd-platform-bekaert-mpx24swz__annie-xu",
+      "company": "Bekaert",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__sean-maher",
+      "company": "Quartix",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
+      "company": "Quartix",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
+      "company": "Quartix",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-stratio-mpx3n7b9__ricardo-margalho",
+      "company": "Stratio Automotive",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-stratio-mpx3n7b9__rui-sales",
+      "company": "Stratio Automotive",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
       "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
       "company": "Applus+ IDIADA",
       "touch_n": 3,
@@ -3039,6 +3336,42 @@
     {
       "prospect_id": "bd-platform-targa-mpppwfby__elena-bellini",
       "company": "Targa Telematics",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bekaert-mpx24swz__annie-xu",
+      "company": "Bekaert",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__sean-maher",
+      "company": "Quartix",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
+      "company": "Quartix",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
+      "company": "Quartix",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-stratio-mpx3n7b9__ricardo-margalho",
+      "company": "Stratio Automotive",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-stratio-mpx3n7b9__rui-sales",
+      "company": "Stratio Automotive",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
     }

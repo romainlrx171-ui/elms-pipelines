@@ -1,38 +1,38 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-03T10:00:11Z",
+  "generated_at": "2026-06-03T11:00:13Z",
   "kpis": {
-    "prospects_total": 73,
-    "prospects_active": 29,
+    "prospects_total": 77,
+    "prospects_active": 33,
     "prospects_paused": 34,
     "prospects_replied": 0,
     "prospects_bounced": 3,
-    "prospects_with_email": 73,
+    "prospects_with_email": 77,
     "prospects_without_email": 0,
-    "prospects_with_linkedin": 47,
+    "prospects_with_linkedin": 51,
     "by_status": {
       "paused": 34,
-      "active": 29,
+      "active": 33,
       "bounced": 3,
       "do_not_contact": 1,
       "archived": 6
     },
     "by_tier": {
       "LOW": 3,
-      "MED": 29,
+      "MED": 33,
       "HIGH": 29,
       "MED-HIGH": 12
     },
     "by_geo": {
       "EU": 45,
-      "unknown": 28
+      "unknown": 32
     },
-    "campaigns_total": 17,
-    "campaigns_active": 16,
+    "campaigns_total": 19,
+    "campaigns_active": 18,
     "sends_total": 20,
     "replies_total": 4,
     "replies_positive": 0,
-    "upcoming_14d": 70
+    "upcoming_14d": 82
   },
   "prospects": [
     {
@@ -274,6 +274,66 @@
       "last_sentiment": null,
       "next_scheduled": null,
       "next_touch_n": null
+    },
+    {
+      "id": "spa24-capitalcom-mpwvv7nq__christoforos-soutzis",
+      "company": "Capital.com",
+      "role": "CEO, Europe",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:spa24",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:57",
+      "updated_at": "2026-06-03 10:20:57",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
+      "company": "Capital.com",
+      "role": "Head of Growth (Marketing)",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:spa24",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:57",
+      "updated_at": "2026-06-03 10:20:57",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "spa_causaly_yiannis_kiachopoulos",
@@ -1356,6 +1416,66 @@
       "next_touch_n": null
     },
     {
+      "id": "spa24-panorama-mpx4djqm__robert-jesman",
+      "company": "Panorama Antennas",
+      "role": "Commercial Director (Sales & Marketing Director)",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:spa24",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:57",
+      "updated_at": "2026-06-03 10:20:57",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "spa24-panorama-mpx4djqm__tom-jesman",
+      "company": "Panorama Antennas",
+      "role": "Managing Director & Quality Director",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:spa24",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:57",
+      "updated_at": "2026-06-03 10:20:57",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
       "id": "spa_parallel_domain_kevin_mcnamara",
       "company": "Parallel Domain",
       "role": "Founder/CEO",
@@ -2228,6 +2348,36 @@
   ],
   "campaigns": [
     {
+      "id": "cmp_spa24_capitalcom_mpwvv7nq",
+      "name": "Capital.com — european_market_visibility (spa24)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:36",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:36",
+      "assignments": 2,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
+      "id": "cmp_spa24_panorama_mpx4djqm",
+      "name": "Panorama Antennas — technical_performance_reliability (spa24)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:36",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:36",
+      "assignments": 2,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
       "id": "cmp_spa24_melexis_klaus",
       "name": "Melexis — executive_hospitality (spa24)",
       "status": "active",
@@ -2545,6 +2695,30 @@
       "scheduled_for": "2026-06-03T09:30:00Z"
     },
     {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__christoforos-soutzis",
+      "company": "Capital.com",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
+      "company": "Capital.com",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-panorama-mpx4djqm__robert-jesman",
+      "company": "Panorama Antennas",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-panorama-mpx4djqm__tom-jesman",
+      "company": "Panorama Antennas",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
       "prospect_id": "spa24-alpitronic-mpq5m8re__wolfgang-ademmer",
       "company": "Alpitronic",
       "touch_n": 2,
@@ -2731,6 +2905,30 @@
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__christoforos-soutzis",
+      "company": "Capital.com",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
+      "company": "Capital.com",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-panorama-mpx4djqm__robert-jesman",
+      "company": "Panorama Antennas",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-panorama-mpx4djqm__tom-jesman",
+      "company": "Panorama Antennas",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
       "prospect_id": "spa24-alpitronic-mpq5m8re__wolfgang-ademmer",
       "company": "Alpitronic",
       "touch_n": 3,
@@ -2901,6 +3099,30 @@
     {
       "prospect_id": "spa24-umicore-mpquwis0__evelien-goovaerts",
       "company": "Umicore",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__christoforos-soutzis",
+      "company": "Capital.com",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
+      "company": "Capital.com",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-panorama-mpx4djqm__robert-jesman",
+      "company": "Panorama Antennas",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-panorama-mpx4djqm__tom-jesman",
+      "company": "Panorama Antennas",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
     }

@@ -1,29 +1,29 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-03T00:00:13Z",
+  "generated_at": "2026-06-03T11:00:13Z",
   "kpis": {
-    "prospects_total": 227,
-    "prospects_active": 3,
+    "prospects_total": 234,
+    "prospects_active": 10,
     "prospects_paused": 198,
     "prospects_replied": 0,
     "prospects_bounced": 0,
-    "prospects_with_email": 227,
+    "prospects_with_email": 234,
     "prospects_without_email": 0,
-    "prospects_with_linkedin": 200,
+    "prospects_with_linkedin": 206,
     "by_status": {
       "paused": 198,
       "archived": 24,
-      "do_not_contact": 2,
-      "active": 3
+      "active": 10,
+      "do_not_contact": 2
     },
     "by_tier": {
       "HIGH": 173,
       "LOW": 51,
-      "MED": 3
+      "MED": 10
     },
     "by_geo": {
       "EU": 82,
-      "unknown": 131,
+      "unknown": 138,
       "France": 2,
       "Germany": 1,
       "Paris": 6,
@@ -33,12 +33,12 @@
       "Greece": 1,
       "Saint-Germain-en-Laye": 1
     },
-    "campaigns_total": 3,
-    "campaigns_active": 1,
+    "campaigns_total": 6,
+    "campaigns_active": 4,
     "sends_total": 2,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 5
+    "upcoming_14d": 26
   },
   "prospects": [
     {
@@ -1120,6 +1120,96 @@
       "last_sentiment": null,
       "next_scheduled": null,
       "next_touch_n": null
+    },
+    {
+      "id": "elms-cadfem-mpq0lagr__elena-vallejo",
+      "company": "CADFEM",
+      "role": "Managing Director, CADFEM (UK & Ireland)",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:59",
+      "updated_at": "2026-06-03 10:20:59",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "elms-cadfem-mpq0lagr__matthias-alberts",
+      "company": "CADFEM",
+      "role": "Director, CADFEM Europe",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:59",
+      "updated_at": "2026-06-03 10:20:59",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "elms-cadfem-mpq0lagr__matthias-hoermann",
+      "company": "CADFEM",
+      "role": "Managing Director, CADFEM Germany GmbH",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:59",
+      "updated_at": "2026-06-03 10:20:59",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "elms_apollo_cadfem_derek_unknown",
@@ -2800,6 +2890,66 @@
       "last_sentiment": null,
       "next_scheduled": null,
       "next_touch_n": null
+    },
+    {
+      "id": "elms-glyn-mppxgz2t__christopher-frese",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "role": "Marketing Manager",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:59",
+      "updated_at": "2026-06-03 10:20:59",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "elms-glyn-mppxgz2t__thomas-gerhardt",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "role": "President / CEO (Geschäftsführer)",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": false,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:59",
+      "updated_at": "2026-06-03 10:20:59",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "elms_apollo_gatewatcher_nicolas_unknown",
@@ -4842,6 +4992,66 @@
       "next_touch_n": null
     },
     {
+      "id": "elms-qonto-mpx1rwc5__alexandre-prot",
+      "company": "Qonto",
+      "role": "Co-Founder & CEO",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:59",
+      "updated_at": "2026-06-03 10:20:59",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "elms-qonto-mpx1rwc5__heidrun-luyt",
+      "company": "Qonto",
+      "role": "Chief Growth Officer",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-06-03 10:20:59",
+      "updated_at": "2026-06-03 10:20:59",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-06-03T09:30:00Z",
+      "next_touch_n": 1
+    },
+    {
       "id": "elms_rutronik_automotive_bu_fabian_plentz",
       "company": "Rutronik Automotive BU",
       "role": "Chief Operating Officer",
@@ -6854,6 +7064,51 @@
   ],
   "campaigns": [
     {
+      "id": "cmp_elms_cadfem_mpq0lagr",
+      "name": "CADFEM — technical_performance_reliability (elms)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:38",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:38",
+      "assignments": 3,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
+      "id": "cmp_elms_qonto_mpx1rwc5",
+      "name": "Qonto — european_market_visibility (elms)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:38",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:38",
+      "assignments": 2,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
+      "id": "cmp_elms_glyn_mppxgz2t",
+      "name": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG) — executive_hospitality (elms)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-06-03 10:21:38",
+      "ended_at": null,
+      "created_at": "2026-06-03 10:21:38",
+      "assignments": 2,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
       "id": "elms_cold_2026",
       "name": "ELMS Sponsors — Cold Pipeline 2026",
       "status": "draft",
@@ -6901,6 +7156,48 @@
   ],
   "upcoming": [
     {
+      "prospect_id": "elms-cadfem-mpq0lagr__matthias-alberts",
+      "company": "CADFEM",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cadfem-mpq0lagr__matthias-hoermann",
+      "company": "CADFEM",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cadfem-mpq0lagr__elena-vallejo",
+      "company": "CADFEM",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-qonto-mpx1rwc5__heidrun-luyt",
+      "company": "Qonto",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-qonto-mpx1rwc5__alexandre-prot",
+      "company": "Qonto",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-glyn-mppxgz2t__christopher-frese",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-glyn-mppxgz2t__thomas-gerhardt",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T09:30:00Z"
+    },
+    {
       "prospect_id": "infovista_alexandre_lecoq",
       "company": "Infovista",
       "touch_n": 1,
@@ -6919,10 +7216,94 @@
       "scheduled_for": "2026-06-09T08:00:00Z"
     },
     {
+      "prospect_id": "elms-cadfem-mpq0lagr__matthias-alberts",
+      "company": "CADFEM",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cadfem-mpq0lagr__matthias-hoermann",
+      "company": "CADFEM",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cadfem-mpq0lagr__elena-vallejo",
+      "company": "CADFEM",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-qonto-mpx1rwc5__heidrun-luyt",
+      "company": "Qonto",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-qonto-mpx1rwc5__alexandre-prot",
+      "company": "Qonto",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-glyn-mppxgz2t__christopher-frese",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-glyn-mppxgz2t__thomas-gerhardt",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
       "prospect_id": "infovista_alexandre_lecoq",
       "company": "Infovista",
       "touch_n": 2,
       "scheduled_for": "2026-06-12T08:00:00Z"
+    },
+    {
+      "prospect_id": "elms-cadfem-mpq0lagr__matthias-alberts",
+      "company": "CADFEM",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cadfem-mpq0lagr__matthias-hoermann",
+      "company": "CADFEM",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cadfem-mpq0lagr__elena-vallejo",
+      "company": "CADFEM",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-qonto-mpx1rwc5__heidrun-luyt",
+      "company": "Qonto",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-qonto-mpx1rwc5__alexandre-prot",
+      "company": "Qonto",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-glyn-mppxgz2t__christopher-frese",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-glyn-mppxgz2t__thomas-gerhardt",
+      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
       "prospect_id": "infovista_dina_rodrigues",
