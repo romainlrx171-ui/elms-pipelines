@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-03T09:00:21Z",
+  "generated_at": "2026-06-03T12:00:11Z",
   "totals": {
-    "sends_total": 38,
-    "sends_bounced": 2,
-    "replies_total": 5,
+    "sends_total": 68,
+    "sends_bounced": 3,
+    "replies_total": 7,
     "replies_positive": 0,
-    "reply_rate": 0.1316,
-    "bounce_rate": 0.0526
+    "reply_rate": 0.1029,
+    "bounce_rate": 0.0441
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 16,
-      "sends_ok": 16,
+      "sends_total": 31,
+      "sends_ok": 31,
       "sends_bounced": 0,
       "sends_error": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0,
       "replies_negative": 0,
-      "replies_ooo": 0,
+      "replies_ooo": 1,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0,
+      "reply_rate": 0.0323,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -41,17 +41,17 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.5,
+      "reply_rate": 0.2,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
     {
       "program": "SPA_24H",
-      "sends_total": 20,
-      "sends_ok": 18,
-      "sends_bounced": 2,
+      "sends_total": 32,
+      "sends_ok": 29,
+      "sends_bounced": 3,
       "sends_error": 0,
-      "replies_total": 4,
+      "replies_total": 5,
       "replies_positive": 0,
       "replies_negative": 1,
       "replies_ooo": 1,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.2,
-      "bounce_rate": 0.1,
+      "reply_rate": 0.1562,
+      "bounce_rate": 0.0938,
       "positive_rate": 0.0
     }
   ],
@@ -68,32 +68,39 @@
     {
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 16,
-      "replies_total": 0,
+      "sends_total": 31,
+      "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0
+      "reply_rate": 0.0323
     },
     {
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
-      "sends_total": 2,
+      "sends_total": 5,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.5
+      "reply_rate": 0.2
     },
     {
       "touch_n": 1,
       "program": "SPA_24H",
-      "sends_total": 20,
-      "replies_total": 4,
-      "bounced": 2,
-      "reply_rate": 0.2
+      "sends_total": 32,
+      "replies_total": 5,
+      "bounced": 3,
+      "reply_rate": 0.1562
     }
   ],
   "subjects": [
     {
       "subject": "quick test of the new sender",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Your safety accounts, one weekend",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -115,7 +122,7 @@
     {
       "subject": "Melexis Q1, H2 growth, and Spa",
       "program": "SPA_24H",
-      "sends_total": 2,
+      "sends_total": 3,
       "replies_total": 0,
       "reply_rate": 0.0
     },
@@ -127,7 +134,21 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Zwei neue Felder, ein Kanal",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Your strategic accounts, 48 hours",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Your larger-fleet push",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -148,8 +169,29 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Your SunSwift proving-ground, in Europe",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Your SBS reference, off the slide",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Your RoaDyn sensor, our ELMS grid",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Your Q1, and a Spa idea",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -176,6 +218,20 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Your \"better decisions\" brand at Spa",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Where 'motorsport-derived' gets tested",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Von EVoReso zur Rennstrecke",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -184,6 +240,13 @@
     },
     {
       "subject": "The gap beside FEV Racing",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The exec tier your events miss",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -211,6 +274,27 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Reliability under stress, on a customer",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Proof footage for your World Conference",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Post-CES, post-funding, one idea",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "PAK 6.4 meets a GT3 lab",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -218,7 +302,42 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Own your numbers, on track",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "On your APM Terminals framework",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "No livery, no brand risk",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Named accounts + ELMS paddock",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Munich, Spa, August, IABG clients",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Materialise, on home soil at Spa",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -232,6 +351,20 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Hydrogen brand-build at Spa",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Hosting OEMs, off your turf",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "HYC1000, and where your buyers gather",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -239,8 +372,36 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "GT3 telemetry + PhysicsX OS",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "From market leader to global brand",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "From IAC to the next venue",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Filling the new ADAS capacity",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Embedded World → Imola, weeks later",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -262,6 +423,13 @@
     {
       "subject": "Bremont on the grid at Spa",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Beyond Aprilia: a different instrument",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -316,6 +484,34 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "A trackside idea for accounts",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A room NCAB doesn't have yet",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A partnerships idea, post-TIER IV",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A paddock idea for MBBM-VAS",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "A neutral venue for IABG's clients",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -338,6 +534,22 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "Rolling Wireless",
+      "program": "SPA_24H",
+      "received_at": "2026-06-03T13:18:17Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
+      "company": "Kistler Group",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-03T11:30:41Z",
+      "sentiment": "ooo",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "Materialise",
       "program": "SPA_24H",
