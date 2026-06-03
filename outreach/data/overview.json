@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03T17:00:12Z",
+  "generated_at": "2026-06-03T21:00:12Z",
   "totals": {
-    "prospects_total": 392,
+    "prospects_total": 395,
     "prospects_active": 80,
     "sends_total": 68,
     "replies_total": 9,
@@ -14,28 +14,28 @@
       "program": "ELMS_SPONSORS",
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
-        "prospects_total": 234,
+        "prospects_total": 237,
         "prospects_active": 10,
-        "prospects_paused": 198,
+        "prospects_paused": 201,
         "prospects_replied": 0,
         "prospects_bounced": 0,
-        "prospects_with_email": 234,
+        "prospects_with_email": 237,
         "prospects_without_email": 0,
-        "prospects_with_linkedin": 206,
+        "prospects_with_linkedin": 209,
         "by_status": {
-          "paused": 198,
+          "paused": 201,
           "archived": 24,
           "active": 10,
           "do_not_contact": 2
         },
         "by_tier": {
           "HIGH": 173,
-          "LOW": 51,
+          "LOW": 54,
           "MED": 10
         },
         "by_geo": {
           "EU": 82,
-          "unknown": 138,
+          "unknown": 141,
           "France": 2,
           "Germany": 1,
           "Paris": 6,
