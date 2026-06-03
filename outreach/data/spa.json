@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-03T12:00:11Z",
+  "generated_at": "2026-06-03T16:00:16Z",
   "kpis": {
     "prospects_total": 77,
     "prospects_active": 32,
@@ -30,9 +30,9 @@
     "campaigns_total": 19,
     "campaigns_active": 18,
     "sends_total": 32,
-    "replies_total": 5,
+    "replies_total": 6,
     "replies_positive": 0,
-    "upcoming_14d": 68
+    "upcoming_14d": 66
   },
   "prospects": [
     {
@@ -597,13 +597,13 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-01 11:16:03",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-06-03T15:29:50Z",
+      "last_sentiment": "unclassified",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_hms_networks_staffan_dahlstrom",
@@ -2584,7 +2584,7 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -2649,12 +2649,6 @@
     {
       "prospect_id": "spa24-alpitronic-mpq5m8re__wolfgang-ademmer",
       "company": "Alpitronic",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-groupe-louyet__laurent-louyet",
-      "company": "Groupe Louyet",
       "touch_n": 2,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
@@ -2853,12 +2847,6 @@
     {
       "prospect_id": "spa24-alpitronic-mpq5m8re__wolfgang-ademmer",
       "company": "Alpitronic",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-groupe-louyet__laurent-louyet",
-      "company": "Groupe Louyet",
       "touch_n": 3,
       "scheduled_for": "2026-06-11T09:30:00Z"
     },
