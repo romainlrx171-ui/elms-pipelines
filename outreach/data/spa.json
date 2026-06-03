@@ -1,18 +1,18 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-03T09:00:21Z",
+  "generated_at": "2026-06-03T10:00:11Z",
   "kpis": {
     "prospects_total": 73,
-    "prospects_active": 28,
-    "prospects_paused": 35,
+    "prospects_active": 29,
+    "prospects_paused": 34,
     "prospects_replied": 0,
     "prospects_bounced": 3,
     "prospects_with_email": 73,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 47,
     "by_status": {
-      "paused": 35,
-      "active": 28,
+      "paused": 34,
+      "active": 29,
       "bounced": 3,
       "do_not_contact": 1,
       "archived": 6
@@ -32,7 +32,7 @@
     "sends_total": 20,
     "replies_total": 4,
     "replies_positive": 0,
-    "upcoming_14d": 67
+    "upcoming_14d": 70
   },
   "prospects": [
     {
@@ -1060,7 +1060,7 @@
       "company": "Materialise",
       "role": "Chairman/Founder",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 80,
       "geo": "EU",
       "language": "EN",
@@ -1082,8 +1082,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-03T07:00:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "spa24-melexis-gerald__gerald-meyer",
@@ -2491,6 +2491,12 @@
       "scheduled_for": "2026-06-01T09:30:00Z"
     },
     {
+      "prospect_id": "spa_materialise_fried_vancraen",
+      "company": "Materialise",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-03T07:00:00Z"
+    },
+    {
       "prospect_id": "spa24-alpitronic-mpq5m8re__philipp-senoner",
       "company": "Alpitronic",
       "touch_n": 1,
@@ -2643,6 +2649,12 @@
     {
       "prospect_id": "spa_bremont_watch_davide_cerrato",
       "company": "Bremont Watch",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-08T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa_materialise_fried_vancraen",
+      "company": "Materialise",
       "touch_n": 2,
       "scheduled_for": "2026-06-08T09:30:00Z"
     },
@@ -2817,6 +2829,12 @@
     {
       "prospect_id": "spa_bremont_watch_davide_cerrato",
       "company": "Bremont Watch",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa_materialise_fried_vancraen",
+      "company": "Materialise",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
