@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-02T17:00:19Z",
+  "generated_at": "2026-06-03T09:00:21Z",
   "totals": {
-    "sends_total": 34,
-    "sends_bounced": 1,
-    "replies_total": 3,
+    "sends_total": 38,
+    "sends_bounced": 2,
+    "replies_total": 5,
     "replies_positive": 0,
-    "reply_rate": 0.0882,
-    "bounce_rate": 0.0294
+    "reply_rate": 0.1316,
+    "bounce_rate": 0.0526
   },
   "programs": [
     {
@@ -47,20 +47,20 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 16,
-      "sends_ok": 15,
-      "sends_bounced": 1,
+      "sends_total": 20,
+      "sends_ok": 18,
+      "sends_bounced": 2,
       "sends_error": 0,
-      "replies_total": 2,
+      "replies_total": 4,
       "replies_positive": 0,
-      "replies_negative": 0,
+      "replies_negative": 1,
       "replies_ooo": 1,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.125,
-      "bounce_rate": 0.0625,
+      "reply_rate": 0.2,
+      "bounce_rate": 0.1,
       "positive_rate": 0.0
     }
   ],
@@ -84,10 +84,10 @@
     {
       "touch_n": 1,
       "program": "SPA_24H",
-      "sends_total": 16,
-      "replies_total": 2,
-      "bounced": 1,
-      "reply_rate": 0.125
+      "sends_total": 20,
+      "replies_total": 4,
+      "bounced": 2,
+      "reply_rate": 0.2
     }
   ],
   "subjects": [
@@ -100,6 +100,13 @@
     },
     {
       "subject": "Vos modules roulent, votre nom non",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "EVS at its home race",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 1,
@@ -253,6 +260,20 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Bremont on the grid at Spa",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Bamford on a GT3 at Spa",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Après Orléans, le terrain de vos clients",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -317,6 +338,22 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "Materialise",
+      "program": "SPA_24H",
+      "received_at": "2026-06-03T10:27:25Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
+      "company": "EVS Broadcast Equipment",
+      "program": "SPA_24H",
+      "received_at": "2026-06-03T08:43:44Z",
+      "sentiment": "negative",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "Rolling Wireless",
       "program": "SPA_24H",

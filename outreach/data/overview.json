@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-03T00:00:13Z",
+  "generated_at": "2026-06-03T09:00:21Z",
   "totals": {
     "prospects_total": 375,
-    "prospects_active": 61,
-    "sends_total": 34,
-    "replies_total": 3,
+    "prospects_active": 63,
+    "sends_total": 38,
+    "replies_total": 5,
     "replies_positive": 0,
     "campaigns_active": 34,
-    "upcoming_14d": 149
+    "upcoming_14d": 153
   },
   "programs": [
     {
@@ -58,17 +58,18 @@
       "label": "24h Spa 2026 — Aston / Ecurie Ecosse",
       "kpis": {
         "prospects_total": 73,
-        "prospects_active": 26,
-        "prospects_paused": 39,
+        "prospects_active": 28,
+        "prospects_paused": 35,
         "prospects_replied": 0,
-        "prospects_bounced": 2,
+        "prospects_bounced": 3,
         "prospects_with_email": 73,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 47,
         "by_status": {
-          "paused": 39,
-          "active": 26,
-          "bounced": 2,
+          "paused": 35,
+          "active": 28,
+          "bounced": 3,
+          "do_not_contact": 1,
           "archived": 6
         },
         "by_tier": {
@@ -83,10 +84,10 @@
         },
         "campaigns_total": 17,
         "campaigns_active": 16,
-        "sends_total": 16,
-        "replies_total": 2,
+        "sends_total": 20,
+        "replies_total": 4,
         "replies_positive": 0,
-        "upcoming_14d": 63
+        "upcoming_14d": 67
       }
     },
     {
