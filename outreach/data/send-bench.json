@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-03T16:00:17Z",
+  "generated_at": "2026-06-03T17:00:12Z",
   "totals": {
     "sends_total": 68,
     "sends_bounced": 3,
-    "replies_total": 8,
+    "replies_total": 9,
     "replies_positive": 0,
-    "reply_rate": 0.1176,
+    "reply_rate": 0.1324,
     "bounce_rate": 0.0441
   },
   "programs": [
@@ -51,7 +51,7 @@
       "sends_ok": 29,
       "sends_bounced": 3,
       "sends_error": 0,
-      "replies_total": 6,
+      "replies_total": 7,
       "replies_positive": 0,
       "replies_negative": 1,
       "replies_ooo": 1,
@@ -59,7 +59,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1875,
+      "reply_rate": 0.2188,
       "bounce_rate": 0.0938,
       "positive_rate": 0.0
     }
@@ -85,9 +85,9 @@
       "touch_n": 1,
       "program": "SPA_24H",
       "sends_total": 32,
-      "replies_total": 6,
+      "replies_total": 7,
       "bounced": 3,
-      "reply_rate": 0.1875
+      "reply_rate": 0.2188
     }
   ],
   "subjects": [
@@ -101,6 +101,13 @@
     {
       "subject": "Your safety accounts, one weekend",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Your SunSwift proving-ground, in Europe",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -170,13 +177,6 @@
     },
     {
       "subject": "Your engineering story, on track",
-      "program": "SPA_24H",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Your SunSwift proving-ground, in Europe",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -534,6 +534,14 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "Panorama Antennas",
+      "program": "SPA_24H",
+      "received_at": "2026-06-03T16:36:58Z",
+      "sentiment": "unclassified",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "Groupe Louyet",
       "program": "SPA_24H",

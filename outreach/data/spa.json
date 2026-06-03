@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-03T16:00:16Z",
+  "generated_at": "2026-06-03T17:00:12Z",
   "kpis": {
     "prospects_total": 77,
     "prospects_active": 32,
@@ -30,9 +30,9 @@
     "campaigns_total": 19,
     "campaigns_active": 18,
     "sends_total": 32,
-    "replies_total": 6,
+    "replies_total": 7,
     "replies_positive": 0,
-    "upcoming_14d": 66
+    "upcoming_14d": 64
   },
   "prospects": [
     {
@@ -1437,13 +1437,13 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-03 11:37:37",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-06-03T16:36:58Z",
+      "last_sentiment": "unclassified",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-panorama-mpx4djqm__tom-jesman",
@@ -2374,7 +2374,7 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -2833,12 +2833,6 @@
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
-      "prospect_id": "spa24-panorama-mpx4djqm__robert-jesman",
-      "company": "Panorama Antennas",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-panorama-mpx4djqm__tom-jesman",
       "company": "Panorama Antennas",
       "touch_n": 2,
@@ -3015,12 +3009,6 @@
     {
       "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
       "company": "Capital.com",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-panorama-mpx4djqm__robert-jesman",
-      "company": "Panorama Antennas",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
