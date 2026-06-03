@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-02T22:00:20Z",
+  "generated_at": "2026-06-03T00:00:13Z",
   "kpis": {
     "prospects_total": 227,
     "prospects_active": 3,
@@ -38,7 +38,7 @@
     "sends_total": 2,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 4
+    "upcoming_14d": 5
   },
   "prospects": [
     {
@@ -6923,6 +6923,12 @@
       "company": "Infovista",
       "touch_n": 2,
       "scheduled_for": "2026-06-12T08:00:00Z"
+    },
+    {
+      "prospect_id": "infovista_dina_rodrigues",
+      "company": "Infovista",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-16T08:00:00Z"
     }
   ]
 }

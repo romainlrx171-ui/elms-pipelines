@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T22:00:20Z",
+  "generated_at": "2026-06-03T00:00:13Z",
   "totals": {
     "prospects_total": 375,
     "prospects_active": 61,
@@ -7,7 +7,7 @@
     "replies_total": 3,
     "replies_positive": 0,
     "campaigns_active": 34,
-    "upcoming_14d": 148
+    "upcoming_14d": 149
   },
   "programs": [
     {
@@ -50,7 +50,7 @@
         "sends_total": 2,
         "replies_total": 1,
         "replies_positive": 0,
-        "upcoming_14d": 4
+        "upcoming_14d": 5
       }
     },
     {
