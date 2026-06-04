@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-04T12:03:00Z",
+  "generated_at": "2026-06-04T13:00:12Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 154,
@@ -26,10 +26,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 31,
+    "sends_total": 34,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 209
+    "upcoming_14d": 206
   },
   "prospects": [
     {
@@ -4311,16 +4311,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-04 12:19:10",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-quartix-mpx2nfvy__sean-maher",
@@ -4851,16 +4851,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:54",
       "updated_at": "2026-06-01 11:32:54",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-04 12:02:59",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-08T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-sibros-mpp0qq00__erik-mekelburg",
@@ -5211,16 +5211,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-04 12:20:37",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
@@ -6748,8 +6748,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6763,8 +6763,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6808,8 +6808,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:55",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7042,26 +7042,8 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "bd-platform-sibros-mpp0qq00__albert-lilly",
-      "company": "Sibros",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
-      "company": "Quartix",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
       "company": "Quartix",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-stratio-mpx3n7b9__rui-sales",
-      "company": "Stratio Automotive",
       "touch_n": 1,
       "scheduled_for": "2026-06-03T09:30:00Z"
     },

@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-04T12:03:00Z",
+  "generated_at": "2026-06-04T13:00:12Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 186,
@@ -35,10 +35,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 6,
+    "sends_total": 9,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 138
+    "upcoming_14d": 135
   },
   "prospects": [
     {
@@ -1710,16 +1710,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-04 12:22:02",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms_apollo_cadfem_derek_unknown",
@@ -4530,16 +4530,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-04 12:24:53",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-gatewatcher-mpqetyf3__nicolas-benisti",
@@ -7380,16 +7380,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-04 12:23:25",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-qonto-mpx1rwc5__heidrun-luyt",
@@ -12127,8 +12127,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12142,8 +12142,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12157,8 +12157,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12211,26 +12211,8 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "elms-cadfem-mpq0lagr__matthias-hoermann",
-      "company": "CADFEM",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
       "prospect_id": "elms-cadfem-mpq0lagr__elena-vallejo",
       "company": "CADFEM",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-qonto-mpx1rwc5__alexandre-prot",
-      "company": "Qonto",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-glyn-mppxgz2t__thomas-gerhardt",
-      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
       "touch_n": 1,
       "scheduled_for": "2026-06-03T09:30:00Z"
     },
