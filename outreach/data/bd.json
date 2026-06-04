@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-03T12:00:11Z",
+  "generated_at": "2026-06-04T00:00:15Z",
   "kpis": {
     "prospects_total": 81,
     "prospects_active": 38,
@@ -29,7 +29,7 @@
     "sends_total": 31,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 84
+    "upcoming_14d": 100
   },
   "prospects": [
     {
@@ -3284,6 +3284,102 @@
       "company": "Stratio Automotive",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
+      "company": "Applus+ IDIADA",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-atesteo-mppt6fso__tim-willers",
+      "company": "ATESTEO",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-dspace-mppokyl9__bernd-schaefers-maiwald",
+      "company": "dSPACE",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-emc-mpqchadg__joerg-baerenfaenger",
+      "company": "EMC Test NRW GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
+      "company": "Geotab",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-heitec-mppti5rj__michael-friess",
+      "company": "HEITEC AG",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-horiba-mpq8kmow__alastair-evanson",
+      "company": "HORIBA MIRA",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-iabg-mpqb6ehy__thomas-koehler",
+      "company": "IABG (Industrieanlagen-Betriebsgesellschaft mbH)",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ipg-mppol07t__steffen-schmidt",
+      "company": "IPG Automotive",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-kistler-mppz8585__peter-hoeffgen",
+      "company": "Kistler Group",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mullerbbm-mpqc5key__guenter-lang",
+      "company": "Müller-BBM VibroAkustik Systeme GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ncab-mppuhbof__howard-goff",
+      "company": "NCAB Group",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-serma-mpqbtugc__philippe-berlie",
+      "company": "SERMA Group",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sibros-mpp0qq00__erik-mekelburg",
+      "company": "Sibros",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-targa-mpppwfby__alberto-falcione",
+      "company": "Targa Telematics",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-utac-mpqbi4gz__anis-tebib",
+      "company": "UTAC",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-03T22:00:12Z",
+  "generated_at": "2026-06-04T00:00:15Z",
   "kpis": {
     "prospects_total": 77,
     "prospects_active": 32,
@@ -32,7 +32,7 @@
     "sends_total": 32,
     "replies_total": 8,
     "replies_positive": 0,
-    "upcoming_14d": 62
+    "upcoming_14d": 75
   },
   "prospects": [
     {
@@ -3005,6 +3005,84 @@
       "company": "Panorama Antennas",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-alpitronic-mpq5m8re__wolfgang-ademmer",
+      "company": "Alpitronic",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-hawk-ai__tobias-schweiger",
+      "company": "Hawk AI",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-jcb__lord-anthony-bamford",
+      "company": "JCB (J.C. Bamford Excavators)",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-kempower-mppp8zdn__mathias-wiklund",
+      "company": "Kempower",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-mpogxocw__paul-laval",
+      "company": "Melexis",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-punch-mpqu8t2o__sebastien-mazoyer",
+      "company": "Punch Powertrain",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-rolling-wireless__cyrille-demousseau",
+      "company": "Rolling Wireless",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-sibros__hemant-sikaria",
+      "company": "Sibros",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-tttech-mpoyzj00__stefan-poledna",
+      "company": "TTTech Auto",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-umicore-mpquwis0__marjolein-scheers",
+      "company": "Umicore",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-melexis-klaus__klaus-wilczek",
+      "company": "Melexis",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-melexis-gerald__gerald-meyer",
+      "company": "Melexis",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-tractable__venkat-sathyamurthy",
+      "company": "Tractable",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-17T09:30:00Z"
     }
   ]
 }
