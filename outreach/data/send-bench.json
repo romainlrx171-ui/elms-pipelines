@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-03T22:00:12Z",
+  "generated_at": "2026-06-04T08:01:32Z",
   "totals": {
-    "sends_total": 68,
+    "sends_total": 69,
     "sends_bounced": 3,
     "replies_total": 10,
     "replies_positive": 0,
-    "reply_rate": 0.1471,
-    "bounce_rate": 0.0441
+    "reply_rate": 0.1449,
+    "bounce_rate": 0.0435
   },
   "programs": [
     {
@@ -29,8 +29,8 @@
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -41,7 +41,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.2,
+      "reply_rate": 0.1667,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -76,10 +76,10 @@
     {
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
-      "sends_total": 5,
+      "sends_total": 6,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.2
+      "reply_rate": 0.1667
     },
     {
       "touch_n": 1,
@@ -144,6 +144,13 @@
       "subject": "Melexis Q1, H2 growth, and Spa",
       "program": "SPA_24H",
       "sends_total": 3,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "votre pilote F1, en vrai",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
     },

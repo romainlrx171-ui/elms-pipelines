@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-03T21:00:12Z",
+  "generated_at": "2026-06-04T08:01:32Z",
   "kpis": {
     "prospects_total": 237,
     "prospects_active": 10,
@@ -35,10 +35,10 @@
     },
     "campaigns_total": 6,
     "campaigns_active": 4,
-    "sends_total": 5,
+    "sends_total": 6,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 23
+    "upcoming_14d": 22
   },
   "prospects": [
     {
@@ -3660,16 +3660,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-24 12:09:57",
       "updated_at": "2026-06-02 15:02:10",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-04 08:00:14",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-12T08:00:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "infovista_david_hanquiez",
@@ -7237,8 +7237,8 @@
       "ended_at": null,
       "created_at": "2026-05-24 12:05:50",
       "assignments": 6,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7268,12 +7268,6 @@
       "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
       "touch_n": 1,
       "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "infovista_alexandre_lecoq",
-      "company": "Infovista",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-04T08:00:00Z"
     },
     {
       "prospect_id": "infovista_dina_rodrigues",
