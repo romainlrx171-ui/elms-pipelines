@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-05T10:20:11Z",
+  "generated_at": "2026-06-05T11:02:49Z",
   "totals": {
-    "sends_total": 113,
+    "sends_total": 115,
     "sends_bounced": 3,
     "replies_total": 11,
     "replies_positive": 0,
-    "reply_rate": 0.0973,
-    "bounce_rate": 0.0265
+    "reply_rate": 0.0957,
+    "bounce_rate": 0.0261
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 42,
-      "sends_ok": 42,
+      "sends_total": 43,
+      "sends_ok": 43,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -23,7 +23,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0238,
+      "reply_rate": 0.0233,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -47,8 +47,8 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 61,
-      "sends_ok": 58,
+      "sends_total": 62,
+      "sends_ok": 59,
       "sends_bounced": 3,
       "sends_error": 0,
       "replies_total": 9,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1475,
-      "bounce_rate": 0.0492,
+      "reply_rate": 0.1452,
+      "bounce_rate": 0.0484,
       "positive_rate": 0.0
     }
   ],
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 7,
+      "sends_total": 8,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -100,7 +100,7 @@
     {
       "touch_n": 2,
       "program": "SPA_24H",
-      "sends_total": 7,
+      "sends_total": 8,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -563,6 +563,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the Spa room works",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How it works, IABG client weekend",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -684,6 +691,13 @@
     {
       "subject": "Computers on wheels, under stress",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Comment ça marche, concrètement",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0

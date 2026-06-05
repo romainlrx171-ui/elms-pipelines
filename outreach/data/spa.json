@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-05T10:20:11Z",
+  "generated_at": "2026-06-05T11:02:49Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 55,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 61,
+    "sends_total": 62,
     "replies_total": 9,
     "replies_positive": 0,
-    "upcoming_14d": 113
+    "upcoming_14d": 112
   },
   "prospects": [
     {
@@ -1434,16 +1434,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 12:19:12",
       "updated_at": "2026-06-01 12:19:12",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-02 16:25:24",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-05 11:01:32",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-11T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-mpogxocw__daphne-sannen",
@@ -3121,8 +3121,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 12:19:13",
       "assignments": 1,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3408,12 +3408,6 @@
     {
       "prospect_id": "spa24-sibros__hemant-sikaria",
       "company": "Sibros",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-melexis-klaus__klaus-wilczek",
-      "company": "Melexis",
       "touch_n": 2,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
