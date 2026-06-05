@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-04T13:00:12Z",
+  "generated_at": "2026-06-05T06:33:40Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 154,
@@ -29,7 +29,7 @@
     "sends_total": 34,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 206
+    "upcoming_14d": 227
   },
   "prospects": [
     {
@@ -8276,6 +8276,132 @@
       "company": "Petraco Oil Company",
       "touch_n": 1,
       "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-dynisma-mpy9mo3i__ash-warne",
+      "company": "Dynisma",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-simscale-mpy4o1ja__jon-wilde",
+      "company": "SimScale",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-rfpro-mpyba492__peter-daley",
+      "company": "rFpro",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sgl-mpyfb1co__steffen-janetzko",
+      "company": "SGL Carbon",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lohmann-mpy72e9a__nicole-ehrmann",
+      "company": "Lohmann GmbH & Co. KG",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-microlise-mpx2lbsw__mike-blackburn",
+      "company": "Microlise",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-monolith-mpx2t36q__richard-ahlfeld",
+      "company": "Monolith AI",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-tesa-mpyev9zf__david-caro",
+      "company": "tesa SE",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
+      "company": "Bertrandt",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-p3-mpx41m62__marius-mailat",
+      "company": "P3 group GmbH",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-toray-mpyfiz6l__nadine-friji",
+      "company": "Toray Carbon Fibers Europe",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
+      "company": "Taoglas",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
+      "company": "Velos IoT",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-delo-mpyeme1z__nina-bosch",
+      "company": "DELO Industrial Adhesives",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",
+      "company": "Cruden B.V.",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sika-mpyf3e5d__paulo-silva",
+      "company": "Sika",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-scanfil-mpyo823g__lars-skanke",
+      "company": "Scanfil",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sicomin-mpxrwmo5__philippe-marcovich",
+      "company": "Sicomin",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-myra-mpyi5y2t__paul-kaffsack",
+      "company": "Myra Security",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-duferco-mpxudv3y__patrick-arnold",
+      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-discoverie-mpyoeql2__nick-jefferies",
+      "company": "discoverIE Group plc",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-18T09:30:00Z"
     }
   ]
 }
