@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-05T11:02:49Z",
+  "generated_at": "2026-06-05T13:32:11Z",
   "totals": {
-    "sends_total": 115,
+    "sends_total": 117,
     "sends_bounced": 3,
     "replies_total": 11,
     "replies_positive": 0,
-    "reply_rate": 0.0957,
-    "bounce_rate": 0.0261
+    "reply_rate": 0.094,
+    "bounce_rate": 0.0256
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 43,
-      "sends_ok": 43,
+      "sends_total": 44,
+      "sends_ok": 44,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -23,7 +23,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0233,
+      "reply_rate": 0.0227,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -47,8 +47,8 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 62,
-      "sends_ok": 59,
+      "sends_total": 63,
+      "sends_ok": 60,
       "sends_bounced": 3,
       "sends_error": 0,
       "replies_total": 9,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1452,
-      "bounce_rate": 0.0484,
+      "reply_rate": 0.1429,
+      "bounce_rate": 0.0476,
       "positive_rate": 0.0
     }
   ],
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 8,
+      "sends_total": 9,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -92,10 +92,10 @@
     {
       "touch_n": 1,
       "program": "SPA_24H",
-      "sends_total": 54,
+      "sends_total": 55,
       "replies_total": 9,
       "bounced": 3,
-      "reply_rate": 0.1667
+      "reply_rate": 0.1636
     },
     {
       "touch_n": 2,
@@ -479,6 +479,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "OEM execs in your suite, a weekend",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "No livery, no brand risk",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -851,6 +858,13 @@
     },
     {
       "subject": "A Spa story for Melexis",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A Spa edition for Omologato",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,

@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-05T11:02:49Z",
+  "generated_at": "2026-06-05T13:32:11Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 55,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 62,
+    "sends_total": 63,
     "replies_total": 9,
     "replies_positive": 0,
-    "upcoming_14d": 112
+    "upcoming_14d": 111
   },
   "prospects": [
     {
@@ -1734,16 +1734,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:53",
       "updated_at": "2026-06-04 09:41:53",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-05 13:29:28",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-10T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "spa24-omologato-mpyre9hg__shami-kalra",
@@ -2926,8 +2926,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:53",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -3378,12 +3378,6 @@
     {
       "prospect_id": "spa24-provizio-mpy94tle__barry-jones",
       "company": "Provizio",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-04T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-omologato-mpyre9hg__freya-overton",
-      "company": "Omologato",
       "touch_n": 1,
       "scheduled_for": "2026-06-04T09:30:00Z"
     },

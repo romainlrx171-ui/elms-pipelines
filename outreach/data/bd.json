@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-05T11:02:49Z",
+  "generated_at": "2026-06-05T13:32:11Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 154,
@@ -26,10 +26,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 43,
+    "sends_total": 44,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 218
+    "upcoming_14d": 217
   },
   "prospects": [
     {
@@ -4881,16 +4881,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:54",
       "updated_at": "2026-06-01 11:32:54",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-03 11:05:47",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-05 13:30:49",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-11T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-sicomin-mpxrwmo5__marc-denjean",
@@ -6808,8 +6808,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:55",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7093,12 +7093,6 @@
       "prospect_id": "bd-platform-ncab-mppuhbof__david-straberg",
       "company": "NCAB Group",
       "touch_n": 1,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sibros-mpp0qq00__erik-mekelburg",
-      "company": "Sibros",
-      "touch_n": 2,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {
