@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-08T10:20:24Z",
+  "generated_at": "2026-06-08T11:01:44Z",
   "totals": {
-    "sends_total": 138,
+    "sends_total": 139,
     "sends_bounced": 3,
-    "replies_total": 11,
+    "replies_total": 12,
     "replies_positive": 0,
-    "reply_rate": 0.0797,
-    "bounce_rate": 0.0217
+    "reply_rate": 0.0863,
+    "bounce_rate": 0.0216
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 53,
-      "sends_ok": 53,
+      "sends_total": 54,
+      "sends_ok": 54,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -23,7 +23,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0189,
+      "reply_rate": 0.0185,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -51,15 +51,15 @@
       "sends_ok": 71,
       "sends_bounced": 3,
       "sends_error": 0,
-      "replies_total": 9,
+      "replies_total": 10,
       "replies_positive": 0,
       "replies_negative": 1,
-      "replies_ooo": 1,
+      "replies_ooo": 2,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1216,
+      "reply_rate": 0.1351,
       "bounce_rate": 0.0405,
       "positive_rate": 0.0
     }
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 16,
+      "sends_total": 17,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -101,9 +101,9 @@
       "touch_n": 2,
       "program": "SPA_24H",
       "sends_total": 17,
-      "replies_total": 0,
+      "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0
+      "reply_rate": 0.0588
     }
   ],
   "subjects": [
@@ -158,6 +158,13 @@
     },
     {
       "subject": "EVS at its home race",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Comment ça marche, concrètement",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 1,
@@ -320,6 +327,13 @@
     {
       "subject": "Where 'motorsport-derived' gets tested",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "What a race weekend unlocks",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -802,13 +816,6 @@
     },
     {
       "subject": "Comment ça marche, concrètement",
-      "program": "SPA_24H",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Comment ça marche, concrètement",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -1026,6 +1033,14 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "Rolling Wireless",
+      "program": "SPA_24H",
+      "received_at": "2026-06-08T10:10:20Z",
+      "sentiment": "ooo",
+      "method": "keyword",
+      "touch_n": 2
+    },
     {
       "company": "Omologato",
       "program": "SPA_24H",

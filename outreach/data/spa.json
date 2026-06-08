@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-08T10:20:23Z",
+  "generated_at": "2026-06-08T11:01:44Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 55,
@@ -30,7 +30,7 @@
     "campaigns_total": 32,
     "campaigns_active": 31,
     "sends_total": 74,
-    "replies_total": 9,
+    "replies_total": 10,
     "replies_positive": 0,
     "upcoming_14d": 114
   },
@@ -2307,10 +2307,10 @@
       "sends_total": 2,
       "sends_ok": 2,
       "sends_bounced": 0,
-      "replies_total": 1,
+      "replies_total": 2,
       "last_sent_at": "2026-06-08 10:09:57",
       "last_touch_n": 2,
-      "last_reply_at": "2026-06-01T11:25:57Z",
+      "last_reply_at": "2026-06-08T10:10:20Z",
       "last_sentiment": "ooo",
       "next_scheduled": "2026-06-11T09:30:00Z",
       "next_touch_n": 3
@@ -3214,7 +3214,7 @@
       "sends_total": 3,
       "sends_ok": 2,
       "sends_bounced": 1,
-      "replies_total": 2,
+      "replies_total": 3,
       "replies_positive": 0
     },
     {
