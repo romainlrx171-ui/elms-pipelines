@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-08T08:09:04Z",
+  "generated_at": "2026-06-08T10:20:24Z",
   "totals": {
-    "sends_total": 123,
+    "sends_total": 138,
     "sends_bounced": 3,
     "replies_total": 11,
     "replies_positive": 0,
-    "reply_rate": 0.0894,
-    "bounce_rate": 0.0244
+    "reply_rate": 0.0797,
+    "bounce_rate": 0.0217
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 46,
-      "sends_ok": 46,
+      "sends_total": 53,
+      "sends_ok": 53,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -23,7 +23,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0217,
+      "reply_rate": 0.0189,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -47,8 +47,8 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 66,
-      "sends_ok": 63,
+      "sends_total": 74,
+      "sends_ok": 71,
       "sends_bounced": 3,
       "sends_error": 0,
       "replies_total": 9,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1364,
-      "bounce_rate": 0.0455,
+      "reply_rate": 0.1216,
+      "bounce_rate": 0.0405,
       "positive_rate": 0.0
     }
   ],
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 9,
+      "sends_total": 16,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -100,7 +100,7 @@
     {
       "touch_n": 2,
       "program": "SPA_24H",
-      "sends_total": 9,
+      "sends_total": 17,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -165,6 +165,13 @@
     },
     {
       "subject": "Melexis Q1, H2 growth, and Spa",
+      "program": "SPA_24H",
+      "sends_total": 3,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the Spa slot works",
       "program": "SPA_24H",
       "sends_total": 3,
       "replies_total": 0,
@@ -353,8 +360,22 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The room, and how it works",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The one asset you're missing",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The mechanism, in brief",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -416,7 +437,28 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Spa, the customer + talent side",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Spa content for \"better decisions\"",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "So wird ein Renntag zu Pipeline",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Sketch of how the collab would run",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -577,6 +619,27 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the hospitality format works",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the hospitality day works",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the format runs",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the Spa weekend works",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -599,6 +662,20 @@
     },
     {
       "subject": "How it works, IABG client weekend",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How it works in 4 days",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How it actually works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -718,6 +795,13 @@
     },
     {
       "subject": "Computers on wheels, under stress",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Comment ça marche, concrètement",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -851,6 +935,13 @@
     },
     {
       "subject": "A room NCAB doesn't have yet",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A pilot weekend, structured",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
