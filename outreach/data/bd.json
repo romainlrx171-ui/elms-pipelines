@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-08T07:31:00Z",
+  "generated_at": "2026-06-08T08:09:04Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 154,
@@ -26,10 +26,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 44,
+    "sends_total": 46,
     "replies_total": 1,
     "replies_positive": 0,
-    "upcoming_14d": 253
+    "upcoming_14d": 251
   },
   "prospects": [
     {
@@ -2271,16 +2271,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:49",
       "updated_at": "2026-06-01 11:32:49",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-08 08:04:39",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-ipg-mppol07t__ralf-sauer",
@@ -2361,16 +2361,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:50",
       "updated_at": "2026-06-01 11:32:50",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-08 08:06:09",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-kistler-mppz8585__peter-hoeffgen",
@@ -6868,8 +6868,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:51",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -6883,8 +6883,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:50",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7063,18 +7063,6 @@
       "prospect_id": "bd-platform-horiba-mpq8kmow__alastair-evanson",
       "company": "HORIBA MIRA",
       "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ipg-mppol07t__mara-schmidt",
-      "company": "IPG Automotive",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-kistler-mppz8585__marc-schaad",
-      "company": "Kistler Group",
-      "touch_n": 1,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {

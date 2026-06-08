@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-08T07:31:00Z",
+  "generated_at": "2026-06-08T08:09:04Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 55,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 63,
+    "sends_total": 66,
     "replies_total": 9,
     "replies_positive": 0,
-    "upcoming_14d": 125
+    "upcoming_14d": 122
   },
   "prospects": [
     {
@@ -1104,16 +1104,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:54",
       "updated_at": "2026-06-01 10:56:54",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-08 08:00:21",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "spa24-kempower-mppp8zdn__mathias-wiklund",
@@ -2214,16 +2214,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:56",
       "updated_at": "2026-06-01 10:56:56",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-08 08:01:47",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "spa24-punch-mpqu8t2o__sebastien-mazoyer",
@@ -2454,16 +2454,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:58",
       "updated_at": "2026-06-01 10:56:58",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-01 11:27:21",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-08 08:03:09",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-11T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa_suntory_global_spirits_jessica_spence",
@@ -3181,8 +3181,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:59",
       "assignments": 1,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3226,8 +3226,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:57",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3271,8 +3271,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:54",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3382,26 +3382,8 @@
       "scheduled_for": "2026-06-04T09:30:00Z"
     },
     {
-      "prospect_id": "spa24-kempower-mppp8zdn__jussi-vanhanen",
-      "company": "Kempower",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-mpogxocw__paul-laval",
       "company": "Melexis",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-punch-mpqu8t2o__koen-morrhey",
-      "company": "Punch Powertrain",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-sibros__hemant-sikaria",
-      "company": "Sibros",
       "touch_n": 2,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
