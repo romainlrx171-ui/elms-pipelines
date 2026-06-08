@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-08T11:01:44Z",
+  "generated_at": "2026-06-08T13:00:15Z",
   "totals": {
     "sends_total": 139,
     "sends_bounced": 3,
-    "replies_total": 12,
+    "replies_total": 13,
     "replies_positive": 0,
-    "reply_rate": 0.0863,
+    "reply_rate": 0.0935,
     "bounce_rate": 0.0216
   },
   "programs": [
@@ -51,15 +51,15 @@
       "sends_ok": 71,
       "sends_bounced": 3,
       "sends_error": 0,
-      "replies_total": 10,
+      "replies_total": 11,
       "replies_positive": 0,
-      "replies_negative": 1,
+      "replies_negative": 2,
       "replies_ooo": 2,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1351,
+      "reply_rate": 0.1486,
       "bounce_rate": 0.0405,
       "positive_rate": 0.0
     }
@@ -93,9 +93,9 @@
       "touch_n": 1,
       "program": "SPA_24H",
       "sends_total": 57,
-      "replies_total": 9,
+      "replies_total": 10,
       "bounced": 3,
-      "reply_rate": 0.1579
+      "reply_rate": 0.1754
     },
     {
       "touch_n": 2,
@@ -151,6 +151,13 @@
     },
     {
       "subject": "No Omologato for Spa yet",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Ecurie Ecosse, 70 years on",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 1,
@@ -794,13 +801,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Ecurie Ecosse, 70 years on",
-      "program": "SPA_24H",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Concrètement, comment ça fonctionne",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1033,6 +1033,14 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "JCB (J.C. Bamford Excavators)",
+      "program": "SPA_24H",
+      "received_at": "2026-06-08T12:07:11Z",
+      "sentiment": "negative",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "Rolling Wireless",
       "program": "SPA_24H",
