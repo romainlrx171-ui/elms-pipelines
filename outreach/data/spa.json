@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-05T13:32:11Z",
+  "generated_at": "2026-06-08T07:31:00Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 55,
@@ -32,7 +32,7 @@
     "sends_total": 63,
     "replies_total": 9,
     "replies_positive": 0,
-    "upcoming_14d": 111
+    "upcoming_14d": 125
   },
   "prospects": [
     {
@@ -4034,6 +4034,90 @@
       "company": "Tractable",
       "touch_n": 4,
       "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-alpitronic-mpq5m8re__philipp-senoner",
+      "company": "Alpitronic",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-hawk-ai__wolfgang-berner",
+      "company": "Hawk AI",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-jcb__graeme-macdonald",
+      "company": "JCB (J.C. Bamford Excavators)",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-kempower-mppp8zdn__paula-savonen",
+      "company": "Kempower",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-mpogxocw__daphne-sannen",
+      "company": "Melexis",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-physicsx__jacomo-corbo",
+      "company": "PhysicsX",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-punch-mpqu8t2o__gaspar-gascon",
+      "company": "Punch Powertrain",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-umicore-mpquwis0__evelien-goovaerts",
+      "company": "Umicore",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa_bremont_watch_davide_cerrato",
+      "company": "Bremont Watch",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa_bamford_watch_department_george_bamford",
+      "company": "Bamford Watch Department",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa_materialise_fried_vancraen",
+      "company": "Materialise",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__christoforos-soutzis",
+      "company": "Capital.com",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
+      "company": "Capital.com",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-panorama-mpx4djqm__tom-jesman",
+      "company": "Panorama Antennas",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-19T09:30:00Z"
     }
   ]
 }
