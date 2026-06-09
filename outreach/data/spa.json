@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-08T13:00:15Z",
+  "generated_at": "2026-06-09T05:19:07Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 54,
@@ -32,7 +32,7 @@
     "sends_total": 74,
     "replies_total": 11,
     "replies_positive": 0,
-    "upcoming_14d": 110
+    "upcoming_14d": 134
   },
   "prospects": [
     {
@@ -4028,6 +4028,150 @@
       "company": "Panorama Antennas",
       "touch_n": 4,
       "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-kempower-mppp8zdn__jussi-vanhanen",
+      "company": "Kempower",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-punch-mpqu8t2o__koen-morrhey",
+      "company": "Punch Powertrain",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-mollie-mpxsz6ib__koen-koppen",
+      "company": "Mollie",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-swan-mpxtgs3i__camille-tyan",
+      "company": "Swan",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-swan-mpxtgs3i__nicolas-benady",
+      "company": "Swan",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-provizio-mpy94tle__barry-lunn",
+      "company": "Provizio",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-provizio-mpy94tle__eamonn-boland",
+      "company": "Provizio",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-provizio-mpy94tle__barry-jones",
+      "company": "Provizio",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-ingage-mpyeexrg__philippe-robert",
+      "company": "iNGage",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-millers-mpyg04ga__jody-blair",
+      "company": "Millers Oils Ltd",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-millers-mpyg04ga__steve-cocking",
+      "company": "Millers Oils Ltd",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-millers-mpyg04ga__tony-lowe",
+      "company": "Millers Oils Ltd",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-block-mpyhwzhm__brandon-barry",
+      "company": "Block Harbor Cybersecurity",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-link11-mpyieadb__jens-philipp-jung",
+      "company": "Link11",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-link11-mpyieadb__rolf-gierhard",
+      "company": "Link11",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-fixposition-mpyjmwnv__lukas-meier",
+      "company": "Fixposition",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-fixposition-mpyjmwnv__zhenzhong-su",
+      "company": "Fixposition",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-atlantik-mpynd8re__ottmar-flach",
+      "company": "Atlantik Elektronik GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-wetag-mpyr6o0a__philipp-peter",
+      "company": "Wetag Consulting",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-wetag-mpyr6o0a__iradj-alexander-david",
+      "company": "Wetag Consulting",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-omologato-mpyre9hg__freya-overton",
+      "company": "Omologato",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-baltic-mpyrvw16__etienne-malec",
+      "company": "Baltic Watches",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-aerospacelab-mpys433x__celia-berlemont",
+      "company": "Aerospacelab",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "spa24-aerospacelab-mpys433x__tina-ghataore",
+      "company": "Aerospacelab",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
     }
   ]
 }

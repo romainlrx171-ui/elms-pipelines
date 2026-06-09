@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-08T13:00:15Z",
+  "generated_at": "2026-06-09T05:19:07Z",
   "totals": {
     "sends_total": 139,
     "sends_bounced": 3,
-    "replies_total": 13,
-    "replies_positive": 0,
-    "reply_rate": 0.0935,
+    "replies_total": 14,
+    "replies_positive": 1,
+    "reply_rate": 0.1007,
     "bounce_rate": 0.0216
   },
   "programs": [
@@ -15,17 +15,17 @@
       "sends_ok": 54,
       "sends_bounced": 0,
       "sends_error": 0,
-      "replies_total": 1,
-      "replies_positive": 0,
+      "replies_total": 2,
+      "replies_positive": 1,
       "replies_negative": 0,
       "replies_ooo": 1,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0185,
+      "reply_rate": 0.037,
       "bounce_rate": 0.0,
-      "positive_rate": 0.0
+      "positive_rate": 0.0185
     },
     {
       "program": "ELMS_SPONSORS",
@@ -69,9 +69,9 @@
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 37,
-      "replies_total": 1,
+      "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.027
+      "reply_rate": 0.0541
     },
     {
       "touch_n": 2,
@@ -138,6 +138,13 @@
     {
       "subject": "Robin, Spa, 4 wks out",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "RoaDyn, and the accounts watching it",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -494,13 +501,6 @@
     },
     {
       "subject": "SDV Marketplace + a venue idea",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "RoaDyn, and the accounts watching it",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -1033,6 +1033,14 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "Kistler Group",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-08T14:49:06Z",
+      "sentiment": "positive",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "JCB (J.C. Bamford Excavators)",
       "program": "SPA_24H",

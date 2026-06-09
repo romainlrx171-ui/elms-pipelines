@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-08T11:01:44Z",
+  "generated_at": "2026-06-09T05:19:07Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 154,
@@ -27,9 +27,9 @@
     "campaigns_total": 73,
     "campaigns_active": 72,
     "sends_total": 54,
-    "replies_total": 1,
-    "replies_positive": 0,
-    "upcoming_14d": 243
+    "replies_total": 2,
+    "replies_positive": 1,
+    "upcoming_14d": 285
   },
   "prospects": [
     {
@@ -2364,13 +2364,13 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-08 08:06:09",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-06-08T14:49:06Z",
+      "last_sentiment": "positive",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-kistler-mppz8585__peter-hoeffgen",
@@ -6871,8 +6871,8 @@
       "sends_total": 4,
       "sends_ok": 4,
       "sends_bounced": 0,
-      "replies_total": 1,
-      "replies_positive": 0
+      "replies_total": 2,
+      "replies_positive": 1
     },
     {
       "id": "cmp_bd_platform_ipg_mppol07t",
@@ -7122,12 +7122,6 @@
     {
       "prospect_id": "bd-platform-ipg-mppol07t__mara-schmidt",
       "company": "IPG Automotive",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-kistler-mppz8585__marc-schaad",
-      "company": "Kistler Group",
       "touch_n": 2,
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
@@ -7577,12 +7571,6 @@
     },
     {
       "prospect_id": "bd-platform-kistler-mppz8585__thomas-warkentin",
-      "company": "Kistler Group",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-kistler-mppz8585__marc-schaad",
       "company": "Kistler Group",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
@@ -8498,6 +8486,270 @@
       "company": "Petraco Oil Company",
       "touch_n": 2,
       "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ipg-mppol07t__mara-schmidt",
+      "company": "IPG Automotive",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ncab-mppuhbof__david-straberg",
+      "company": "NCAB Group",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-targa-mpppwfby__elena-bellini",
+      "company": "Targa Telematics",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-edag-mpx3utxi__holger-merz",
+      "company": "EDAG Engineering",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
+      "company": "AB Dynamics",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
+      "company": "HBK – Hottinger Brüel & Kjær",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-reply-mpx1q4el__tatiana-rizzante",
+      "company": "Reply",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-reply-mpx1q4el__filippo-rizzante",
+      "company": "Reply",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-dynisma-mpy9mo3i__simon-holloway",
+      "company": "Dynisma",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-simscale-mpy4o1ja__richard-szoke-schuller",
+      "company": "SimScale",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-rfpro-mpyba492__matt-daley",
+      "company": "rFpro",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sgl-mpyfb1co__thomas-dippold",
+      "company": "SGL Carbon",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lohmann-mpy72e9a__siddhant-srivastava",
+      "company": "Lohmann GmbH & Co. KG",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lohmann-mpy72e9a__phil-lotz",
+      "company": "Lohmann GmbH & Co. KG",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-microlise-mpx2lbsw__nadeem-raza",
+      "company": "Microlise",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-microlise-mpx2lbsw__trevor-mcgahan",
+      "company": "Microlise",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-monolith-mpx2t36q__francesco-montomoli",
+      "company": "Monolith AI",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-tesa-mpyev9zf__dr-kourosh-bahrami",
+      "company": "tesa SE",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
+      "company": "Klüber Lubrication",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__chris-licursi",
+      "company": "Klüber Lubrication",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
+      "company": "Speedgoat",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__patric-schenk",
+      "company": "Speedgoat",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__michael-lucke",
+      "company": "Bertrandt",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-p3-mpx41m62__robert-rendl",
+      "company": "P3 group GmbH",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
+      "company": "Toray Carbon Fibers Europe",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
+      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
+      "company": "Porcher Industries",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lacroix-mpyjuh34__louis-pourdieu",
+      "company": "LACROIX Group",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-permabond-mpy9dioa__paolo-grossi",
+      "company": "Permabond Engineering Adhesives",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ga-mpyp92gu__marc-daumas",
+      "company": "GA Smart Building",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ga-mpyp92gu__elodie-le-breton",
+      "company": "GA Smart Building",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-note-mpynl6fa__bahare-mackinovski",
+      "company": "NOTE AB",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-scanfil-mpyo823g__christina-wiklund",
+      "company": "Scanfil",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-gse-mpyot2h2__olivia-nail",
+      "company": "GSE Group",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-myra-mpyi5y2t__philipp-herrmann",
+      "company": "Myra Security",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-duferco-mpxudv3y__subhendu-bose",
+      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
+      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-discoverie-mpyoeql2__simon-gibbins",
+      "company": "discoverIE Group plc",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
+      "company": "Schukat electronic Vertriebs GmbH",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
+      "company": "Argan",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-argan-mpyp1ry8__stephane-cassagne",
+      "company": "Argan",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
+      "company": "Petraco Oil Company",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__alberto-salsiccia",
+      "company": "Petraco Oil Company",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
     }
   ]
 }
