@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-09T05:19:07Z",
+  "generated_at": "2026-06-13T10:00:20Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 54,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 74,
+    "sends_total": 78,
     "replies_total": 11,
     "replies_positive": 0,
-    "upcoming_14d": 134
+    "upcoming_14d": 130
   },
   "prospects": [
     {
@@ -444,16 +444,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:57",
       "updated_at": "2026-06-03 10:20:57",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-03 11:36:21",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 09:56:22",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
@@ -1164,16 +1164,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:54",
       "updated_at": "2026-06-01 10:56:54",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-03 11:14:18",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 09:46:04",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa_landingai_andrew_ng",
@@ -1854,16 +1854,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:57",
       "updated_at": "2026-06-03 10:20:57",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 12:15:42",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 09:57:48",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa_parallel_domain_kevin_mcnamara",
@@ -2184,16 +2184,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:56",
       "updated_at": "2026-06-01 10:56:56",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-03 11:16:57",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 09:47:42",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-punch-mpqu8t2o__koen-morrhey",
@@ -3091,8 +3091,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:36",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3106,8 +3106,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:36",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -3226,8 +3226,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:57",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3271,8 +3271,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:54",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3400,20 +3400,8 @@
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {
-      "prospect_id": "spa24-kempower-mppp8zdn__paula-savonen",
-      "company": "Kempower",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-mpogxocw__daphne-sannen",
       "company": "Melexis",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-punch-mpqu8t2o__gaspar-gascon",
-      "company": "Punch Powertrain",
       "touch_n": 2,
       "scheduled_for": "2026-06-08T09:30:00Z"
     },
@@ -3436,20 +3424,8 @@
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
-      "prospect_id": "spa24-capitalcom-mpwvv7nq__christoforos-soutzis",
-      "company": "Capital.com",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
       "company": "Capital.com",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-panorama-mpx4djqm__tom-jesman",
-      "company": "Panorama Antennas",
       "touch_n": 2,
       "scheduled_for": "2026-06-09T09:30:00Z"
     },

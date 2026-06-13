@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-09T05:19:07Z",
+  "generated_at": "2026-06-13T10:00:20Z",
   "totals": {
-    "sends_total": 139,
+    "sends_total": 149,
     "sends_bounced": 3,
     "replies_total": 14,
     "replies_positive": 1,
-    "reply_rate": 0.1007,
-    "bounce_rate": 0.0216
+    "reply_rate": 0.094,
+    "bounce_rate": 0.0201
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 54,
-      "sends_ok": 54,
+      "sends_total": 59,
+      "sends_ok": 59,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 2,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.037,
+      "reply_rate": 0.0339,
       "bounce_rate": 0.0,
-      "positive_rate": 0.0185
+      "positive_rate": 0.0169
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 11,
-      "sends_ok": 11,
+      "sends_total": 12,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "sends_error": 0,
       "replies_total": 1,
@@ -41,14 +41,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0909,
+      "reply_rate": 0.0833,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
     {
       "program": "SPA_24H",
-      "sends_total": 74,
-      "sends_ok": 71,
+      "sends_total": 78,
+      "sends_ok": 75,
       "sends_bounced": 3,
       "sends_error": 0,
       "replies_total": 11,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.1486,
-      "bounce_rate": 0.0405,
+      "reply_rate": 0.141,
+      "bounce_rate": 0.0385,
       "positive_rate": 0.0
     }
   ],
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 17,
+      "sends_total": 22,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -90,6 +90,14 @@
       "reply_rate": 0.0909
     },
     {
+      "touch_n": 2,
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "bounced": 0,
+      "reply_rate": 0.0
+    },
+    {
       "touch_n": 1,
       "program": "SPA_24H",
       "sends_total": 57,
@@ -100,10 +108,10 @@
     {
       "touch_n": 2,
       "program": "SPA_24H",
-      "sends_total": 17,
+      "sends_total": 21,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0588
+      "reply_rate": 0.0476
     }
   ],
   "subjects": [
@@ -207,6 +215,13 @@
     },
     {
       "subject": "the real version of your F1 image",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "closing the loop",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -395,6 +410,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The proof and what you keep",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The one asset you're missing",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -425,6 +447,13 @@
     {
       "subject": "The exec tier your events miss",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The engineering content you'd own",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -528,6 +557,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Private rooms, plus the content",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Post-CES, post-funding, one idea",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -626,6 +662,20 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the weekend works",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the weekend runs",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the race-weekend room works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -661,6 +711,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the client day runs",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the Spa weekend works",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -682,6 +739,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the Spa activation works",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How it works, IABG client weekend",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -690,6 +754,13 @@
     },
     {
       "subject": "How it works in 4 days",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How it stays off-brand",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -816,6 +887,13 @@
     },
     {
       "subject": "Comment ça marche, concrètement",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Co-produced content + exec suite",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
