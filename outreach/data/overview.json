@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-13T12:00:21Z",
+  "generated_at": "2026-06-13T13:00:18Z",
   "totals": {
     "prospects_total": 652,
-    "prospects_active": 395,
-    "sends_total": 198,
-    "replies_total": 15,
+    "prospects_active": 391,
+    "sends_total": 290,
+    "replies_total": 17,
     "replies_positive": 1,
     "campaigns_active": 192,
-    "upcoming_14d": 846
+    "upcoming_14d": 749
   },
   "programs": [
     {
@@ -47,10 +47,10 @@
         },
         "campaigns_total": 91,
         "campaigns_active": 89,
-        "sends_total": 28,
+        "sends_total": 63,
         "replies_total": 1,
         "replies_positive": 0,
-        "upcoming_14d": 374
+        "upcoming_14d": 339
       }
     },
     {
@@ -58,17 +58,17 @@
       "label": "24h Spa 2026 — Aston / Ecurie Ecosse",
       "kpis": {
         "prospects_total": 95,
-        "prospects_active": 54,
+        "prospects_active": 53,
         "prospects_paused": 30,
         "prospects_replied": 0,
-        "prospects_bounced": 4,
+        "prospects_bounced": 5,
         "prospects_with_email": 95,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 70,
         "by_status": {
           "paused": 30,
-          "active": 54,
-          "bounced": 4,
+          "active": 53,
+          "bounced": 5,
           "do_not_contact": 2,
           "archived": 5
         },
@@ -84,10 +84,10 @@
         },
         "campaigns_total": 32,
         "campaigns_active": 31,
-        "sends_total": 103,
-        "replies_total": 11,
+        "sends_total": 133,
+        "replies_total": 12,
         "replies_positive": 0,
-        "upcoming_14d": 105
+        "upcoming_14d": 74
       }
     },
     {
@@ -95,17 +95,18 @@
       "label": "BD Platform — ELMS Executive Hospitality",
       "kpis": {
         "prospects_total": 197,
-        "prospects_active": 154,
+        "prospects_active": 151,
         "prospects_paused": 40,
         "prospects_replied": 0,
-        "prospects_bounced": 0,
+        "prospects_bounced": 3,
         "prospects_with_email": 197,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 140,
         "by_status": {
-          "active": 154,
+          "active": 151,
           "paused": 40,
-          "do_not_contact": 3
+          "do_not_contact": 3,
+          "bounced": 3
         },
         "by_tier": {
           "MED": 157,
@@ -118,10 +119,10 @@
         },
         "campaigns_total": 73,
         "campaigns_active": 72,
-        "sends_total": 67,
-        "replies_total": 3,
+        "sends_total": 94,
+        "replies_total": 4,
         "replies_positive": 1,
-        "upcoming_14d": 367
+        "upcoming_14d": 336
       }
     },
     {
