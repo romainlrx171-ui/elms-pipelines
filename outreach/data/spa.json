@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-13T11:00:28Z",
+  "generated_at": "2026-06-13T12:00:21Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 54,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 88,
+    "sends_total": 103,
     "replies_total": 11,
     "replies_positive": 0,
-    "upcoming_14d": 120
+    "upcoming_14d": 105
   },
   "prospects": [
     {
@@ -174,16 +174,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:46",
       "updated_at": "2026-06-01 10:56:46",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-05 10:00:15",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-13 11:53:52",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "spa_anyline_lukas_kinigadner",
@@ -264,16 +264,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:51",
       "updated_at": "2026-06-04 09:41:51",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 12:36:16",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:46:48",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-baltic-mpyrvw16__etienne-malec",
@@ -474,16 +474,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:57",
       "updated_at": "2026-06-03 10:20:57",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 12:04:21",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:54:26",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa_causaly_yiannis_kiachopoulos",
@@ -774,16 +774,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:50",
       "updated_at": "2026-06-04 09:41:50",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 14:07:19",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:55:15",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-groupe-louyet__laurent-louyet",
@@ -894,16 +894,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:51",
       "updated_at": "2026-06-01 10:56:51",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-05 10:01:47",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-13 11:55:17",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "spa24-hawk-ai__wolfgang-berner",
@@ -1104,16 +1104,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:56:54",
       "updated_at": "2026-06-01 10:56:54",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-08 08:00:21",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:56:01",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-kempower-mppp8zdn__mathias-wiklund",
@@ -1284,16 +1284,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:49",
       "updated_at": "2026-06-04 09:41:49",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 14:05:55",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:56:47",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa_louyet_group_laurent_louyet",
@@ -1554,16 +1554,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:47",
       "updated_at": "2026-06-04 09:41:47",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 14:03:01",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:57:35",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-millers-mpyg04ga__tony-lowe",
@@ -1584,16 +1584,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:47",
       "updated_at": "2026-06-04 09:41:47",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 14:04:24",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:58:22",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-mollie-mpxsz6ib__koen-koppen",
@@ -2094,16 +2094,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:45",
       "updated_at": "2026-06-04 09:41:45",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-13 11:53:30",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-10T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "spa24-provizio-mpy94tle__barry-lunn",
@@ -2124,16 +2124,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:45",
       "updated_at": "2026-06-04 09:41:45",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-04 12:28:07",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-13 11:59:12",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-provizio-mpy94tle__eamonn-boland",
@@ -2154,16 +2154,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:45",
       "updated_at": "2026-06-04 09:41:45",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-13 12:00:08",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-04T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "spa24-punch-mpqu8t2o__gaspar-gascon",
@@ -2574,16 +2574,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:57:00",
       "updated_at": "2026-06-01 10:57:00",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-05 10:07:19",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-13 11:56:35",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "spa24-tractable__alex-dalyac",
@@ -2724,16 +2724,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:57:01",
       "updated_at": "2026-06-01 10:57:01",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-05 10:08:40",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-13 11:58:05",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "spa_veo_robotics_patrick_sobalvarro",
@@ -2941,8 +2941,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:52",
       "assignments": 1,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -2971,8 +2971,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:51",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -2986,8 +2986,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:50",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3016,8 +3016,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:48",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3046,8 +3046,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:46",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3091,8 +3091,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:36",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3151,8 +3151,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:57:01",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3166,8 +3166,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:57:00",
       "assignments": 1,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3271,8 +3271,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:54",
       "assignments": 3,
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3301,8 +3301,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:52",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3346,8 +3346,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:56:47",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3369,18 +3369,6 @@
     }
   ],
   "upcoming": [
-    {
-      "prospect_id": "spa24-provizio-mpy94tle__eamonn-boland",
-      "company": "Provizio",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-04T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-provizio-mpy94tle__barry-jones",
-      "company": "Provizio",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-04T09:30:00Z"
-    },
     {
       "prospect_id": "spa24-mpogxocw__paul-laval",
       "company": "Melexis",
@@ -3412,20 +3400,8 @@
       "scheduled_for": "2026-06-08T09:30:00Z"
     },
     {
-      "prospect_id": "spa24-kempower-mppp8zdn__jussi-vanhanen",
-      "company": "Kempower",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-punch-mpqu8t2o__koen-morrhey",
       "company": "Punch Powertrain",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
-      "company": "Capital.com",
       "touch_n": 2,
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
@@ -3442,50 +3418,8 @@
       "scheduled_for": "2026-06-10T09:30:00Z"
     },
     {
-      "prospect_id": "spa24-provizio-mpy94tle__barry-lunn",
-      "company": "Provizio",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-provizio-mpy94tle__eamonn-boland",
-      "company": "Provizio",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-provizio-mpy94tle__barry-jones",
       "company": "Provizio",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-millers-mpyg04ga__steve-cocking",
-      "company": "Millers Oils Ltd",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-millers-mpyg04ga__tony-lowe",
-      "company": "Millers Oils Ltd",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-link11-mpyieadb__rolf-gierhard",
-      "company": "Link11",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-fixposition-mpyjmwnv__zhenzhong-su",
-      "company": "Fixposition",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-atlantik-mpynd8re__ottmar-flach",
-      "company": "Atlantik Elektronik GmbH",
       "touch_n": 2,
       "scheduled_for": "2026-06-10T09:30:00Z"
     },
@@ -3500,18 +3434,6 @@
       "company": "Aerospacelab",
       "touch_n": 2,
       "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-alpitronic-mpq5m8re__wolfgang-ademmer",
-      "company": "Alpitronic",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-hawk-ai__tobias-schweiger",
-      "company": "Hawk AI",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
     },
     {
       "prospect_id": "spa24-kempower-mppp8zdn__mathias-wiklund",
@@ -3540,18 +3462,6 @@
     {
       "prospect_id": "spa24-sibros__hemant-sikaria",
       "company": "Sibros",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-tttech-mpoyzj00__stefan-poledna",
-      "company": "TTTech Auto",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-umicore-mpquwis0__marjolein-scheers",
-      "company": "Umicore",
       "touch_n": 3,
       "scheduled_for": "2026-06-11T09:30:00Z"
     },

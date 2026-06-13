@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-13T11:00:28Z",
+  "generated_at": "2026-06-13T12:00:21Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 154,
@@ -26,10 +26,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 63,
-    "replies_total": 2,
+    "sends_total": 67,
+    "replies_total": 3,
     "replies_positive": 1,
-    "upcoming_14d": 371
+    "upcoming_14d": 367
   },
   "prospects": [
     {
@@ -51,16 +51,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:41",
       "updated_at": "2026-06-04 10:39:41",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-13 11:43:59",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
@@ -351,16 +351,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:41",
       "updated_at": "2026-06-01 11:32:41",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-05 10:10:11",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-13 11:59:24",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-applus-mpq88v5v__jose-delfin-perez",
@@ -1666,8 +1666,8 @@
       "has_email": true,
       "has_linkedin": false,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "declined",
+      "outcome_at": "2026-06-13 11:17:30",
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:44",
       "updated_at": "2026-06-01 11:32:44",
@@ -1696,8 +1696,8 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "declined",
+      "outcome_at": "2026-06-13 11:17:30",
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:44",
       "updated_at": "2026-06-01 11:32:44",
@@ -1727,7 +1727,7 @@
       "has_linkedin": true,
       "has_phone": false,
       "outcome": "declined",
-      "outcome_at": "2026-06-02T16:19:32Z",
+      "outcome_at": "2026-06-13 11:17:30",
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:44",
       "updated_at": "2026-06-01 11:32:44",
@@ -1851,16 +1851,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:54",
       "updated_at": "2026-06-04 10:41:54",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-13 11:52:25",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-gse-mpyot2h2__roland-paul",
@@ -3921,16 +3921,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:46",
       "updated_at": "2026-06-04 10:41:46",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 1
+      "replies_total": 1,
+      "last_sent_at": "2026-06-13 11:45:15",
+      "last_touch_n": 1,
+      "last_reply_at": "2026-06-13T11:45:37Z",
+      "last_sentiment": "ooo",
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_personio_hanno_renner",
@@ -6073,8 +6073,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:54",
       "assignments": 2,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6133,10 +6133,10 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:46",
       "assignments": 2,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -6703,8 +6703,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:41",
       "assignments": 2,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7018,8 +7018,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:41",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7144,12 +7144,6 @@
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-ab-mpx2dn1p__ben-russell",
-      "company": "AB Dynamics",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
       "company": "VI-grade",
       "touch_n": 1,
@@ -7158,12 +7152,6 @@
     {
       "prospect_id": "bd-platform-caracol-mpxrec8s__francesco-de-stefano",
       "company": "Caracol AM",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-permabond-mpy9dioa__rebecca-wilmot",
-      "company": "Permabond Engineering Adhesives",
       "touch_n": 1,
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
@@ -7220,18 +7208,6 @@
       "company": "Scanfil",
       "touch_n": 1,
       "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-gse-mpyot2h2__olivia-nail",
-      "company": "GSE Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
-      "company": "Applus+ IDIADA",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
     },
     {
       "prospect_id": "bd-platform-atesteo-mppt6fso__tim-willers",
