@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-15T10:00:37Z",
+  "generated_at": "2026-06-15T10:29:58Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 96,
+    "sends_total": 99,
     "replies_total": 9,
     "replies_positive": 2,
-    "upcoming_14d": 325
+    "upcoming_14d": 322
   },
   "prospects": [
     {
@@ -952,16 +952,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:45",
       "updated_at": "2026-06-04 10:39:45",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 10:11:05",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_clairfield_international_thierry_chetrit",
@@ -1462,16 +1462,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:38:35",
       "updated_at": "2026-06-04 10:38:35",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 10:08:16",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-edag-mpx3utxi__holger-merz",
@@ -5542,16 +5542,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:43",
       "updated_at": "2026-06-04 10:39:43",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 10:09:40",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-velos-mpydak23__colin-chew",
@@ -6629,8 +6629,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:46",
       "assignments": 1,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6674,8 +6674,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:43",
       "assignments": 1,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6719,8 +6719,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:38:35",
       "assignments": 2,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7106,24 +7106,6 @@
       "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
       "company": "Quartix",
       "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-edag-mpx3utxi__harald-keller",
-      "company": "EDAG Engineering",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
-      "company": "VI-grade",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-caracol-mpxrec8s__francesco-de-stefano",
-      "company": "Caracol AM",
-      "touch_n": 1,
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
