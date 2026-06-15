@@ -1,19 +1,19 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-15T16:00:16Z",
+  "generated_at": "2026-06-15T23:00:17Z",
   "kpis": {
     "prospects_total": 360,
-    "prospects_active": 186,
-    "prospects_paused": 147,
+    "prospects_active": 216,
+    "prospects_paused": 118,
     "prospects_replied": 0,
     "prospects_bounced": 1,
     "prospects_with_email": 360,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 313,
     "by_status": {
-      "active": 186,
-      "paused": 147,
-      "archived": 24,
+      "active": 216,
+      "paused": 118,
+      "archived": 23,
       "bounced": 1,
       "do_not_contact": 2
     },
@@ -39,7 +39,7 @@
     "sends_total": 87,
     "replies_total": 3,
     "replies_positive": 0,
-    "upcoming_14d": 312
+    "upcoming_14d": 432
   },
   "prospects": [
     {
@@ -377,7 +377,7 @@
       "company": "ATESTEO",
       "role": "Chief Financial Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -399,8 +399,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_apollo_avisto_christophe_unknown",
@@ -857,7 +857,7 @@
       "company": "Alpitronic",
       "role": "CEO Alpitronic Americas",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -879,8 +879,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-apexai-mpq1p9rd__nicole-pavelka",
@@ -1037,7 +1037,7 @@
       "company": "Applus+ IDIADA",
       "role": "Group Chief Executive Officer",
       "tier": "LOW",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -1059,8 +1059,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_aurora_labs_oren_sokoler",
@@ -1127,7 +1127,7 @@
       "company": "Aurora Labs",
       "role": "Co-Founder & CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -1149,8 +1149,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-beck-mppxx9bu__alexander-beck",
@@ -2237,7 +2237,7 @@
       "company": "Codico",
       "role": "Vice President Sales and Marketing, Active Components",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -2259,8 +2259,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_apollo_codico_walter_unknown",
@@ -2297,7 +2297,7 @@
       "company": "Cognata",
       "role": "Founder & CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -2319,8 +2319,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_cognata_gadi_sznajder",
@@ -2537,7 +2537,7 @@
       "company": "Comms365",
       "role": "Chief Revenue Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -2559,8 +2559,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_comms365_tbd",
@@ -4667,7 +4667,7 @@
       "company": "Geotab",
       "role": "Founder & CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -4689,8 +4689,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-16T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_apollo_guardknox_anat_unknown",
@@ -4727,7 +4727,7 @@
       "company": "GuardKnox",
       "role": "Chief Revenue Officer (CRO)",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -4749,8 +4749,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_guardknox_tbd",
@@ -4787,7 +4787,7 @@
       "company": "HEITEC",
       "role": "Head of Global Sales",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -4809,8 +4809,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_heitec_tbd",
@@ -4877,7 +4877,7 @@
       "company": "HORIBA MIRA",
       "role": "Managing Director",
       "tier": "LOW",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -4899,8 +4899,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_horiba_mira_graeme_stewart",
@@ -5117,7 +5117,7 @@
       "company": "IABG",
       "role": "Vice President Sales IABG",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -5139,8 +5139,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_ipg_automotive_martin_elbs",
@@ -5177,7 +5177,7 @@
       "company": "Ineltek",
       "role": "Vertriebsleitung Norddeutschland",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -5199,8 +5199,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "infovista_alexandre_lecoq",
@@ -5627,7 +5627,7 @@
       "company": "Kempower",
       "role": "Chief Executive Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 30,
       "geo": null,
       "language": "EN",
@@ -5649,8 +5649,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-kigen-mpq3nll5__stephen-halpenny",
@@ -5807,7 +5807,7 @@
       "company": "Kistler Group",
       "role": "Vice President Sales & Service DACH",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -5829,8 +5829,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_kistler_group_tbd",
@@ -6287,7 +6287,7 @@
       "company": "Melexis",
       "role": "Chief Executive Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -6309,8 +6309,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-17T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-monogoto-mpq4mrjp__israel-cohen",
@@ -6467,7 +6467,7 @@
       "company": "Muller-BBM",
       "role": "Managing Director",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -6489,8 +6489,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_apollo_muller_bbm_manuel_unknown",
@@ -6767,7 +6767,7 @@
       "company": "Option NV",
       "role": "Sales & Marketing Manager",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -6789,8 +6789,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_option_nv_tbd",
@@ -7307,7 +7307,7 @@
       "company": "Proemion",
       "role": "VP of Sales, North America",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -7329,8 +7329,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_proemion_tbd",
@@ -7637,7 +7637,7 @@
       "company": "Rutronik Automotive BU",
       "role": "Managing Director & CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -7659,8 +7659,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-segger-mpq6x4n6__ivo-geilenbruegge",
@@ -7817,7 +7817,7 @@
       "company": "SERMA Group",
       "role": "Group Sales Director",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -7839,8 +7839,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-scaleway-mpwrw9sf__damien-lucas",
@@ -7967,7 +7967,7 @@
       "company": "Schweizer Electronic AG",
       "role": "Chief Financial Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -7989,8 +7989,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-sekoiaio-mpqdi7xi__cyril-simonnet",
@@ -8267,7 +8267,7 @@
       "company": "Sibros",
       "role": "Co-Founder & CEO",
       "tier": "LOW",
-      "status": "archived",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -8289,8 +8289,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_sibros_vijay_sharma",
@@ -8327,7 +8327,7 @@
       "company": "Silicon Mobility",
       "role": "Vice President System & Software Engineering",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -8349,8 +8349,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-18T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_silicon_mobility_tbd",
@@ -8897,7 +8897,7 @@
       "company": "TTTech Auto",
       "role": "Chief Executive Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -8919,8 +8919,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_tttech_auto_friedhelm_pickhard",
@@ -9077,7 +9077,7 @@
       "company": "Targa Telematics",
       "role": "President",
       "tier": "LOW",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -9099,8 +9099,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-teltonika-mpqrjltb__darius-malisauskas",
@@ -9317,7 +9317,7 @@
       "company": "UTAC",
       "role": "President of Executive Committee",
       "tier": "LOW",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -9339,8 +9339,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_utac_laurent_benoit",
@@ -9377,7 +9377,7 @@
       "company": "Upstream Security",
       "role": "Co-Founder & CEO",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -9399,8 +9399,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_upstream_security_yonatan_appel",
@@ -10067,7 +10067,7 @@
       "company": "Workz",
       "role": "Chief Marketing Officer",
       "tier": "HIGH",
-      "status": "paused",
+      "status": "active",
       "confidence": null,
       "geo": null,
       "language": "EN",
@@ -10089,8 +10089,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms_workz_tbd",
@@ -10367,7 +10367,7 @@
       "company": "dSPACE",
       "role": "Chief Executive Officer",
       "tier": "LOW",
-      "status": "paused",
+      "status": "active",
       "confidence": 50,
       "geo": "EU",
       "language": "EN",
@@ -10389,8 +10389,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": null,
-      "next_touch_n": null
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 0
     },
     {
       "id": "elms-epeas-mpqu8uon__christian-ferrier",
@@ -12266,6 +12266,54 @@
       "scheduled_for": "2026-06-16T08:00:00Z"
     },
     {
+      "prospect_id": "elms_atesteo_sebastian_buenger",
+      "company": "ATESTEO",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
+      "company": "Alpitronic",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_applus_idiada_richard_bartlett",
+      "company": "Applus+ IDIADA",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_aurora_labs_zohar_fox",
+      "company": "Aurora Labs",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_codico_magnus_unknown",
+      "company": "Codico",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_cognata_danny_atsmon",
+      "company": "Cognata",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_comms365_will_unknown",
+      "company": "Comms365",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_neil_cawse",
+      "company": "Geotab",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
       "prospect_id": "elms-dewesoft-mpxvgizi__bojan-contala",
       "company": "Dewesoft",
       "touch_n": 2,
@@ -12408,6 +12456,54 @@
       "company": "Sekoia.io",
       "touch_n": 2,
       "scheduled_for": "2026-06-16T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_guardknox_jillian_unknown",
+      "company": "GuardKnox",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_heitec_manuel_unknown",
+      "company": "HEITEC",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_horiba_mira_declan_allen",
+      "company": "HORIBA MIRA",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_iabg_tbd",
+      "company": "IABG",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_ineltek_tbd",
+      "company": "Ineltek",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_kempower_tbd",
+      "company": "Kempower",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_kistler_group_alexis_unknown",
+      "company": "Kistler Group",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_melexis_marc_biron",
+      "company": "Melexis",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
       "prospect_id": "elms-vector-mpx32ndn__matthias-traub",
@@ -12560,6 +12656,102 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
+      "prospect_id": "elms_atesteo_sebastian_buenger",
+      "company": "ATESTEO",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
+      "company": "Alpitronic",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_applus_idiada_richard_bartlett",
+      "company": "Applus+ IDIADA",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_aurora_labs_zohar_fox",
+      "company": "Aurora Labs",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_codico_magnus_unknown",
+      "company": "Codico",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_cognata_danny_atsmon",
+      "company": "Cognata",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_comms365_will_unknown",
+      "company": "Comms365",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_neil_cawse",
+      "company": "Geotab",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_muller_bbm_carl_christian_unknown",
+      "company": "Muller-BBM",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_option_nv_meltem_unknown",
+      "company": "Option NV",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_proemion_brent_unknown",
+      "company": "Proemion",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_rutronik_automotive_bu_thomas_rudel",
+      "company": "Rutronik Automotive BU",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_serma_group_pascal_unknown",
+      "company": "SERMA Group",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_schweizer_electronic_ag_marc_bunz",
+      "company": "Schweizer Electronic AG",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_sibros_hemant_sikaria",
+      "company": "Sibros",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_silicon_mobility_nathalie_unknown",
+      "company": "Silicon Mobility",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-18T09:30:00Z"
+    },
+    {
       "prospect_id": "elms-racelogic-mpycjk6d__graham-mackie",
       "company": "Racelogic (VBOX)",
       "touch_n": 2,
@@ -12696,6 +12888,90 @@
       "company": "Infovista",
       "touch_n": 3,
       "scheduled_for": "2026-06-19T08:00:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_guardknox_jillian_unknown",
+      "company": "GuardKnox",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_heitec_manuel_unknown",
+      "company": "HEITEC",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_horiba_mira_declan_allen",
+      "company": "HORIBA MIRA",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_iabg_tbd",
+      "company": "IABG",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_ineltek_tbd",
+      "company": "Ineltek",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_kempower_tbd",
+      "company": "Kempower",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_kistler_group_alexis_unknown",
+      "company": "Kistler Group",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_melexis_marc_biron",
+      "company": "Melexis",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_tttech_auto_dirk_linzmeier",
+      "company": "TTTech Auto",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_targa_telematics_adriano_scardellato",
+      "company": "Targa Telematics",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_utac_connor_mccormack",
+      "company": "UTAC",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_upstream_security_yoav_levy",
+      "company": "Upstream Security",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_workz_mark_unknown",
+      "company": "Workz",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_dspace_carsten_hoff",
+      "company": "dSPACE",
+      "touch_n": 0,
+      "scheduled_for": "2026-06-19T09:30:00Z"
     },
     {
       "prospect_id": "elms-cadfem-mpq0lagr__matthias-alberts",
@@ -12876,6 +13152,234 @@
       "company": "Texys / Texense",
       "touch_n": 2,
       "scheduled_for": "2026-06-19T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_atesteo_sebastian_buenger",
+      "company": "ATESTEO",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
+      "company": "Alpitronic",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_applus_idiada_richard_bartlett",
+      "company": "Applus+ IDIADA",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_aurora_labs_zohar_fox",
+      "company": "Aurora Labs",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_codico_magnus_unknown",
+      "company": "Codico",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_cognata_danny_atsmon",
+      "company": "Cognata",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_comms365_will_unknown",
+      "company": "Comms365",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_neil_cawse",
+      "company": "Geotab",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_guardknox_jillian_unknown",
+      "company": "GuardKnox",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_heitec_manuel_unknown",
+      "company": "HEITEC",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_horiba_mira_declan_allen",
+      "company": "HORIBA MIRA",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_iabg_tbd",
+      "company": "IABG",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_ineltek_tbd",
+      "company": "Ineltek",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_kempower_tbd",
+      "company": "Kempower",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_kistler_group_alexis_unknown",
+      "company": "Kistler Group",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_melexis_marc_biron",
+      "company": "Melexis",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_muller_bbm_carl_christian_unknown",
+      "company": "Muller-BBM",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_muller_bbm_carl_christian_unknown",
+      "company": "Muller-BBM",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_option_nv_meltem_unknown",
+      "company": "Option NV",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_option_nv_meltem_unknown",
+      "company": "Option NV",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_proemion_brent_unknown",
+      "company": "Proemion",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_proemion_brent_unknown",
+      "company": "Proemion",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_rutronik_automotive_bu_thomas_rudel",
+      "company": "Rutronik Automotive BU",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_rutronik_automotive_bu_thomas_rudel",
+      "company": "Rutronik Automotive BU",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_serma_group_pascal_unknown",
+      "company": "SERMA Group",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_serma_group_pascal_unknown",
+      "company": "SERMA Group",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_schweizer_electronic_ag_marc_bunz",
+      "company": "Schweizer Electronic AG",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_schweizer_electronic_ag_marc_bunz",
+      "company": "Schweizer Electronic AG",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_sibros_hemant_sikaria",
+      "company": "Sibros",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_sibros_hemant_sikaria",
+      "company": "Sibros",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_silicon_mobility_nathalie_unknown",
+      "company": "Silicon Mobility",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_silicon_mobility_nathalie_unknown",
+      "company": "Silicon Mobility",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_tttech_auto_dirk_linzmeier",
+      "company": "TTTech Auto",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_targa_telematics_adriano_scardellato",
+      "company": "Targa Telematics",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_utac_connor_mccormack",
+      "company": "UTAC",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_upstream_security_yoav_levy",
+      "company": "Upstream Security",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_workz_mark_unknown",
+      "company": "Workz",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_dspace_carsten_hoff",
+      "company": "dSPACE",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
       "prospect_id": "elms-dewesoft-mpxvgizi__bojan-contala",
@@ -13178,6 +13682,90 @@
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
+      "prospect_id": "elms_atesteo_sebastian_buenger",
+      "company": "ATESTEO",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
+      "company": "Alpitronic",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_applus_idiada_richard_bartlett",
+      "company": "Applus+ IDIADA",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_aurora_labs_zohar_fox",
+      "company": "Aurora Labs",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_codico_magnus_unknown",
+      "company": "Codico",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_cognata_danny_atsmon",
+      "company": "Cognata",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_comms365_will_unknown",
+      "company": "Comms365",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_neil_cawse",
+      "company": "Geotab",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_tttech_auto_dirk_linzmeier",
+      "company": "TTTech Auto",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_targa_telematics_adriano_scardellato",
+      "company": "Targa Telematics",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_utac_connor_mccormack",
+      "company": "UTAC",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_upstream_security_yoav_levy",
+      "company": "Upstream Security",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_workz_mark_unknown",
+      "company": "Workz",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_dspace_carsten_hoff",
+      "company": "dSPACE",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-23T09:30:00Z"
+    },
+    {
       "prospect_id": "elms-vicone-mpq7x56x__max-cheng",
       "company": "VicOne",
       "touch_n": 3,
@@ -13412,6 +14000,54 @@
       "scheduled_for": "2026-06-24T08:00:00Z"
     },
     {
+      "prospect_id": "elms_apollo_guardknox_jillian_unknown",
+      "company": "GuardKnox",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_heitec_manuel_unknown",
+      "company": "HEITEC",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_horiba_mira_declan_allen",
+      "company": "HORIBA MIRA",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_iabg_tbd",
+      "company": "IABG",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_ineltek_tbd",
+      "company": "Ineltek",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_kempower_tbd",
+      "company": "Kempower",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_kistler_group_alexis_unknown",
+      "company": "Kistler Group",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_melexis_marc_biron",
+      "company": "Melexis",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-24T09:30:00Z"
+    },
+    {
       "prospect_id": "elms-racelogic-mpycjk6d__graham-mackie",
       "company": "Racelogic (VBOX)",
       "touch_n": 3,
@@ -13628,6 +14264,54 @@
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
     {
+      "prospect_id": "elms_apollo_muller_bbm_carl_christian_unknown",
+      "company": "Muller-BBM",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_option_nv_meltem_unknown",
+      "company": "Option NV",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_proemion_brent_unknown",
+      "company": "Proemion",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_rutronik_automotive_bu_thomas_rudel",
+      "company": "Rutronik Automotive BU",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_serma_group_pascal_unknown",
+      "company": "SERMA Group",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_schweizer_electronic_ag_marc_bunz",
+      "company": "Schweizer Electronic AG",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_sibros_hemant_sikaria",
+      "company": "Sibros",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_silicon_mobility_nathalie_unknown",
+      "company": "Silicon Mobility",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
       "prospect_id": "elms-dewesoft-mpxvgizi__tilen-sotler",
       "company": "Dewesoft",
       "touch_n": 4,
@@ -13842,6 +14526,42 @@
       "company": "Texys / Texense",
       "touch_n": 3,
       "scheduled_for": "2026-06-25T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_tttech_auto_dirk_linzmeier",
+      "company": "TTTech Auto",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_targa_telematics_adriano_scardellato",
+      "company": "Targa Telematics",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_utac_connor_mccormack",
+      "company": "UTAC",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_upstream_security_yoav_levy",
+      "company": "Upstream Security",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_workz_mark_unknown",
+      "company": "Workz",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_dspace_carsten_hoff",
+      "company": "dSPACE",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-26T09:30:00Z"
     },
     {
       "prospect_id": "elms-dewesoft-mpxvgizi__bojan-contala",
