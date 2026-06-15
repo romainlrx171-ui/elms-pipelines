@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-15T10:29:58Z",
+  "generated_at": "2026-06-15T11:01:02Z",
   "totals": {
-    "sends_total": 299,
+    "sends_total": 319,
     "sends_bounced": 6,
-    "replies_total": 22,
+    "replies_total": 23,
     "replies_positive": 2,
-    "reply_rate": 0.0736,
-    "bounce_rate": 0.0201
+    "reply_rate": 0.0721,
+    "bounce_rate": 0.0188
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 99,
-      "sends_ok": 99,
+      "sends_total": 112,
+      "sends_ok": 110,
       "sends_bounced": 2,
-      "sends_error": 0,
+      "sends_error": 2,
       "replies_total": 9,
       "replies_positive": 2,
       "replies_negative": 0,
@@ -23,17 +23,17 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0909,
-      "bounce_rate": 0.0202,
-      "positive_rate": 0.0202
+      "reply_rate": 0.0804,
+      "bounce_rate": 0.0179,
+      "positive_rate": 0.0179
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 63,
-      "sends_ok": 63,
+      "sends_total": 69,
+      "sends_ok": 69,
       "sends_bounced": 0,
       "sends_error": 0,
-      "replies_total": 1,
+      "replies_total": 2,
       "replies_positive": 0,
       "replies_negative": 0,
       "replies_ooo": 0,
@@ -41,14 +41,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0159,
+      "reply_rate": 0.029,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
     {
       "program": "SPA_24H",
-      "sends_total": 137,
-      "sends_ok": 133,
+      "sends_total": 138,
+      "sends_ok": 134,
       "sends_bounced": 4,
       "sends_error": 0,
       "replies_total": 12,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0876,
-      "bounce_rate": 0.0292,
+      "reply_rate": 0.087,
+      "bounce_rate": 0.029,
       "positive_rate": 0.0
     }
   ],
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 25,
+      "sends_total": 29,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -84,7 +84,7 @@
     {
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 10,
+      "sends_total": 19,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -93,14 +93,22 @@
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
       "sends_total": 54,
-      "replies_total": 1,
+      "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0185
+      "reply_rate": 0.037
     },
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 9,
+      "sends_total": 12,
+      "replies_total": 0,
+      "bounced": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "touch_n": 3,
+      "program": "ELMS_SPONSORS",
+      "sends_total": 3,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -124,10 +132,10 @@
     {
       "touch_n": 3,
       "program": "SPA_24H",
-      "sends_total": 32,
+      "sends_total": 33,
       "replies_total": 1,
       "bounced": 1,
-      "reply_rate": 0.0312
+      "reply_rate": 0.0303
     }
   ],
   "subjects": [
@@ -204,6 +212,13 @@
     {
       "subject": "EVS at its home race",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Dakar done the category left",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -316,6 +331,13 @@
     {
       "subject": "Zwei neue Felder, ein Kanal",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Your tools, our car, real telemetry",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -503,6 +525,20 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Why trackside, not another expo",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Why this, on top of IAC",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Why off-brand is the point",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -518,6 +554,13 @@
     },
     {
       "subject": "Why a race, not your track",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Why a race, not the ground",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -650,6 +693,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The tier above Formula Student",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The story and the content",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -720,7 +770,21 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The mechanism, and the math",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The mechanics of a client weekend",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The likely internal objection",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -972,6 +1036,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Pro Event, ohne Saisonbindung",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Private rooms, plus the content",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1063,8 +1134,29 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Not sponsorship pipeline",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Not sponsorship an account day",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Not motorsport, relationship infrastructure",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Not lifestyle marketing",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1105,6 +1197,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Not a logo, a closing room",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Not a logo on a car",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -1114,6 +1213,13 @@
     {
       "subject": "No livery, no brand risk",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Neutrality is the feature here",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1280,6 +1386,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the validation actually works",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the room actually works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1303,6 +1416,13 @@
     {
       "subject": "How the on-car proof works",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the install would work",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1455,6 +1575,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How a paddock day moves pipeline",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How a client day works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1520,6 +1647,13 @@
     {
       "subject": "HP renewal, congrats + a thought",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Give Christoforos the easy yes",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1693,13 +1827,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Dakar done the category left",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Cubbit at Imola home round",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -1813,6 +1940,13 @@
     },
     {
       "subject": "Après Orléans, le terrain de vos clients",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Aprilia reach vs. relationship depth",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -2133,6 +2267,14 @@
       "program": "BD_ELMS_HOSPITALITY",
       "received_at": "2026-06-15T11:57:08Z",
       "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
+      "company": "Eurol",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-06-15T10:31:56Z",
+      "sentiment": "unclassified",
       "method": "keyword",
       "touch_n": 1
     },

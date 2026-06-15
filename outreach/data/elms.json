@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-13T13:00:18Z",
+  "generated_at": "2026-06-15T11:01:02Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 187,
@@ -35,10 +35,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 63,
-    "replies_total": 1,
+    "sends_total": 69,
+    "replies_total": 2,
     "replies_positive": 0,
-    "upcoming_14d": 339
+    "upcoming_14d": 331
   },
   "prospects": [
     {
@@ -1680,16 +1680,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:01:45",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-15 10:50:39",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms-cadfem-mpq0lagr__matthias-hoermann",
@@ -3270,16 +3270,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:38:34",
       "updated_at": "2026-06-04 10:38:34",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:06:03",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-15 10:54:47",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_emc_test_nrw_tbd",
@@ -3720,16 +3720,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:44",
       "updated_at": "2026-06-04 10:39:44",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
-      "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:10:01",
-      "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "replies_total": 1,
+      "last_sent_at": "2026-06-15 10:59:43",
+      "last_touch_n": 2,
+      "last_reply_at": "2026-06-15T10:31:56Z",
+      "last_sentiment": "unclassified",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-eurol-mpy4wmis__martijn-pfeiffer",
@@ -4500,16 +4500,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:04:41",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-15 10:53:27",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms-glyn-mppxgz2t__thomas-gerhardt",
@@ -7410,16 +7410,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:03:13",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-15 10:52:05",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms-quantexa-mpwtrmam__derek-brown",
@@ -9510,16 +9510,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:38:36",
       "updated_at": "2026-06-04 10:38:36",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:07:25",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-15 10:56:24",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-vector-mpx32ndn__giannina-vetrano",
@@ -12082,10 +12082,10 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:44",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -12097,8 +12097,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:38:36",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12112,8 +12112,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:38:34",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12127,8 +12127,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 3,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12142,8 +12142,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12157,8 +12157,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12235,12 +12235,6 @@
       "scheduled_for": "2026-06-12T09:30:00Z"
     },
     {
-      "prospect_id": "elms-cadfem-mpq0lagr__matthias-alberts",
-      "company": "CADFEM",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "elms-cadfem-mpq0lagr__matthias-hoermann",
       "company": "CADFEM",
       "touch_n": 3,
@@ -12253,20 +12247,8 @@
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
-      "prospect_id": "elms-qonto-mpx1rwc5__heidrun-luyt",
-      "company": "Qonto",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "elms-qonto-mpx1rwc5__alexandre-prot",
       "company": "Qonto",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-glyn-mppxgz2t__christopher-frese",
-      "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
@@ -12274,24 +12256,6 @@
       "prospect_id": "elms-glyn-mppxgz2t__thomas-gerhardt",
       "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
       "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-dewesoft-mpxvgizi__tilen-sotler",
-      "company": "Dewesoft",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-vector-mpx32ndn__cordula-gielen",
-      "company": "Vector Informatik",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-eurol-mpy4wmis__dennis-marsman",
-      "company": "Eurol",
-      "touch_n": 2,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
@@ -12897,12 +12861,6 @@
     {
       "prospect_id": "elms-vector-mpx32ndn__cordula-gielen",
       "company": "Vector Informatik",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-eurol-mpy4wmis__dennis-marsman",
-      "company": "Eurol",
       "touch_n": 3,
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
@@ -13791,12 +13749,6 @@
     {
       "prospect_id": "elms-vector-mpx32ndn__cordula-gielen",
       "company": "Vector Informatik",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-eurol-mpy4wmis__dennis-marsman",
-      "company": "Eurol",
       "touch_n": 4,
       "scheduled_for": "2026-06-25T09:30:00Z"
     },
