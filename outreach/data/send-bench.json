@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-15T15:39:36Z",
+  "generated_at": "2026-06-15T16:00:16Z",
   "totals": {
-    "sends_total": 342,
+    "sends_total": 356,
     "sends_bounced": 6,
-    "replies_total": 25,
+    "replies_total": 26,
     "replies_positive": 3,
-    "reply_rate": 0.0731,
-    "bounce_rate": 0.0175
+    "reply_rate": 0.073,
+    "bounce_rate": 0.0169
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 125,
-      "sends_ok": 121,
+      "sends_total": 131,
+      "sends_ok": 127,
       "sends_bounced": 2,
       "sends_error": 5,
       "replies_total": 11,
@@ -23,25 +23,25 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.088,
-      "bounce_rate": 0.016,
-      "positive_rate": 0.024
+      "reply_rate": 0.084,
+      "bounce_rate": 0.0153,
+      "positive_rate": 0.0229
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 79,
-      "sends_ok": 76,
+      "sends_total": 87,
+      "sends_ok": 84,
       "sends_bounced": 0,
       "sends_error": 3,
-      "replies_total": 2,
+      "replies_total": 3,
       "replies_positive": 0,
       "replies_negative": 0,
-      "replies_ooo": 0,
+      "replies_ooo": 1,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0253,
+      "reply_rate": 0.0345,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -68,10 +68,10 @@
     {
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 77,
+      "sends_total": 83,
       "replies_total": 10,
       "bounced": 2,
-      "reply_rate": 0.1299
+      "reply_rate": 0.1205
     },
     {
       "touch_n": 2,
@@ -92,15 +92,15 @@
     {
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
-      "sends_total": 63,
-      "replies_total": 2,
+      "sends_total": 69,
+      "replies_total": 3,
       "bounced": 0,
-      "reply_rate": 0.0317
+      "reply_rate": 0.0435
     },
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 13,
+      "sends_total": 15,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -177,6 +177,13 @@
     {
       "subject": "Vos modules roulent, votre nom non",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Tier-1 door-opener, automotive line",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -323,6 +330,13 @@
     },
     {
       "subject": "l'image F1 que vous utilisez déjà",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "connected GT3, your asset gap",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -644,6 +658,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Vos clients-clés, hors chantier",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Vos MSSP, autour du paddock",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -702,6 +723,13 @@
     {
       "subject": "Topcon-tier proof, fraction of cost",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Ton white paper, version piste",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -945,6 +973,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Texense après la Formule E",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "TIER IV, and your OEM pipeline",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -975,6 +1010,13 @@
     {
       "subject": "Spa, the customer + talent side",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Spa, le 23 août, votre course",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1029,8 +1071,22 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Rome → vos comptes nommés",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Right person at SimScale?",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Reliability, shown, not asserted",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1290,6 +1346,13 @@
     {
       "subject": "Munich, Spa, August, IABG clients",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Milan region, meet Imola",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1981,6 +2044,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Beyond the it-sa booth",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Beyond Aprilia: a different instrument",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -2058,6 +2128,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "After your NWE Mogas move",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "After the spring show circuit",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -2128,6 +2205,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "A venue for your Asia accounts",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "A validation asset CADFEM owns",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -2144,6 +2228,13 @@
     {
       "subject": "A thought on \"luxury, lived\"",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A thought after Night of Electronics",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2256,6 +2347,13 @@
     {
       "subject": "A live proof point for Provizio",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A line on order-book conversion",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2374,6 +2472,14 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "FTDI Chip",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-06-15T15:51:13Z",
+      "sentiment": "ooo",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "IPG Automotive",
       "program": "BD_ELMS_HOSPITALITY",
