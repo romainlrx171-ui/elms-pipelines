@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-15T13:31:17Z",
+  "generated_at": "2026-06-15T15:39:36Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 122,
-    "replies_total": 10,
-    "replies_positive": 2,
-    "upcoming_14d": 299
+    "sends_total": 125,
+    "replies_total": 11,
+    "replies_positive": 3,
+    "upcoming_14d": 295
   },
   "prospects": [
     {
@@ -1762,16 +1762,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:47",
       "updated_at": "2026-06-04 10:41:47",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:14:10",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-15 14:06:21",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-ga-mpyp92gu__elodie-le-breton",
@@ -2152,16 +2152,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:06",
       "updated_at": "2026-06-04 10:40:06",
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 14:01:40",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_hottinger_group_mark_robertson",
@@ -4855,13 +4855,13 @@
       "sends_total": 3,
       "sends_ok": 3,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-15 13:11:14",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "last_reply_at": "2026-06-15T10:04:09Z",
+      "last_sentiment": "positive",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sibros-mpp0qq00__erik-mekelburg",
@@ -5092,16 +5092,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:05",
       "updated_at": "2026-06-04 10:40:05",
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 14:00:24",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
@@ -6119,8 +6119,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:47",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6479,7 +6479,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 3,
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -6494,7 +6494,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 1,
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -6812,8 +6812,8 @@
       "sends_total": 6,
       "sends_ok": 6,
       "sends_bounced": 0,
-      "replies_total": 0,
-      "replies_positive": 0
+      "replies_total": 1,
+      "replies_positive": 1
     },
     {
       "id": "cmp_bd_platform_serma_mpqbtugc",
@@ -7295,26 +7295,8 @@
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__carmen-koch",
-      "company": "Speedgoat",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hpe-mpy6t79n__andrea-bozzoli",
-      "company": "HPE COXA (HPE Group)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-permabond-mpy9dioa__rebecca-wilmot",
       "company": "Permabond Engineering Adhesives",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ga-mpyp92gu__aurelien-ngangue",
-      "company": "GA Smart Building",
       "touch_n": 2,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
@@ -7861,12 +7843,6 @@
     {
       "prospect_id": "bd-platform-ncab-mppuhbof__peter-kruk",
       "company": "NCAB Group",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sibros-mpp0qq00__albert-lilly",
-      "company": "Sibros",
       "touch_n": 4,
       "scheduled_for": "2026-06-19T09:30:00Z"
     },

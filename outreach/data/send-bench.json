@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-06-15T14:00:07Z",
+  "generated_at": "2026-06-15T15:39:36Z",
   "totals": {
-    "sends_total": 337,
+    "sends_total": 342,
     "sends_bounced": 6,
-    "replies_total": 24,
-    "replies_positive": 2,
-    "reply_rate": 0.0712,
-    "bounce_rate": 0.0178
+    "replies_total": 25,
+    "replies_positive": 3,
+    "reply_rate": 0.0731,
+    "bounce_rate": 0.0175
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 122,
-      "sends_ok": 120,
+      "sends_total": 125,
+      "sends_ok": 121,
       "sends_bounced": 2,
-      "sends_error": 3,
-      "replies_total": 10,
-      "replies_positive": 2,
+      "sends_error": 5,
+      "replies_total": 11,
+      "replies_positive": 3,
       "replies_negative": 0,
       "replies_ooo": 3,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.082,
-      "bounce_rate": 0.0164,
-      "positive_rate": 0.0164
+      "reply_rate": 0.088,
+      "bounce_rate": 0.016,
+      "positive_rate": 0.024
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 77,
+      "sends_total": 79,
       "sends_ok": 76,
       "sends_bounced": 0,
-      "sends_error": 1,
+      "sends_error": 3,
       "replies_total": 2,
       "replies_positive": 0,
       "replies_negative": 0,
@@ -41,7 +41,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.026,
+      "reply_rate": 0.0253,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -68,15 +68,15 @@
     {
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 75,
+      "sends_total": 77,
       "replies_total": 10,
       "bounced": 2,
-      "reply_rate": 0.1333
+      "reply_rate": 0.1299
     },
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 30,
+      "sends_total": 31,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -85,22 +85,22 @@
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 20,
-      "replies_total": 0,
+      "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0
+      "reply_rate": 0.05
     },
     {
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
-      "sends_total": 62,
+      "sends_total": 63,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0323
+      "reply_rate": 0.0317
     },
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 12,
+      "sends_total": 13,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -238,6 +238,13 @@
       "reply_rate": 1.0
     },
     {
+      "subject": "After the booth, the conversation",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
       "subject": "A four-wheel proof for Sicomin",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -282,6 +289,13 @@
     {
       "subject": "How the Spa room works",
       "program": "SPA_24H",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Comment ça marche, concrètement",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1918,13 +1932,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Comment ça marche, concrètement",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Co-produced content + exec suite",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -2052,13 +2059,6 @@
     },
     {
       "subject": "After the spring show circuit",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "After the booth, the conversation",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -2397,6 +2397,14 @@
       "sentiment": "unclassified",
       "method": "keyword",
       "touch_n": 1
+    },
+    {
+      "company": "Sibros",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-15T10:04:09Z",
+      "sentiment": "positive",
+      "method": "keyword",
+      "touch_n": 3
     },
     {
       "company": "Kistler Group",

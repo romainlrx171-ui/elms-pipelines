@@ -1,19 +1,20 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-15T14:00:07Z",
+  "generated_at": "2026-06-15T15:39:36Z",
   "kpis": {
     "prospects_total": 360,
-    "prospects_active": 187,
+    "prospects_active": 186,
     "prospects_paused": 147,
     "prospects_replied": 0,
-    "prospects_bounced": 0,
+    "prospects_bounced": 1,
     "prospects_with_email": 360,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 313,
     "by_status": {
-      "active": 187,
+      "active": 186,
       "paused": 147,
       "archived": 24,
+      "bounced": 1,
       "do_not_contact": 2
     },
     "by_tier": {
@@ -35,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 77,
+    "sends_total": 79,
     "replies_total": 2,
     "replies_positive": 0,
-    "upcoming_14d": 323
+    "upcoming_14d": 320
   },
   "prospects": [
     {
@@ -706,7 +707,7 @@
       "company": "Advens",
       "role": "Chief Marketing Officer",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -728,8 +729,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-advens-mpqdv19c__david-buhan",
@@ -6360,16 +6361,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:07",
       "updated_at": "2026-06-04 10:40:07",
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 14:03:05",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-monogoto-mpq4mrjp__maor-efrati",
@@ -9750,16 +9751,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:45",
       "updated_at": "2026-06-04 10:41:45",
-      "sends_total": 1,
+      "sends_total": 2,
       "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:12:52",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-15 14:04:48",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-wallix-mpqe7mnz__edwige-brossard",
@@ -11062,7 +11063,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:45",
       "assignments": 1,
-      "sends_total": 1,
+      "sends_total": 2,
       "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -11872,7 +11873,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:08",
       "assignments": 3,
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -12256,24 +12257,6 @@
       "prospect_id": "elms-glyn-mppxgz2t__thomas-gerhardt",
       "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
       "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-monogoto-mpq4mrjp__itamar-kunik",
-      "company": "Monogoto",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-advens-mpqdv19c__benjamin-leroux",
-      "company": "Advens",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-visic-mpy2ivm3__tamara-baksht",
-      "company": "VisIC Technologies",
-      "touch_n": 2,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
