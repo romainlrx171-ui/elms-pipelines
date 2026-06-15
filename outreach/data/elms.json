@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-15T13:31:16Z",
+  "generated_at": "2026-06-15T14:00:07Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 187,
@@ -35,10 +35,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 75,
+    "sends_total": 77,
     "replies_total": 2,
     "replies_positive": 0,
-    "upcoming_14d": 325
+    "upcoming_14d": 323
   },
   "prospects": [
     {
@@ -1500,16 +1500,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:04",
       "updated_at": "2026-06-04 10:40:04",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 13:57:31",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-c2a-mpq2ofob__john-auld",
@@ -4350,16 +4350,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:05",
       "updated_at": "2026-06-04 10:40:05",
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 13:59:06",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-foretellix-mpq79p8s__ziv-binyamini",
@@ -11887,7 +11887,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:05",
       "assignments": 2,
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -11902,8 +11902,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:04",
       "assignments": 3,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12256,18 +12256,6 @@
       "prospect_id": "elms-glyn-mppxgz2t__thomas-gerhardt",
       "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
       "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-c2a-mpq2ofob__david-leichner",
-      "company": "C2A Security",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-foretellix-mpq79p8s__udi-jacobi",
-      "company": "Foretellix",
-      "touch_n": 1,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
