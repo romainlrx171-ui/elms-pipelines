@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-06-13T13:00:18Z",
+  "generated_at": "2026-06-15T08:14:58Z",
   "totals": {
     "sends_total": 290,
     "sends_bounced": 5,
-    "replies_total": 17,
-    "replies_positive": 1,
-    "reply_rate": 0.0586,
+    "replies_total": 20,
+    "replies_positive": 2,
+    "reply_rate": 0.069,
     "bounce_rate": 0.0172
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 94,
-      "sends_ok": 93,
+      "sends_ok": 94,
       "sends_bounced": 1,
       "sends_error": 0,
-      "replies_total": 4,
-      "replies_positive": 1,
+      "replies_total": 7,
+      "replies_positive": 2,
       "replies_negative": 0,
       "replies_ooo": 2,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0426,
+      "reply_rate": 0.0745,
       "bounce_rate": 0.0106,
-      "positive_rate": 0.0106
+      "positive_rate": 0.0213
     },
     {
       "program": "ELMS_SPONSORS",
@@ -68,10 +68,10 @@
     {
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 59,
-      "replies_total": 4,
+      "sends_total": 60,
+      "replies_total": 7,
       "bounced": 1,
-      "reply_rate": 0.0678
+      "reply_rate": 0.1167
     },
     {
       "touch_n": 2,
@@ -132,6 +132,13 @@
   ],
   "subjects": [
     {
+      "subject": "RoaDyn, and the accounts watching it",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 2,
+      "replies_total": 2,
+      "reply_rate": 1.0
+    },
+    {
       "subject": "quick test of the new sender",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -162,13 +169,6 @@
     {
       "subject": "Robin, Spa, 4 wks out",
       "program": "SPA_24H",
-      "sends_total": 1,
-      "replies_total": 1,
-      "reply_rate": 1.0
-    },
-    {
-      "subject": "RoaDyn, and the accounts watching it",
-      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -211,6 +211,20 @@
     {
       "subject": "Comment ça marche, concrètement",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "CarMaker 15.0 meets real endurance",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "A four-wheel proof for Sicomin",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -1707,13 +1721,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "CarMaker 15.0 meets real endurance",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Cadillac win, and the next step",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1973,13 +1980,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "A four-wheel proof for Sicomin",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "A founder's note on the campaign",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -2072,6 +2072,30 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "IPG Automotive",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-15T08:00:33Z",
+      "sentiment": "unclassified",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
+      "company": "Kistler Group",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-15T07:19:07Z",
+      "sentiment": "positive",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
+      "company": "Sicomin",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-14T08:13:17Z",
+      "sentiment": "unclassified",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "Reply",
       "program": "BD_ELMS_HOSPITALITY",

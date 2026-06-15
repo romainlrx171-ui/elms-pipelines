@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-13T13:00:18Z",
+  "generated_at": "2026-06-15T08:14:58Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 151,
@@ -28,9 +28,9 @@
     "campaigns_total": 73,
     "campaigns_active": 72,
     "sends_total": 94,
-    "replies_total": 4,
-    "replies_positive": 1,
-    "upcoming_14d": 336
+    "replies_total": 7,
+    "replies_positive": 2,
+    "upcoming_14d": 333
   },
   "prospects": [
     {
@@ -2335,13 +2335,13 @@
       "sends_total": 3,
       "sends_ok": 3,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-13 12:51:09",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "last_reply_at": "2026-06-15T08:00:33Z",
+      "last_sentiment": "unclassified",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-kistler-mppz8585__marc-schaad",
@@ -2363,12 +2363,12 @@
       "created_at": "2026-06-01 11:32:50",
       "updated_at": "2026-06-01 11:32:50",
       "sends_total": 1,
-      "sends_ok": 1,
+      "sends_ok": 2,
       "sends_bounced": 0,
-      "replies_total": 1,
+      "replies_total": 2,
       "last_sent_at": "2026-06-08 08:06:09",
       "last_touch_n": 1,
-      "last_reply_at": "2026-06-08T14:49:06Z",
+      "last_reply_at": "2026-06-15T07:19:07Z",
       "last_sentiment": "positive",
       "next_scheduled": null,
       "next_touch_n": null
@@ -4945,13 +4945,13 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-13 12:46:16",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-18T09:30:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-06-14T08:13:17Z",
+      "last_sentiment": "unclassified",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sika-mpyf3e5d__paulo-silva",
@@ -6047,7 +6047,7 @@
       "sends_total": 2,
       "sends_ok": 2,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -6870,10 +6870,10 @@
       "created_at": "2026-06-01 11:32:51",
       "assignments": 3,
       "sends_total": 6,
-      "sends_ok": 6,
+      "sends_ok": 7,
       "sends_bounced": 0,
-      "replies_total": 2,
-      "replies_positive": 1
+      "replies_total": 3,
+      "replies_positive": 2
     },
     {
       "id": "cmp_bd_platform_ipg_mppol07t",
@@ -6887,7 +6887,7 @@
       "sends_total": 7,
       "sends_ok": 7,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -7715,12 +7715,6 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-ipg-mppol07t__steffen-schmidt",
-      "company": "IPG Automotive",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-kistler-mppz8585__peter-hoeffgen",
       "company": "Kistler Group",
       "touch_n": 4,
@@ -7987,12 +7981,6 @@
     {
       "prospect_id": "bd-platform-scanfil-mpyo823g__lars-skanke",
       "company": "Scanfil",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sicomin-mpxrwmo5__philippe-marcovich",
-      "company": "Sicomin",
       "touch_n": 2,
       "scheduled_for": "2026-06-18T09:30:00Z"
     },
@@ -8749,12 +8737,6 @@
     {
       "prospect_id": "bd-platform-scanfil-mpyo823g__lars-skanke",
       "company": "Scanfil",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sicomin-mpxrwmo5__philippe-marcovich",
-      "company": "Sicomin",
       "touch_n": 3,
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
