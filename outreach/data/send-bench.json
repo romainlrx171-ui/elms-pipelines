@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-06-15T08:14:58Z",
+  "generated_at": "2026-06-15T10:00:37Z",
   "totals": {
-    "sends_total": 290,
-    "sends_bounced": 5,
-    "replies_total": 20,
+    "sends_total": 293,
+    "sends_bounced": 6,
+    "replies_total": 22,
     "replies_positive": 2,
-    "reply_rate": 0.069,
-    "bounce_rate": 0.0172
+    "reply_rate": 0.0751,
+    "bounce_rate": 0.0205
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 94,
-      "sends_ok": 94,
-      "sends_bounced": 1,
+      "sends_total": 96,
+      "sends_ok": 96,
+      "sends_bounced": 2,
       "sends_error": 0,
-      "replies_total": 7,
+      "replies_total": 9,
       "replies_positive": 2,
       "replies_negative": 0,
-      "replies_ooo": 2,
+      "replies_ooo": 3,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0745,
-      "bounce_rate": 0.0106,
-      "positive_rate": 0.0213
+      "reply_rate": 0.0938,
+      "bounce_rate": 0.0208,
+      "positive_rate": 0.0208
     },
     {
       "program": "ELMS_SPONSORS",
@@ -47,8 +47,8 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 133,
-      "sends_ok": 129,
+      "sends_total": 134,
+      "sends_ok": 130,
       "sends_bounced": 4,
       "sends_error": 0,
       "replies_total": 12,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0902,
-      "bounce_rate": 0.0301,
+      "reply_rate": 0.0896,
+      "bounce_rate": 0.0299,
       "positive_rate": 0.0
     }
   ],
@@ -68,10 +68,10 @@
     {
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 60,
-      "replies_total": 7,
-      "bounced": 1,
-      "reply_rate": 0.1167
+      "sends_total": 63,
+      "replies_total": 9,
+      "bounced": 2,
+      "reply_rate": 0.1429
     },
     {
       "touch_n": 2,
@@ -116,10 +116,10 @@
     {
       "touch_n": 2,
       "program": "SPA_24H",
-      "sends_total": 44,
+      "sends_total": 45,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0227
+      "reply_rate": 0.0222
     },
     {
       "touch_n": 3,
@@ -134,8 +134,8 @@
     {
       "subject": "RoaDyn, and the accounts watching it",
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 2,
-      "replies_total": 2,
+      "sends_total": 3,
+      "replies_total": 3,
       "reply_rate": 1.0
     },
     {
@@ -601,6 +601,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Turning recent deals into share",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Turning SBS into the next deal",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -623,6 +630,13 @@
     },
     {
       "subject": "Think of it as a private viewing",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The story and the content",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -2072,6 +2086,22 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "Quartix",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-15T11:57:08Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
+      "company": "Kistler Group",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-15T09:43:14Z",
+      "sentiment": "ooo",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "IPG Automotive",
       "program": "BD_ELMS_HOSPITALITY",

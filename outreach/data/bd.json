@@ -1,20 +1,20 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-15T08:14:58Z",
+  "generated_at": "2026-06-15T10:00:37Z",
   "kpis": {
     "prospects_total": 197,
-    "prospects_active": 151,
+    "prospects_active": 150,
     "prospects_paused": 40,
     "prospects_replied": 0,
-    "prospects_bounced": 3,
+    "prospects_bounced": 4,
     "prospects_with_email": 197,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 140,
     "by_status": {
-      "active": 151,
+      "active": 150,
       "paused": 40,
       "do_not_contact": 3,
-      "bounced": 3
+      "bounced": 4
     },
     "by_tier": {
       "MED": 157,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 94,
-    "replies_total": 7,
+    "sends_total": 96,
+    "replies_total": 9,
     "replies_positive": 2,
-    "upcoming_14d": 333
+    "upcoming_14d": 325
   },
   "prospects": [
     {
@@ -2363,12 +2363,12 @@
       "created_at": "2026-06-01 11:32:50",
       "updated_at": "2026-06-01 11:32:50",
       "sends_total": 1,
-      "sends_ok": 2,
+      "sends_ok": 3,
       "sends_bounced": 0,
-      "replies_total": 2,
+      "replies_total": 3,
       "last_sent_at": "2026-06-08 08:06:09",
       "last_touch_n": 1,
-      "last_reply_at": "2026-06-15T07:19:07Z",
+      "last_reply_at": "2026-06-15T09:43:14Z",
       "last_sentiment": "positive",
       "next_scheduled": null,
       "next_touch_n": null
@@ -2400,8 +2400,8 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-kistler-mppz8585__thomas-warkentin",
@@ -2430,8 +2430,8 @@
       "last_touch_n": 2,
       "last_reply_at": "2026-06-03T11:30:41Z",
       "last_sentiment": "ooo",
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-klber-mpyg8nwd__chris-licursi",
@@ -3502,16 +3502,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:52",
       "updated_at": "2026-06-01 11:32:52",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-15 09:58:25",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-ncab-mppuhbof__howard-goff",
@@ -4268,7 +4268,7 @@
       "company": "Quartix",
       "role": "Sales & Marketing Director",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -4277,21 +4277,21 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-06-15T10:00:33Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
-      "sends_bounced": 0,
-      "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-03T09:30:00Z",
-      "next_touch_n": 1
+      "sends_bounced": 1,
+      "replies_total": 1,
+      "last_sent_at": "2026-06-15 09:57:03",
+      "last_touch_n": 1,
+      "last_reply_at": "2026-06-15T11:57:08Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-quartix-mpx2nfvy__andy-walters",
@@ -6749,10 +6749,10 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 3,
-      "sends_total": 2,
+      "sends_total": 3,
       "sends_ok": 2,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -6839,8 +6839,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:53",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6870,9 +6870,9 @@
       "created_at": "2026-06-01 11:32:51",
       "assignments": 3,
       "sends_total": 6,
-      "sends_ok": 7,
+      "sends_ok": 8,
       "sends_bounced": 0,
-      "replies_total": 3,
+      "replies_total": 4,
       "replies_positive": 2
     },
     {
@@ -7043,12 +7043,6 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
-      "company": "Quartix",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-03T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-atesteo-mppt6fso__tim-willers",
       "company": "ATESTEO",
       "touch_n": 2,
@@ -7076,12 +7070,6 @@
       "prospect_id": "bd-platform-ncab-mppuhbof__howard-goff",
       "company": "NCAB Group",
       "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ncab-mppuhbof__david-straberg",
-      "company": "NCAB Group",
-      "touch_n": 1,
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {
@@ -7116,12 +7104,6 @@
     },
     {
       "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
-      "company": "Quartix",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
       "company": "Quartix",
       "touch_n": 2,
       "scheduled_for": "2026-06-09T09:30:00Z"
@@ -7319,12 +7301,6 @@
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-kistler-mppz8585__thomas-warkentin",
-      "company": "Kistler Group",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-mullerbbm-mpqc5key__josef-hobelsberger",
       "company": "Müller-BBM VibroAkustik Systeme GmbH",
       "touch_n": 3,
@@ -7374,12 +7350,6 @@
     },
     {
       "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
-      "company": "Quartix",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
       "company": "Quartix",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
@@ -7715,12 +7685,6 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-kistler-mppz8585__peter-hoeffgen",
-      "company": "Kistler Group",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-mullerbbm-mpqc5key__guenter-lang",
       "company": "Müller-BBM VibroAkustik Systeme GmbH",
       "touch_n": 4,
@@ -8045,12 +8009,6 @@
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-kistler-mppz8585__thomas-warkentin",
-      "company": "Kistler Group",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-mullerbbm-mpqc5key__josef-hobelsberger",
       "company": "Müller-BBM VibroAkustik Systeme GmbH",
       "touch_n": 4,
@@ -8088,12 +8046,6 @@
     },
     {
       "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
-      "company": "Quartix",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-kirk",
       "company": "Quartix",
       "touch_n": 4,
       "scheduled_for": "2026-06-19T09:30:00Z"
