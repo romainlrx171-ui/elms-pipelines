@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-16T08:22:17Z",
+  "generated_at": "2026-06-16T09:00:19Z",
   "totals": {
-    "sends_total": 357,
+    "sends_total": 363,
     "sends_bounced": 6,
     "replies_total": 26,
     "replies_positive": 3,
-    "reply_rate": 0.0728,
-    "bounce_rate": 0.0168
+    "reply_rate": 0.0716,
+    "bounce_rate": 0.0165
   },
   "programs": [
     {
@@ -47,8 +47,8 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 138,
-      "sends_ok": 134,
+      "sends_total": 144,
+      "sends_ok": 140,
       "sends_bounced": 4,
       "sends_error": 0,
       "replies_total": 12,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.087,
-      "bounce_rate": 0.029,
+      "reply_rate": 0.0833,
+      "bounce_rate": 0.0278,
       "positive_rate": 0.0
     }
   ],
@@ -132,10 +132,10 @@
     {
       "touch_n": 3,
       "program": "SPA_24H",
-      "sends_total": 33,
+      "sends_total": 39,
       "replies_total": 1,
       "bounced": 1,
-      "reply_rate": 0.0303
+      "reply_rate": 0.0256
     }
   ],
   "subjects": [
@@ -595,6 +595,20 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Why it's additive",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Why it isn't off-strategy",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Why a single European weekend",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -868,6 +882,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The internal case for Jens-Philipp",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The gap beside FEV Racing",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1059,6 +1080,13 @@
     {
       "subject": "Silverstone and a proof story",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Scoped for a 27-person team",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1353,6 +1381,13 @@
     {
       "subject": "Munich, Spa, August, IABG clients",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "More private viewing than race",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1856,6 +1891,13 @@
     },
     {
       "subject": "Field test, not a logo buy",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Field test, not a budget line",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
