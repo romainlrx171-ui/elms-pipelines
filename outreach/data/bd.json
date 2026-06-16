@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-16T11:20:42Z",
+  "generated_at": "2026-06-16T12:12:47Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 144,
+    "sends_total": 148,
     "replies_total": 12,
     "replies_positive": 3,
-    "upcoming_14d": 327
+    "upcoming_14d": 323
   },
   "prospects": [
     {
@@ -1852,16 +1852,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:54",
       "updated_at": "2026-06-04 10:41:54",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 11:52:25",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 12:11:15",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-gse-mpyot2h2__roland-paul",
@@ -3862,16 +3862,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:14",
       "updated_at": "2026-06-04 10:40:14",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-16 12:01:32",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-permabond-mpy9dioa__paolo-grossi",
@@ -3892,16 +3892,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:46",
       "updated_at": "2026-06-04 10:41:46",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:44:21",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 12:05:34",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-permabond-mpy9dioa__rebecca-wilmot",
@@ -5452,16 +5452,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:15",
       "updated_at": "2026-06-04 10:40:15",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-16 12:02:52",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-toray-mpyfiz6l__nadine-friji",
@@ -6074,8 +6074,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:54",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6134,8 +6134,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:46",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -6434,8 +6434,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6449,8 +6449,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7313,24 +7313,6 @@
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-p3-mpx41m62__robert-rendl",
-      "company": "P3 group GmbH",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
-      "company": "Toray Carbon Fibers Europe",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-permabond-mpy9dioa__paolo-grossi",
-      "company": "Permabond Engineering Adhesives",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-ga-mpyp92gu__marc-daumas",
       "company": "GA Smart Building",
       "touch_n": 2,
@@ -7345,12 +7327,6 @@
     {
       "prospect_id": "bd-platform-scanfil-mpyo823g__christina-wiklund",
       "company": "Scanfil",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-gse-mpyot2h2__olivia-nail",
-      "company": "GSE Group",
       "touch_n": 2,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },

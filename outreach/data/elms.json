@@ -1,20 +1,20 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-16T11:20:42Z",
+  "generated_at": "2026-06-16T12:12:47Z",
   "kpis": {
     "prospects_total": 360,
-    "prospects_active": 216,
+    "prospects_active": 215,
     "prospects_paused": 118,
     "prospects_replied": 0,
-    "prospects_bounced": 1,
+    "prospects_bounced": 2,
     "prospects_with_email": 360,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 313,
     "by_status": {
-      "active": 216,
+      "active": 215,
       "paused": 118,
       "archived": 23,
-      "bounced": 1,
+      "bounced": 2,
       "do_not_contact": 2
     },
     "by_tier": {
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 103,
-    "replies_total": 4,
+    "sends_total": 108,
+    "replies_total": 5,
     "replies_positive": 1,
-    "upcoming_14d": 475
+    "upcoming_14d": 468
   },
   "prospects": [
     {
@@ -2087,7 +2087,7 @@
       "company": "Candera",
       "role": "Geschäftsführer / Managing Director (CEO)",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -2096,21 +2096,21 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-06-16T12:00:12Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:09",
       "updated_at": "2026-06-04 10:40:09",
       "sends_total": 1,
-      "sends_ok": 1,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "last_sent_at": "2026-06-16 11:19:08",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-06-16T13:19:10Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-cicor-mppttvql__alexander-hagemann",
@@ -2911,16 +2911,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:51",
       "updated_at": "2026-06-04 10:41:51",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 11:49:23",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 12:08:24",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-cubbit-mpwsd3wo__enrico-signoretti",
@@ -3211,16 +3211,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:13",
       "updated_at": "2026-06-04 10:40:13",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-16 12:00:13",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-dewesoft-mpxvgizi__bojan-contala",
@@ -6871,16 +6871,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:50",
       "updated_at": "2026-06-04 10:41:50",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:36:59",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 12:07:02",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "pccw_alexandre_cerou",
@@ -8041,16 +8041,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:53",
       "updated_at": "2026-06-04 10:41:53",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 11:50:53",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 12:09:46",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_apollo_sekoia_io_fabien_unknown",
@@ -8851,16 +8851,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:16",
       "updated_at": "2026-06-04 10:40:16",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-16 12:04:14",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms_texa_bruno_vianello",
@@ -10988,8 +10988,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:53",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11003,8 +11003,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:51",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11018,8 +11018,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:51",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11783,8 +11783,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:16",
       "assignments": 2,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11798,8 +11798,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:13",
       "assignments": 1,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11859,9 +11859,9 @@
       "created_at": "2026-06-04 10:40:09",
       "assignments": 2,
       "sends_total": 1,
-      "sends_ok": 1,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -12290,18 +12290,6 @@
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
-      "prospect_id": "elms-cybellum-mpx3du51__slava-bronfman",
-      "company": "Cybellum",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-texa-mpppkpde__igino-de-lotto",
-      "company": "TEXA",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
       "prospect_id": "elms-karamba-mpq305n9__david-barzilai",
       "company": "Karamba Security",
       "touch_n": 2,
@@ -12310,24 +12298,6 @@
     {
       "prospect_id": "elms-scaleway-mpwrw9sf__damien-lucas",
       "company": "Scaleway",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-pccw-mpooxhfr__petros-mavroidis",
-      "company": "PCCW Global",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-corner-mpxtohpu__vittorio-cornaro",
-      "company": "Corner Banca (Cornèrcard)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-sekoiaio-mpqdi7xi__freddy-milesi",
-      "company": "Sekoia.io",
       "touch_n": 2,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
@@ -13390,12 +13360,6 @@
     {
       "prospect_id": "elms-advens-mpqdv19c__david-buhan",
       "company": "Advens",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-candera-mpyin965__reinhard-furicht",
-      "company": "Candera",
       "touch_n": 2,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
@@ -14512,12 +14476,6 @@
     {
       "prospect_id": "elms-advens-mpqdv19c__david-buhan",
       "company": "Advens",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-candera-mpyin965__reinhard-furicht",
-      "company": "Candera",
       "touch_n": 3,
       "scheduled_for": "2026-06-26T09:30:00Z"
     },
