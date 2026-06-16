@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T23:00:17Z",
+  "generated_at": "2026-06-16T00:00:16Z",
   "totals": {
     "prospects_total": 652,
     "prospects_active": 419,
@@ -7,7 +7,7 @@
     "replies_total": 26,
     "replies_positive": 3,
     "campaigns_active": 192,
-    "upcoming_14d": 790
+    "upcoming_14d": 900
   },
   "programs": [
     {
@@ -51,7 +51,7 @@
         "sends_total": 87,
         "replies_total": 3,
         "replies_positive": 0,
-        "upcoming_14d": 432
+        "upcoming_14d": 496
       }
     },
     {
@@ -123,7 +123,7 @@
         "sends_total": 131,
         "replies_total": 11,
         "replies_positive": 3,
-        "upcoming_14d": 289
+        "upcoming_14d": 335
       }
     },
     {
