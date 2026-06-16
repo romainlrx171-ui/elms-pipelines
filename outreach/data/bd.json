@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-16T14:05:48Z",
+  "generated_at": "2026-06-16T19:32:26Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 150,
+    "sends_total": 151,
     "replies_total": 12,
     "replies_positive": 3,
-    "upcoming_14d": 321
+    "upcoming_14d": 320
   },
   "prospects": [
     {
@@ -1822,16 +1822,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:47",
       "updated_at": "2026-06-04 10:41:47",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:42:12",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 15:25:16",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-gse-mpyot2h2__olivia-nail",
@@ -6119,8 +6119,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:47",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7298,12 +7298,6 @@
       "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
       "company": "Speedgoat",
       "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ga-mpyp92gu__marc-daumas",
-      "company": "GA Smart Building",
-      "touch_n": 2,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
