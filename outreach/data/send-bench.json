@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-16T09:00:19Z",
+  "generated_at": "2026-06-16T10:20:07Z",
   "totals": {
-    "sends_total": 363,
+    "sends_total": 378,
     "sends_bounced": 6,
     "replies_total": 26,
     "replies_positive": 3,
-    "reply_rate": 0.0716,
-    "bounce_rate": 0.0165
+    "reply_rate": 0.0688,
+    "bounce_rate": 0.0159
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 131,
-      "sends_ok": 127,
+      "sends_total": 137,
+      "sends_ok": 133,
       "sends_bounced": 2,
       "sends_error": 5,
       "replies_total": 11,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.084,
-      "bounce_rate": 0.0153,
-      "positive_rate": 0.0229
+      "reply_rate": 0.0803,
+      "bounce_rate": 0.0146,
+      "positive_rate": 0.0219
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 88,
-      "sends_ok": 85,
+      "sends_total": 96,
+      "sends_ok": 93,
       "sends_bounced": 0,
       "sends_error": 3,
       "replies_total": 3,
@@ -41,14 +41,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0341,
+      "reply_rate": 0.0312,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
     {
       "program": "SPA_24H",
-      "sends_total": 144,
-      "sends_ok": 140,
+      "sends_total": 145,
+      "sends_ok": 141,
       "sends_bounced": 4,
       "sends_error": 0,
       "replies_total": 12,
@@ -59,8 +59,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0833,
-      "bounce_rate": 0.0278,
+      "reply_rate": 0.0828,
+      "bounce_rate": 0.0276,
       "positive_rate": 0.0
     }
   ],
@@ -68,15 +68,15 @@
     {
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 83,
+      "sends_total": 85,
       "replies_total": 10,
       "bounced": 2,
-      "reply_rate": 0.1205
+      "reply_rate": 0.1176
     },
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 31,
+      "sends_total": 35,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -92,15 +92,15 @@
     {
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
-      "sends_total": 69,
+      "sends_total": 72,
       "replies_total": 3,
       "bounced": 0,
-      "reply_rate": 0.0435
+      "reply_rate": 0.0417
     },
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 16,
+      "sends_total": 21,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -132,10 +132,10 @@
     {
       "touch_n": 3,
       "program": "SPA_24H",
-      "sends_total": 39,
+      "sends_total": 40,
       "replies_total": 1,
       "bounced": 1,
-      "reply_rate": 0.0256
+      "reply_rate": 0.025
     }
   ],
   "subjects": [
@@ -672,6 +672,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Votre dimension européenne, sur piste",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Vos comptes data-center, hors d'un stand",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -821,6 +828,13 @@
     {
       "subject": "The proof and what you keep",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The physical part of Physical AI",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1029,6 +1043,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Spec sheet to filmed proof",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Spa-Francorchamps, your home race",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -1183,6 +1204,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Prometeo, and a day at Imola",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Pro Event, ohne Saisonbindung",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1206,6 +1234,13 @@
     {
       "subject": "Post-CES, post-funding, one idea",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Picks, shovels, and a race car",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1346,6 +1381,13 @@
     {
       "subject": "Not a logo, a closing room",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Not a logo play",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1568,8 +1610,22 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the proof point works",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the proof piece works",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the programme actually works",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1645,6 +1701,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the VBOX showcase works",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the Tour Auto move scales",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -1682,6 +1745,20 @@
     {
       "subject": "How it would actually work",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How it works, concretely",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How it works, briefly",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1729,6 +1806,20 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How a race weekend works",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How a race weekend moves pipeline",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How a race becomes pipeline",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1738,6 +1829,13 @@
     {
       "subject": "How a paddock day moves pipeline",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How a connected GT3 proves SGP.32",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2094,6 +2192,13 @@
     },
     {
       "subject": "Beyond the it-sa booth",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Beyond the Stuttgart booth",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,

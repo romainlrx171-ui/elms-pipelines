@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-16T00:00:16Z",
+  "generated_at": "2026-06-16T10:20:07Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 131,
+    "sends_total": 137,
     "replies_total": 11,
     "replies_positive": 3,
-    "upcoming_14d": 335
+    "upcoming_14d": 334
   },
   "prospects": [
     {
@@ -52,11 +52,11 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:41",
       "updated_at": "2026-06-04 10:39:41",
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 10:58:17",
+      "last_sent_at": "2026-06-16 10:03:06",
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
@@ -1972,16 +1972,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:42",
       "updated_at": "2026-06-04 10:39:42",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:42:53",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 10:13:12",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-hbk-mpya4gms__meredith-foster",
@@ -2152,11 +2152,11 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:06",
       "updated_at": "2026-06-04 10:40:06",
-      "sends_total": 1,
-      "sends_ok": 0,
+      "sends_total": 2,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 14:01:40",
+      "last_sent_at": "2026-06-16 10:09:00",
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
@@ -3562,16 +3562,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:52",
       "updated_at": "2026-06-01 11:32:52",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-03 11:33:29",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 10:00:18",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-08T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-note-mpynl6fa__bahare-mackinovski",
@@ -4350,8 +4350,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-09T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_rsm_uk_mike_tillson",
@@ -4462,11 +4462,11 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:44",
       "updated_at": "2026-06-04 10:39:44",
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 11:01:41",
+      "last_sent_at": "2026-06-16 10:04:41",
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
@@ -5092,11 +5092,11 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:05",
       "updated_at": "2026-06-04 10:40:05",
-      "sends_total": 1,
-      "sends_ok": 0,
+      "sends_total": 2,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 14:00:24",
+      "last_sent_at": "2026-06-16 10:07:29",
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
@@ -6479,8 +6479,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 0,
+      "sends_total": 2,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6494,8 +6494,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 1,
-      "sends_total": 1,
-      "sends_ok": 0,
+      "sends_total": 2,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6659,8 +6659,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:45",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 1,
+      "sends_total": 4,
+      "sends_ok": 2,
       "sends_bounced": 1,
       "replies_total": 1,
       "replies_positive": 0
@@ -6689,8 +6689,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:42",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6704,8 +6704,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:41",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6839,8 +6839,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:53",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7079,14 +7079,14 @@
       "scheduled_for": "2026-06-05T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-ncab-mppuhbof__peter-kruk",
-      "company": "NCAB Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-08T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-ncab-mppuhbof__david-straberg",
       "company": "NCAB Group",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-09T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-quartix-mpx2nfvy__sean-maher",
+      "company": "Quartix",
       "touch_n": 2,
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
@@ -7309,12 +7309,6 @@
     {
       "prospect_id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
       "company": "AB Dynamics",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
-      "company": "HBK – Hottinger Brüel & Kjær",
       "touch_n": 2,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
