@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-16T12:12:47Z",
+  "generated_at": "2026-06-16T14:05:48Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 215,
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 108,
+    "sends_total": 110,
     "replies_total": 5,
     "replies_positive": 1,
-    "upcoming_14d": 468
+    "upcoming_14d": 466
   },
   "prospects": [
     {
@@ -1411,16 +1411,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:57",
       "updated_at": "2026-06-04 10:39:57",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-16 14:00:15",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms_apollo_beck_elektronik_nicolai_unknown",
@@ -8221,16 +8221,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:03",
       "updated_at": "2026-06-04 10:40:03",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-16 14:04:30",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-shiftmove-mppy8zb7__jason-kolt",
@@ -11918,8 +11918,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:03",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11948,8 +11948,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:57",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12245,18 +12245,6 @@
       "prospect_id": "elms-hms-mpps75x7__bartek-candell",
       "company": "HMS Networks / Ixxat",
       "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-bcomp-mpxrolz4__per-martensson",
-      "company": "Bcomp",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-shiftmove-mppy8zb7__francine-gervazio",
-      "company": "Shiftmove",
-      "touch_n": 1,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
