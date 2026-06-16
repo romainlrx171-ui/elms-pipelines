@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-16T00:00:16Z",
+  "generated_at": "2026-06-16T08:22:16Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 216,
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 87,
+    "sends_total": 88,
     "replies_total": 3,
     "replies_positive": 0,
-    "upcoming_14d": 496
+    "upcoming_14d": 495
   },
   "prospects": [
     {
@@ -5311,16 +5311,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-24 12:09:57",
       "updated_at": "2026-06-02 15:02:10",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:43:09",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 08:20:52",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T08:00:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-24T08:00:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "infovista_rick_hamilton",
@@ -12203,8 +12203,8 @@
       "ended_at": null,
       "created_at": "2026-05-24 12:05:50",
       "assignments": 6,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12258,12 +12258,6 @@
       "company": "GLYN High-Tech Distribution (GLYN GmbH & Co. KG)",
       "touch_n": 3,
       "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "infovista_dina_rodrigues",
-      "company": "Infovista",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T08:00:00Z"
     },
     {
       "prospect_id": "elms_atesteo_sebastian_buenger",

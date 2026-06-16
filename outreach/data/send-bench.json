@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-15T16:00:16Z",
+  "generated_at": "2026-06-16T08:22:17Z",
   "totals": {
-    "sends_total": 356,
+    "sends_total": 357,
     "sends_bounced": 6,
     "replies_total": 26,
     "replies_positive": 3,
-    "reply_rate": 0.073,
-    "bounce_rate": 0.0169
+    "reply_rate": 0.0728,
+    "bounce_rate": 0.0168
   },
   "programs": [
     {
@@ -29,8 +29,8 @@
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 87,
-      "sends_ok": 84,
+      "sends_total": 88,
+      "sends_ok": 85,
       "sends_bounced": 0,
       "sends_error": 3,
       "replies_total": 3,
@@ -41,7 +41,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0345,
+      "reply_rate": 0.0341,
       "bounce_rate": 0.0,
       "positive_rate": 0.0
     },
@@ -100,7 +100,7 @@
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 15,
+      "sends_total": 16,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -323,6 +323,13 @@
     },
     {
       "subject": "re: votre pilote F1, en vrai",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "re: l'image F1 que vous utilisez déjà",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
