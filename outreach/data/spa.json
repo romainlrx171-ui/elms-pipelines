@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-16T10:20:07Z",
+  "generated_at": "2026-06-16T11:20:42Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 53,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 145,
+    "sends_total": 146,
     "replies_total": 12,
     "replies_positive": 0,
-    "upcoming_14d": 62
+    "upcoming_14d": 61
   },
   "prospects": [
     {
@@ -2694,16 +2694,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 10:57:01",
       "updated_at": "2026-06-01 10:57:01",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 10:29:13",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-16 11:01:49",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "spa24-umicore-mpquwis0__marjolein-scheers",
@@ -3151,8 +3151,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 10:57:01",
       "assignments": 2,
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3416,12 +3416,6 @@
       "company": "Tractable",
       "touch_n": 3,
       "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-umicore-mpquwis0__evelien-goovaerts",
-      "company": "Umicore",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
       "prospect_id": "spa24-provizio-mpy94tle__eamonn-boland",

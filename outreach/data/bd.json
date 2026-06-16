@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-16T10:20:07Z",
+  "generated_at": "2026-06-16T11:20:42Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 137,
-    "replies_total": 11,
+    "sends_total": 144,
+    "replies_total": 12,
     "replies_positive": 3,
-    "upcoming_14d": 334
+    "upcoming_14d": 327
   },
   "prospects": [
     {
@@ -742,16 +742,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:10",
       "updated_at": "2026-06-04 10:40:10",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-16 11:20:39",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-bossard-mpyolgfb__daniel-bossard",
@@ -952,16 +952,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:45",
       "updated_at": "2026-06-04 10:39:45",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 10:11:05",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 11:13:31",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd_clairfield_international_thierry_chetrit",
@@ -1462,16 +1462,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:38:35",
       "updated_at": "2026-06-04 10:38:35",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 10:08:16",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-16 11:12:03",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-edag-mpx3utxi__holger-merz",
@@ -2062,16 +2062,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:46",
       "updated_at": "2026-06-01 11:32:46",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 10:31:03",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-16 11:03:20",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-horiba-mpq8kmow__alastair-evanson",
@@ -2155,11 +2155,11 @@
       "sends_total": 2,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-16 10:09:00",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
+      "last_reply_at": "2026-06-16T10:09:04Z",
+      "last_sentiment": "ooo",
       "next_scheduled": "2026-06-19T09:30:00Z",
       "next_touch_n": 2
     },
@@ -4342,16 +4342,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 10:32:54",
+      "last_sent_at": "2026-06-16 11:00:19",
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd_rsm_uk_mike_tillson",
@@ -5212,16 +5212,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:50:54",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-16 11:06:18",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
@@ -5362,16 +5362,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:55",
       "updated_at": "2026-06-01 11:32:55",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 09:54:51",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-16 11:04:49",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-targa-mpppwfby__nicola-de-mattia",
@@ -6464,8 +6464,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:10",
       "assignments": 3,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6497,7 +6497,7 @@
       "sends_total": 2,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -6629,8 +6629,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:46",
       "assignments": 1,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6719,8 +6719,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:38:35",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6749,8 +6749,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 3,
-      "sends_total": 5,
-      "sends_ok": 3,
+      "sends_total": 6,
+      "sends_ok": 4,
       "sends_bounced": 1,
       "replies_total": 1,
       "replies_positive": 0
@@ -6764,8 +6764,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 2,
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6794,8 +6794,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:56",
       "assignments": 3,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6929,8 +6929,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:47",
       "assignments": 2,
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7085,12 +7085,6 @@
       "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__sean-maher",
-      "company": "Quartix",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-edag-mpx3utxi__holger-merz",
       "company": "EDAG Engineering",
       "touch_n": 1,
@@ -7217,12 +7211,6 @@
       "scheduled_for": "2026-06-12T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-heitec-mppti5rj__steffen-ruckl",
-      "company": "HEITEC AG",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-ipg-mppol07t__ralf-sauer",
       "company": "IPG Automotive",
       "touch_n": 3,
@@ -7247,12 +7235,6 @@
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-targa-mpppwfby__elena-bellini",
-      "company": "Targa Telematics",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-quartix-mpx2nfvy__sean-maher",
       "company": "Quartix",
       "touch_n": 3,
@@ -7265,18 +7247,6 @@
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-stratio-mpx3n7b9__rui-sales",
-      "company": "Stratio Automotive",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-edag-mpx3utxi__harald-keller",
-      "company": "EDAG Engineering",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-hbk-mpya4gms__meredith-foster",
       "company": "HBK – Hottinger Brüel & Kjær",
       "touch_n": 2,
@@ -7285,12 +7255,6 @@
     {
       "prospect_id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
       "company": "VI-grade",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-caracol-mpxrec8s__francesco-de-stefano",
-      "company": "Caracol AM",
       "touch_n": 2,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
@@ -7345,12 +7309,6 @@
     {
       "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
       "company": "Speedgoat",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bertrandt-mpx3tga2__michael-lucke",
-      "company": "Bertrandt",
       "touch_n": 1,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
