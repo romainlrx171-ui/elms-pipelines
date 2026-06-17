@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-16T14:05:48Z",
+  "generated_at": "2026-06-17T00:00:13Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 215,
@@ -39,7 +39,7 @@
     "sends_total": 110,
     "replies_total": 5,
     "replies_positive": 1,
-    "upcoming_14d": 466
+    "upcoming_14d": 509
   },
   "prospects": [
     {
@@ -15006,6 +15006,264 @@
       "company": "FTDI Chip",
       "touch_n": 3,
       "scheduled_for": "2026-06-29T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_atesteo_sebastian_buenger",
+      "company": "ATESTEO",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
+      "company": "Alpitronic",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_applus_idiada_richard_bartlett",
+      "company": "Applus+ IDIADA",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_aurora_labs_zohar_fox",
+      "company": "Aurora Labs",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_codico_magnus_unknown",
+      "company": "Codico",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_cognata_danny_atsmon",
+      "company": "Cognata",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_apollo_comms365_will_unknown",
+      "company": "Comms365",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms_geotab_neil_cawse",
+      "company": "Geotab",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-wireless-mppr7b7x__oliver-tucker",
+      "company": "Wireless Logic",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-swiss-mpypjb89__karl-heusi",
+      "company": "Swiss Automotive Group (Derendinger)",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-sonatus-mpq1djrq__philip-hughes",
+      "company": "Sonatus",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-bcomp-mpxrolz4__johann-wacht",
+      "company": "Bcomp",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-teltonika-mpqrjltb__darius-malisauskas",
+      "company": "Teltonika Mobility",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-ceva-mpoofxs4__iri-trashanski",
+      "company": "CEVA",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-twaice-mppq85b2__michael-baumann",
+      "company": "TWAICE",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-onomondo-mppx593q__rasmus-jensen",
+      "company": "Onomondo",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-1global-mpq4b1k1__michael-raine",
+      "company": "1GLOBAL",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cubic-telecom-mpoog0mv__miloud-bensaada",
+      "company": "Cubic Telecom",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-konrad-mpq08oi3__michael-konrad",
+      "company": "Konrad Technologies",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-compredict-mppoa84u__stephane-foulard",
+      "company": "Compredict",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-btc-mpq11tsw__udo-brockmeyer",
+      "company": "BTC Embedded Systems",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-elmos-mppsizv1__jan-dienstuhl",
+      "company": "Elmos Semiconductor SE",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-emnify-mppwht5n__martin-giess",
+      "company": "emnify",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-verimatrix-mpqcuqqx__laurent-dechaux",
+      "company": "Verimatrix",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-endrich-mpx4lqlz__christiane-endrich",
+      "company": "Endrich Bauelemente Vertriebs GmbH (Endrich Group)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-commsignia-mppywf8m__szabolcs-patay",
+      "company": "Commsignia",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-vayyar-mpye69sw__raviv-melamed",
+      "company": "Vayyar Imaging",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-u-blox-mpooeacx__stefania-sesia",
+      "company": "u-blox",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-filigran-mpqd6hy1__samuel-hassine",
+      "company": "Filigran",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-bplus-mpqs812d__michael-sieg",
+      "company": "b-plus GmbH (b-plus Group)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-adasky-mpydyw0h__raz-peleg",
+      "company": "AdaSky",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-actility-mppqjvaa__olivier-hersent",
+      "company": "Actility",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-kdpof-mppsuptr__carlos-pardo",
+      "company": "KD (formerly KDPOF)",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-mapon-mpydq9t4__davis-siksnans",
+      "company": "Mapon",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-keepit-mpwsty1g__michele-hayes",
+      "company": "Keepit",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-exein-mpxxvkhe__gary-walshe",
+      "company": "Exein",
+      "touch_n": 2,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-pelion-mpqrjngi__niall-strachan",
+      "company": "Pelion",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-wallix-mpqe7mnz__jean-noel-de-galzain",
+      "company": "WALLIX Group",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-exoscale-mpwtas6h__antoine-coetsier",
+      "company": "Exoscale",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cicor-mppttvql__alexander-hagemann",
+      "company": "Cicor Group",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-epeas-mpqu8uon__christian-ferrier",
+      "company": "e-peas",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cubbit-mpwsd3wo__enrico-signoretti",
+      "company": "Cubbit",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-ftdi-mppvghla__fred-dart",
+      "company": "FTDI Chip",
+      "touch_n": 4,
+      "scheduled_for": "2026-06-30T09:30:00Z"
     }
   ]
 }
