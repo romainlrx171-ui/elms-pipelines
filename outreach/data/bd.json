@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-17T08:30:57Z",
+  "generated_at": "2026-06-17T10:19:46Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 154,
+    "sends_total": 162,
     "replies_total": 12,
     "replies_positive": 3,
-    "upcoming_14d": 338
+    "upcoming_14d": 330
   },
   "prospects": [
     {
@@ -352,16 +352,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:41",
       "updated_at": "2026-06-01 11:32:41",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 11:59:24",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 10:05:51",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-applus-mpq88v5v__jose-delfin-perez",
@@ -1402,16 +1402,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:46",
       "updated_at": "2026-06-04 10:39:46",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:11:07",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-17 10:17:06",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-23T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-dynisma-mpy9mo3i__simon-holloway",
@@ -1582,16 +1582,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:43",
       "updated_at": "2026-06-01 11:32:43",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:02:19",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 10:08:33",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_eclecticiq_cody_barrow",
@@ -2242,16 +2242,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:48",
       "updated_at": "2026-06-01 11:32:48",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:05:08",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 10:09:49",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-ipg-mppol07t__mara-schmidt",
@@ -4522,16 +4522,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:53",
       "updated_at": "2026-06-01 11:32:53",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:06:36",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 10:11:11",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sgl-mpyfb1co__andreas-klein",
@@ -4882,16 +4882,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:54",
       "updated_at": "2026-06-01 11:32:54",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:51:30",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 10:12:35",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sicomin-mpxrwmo5__marc-denjean",
@@ -5512,16 +5512,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:56",
       "updated_at": "2026-06-01 11:32:56",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:07:55",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 10:14:06",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
@@ -5632,16 +5632,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:43",
       "updated_at": "2026-06-01 11:32:43",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:00:54",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 10:07:10",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-dspace-mppokyl9__peter-waeltermann",
@@ -6644,8 +6644,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:46",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6779,8 +6779,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:57",
       "assignments": 1,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6809,8 +6809,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:55",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 1
@@ -6824,8 +6824,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:54",
       "assignments": 1,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6899,8 +6899,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:49",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6974,8 +6974,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:44",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6989,8 +6989,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:43",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7019,8 +7019,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:41",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7319,26 +7319,8 @@
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
-      "company": "Applus+ IDIADA",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-atesteo-mppt6fso__tim-willers",
       "company": "ATESTEO",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dspace-mppokyl9__bernd-schaefers-maiwald",
-      "company": "dSPACE",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-emc-mpqchadg__joerg-baerenfaenger",
-      "company": "EMC Test NRW GmbH",
       "touch_n": 4,
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
@@ -7361,12 +7343,6 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-iabg-mpqb6ehy__thomas-koehler",
-      "company": "IABG (Industrieanlagen-Betriebsgesellschaft mbH)",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-mullerbbm-mpqc5key__guenter-lang",
       "company": "Müller-BBM VibroAkustik Systeme GmbH",
       "touch_n": 4,
@@ -7379,33 +7355,9 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-serma-mpqbtugc__philippe-berlie",
-      "company": "SERMA Group",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sibros-mpp0qq00__erik-mekelburg",
-      "company": "Sibros",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-targa-mpppwfby__alberto-falcione",
       "company": "Targa Telematics",
       "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-utac-mpqbi4gz__anis-tebib",
-      "company": "UTAC",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__graeme-cook",
-      "company": "Dynisma",
-      "touch_n": 2,
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {

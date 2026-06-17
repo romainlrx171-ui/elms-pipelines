@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-17T08:30:57Z",
+  "generated_at": "2026-06-17T10:19:46Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 215,
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 112,
+    "sends_total": 114,
     "replies_total": 5,
     "replies_positive": 1,
-    "upcoming_14d": 507
+    "upcoming_14d": 501
   },
   "prospects": [
     {
@@ -4749,8 +4749,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 0
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "elms_guardknox_tbd",
@@ -4809,8 +4809,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 0
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "elms_heitec_tbd",
@@ -5199,8 +5199,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 0
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "infovista_alexandre_lecoq",
@@ -5829,8 +5829,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 0
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "elms_kistler_group_tbd",
@@ -7531,16 +7531,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:50",
       "updated_at": "2026-06-04 10:39:50",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:44:36",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-17 10:18:24",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-23T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-racelogic-mpycjk6d__paul-ferreira",
@@ -8611,16 +8611,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:50",
       "updated_at": "2026-06-04 10:39:50",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:46:57",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-17 10:19:43",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-23T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-soracom-mpq69op4__takashi-serizawa",
@@ -12008,8 +12008,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:51",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12023,8 +12023,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:50",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12278,18 +12278,6 @@
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
-      "prospect_id": "elms_apollo_guardknox_jillian_unknown",
-      "company": "GuardKnox",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_heitec_manuel_unknown",
-      "company": "HEITEC",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "elms_horiba_mira_declan_allen",
       "company": "HORIBA MIRA",
       "touch_n": 0,
@@ -12302,20 +12290,8 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
-      "prospect_id": "elms_ineltek_tbd",
-      "company": "Ineltek",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "elms_kempower_tbd",
       "company": "Kempower",
-      "touch_n": 0,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_kistler_group_alexis_unknown",
-      "company": "Kistler Group",
       "touch_n": 0,
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
@@ -12334,18 +12310,6 @@
     {
       "prospect_id": "elms-vicone-mpq7x56x__max-cheng",
       "company": "VicOne",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-racelogic-mpycjk6d__julian-thomas",
-      "company": "Racelogic (VBOX)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-soracom-mpq69op4__ken-tamagawa",
-      "company": "Soracom",
       "touch_n": 2,
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
