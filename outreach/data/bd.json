@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-17T10:19:46Z",
+  "generated_at": "2026-06-17T11:19:33Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 162,
+    "sends_total": 167,
     "replies_total": 12,
     "replies_positive": 3,
-    "upcoming_14d": 330
+    "upcoming_14d": 325
   },
   "prospects": [
     {
@@ -2002,16 +2002,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:42",
       "updated_at": "2026-06-04 10:39:42",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 10:08:43",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-17 11:03:12",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-heitec-mppti5rj__michael-friess",
@@ -2032,16 +2032,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:46",
       "updated_at": "2026-06-01 11:32:46",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:03:39",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-17 11:09:48",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-heitec-mppti5rj__steffen-ruckl",
@@ -3502,16 +3502,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-01 11:32:52",
       "updated_at": "2026-06-01 11:32:52",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 09:58:25",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-17 11:00:17",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-09T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-15T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-ncab-mppuhbof__howard-goff",
@@ -4342,16 +4342,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 3,
-      "sends_ok": 2,
+      "sends_total": 4,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 11:00:19",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-17 11:01:48",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-19T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd_rsm_uk_mike_tillson",
@@ -5122,16 +5122,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:05",
       "updated_at": "2026-06-04 10:40:05",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 11:05:48",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-speedgoat-mpx34a93__patric-schenk",
@@ -6479,8 +6479,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6689,8 +6689,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:42",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6749,8 +6749,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 3,
-      "sends_total": 6,
-      "sends_ok": 4,
+      "sends_total": 7,
+      "sends_ok": 5,
       "sends_bounced": 1,
       "replies_total": 1,
       "replies_positive": 0
@@ -6839,8 +6839,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:53",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6929,8 +6929,8 @@
       "ended_at": null,
       "created_at": "2026-06-01 11:32:47",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7077,12 +7077,6 @@
       "company": "Targa Telematics",
       "touch_n": 2,
       "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ncab-mppuhbof__david-straberg",
-      "company": "NCAB Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-09T09:30:00Z"
     },
     {
       "prospect_id": "bd-platform-edag-mpx3utxi__holger-merz",
@@ -7235,21 +7229,9 @@
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__sean-maher",
-      "company": "Quartix",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
       "company": "Quartix",
       "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hbk-mpya4gms__meredith-foster",
-      "company": "HBK – Hottinger Brüel & Kjær",
-      "touch_n": 2,
       "scheduled_for": "2026-06-15T09:30:00Z"
     },
     {
@@ -7295,12 +7277,6 @@
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
-      "company": "Speedgoat",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-note-mpynl6fa__bahare-mackinovski",
       "company": "NOTE AB",
       "touch_n": 2,
@@ -7327,12 +7303,6 @@
     {
       "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
       "company": "Geotab",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-heitec-mppti5rj__michael-friess",
-      "company": "HEITEC AG",
       "touch_n": 4,
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
