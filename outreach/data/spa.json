@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-16T11:20:42Z",
+  "generated_at": "2026-06-17T09:03:08Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 53,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 146,
-    "replies_total": 12,
+    "sends_total": 148,
+    "replies_total": 13,
     "replies_positive": 0,
-    "upcoming_14d": 61
+    "upcoming_14d": 58
   },
   "prospects": [
     {
@@ -1467,13 +1467,13 @@
       "sends_total": 3,
       "sends_ok": 3,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-16 10:01:46",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "last_reply_at": "2026-06-17T10:50:43Z",
+      "last_sentiment": "unclassified",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-mpogxocw__paul-laval",
@@ -1584,16 +1584,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:47",
       "updated_at": "2026-06-04 09:41:47",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 11:58:22",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-17 09:01:41",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T08:00:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "spa24-mollie-mpxsz6ib__koen-koppen",
@@ -2154,16 +2154,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 09:41:45",
       "updated_at": "2026-06-04 09:41:45",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:00:08",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-17 09:00:16",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T08:00:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "spa24-punch-mpqu8t2o__gaspar-gascon",
@@ -3016,8 +3016,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:48",
       "assignments": 3,
-      "sends_total": 8,
-      "sends_ok": 8,
+      "sends_total": 9,
+      "sends_ok": 9,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3046,8 +3046,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 09:41:46",
       "assignments": 3,
-      "sends_total": 7,
-      "sends_ok": 7,
+      "sends_total": 8,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3259,7 +3259,7 @@
       "sends_total": 4,
       "sends_ok": 4,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -3418,20 +3418,8 @@
       "scheduled_for": "2026-06-11T09:30:00Z"
     },
     {
-      "prospect_id": "spa24-provizio-mpy94tle__eamonn-boland",
-      "company": "Provizio",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-16T08:00:00Z"
-    },
-    {
       "prospect_id": "spa24-provizio-mpy94tle__barry-jones",
       "company": "Provizio",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-16T08:00:00Z"
-    },
-    {
-      "prospect_id": "spa24-millers-mpyg04ga__tony-lowe",
-      "company": "Millers Oils Ltd",
       "touch_n": 3,
       "scheduled_for": "2026-06-16T08:00:00Z"
     },
@@ -3528,12 +3516,6 @@
     {
       "prospect_id": "spa24-kempower-mppp8zdn__paula-savonen",
       "company": "Kempower",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-mpogxocw__daphne-sannen",
-      "company": "Melexis",
       "touch_n": 4,
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
