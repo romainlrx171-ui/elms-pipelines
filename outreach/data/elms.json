@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-17T00:00:13Z",
+  "generated_at": "2026-06-17T08:30:57Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 215,
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 110,
+    "sends_total": 112,
     "replies_total": 5,
     "replies_positive": 1,
-    "upcoming_14d": 509
+    "upcoming_14d": 507
   },
   "prospects": [
     {
@@ -5461,16 +5461,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:47",
       "updated_at": "2026-06-04 10:41:47",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:43:19",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-17 08:23:51",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_apollo_karamba_security_adar_unknown",
@@ -7861,16 +7861,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:48",
       "updated_at": "2026-06-04 10:41:48",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:45:22",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-17 08:25:21",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-scaleway-mpwrw9sf__paola-gabriele",
@@ -11033,8 +11033,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:49",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11048,8 +11048,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:48",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12275,18 +12275,6 @@
       "prospect_id": "elms-schweizer-mpq5aisj__lutz-gruebel",
       "company": "Schweizer Electronic AG",
       "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-karamba-mpq305n9__david-barzilai",
-      "company": "Karamba Security",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-scaleway-mpwrw9sf__damien-lucas",
-      "company": "Scaleway",
-      "touch_n": 2,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {

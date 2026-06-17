@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-17T00:00:14Z",
+  "generated_at": "2026-06-17T08:30:57Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 151,
+    "sends_total": 154,
     "replies_total": 12,
     "replies_positive": 3,
-    "upcoming_14d": 341
+    "upcoming_14d": 338
   },
   "prospects": [
     {
@@ -1282,16 +1282,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:01",
       "updated_at": "2026-06-04 10:42:01",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 08:26:45",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-duferco-mpxudv3y__patrick-arnold",
@@ -4042,16 +4042,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:07",
       "updated_at": "2026-06-04 10:42:07",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 08:29:25",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-petraco-mpxuncd4__russell-humphrey",
@@ -4732,16 +4732,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:05",
       "updated_at": "2026-06-04 10:42:05",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 08:28:09",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-22T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-schukat-mpyn5kfu__georg-schukat",
@@ -5954,8 +5954,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:08",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -5984,8 +5984,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:05",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6014,8 +6014,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:01",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7313,26 +7313,8 @@
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
-      "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
       "company": "Argan",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
-      "company": "Petraco Oil Company",
       "touch_n": 1,
       "scheduled_for": "2026-06-16T09:30:00Z"
     },
