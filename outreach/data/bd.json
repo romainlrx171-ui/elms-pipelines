@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-17T11:19:33Z",
+  "generated_at": "2026-06-17T15:00:20Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 167,
-    "replies_total": 12,
+    "sends_total": 171,
+    "replies_total": 13,
     "replies_positive": 3,
-    "upcoming_14d": 325
+    "upcoming_14d": 321
   },
   "prospects": [
     {
@@ -682,16 +682,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:10",
       "updated_at": "2026-06-04 10:40:10",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 13:02:46",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-23T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
@@ -3802,16 +3802,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:14",
       "updated_at": "2026-06-04 10:40:14",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 13:04:14",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-23T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-p3-mpx41m62__marius-mailat",
@@ -4345,11 +4345,11 @@
       "sends_total": 4,
       "sends_ok": 3,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-17 11:01:48",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
+      "last_reply_at": "2026-06-17T11:01:56Z",
+      "last_sentiment": "ooo",
       "next_scheduled": "2026-06-19T09:30:00Z",
       "next_touch_n": 4
     },
@@ -5302,16 +5302,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:20",
       "updated_at": "2026-06-04 10:40:20",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 13:09:36",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-23T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-targa-mpppwfby__alberto-falcione",
@@ -5422,16 +5422,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:15",
       "updated_at": "2026-06-04 10:40:15",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-17 13:05:41",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-23T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
@@ -6419,8 +6419,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:20",
       "assignments": 3,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6434,8 +6434,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6449,8 +6449,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6464,8 +6464,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:10",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6752,7 +6752,7 @@
       "sends_total": 7,
       "sends_ok": 5,
       "sends_bounced": 1,
-      "replies_total": 1,
+      "replies_total": 2,
       "replies_positive": 0
     },
     {
@@ -7357,30 +7357,6 @@
     {
       "prospect_id": "bd-platform-speedgoat-mpx34a93__patric-schenk",
       "company": "Speedgoat",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bertrandt-mpx3tga2__andreas-fink",
-      "company": "Bertrandt",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-p3-mpx41m62__klaus-lerner",
-      "company": "P3 group GmbH",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-marc-guilhempey",
-      "company": "Toray Carbon Fibers Europe",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__taylor-kimmerle",
-      "company": "Taoglas",
       "touch_n": 1,
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
