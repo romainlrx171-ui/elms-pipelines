@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-18T08:20:16Z",
+  "generated_at": "2026-06-18T09:19:41Z",
   "totals": {
     "prospects_total": 652,
-    "prospects_active": 418,
-    "sends_total": 468,
-    "replies_total": 31,
+    "prospects_active": 417,
+    "sends_total": 506,
+    "replies_total": 32,
     "replies_positive": 4,
     "campaigns_active": 192,
-    "upcoming_14d": 899
+    "upcoming_14d": 841
   },
   "programs": [
     {
@@ -15,18 +15,18 @@
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
         "prospects_total": 360,
-        "prospects_active": 215,
+        "prospects_active": 214,
         "prospects_paused": 118,
         "prospects_replied": 0,
-        "prospects_bounced": 2,
+        "prospects_bounced": 3,
         "prospects_with_email": 360,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 313,
         "by_status": {
-          "active": 215,
+          "active": 214,
           "paused": 118,
           "archived": 23,
-          "bounced": 2,
+          "bounced": 3,
           "do_not_contact": 2
         },
         "by_tier": {
@@ -48,10 +48,10 @@
         },
         "campaigns_total": 91,
         "campaigns_active": 89,
-        "sends_total": 135,
-        "replies_total": 5,
+        "sends_total": 151,
+        "replies_total": 6,
         "replies_positive": 1,
-        "upcoming_14d": 518
+        "upcoming_14d": 482
       }
     },
     {
@@ -85,10 +85,10 @@
         },
         "campaigns_total": 32,
         "campaigns_active": 31,
-        "sends_total": 154,
+        "sends_total": 157,
         "replies_total": 13,
         "replies_positive": 0,
-        "upcoming_14d": 52
+        "upcoming_14d": 49
       }
     },
     {
@@ -120,10 +120,10 @@
         },
         "campaigns_total": 73,
         "campaigns_active": 72,
-        "sends_total": 179,
+        "sends_total": 198,
         "replies_total": 13,
         "replies_positive": 3,
-        "upcoming_14d": 329
+        "upcoming_14d": 310
       }
     },
     {
