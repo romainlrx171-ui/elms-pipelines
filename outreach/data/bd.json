@@ -1,20 +1,20 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-18T09:19:41Z",
+  "generated_at": "2026-06-18T10:12:42Z",
   "kpis": {
     "prospects_total": 197,
-    "prospects_active": 150,
+    "prospects_active": 149,
     "prospects_paused": 40,
     "prospects_replied": 0,
-    "prospects_bounced": 4,
+    "prospects_bounced": 5,
     "prospects_with_email": 197,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 140,
     "by_status": {
-      "active": 150,
+      "active": 149,
       "paused": 40,
       "do_not_contact": 3,
-      "bounced": 4
+      "bounced": 5
     },
     "by_tier": {
       "MED": 157,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 198,
-    "replies_total": 13,
+    "sends_total": 199,
+    "replies_total": 15,
     "replies_positive": 3,
-    "upcoming_14d": 310
+    "upcoming_14d": 307
   },
   "prospects": [
     {
@@ -3322,16 +3322,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:00",
       "updated_at": "2026-06-04 10:42:00",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:43:58",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-18 10:02:55",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T07:00:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-24T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-myra-mpyi5y2t__philipp-herrmann",
@@ -3818,7 +3818,7 @@
       "company": "P3 group GmbH",
       "role": "CEO P3 Japan K.K. (press 2025-11-25: CTO & MD, P3 digital services)",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -3827,21 +3827,21 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-06-18T10:00:11Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:14",
       "updated_at": "2026-06-04 10:40:14",
       "sends_total": 1,
-      "sends_ok": 1,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "last_sent_at": "2026-06-18 09:00:21",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:30:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-06-18T11:00:22Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-p3-mpx41m62__robert-rendl",
@@ -4975,11 +4975,11 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-18 09:16:48",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
+      "last_reply_at": "2026-06-18T09:16:53Z",
+      "last_sentiment": "ooo",
       "next_scheduled": "2026-06-24T09:30:00Z",
       "next_touch_n": 2
     },
@@ -6029,8 +6029,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:00",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6347,7 +6347,7 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -6435,9 +6435,9 @@
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
       "sends_total": 3,
-      "sends_ok": 3,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 2,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -7337,12 +7337,6 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-myra-mpyi5y2t__paul-kaffsack",
-      "company": "Myra Security",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T07:00:00Z"
-    },
-    {
       "prospect_id": "bd-platform-rfpro-mpyba492__peter-daley",
       "company": "rFpro",
       "touch_n": 2,
@@ -8015,12 +8009,6 @@
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-p3-mpx41m62__marius-mailat",
-      "company": "P3 group GmbH",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-toray-mpyfiz6l__nadine-friji",
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 2,
@@ -8514,12 +8502,6 @@
     },
     {
       "prospect_id": "bd-platform-p3-mpx41m62__klaus-lerner",
-      "company": "P3 group GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-p3-mpx41m62__marius-mailat",
       "company": "P3 group GmbH",
       "touch_n": 3,
       "scheduled_for": "2026-06-29T09:30:00Z"
