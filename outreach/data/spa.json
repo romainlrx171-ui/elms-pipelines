@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-17T11:19:33Z",
+  "generated_at": "2026-06-18T08:20:15Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 53,
@@ -1471,7 +1471,7 @@
       "last_sent_at": "2026-06-16 10:01:46",
       "last_touch_n": 3,
       "last_reply_at": "2026-06-17T10:50:43Z",
-      "last_sentiment": "unclassified",
+      "last_sentiment": "negative",
       "next_scheduled": null,
       "next_touch_n": null
     },
