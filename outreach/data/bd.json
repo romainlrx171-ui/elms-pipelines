@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-17T15:00:20Z",
+  "generated_at": "2026-06-18T07:49:59Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 150,
@@ -30,7 +30,7 @@
     "sends_total": 171,
     "replies_total": 13,
     "replies_positive": 3,
-    "upcoming_14d": 321
+    "upcoming_14d": 337
   },
   "prospects": [
     {
@@ -8967,6 +8967,102 @@
       "company": "discoverIE Group plc",
       "touch_n": 4,
       "scheduled_for": "2026-06-30T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__frank-werner",
+      "company": "Klüber Lubrication",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__carmen-koch",
+      "company": "Speedgoat",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-hpe-mpy6t79n__andrea-bozzoli",
+      "company": "HPE COXA (HPE Group)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
+      "company": "Taoglas",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__julian-mentz",
+      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
+      "company": "Porcher Industries",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bossard-mpyolgfb__daniel-bossard",
+      "company": "Bossard Group",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
+      "company": "Devoteam",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-csl-mpydhpmz__ed-heale",
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-cymotive-mpyhplaq__tamir-bechor",
+      "company": "CYMOTIVE Technologies",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
+      "company": "NAGASE (Europa) GmbH",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sensirion-mpyjecwz__maximilian-eichberger",
+      "company": "Sensirion Automotive Solutions",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-banca-mpxu5u8d__roberto-cerratti",
+      "company": "Banca del Ceresio (Ceresio Investors)",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-schukat-mpyn5kfu__georg-schukat",
+      "company": "Schukat electronic Vertriebs GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-argan-mpyp1ry8__aymar-de-germay",
+      "company": "Argan",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__russell-humphrey",
+      "company": "Petraco Oil Company",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-01T09:30:00Z"
     }
   ]
 }
