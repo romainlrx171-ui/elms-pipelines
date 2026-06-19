@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-06-19T10:19:25Z",
+  "generated_at": "2026-06-19T11:19:36Z",
   "totals": {
-    "sends_total": 528,
+    "sends_total": 543,
     "sends_bounced": 9,
-    "replies_total": 35,
+    "replies_total": 37,
     "replies_positive": 5,
-    "reply_rate": 0.0663,
-    "bounce_rate": 0.017
+    "reply_rate": 0.0681,
+    "bounce_rate": 0.0166
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 208,
-      "sends_ok": 204,
+      "sends_total": 213,
+      "sends_ok": 209,
       "sends_bounced": 3,
       "sends_error": 5,
-      "replies_total": 16,
+      "replies_total": 18,
       "replies_positive": 3,
       "replies_negative": 1,
-      "replies_ooo": 6,
+      "replies_ooo": 8,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0769,
-      "bounce_rate": 0.0144,
-      "positive_rate": 0.0144
+      "reply_rate": 0.0845,
+      "bounce_rate": 0.0141,
+      "positive_rate": 0.0141
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 157,
-      "sends_ok": 152,
+      "sends_total": 162,
+      "sends_ok": 157,
       "sends_bounced": 2,
       "sends_error": 3,
       "replies_total": 6,
@@ -41,14 +41,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0382,
-      "bounce_rate": 0.0127,
-      "positive_rate": 0.0064
+      "reply_rate": 0.037,
+      "bounce_rate": 0.0123,
+      "positive_rate": 0.0062
     },
     {
       "program": "SPA_24H",
-      "sends_total": 163,
-      "sends_ok": 159,
+      "sends_total": 168,
+      "sends_ok": 164,
       "sends_bounced": 4,
       "sends_error": 0,
       "replies_total": 13,
@@ -59,9 +59,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0798,
-      "bounce_rate": 0.0245,
-      "positive_rate": 0.0061
+      "reply_rate": 0.0774,
+      "bounce_rate": 0.0238,
+      "positive_rate": 0.006
     }
   ],
   "touches": [
@@ -84,18 +84,18 @@
     {
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 27,
+      "sends_total": 29,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0741
+      "reply_rate": 0.069
     },
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 17,
-      "replies_total": 0,
+      "sends_total": 20,
+      "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0
+      "reply_rate": 0.1
     },
     {
       "touch_n": 1,
@@ -116,7 +116,15 @@
     {
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
-      "sends_total": 8,
+      "sends_total": 10,
+      "replies_total": 0,
+      "bounced": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "touch_n": 4,
+      "program": "ELMS_SPONSORS",
+      "sends_total": 3,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -148,7 +156,7 @@
     {
       "touch_n": 4,
       "program": "SPA_24H",
-      "sends_total": 14,
+      "sends_total": 19,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -160,6 +168,13 @@
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 3,
       "replies_total": 3,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Closing the loop",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 2,
+      "replies_total": 2,
       "reply_rate": 1.0
     },
     {
@@ -312,7 +327,7 @@
     {
       "subject": "Last note on Spa",
       "program": "SPA_24H",
-      "sends_total": 6,
+      "sends_total": 9,
       "replies_total": 0,
       "reply_rate": 0.0
     },
@@ -402,13 +417,6 @@
     },
     {
       "subject": "Comment ça marche, concrètement",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 2,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Closing the loop",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
@@ -844,6 +852,13 @@
     {
       "subject": "Why a petrol race fits",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Why GT3 when you have Alpine",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1752,6 +1767,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Not the tech the room",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Not the powertrain, the audience",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -1796,6 +1818,13 @@
     {
       "subject": "Not awareness, owned proof",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Not advertising a proof point",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2004,7 +2033,21 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note, Imola",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last note, IABG x ELMS 2026",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note on this",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -2046,8 +2089,43 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note before the season ends",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note before Spa",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note + Portimão",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last note",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2872,6 +2950,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "DTM and this aren't the same",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Cubbit at Imola home round",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -2985,6 +3070,13 @@
     },
     {
       "subject": "Closing the Spa window",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Closing the Spa slot",
       "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
@@ -3588,6 +3680,22 @@
   ],
   "recent_replies": [
     {
+      "company": "NCAB Group",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-19T10:18:12Z",
+      "sentiment": "ooo",
+      "method": "keyword",
+      "touch_n": 4
+    },
+    {
+      "company": "HORIBA MIRA",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-19T10:14:06Z",
+      "sentiment": "ooo",
+      "method": "keyword",
+      "touch_n": 4
+    },
+    {
       "company": "P3 group GmbH",
       "program": "BD_ELMS_HOSPITALITY",
       "received_at": "2026-06-18T11:00:22Z",
@@ -3808,22 +3916,6 @@
       "program": "SPA_24H",
       "received_at": "2026-06-03T15:29:50Z",
       "sentiment": "negative",
-      "method": "keyword",
-      "touch_n": 1
-    },
-    {
-      "company": "Rolling Wireless",
-      "program": "SPA_24H",
-      "received_at": "2026-06-03T13:18:17Z",
-      "sentiment": "bounce",
-      "method": "keyword",
-      "touch_n": 1
-    },
-    {
-      "company": "Kistler Group",
-      "program": "BD_ELMS_HOSPITALITY",
-      "received_at": "2026-06-03T11:30:41Z",
-      "sentiment": "ooo",
       "method": "keyword",
       "touch_n": 1
     }

@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-19T10:19:25Z",
+  "generated_at": "2026-06-19T11:19:36Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 53,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 163,
+    "sends_total": 168,
     "replies_total": 13,
     "replies_positive": 1,
-    "upcoming_14d": 43
+    "upcoming_14d": 38
   },
   "prospects": [
     {
@@ -324,16 +324,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-25 18:01:05",
       "updated_at": "2026-05-26T08:31:20+00:00",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:07:38",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-19 11:01:34",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-block-mpyhwzhm__brandon-barry",
@@ -384,16 +384,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-25 18:01:05",
       "updated_at": "2026-05-26T08:31:20+00:00",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:09:42",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-19 11:00:15",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_carto_javier_de_la_torre",
@@ -444,16 +444,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:57",
       "updated_at": "2026-06-03 10:20:57",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:10:28",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-19 11:04:18",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
@@ -1374,16 +1374,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-25 18:01:05",
       "updated_at": "2026-05-26T08:31:20+00:00",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:15:26",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-19 11:02:54",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-melexis-gerald__gerald-meyer",
@@ -1854,16 +1854,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:57",
       "updated_at": "2026-06-03 10:20:57",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-13 12:18:05",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-19 11:05:40",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_parallel_domain_kevin_mcnamara",
@@ -3091,8 +3091,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:36",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3106,8 +3106,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:36",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 1
@@ -3361,8 +3361,8 @@
       "ended_at": null,
       "created_at": "2026-05-24 12:11:24",
       "assignments": 40,
-      "sends_total": 11,
-      "sends_ok": 10,
+      "sends_total": 14,
+      "sends_ok": 13,
       "sends_bounced": 1,
       "replies_total": 2,
       "replies_positive": 0
@@ -3448,38 +3448,8 @@
       "scheduled_for": "2026-06-17T09:30:00Z"
     },
     {
-      "prospect_id": "spa_bremont_watch_davide_cerrato",
-      "company": "Bremont Watch",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa_bamford_watch_department_george_bamford",
-      "company": "Bamford Watch Department",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa_materialise_fried_vancraen",
-      "company": "Materialise",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-capitalcom-mpwvv7nq__christoforos-soutzis",
-      "company": "Capital.com",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
       "company": "Capital.com",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-panorama-mpx4djqm__tom-jesman",
-      "company": "Panorama Antennas",
       "touch_n": 4,
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
