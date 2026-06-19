@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-18T10:12:42Z",
+  "generated_at": "2026-06-19T08:04:33Z",
   "totals": {
-    "sends_total": 512,
+    "sends_total": 513,
     "sends_bounced": 9,
     "replies_total": 34,
     "replies_positive": 4,
-    "reply_rate": 0.0664,
-    "bounce_rate": 0.0176
+    "reply_rate": 0.0663,
+    "bounce_rate": 0.0175
   },
   "programs": [
     {
@@ -29,8 +29,8 @@
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 156,
-      "sends_ok": 151,
+      "sends_total": 157,
+      "sends_ok": 152,
       "sends_bounced": 2,
       "sends_error": 3,
       "replies_total": 6,
@@ -41,8 +41,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0385,
-      "bounce_rate": 0.0128,
+      "reply_rate": 0.0382,
+      "bounce_rate": 0.0127,
       "positive_rate": 0.0064
     },
     {
@@ -116,7 +116,7 @@
     {
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
-      "sends_total": 7,
+      "sends_total": 8,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -437,6 +437,13 @@
     },
     {
       "subject": "l'image F1 que vous utilisez déjà",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "je clos le sujet",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,

@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-18T10:12:42Z",
+  "generated_at": "2026-06-19T08:04:33Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 149,
@@ -30,7 +30,7 @@
     "sends_total": 199,
     "replies_total": 15,
     "replies_positive": 3,
-    "upcoming_14d": 307
+    "upcoming_14d": 320
   },
   "prospects": [
     {
@@ -8883,6 +8883,84 @@
       "company": "Petraco Oil Company",
       "touch_n": 4,
       "scheduled_for": "2026-07-01T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
+      "company": "Klüber Lubrication",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
+      "company": "Speedgoat",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__michael-lucke",
+      "company": "Bertrandt",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-p3-mpx41m62__robert-rendl",
+      "company": "P3 group GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
+      "company": "Toray Carbon Fibers Europe",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lacroix-mpyjuh34__louis-pourdieu",
+      "company": "LACROIX Group",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-csl-mpydhpmz__helen-badger",
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sensirion-mpyjecwz__luca-villani",
+      "company": "Sensirion Automotive Solutions",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-banca-mpxu5u8d__gabriele-corte",
+      "company": "Banca del Ceresio (Ceresio Investors)",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
+      "company": "Schukat electronic Vertriebs GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
+      "company": "Argan",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
+      "company": "Petraco Oil Company",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:30:00Z"
     }
   ]
 }
