@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-19T08:04:33Z",
+  "generated_at": "2026-06-19T09:00:15Z",
   "totals": {
     "prospects_total": 652,
     "prospects_active": 416,
     "sends_total": 513,
-    "replies_total": 34,
-    "replies_positive": 4,
+    "replies_total": 35,
+    "replies_positive": 5,
     "campaigns_active": 192,
     "upcoming_14d": 879
   },
@@ -87,7 +87,7 @@
         "campaigns_active": 31,
         "sends_total": 157,
         "replies_total": 13,
-        "replies_positive": 0,
+        "replies_positive": 1,
         "upcoming_14d": 49
       }
     },
@@ -121,7 +121,7 @@
         "campaigns_total": 73,
         "campaigns_active": 72,
         "sends_total": 199,
-        "replies_total": 15,
+        "replies_total": 16,
         "replies_positive": 3,
         "upcoming_14d": 320
       }
