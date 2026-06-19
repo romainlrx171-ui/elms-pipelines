@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-19T09:00:15Z",
+  "generated_at": "2026-06-19T10:19:25Z",
   "totals": {
-    "sends_total": 513,
+    "sends_total": 528,
     "sends_bounced": 9,
     "replies_total": 35,
     "replies_positive": 5,
-    "reply_rate": 0.0682,
-    "bounce_rate": 0.0175
+    "reply_rate": 0.0663,
+    "bounce_rate": 0.017
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 199,
-      "sends_ok": 195,
+      "sends_total": 208,
+      "sends_ok": 204,
       "sends_bounced": 3,
       "sends_error": 5,
       "replies_total": 16,
@@ -23,9 +23,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0804,
-      "bounce_rate": 0.0151,
-      "positive_rate": 0.0151
+      "reply_rate": 0.0769,
+      "bounce_rate": 0.0144,
+      "positive_rate": 0.0144
     },
     {
       "program": "ELMS_SPONSORS",
@@ -47,8 +47,8 @@
     },
     {
       "program": "SPA_24H",
-      "sends_total": 157,
-      "sends_ok": 153,
+      "sends_total": 163,
+      "sends_ok": 159,
       "sends_bounced": 4,
       "sends_error": 0,
       "replies_total": 13,
@@ -59,9 +59,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0828,
-      "bounce_rate": 0.0255,
-      "positive_rate": 0.0064
+      "reply_rate": 0.0798,
+      "bounce_rate": 0.0245,
+      "positive_rate": 0.0061
     }
   ],
   "touches": [
@@ -92,7 +92,7 @@
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 8,
+      "sends_total": 17,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -148,7 +148,7 @@
     {
       "touch_n": 4,
       "program": "SPA_24H",
-      "sends_total": 8,
+      "sends_total": 14,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -312,7 +312,7 @@
     {
       "subject": "Last note on Spa",
       "program": "SPA_24H",
-      "sends_total": 5,
+      "sends_total": 6,
       "replies_total": 0,
       "reply_rate": 0.0
     },
@@ -402,6 +402,13 @@
     },
     {
       "subject": "Comment ça marche, concrètement",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Closing the loop",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
@@ -1941,6 +1948,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Letzte Nachricht, Termin Spa",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Le seul circuit où UTAC est invité",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -1950,6 +1964,34 @@
     {
       "subject": "Le contenu, et le reste",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note, with thanks",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note, Spa window",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note, Spa window",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note, Spa 2026",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1976,8 +2018,36 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note on Spa 2026",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note from the paddock",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last note from my side",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note for this season",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note",
+      "program": "SPA_24H",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2887,6 +2957,27 @@
     },
     {
       "subject": "Closing the loop, Imola",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Closing the loop on Spa",
+      "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Closing the loop on 2026",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Closing the loop before Imola",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
