@@ -1,20 +1,20 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-22T13:48:36Z",
+  "generated_at": "2026-06-22T14:14:56Z",
   "kpis": {
     "prospects_total": 197,
-    "prospects_active": 149,
+    "prospects_active": 148,
     "prospects_paused": 40,
     "prospects_replied": 0,
-    "prospects_bounced": 5,
+    "prospects_bounced": 6,
     "prospects_with_email": 197,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 140,
     "by_status": {
-      "active": 149,
+      "active": 148,
       "paused": 40,
       "do_not_contact": 3,
-      "bounced": 5
+      "bounced": 6
     },
     "by_tier": {
       "MED": 157,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 245,
-    "replies_total": 18,
+    "sends_total": 247,
+    "replies_total": 19,
     "replies_positive": 3,
-    "upcoming_14d": 169
+    "upcoming_14d": 165
   },
   "prospects": [
     {
@@ -1342,16 +1342,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:01",
       "updated_at": "2026-06-04 10:42:01",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 15:46:44",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 14:00:21",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-dynisma-mpy9mo3i__ash-warne",
@@ -2528,7 +2528,7 @@
       "company": "LACROIX Group",
       "role": "Executive Managing Director, Electronics Activity & VP Industrial",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -2537,21 +2537,21 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-06-22T14:00:13Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:38",
       "updated_at": "2026-06-04 10:40:38",
       "sends_total": 1,
-      "sends_ok": 1,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "last_sent_at": "2026-06-22 13:03:57",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-06-22T15:03:59Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-lacroix-mpyjuh34__vincent-bedouin",
@@ -5722,16 +5722,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:02",
       "updated_at": "2026-06-04 10:42:02",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 15:48:14",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 14:03:41",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd_hyperexponential_amrit_santhirasenan",
@@ -5999,8 +5999,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:02",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6014,8 +6014,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:01",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6285,9 +6285,9 @@
       "created_at": "2026-06-04 10:40:39",
       "assignments": 2,
       "sends_total": 1,
-      "sends_ok": 1,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -7103,20 +7103,8 @@
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__subhendu-bose",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
       "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__simon-gibbins",
-      "company": "discoverIE Group plc",
       "touch_n": 2,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
@@ -7460,12 +7448,6 @@
       "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lacroix-mpyjuh34__louis-pourdieu",
-      "company": "LACROIX Group",
-      "touch_n": 2,
       "scheduled_for": "2026-06-26T09:30:00Z"
     },
     {
@@ -7892,12 +7874,6 @@
       "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lacroix-mpyjuh34__louis-pourdieu",
-      "company": "LACROIX Group",
-      "touch_n": 3,
       "scheduled_for": "2026-07-02T09:30:00Z"
     },
     {

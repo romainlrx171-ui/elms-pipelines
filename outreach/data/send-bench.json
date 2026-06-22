@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-22T13:48:36Z",
+  "generated_at": "2026-06-22T14:14:56Z",
   "totals": {
-    "sends_total": 668,
-    "sends_bounced": 13,
-    "replies_total": 43,
+    "sends_total": 672,
+    "sends_bounced": 14,
+    "replies_total": 45,
     "replies_positive": 5,
-    "reply_rate": 0.0644,
-    "bounce_rate": 0.0195
+    "reply_rate": 0.067,
+    "bounce_rate": 0.0208
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 245,
-      "sends_ok": 241,
-      "sends_bounced": 3,
+      "sends_total": 247,
+      "sends_ok": 242,
+      "sends_bounced": 4,
       "sends_error": 5,
-      "replies_total": 18,
+      "replies_total": 19,
       "replies_positive": 3,
       "replies_negative": 1,
       "replies_ooo": 8,
@@ -23,26 +23,26 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0735,
-      "bounce_rate": 0.0122,
-      "positive_rate": 0.0122
+      "reply_rate": 0.0769,
+      "bounce_rate": 0.0162,
+      "positive_rate": 0.0121
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 232,
-      "sends_ok": 223,
+      "sends_total": 234,
+      "sends_ok": 225,
       "sends_bounced": 6,
       "sends_error": 3,
-      "replies_total": 9,
+      "replies_total": 10,
       "replies_positive": 1,
       "replies_negative": 0,
-      "replies_ooo": 1,
+      "replies_ooo": 2,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0388,
-      "bounce_rate": 0.0259,
+      "reply_rate": 0.0427,
+      "bounce_rate": 0.0256,
       "positive_rate": 0.0043
     },
     {
@@ -69,14 +69,14 @@
       "touch_n": 1,
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 118,
-      "replies_total": 14,
-      "bounced": 3,
-      "reply_rate": 0.1186
+      "replies_total": 15,
+      "bounced": 4,
+      "reply_rate": 0.1271
     },
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 72,
+      "sends_total": 74,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -101,17 +101,17 @@
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
       "sends_total": 112,
-      "replies_total": 5,
+      "replies_total": 6,
       "bounced": 2,
-      "reply_rate": 0.0446
+      "reply_rate": 0.0536
     },
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 91,
+      "sends_total": 93,
       "replies_total": 4,
       "bounced": 4,
-      "reply_rate": 0.044
+      "reply_rate": 0.043
     },
     {
       "touch_n": 3,
@@ -306,6 +306,13 @@
     {
       "subject": "After the booth, the conversation",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "After PCIM, quick note",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -1319,13 +1326,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Un compte clé, un week-end",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Two things it does for pipeline",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -1804,6 +1804,13 @@
     {
       "subject": "Spa this August, 2h from you",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Spa en prolongement d'Embedded World",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2432,6 +2439,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Mechanism, paddock plus proof asset",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Materialise, on home soil at Spa",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -2978,6 +2992,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the channel is structured",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the activation works",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -3112,6 +3133,13 @@
     },
     {
       "subject": "How it advances key accounts",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How hosting an account works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -3902,13 +3930,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "After PCIM, quick note",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "After CES a quieter room",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -4296,6 +4317,22 @@
   ],
   "recent_replies": [
     {
+      "company": "LACROIX Group",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-06-22T15:03:59Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
+      "company": "BECK GmbH & Co. Elektronik Bauelemente KG",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-06-22T13:11:10Z",
+      "sentiment": "ooo",
+      "method": "keyword",
+      "touch_n": 1
+    },
+    {
       "company": "Rutronik Automotive BU",
       "program": "ELMS_SPONSORS",
       "received_at": "2026-06-22T12:03:55Z",
@@ -4518,22 +4555,6 @@
       "sentiment": "bounce",
       "method": "keyword",
       "touch_n": 3
-    },
-    {
-      "company": "Permabond Engineering Adhesives",
-      "program": "BD_ELMS_HOSPITALITY",
-      "received_at": "2026-06-13T11:45:37Z",
-      "sentiment": "ooo",
-      "method": "keyword",
-      "touch_n": 1
-    },
-    {
-      "company": "Kistler Group",
-      "program": "BD_ELMS_HOSPITALITY",
-      "received_at": "2026-06-08T14:49:06Z",
-      "sentiment": "positive",
-      "method": "keyword",
-      "touch_n": 1
     }
   ]
 }
