@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-21T09:02:28Z",
+  "generated_at": "2026-06-22T08:21:13Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 149,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 213,
+    "sends_total": 221,
     "replies_total": 18,
     "replies_positive": 3,
-    "upcoming_14d": 330
+    "upcoming_14d": 322
   },
   "prospects": [
     {
@@ -952,16 +952,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:45",
       "updated_at": "2026-06-04 10:39:45",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 11:13:31",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-22 08:11:53",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd_clairfield_international_thierry_chetrit",
@@ -2002,16 +2002,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:42",
       "updated_at": "2026-06-04 10:39:42",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 11:03:12",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-22 08:08:54",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-heitec-mppti5rj__michael-friess",
@@ -2152,16 +2152,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:06",
       "updated_at": "2026-06-04 10:40:06",
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 1,
-      "last_sent_at": "2026-06-16 10:09:00",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 08:21:08",
+      "last_touch_n": 2,
       "last_reply_at": "2026-06-16T10:09:04Z",
       "last_sentiment": "ooo",
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd_hottinger_group_mark_robertson",
@@ -2482,16 +2482,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:02",
       "updated_at": "2026-06-04 10:40:02",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 13:29:36",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 08:13:31",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
@@ -4312,16 +4312,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-18 08:23:12",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-22 08:01:44",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-quartix-mpx2nfvy__sean-maher",
@@ -4462,16 +4462,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:44",
       "updated_at": "2026-06-04 10:39:44",
-      "sends_total": 3,
-      "sends_ok": 2,
+      "sends_total": 4,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 10:04:41",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-22 08:10:23",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-se-mpxreakr__marius-wuestefeld",
@@ -5092,16 +5092,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:05",
       "updated_at": "2026-06-04 10:40:05",
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 10:07:29",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 08:19:44",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
@@ -5212,16 +5212,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:58",
       "updated_at": "2026-06-03 10:20:58",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 11:06:18",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-22 08:03:09",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
@@ -6479,8 +6479,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6494,8 +6494,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 1,
-      "sends_total": 2,
-      "sends_ok": 1,
+      "sends_total": 3,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -6509,8 +6509,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:02",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6629,8 +6629,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:46",
       "assignments": 1,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6659,8 +6659,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:45",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 2,
+      "sends_total": 5,
+      "sends_ok": 3,
       "sends_bounced": 1,
       "replies_total": 1,
       "replies_positive": 0
@@ -6689,8 +6689,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:42",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6749,8 +6749,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 3,
-      "sends_total": 9,
-      "sends_ok": 7,
+      "sends_total": 10,
+      "sends_ok": 8,
       "sends_bounced": 1,
       "replies_total": 2,
       "replies_positive": 0
@@ -6764,8 +6764,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:37",
       "assignments": 2,
-      "sends_total": 7,
-      "sends_ok": 7,
+      "sends_total": 8,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7385,57 +7385,9 @@
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-quartix-mpx2nfvy__andy-walters",
-      "company": "Quartix",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-stratio-mpx3n7b9__rui-sales",
-      "company": "Stratio Automotive",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hbk-mpya4gms__meredith-foster",
-      "company": "HBK – Hottinger Brüel & Kjær",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
       "company": "VI-grade",
       "touch_n": 3,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-reply-mpx1q4el__vincent-ohana",
-      "company": "Reply",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-caracol-mpxrec8s__francesco-de-stefano",
-      "company": "Caracol AM",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__frank-werner",
-      "company": "Klüber Lubrication",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__carmen-koch",
-      "company": "Speedgoat",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hpe-mpy6t79n__andrea-bozzoli",
-      "company": "HPE COXA (HPE Group)",
-      "touch_n": 2,
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
     {

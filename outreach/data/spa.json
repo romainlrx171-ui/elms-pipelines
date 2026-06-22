@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-19T11:19:36Z",
+  "generated_at": "2026-06-22T08:21:12Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 53,
@@ -29,10 +29,10 @@
     },
     "campaigns_total": 32,
     "campaigns_active": 31,
-    "sends_total": 168,
+    "sends_total": 169,
     "replies_total": 13,
     "replies_positive": 1,
-    "upcoming_14d": 38
+    "upcoming_14d": 37
   },
   "prospects": [
     {
@@ -474,16 +474,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:57",
       "updated_at": "2026-06-03 10:20:57",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 10:46:25",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-22 08:00:17",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_causaly_yiannis_kiachopoulos",
@@ -3091,8 +3091,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:36",
       "assignments": 2,
-      "sends_total": 7,
-      "sends_ok": 7,
+      "sends_total": 8,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -3446,12 +3446,6 @@
       "company": "Tractable",
       "touch_n": 4,
       "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-capitalcom-mpwvv7nq__nikolai-markovnik",
-      "company": "Capital.com",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
     },
     {
       "prospect_id": "spa24-kempower-mppp8zdn__jussi-vanhanen",
