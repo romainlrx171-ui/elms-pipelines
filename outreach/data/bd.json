@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-22T12:49:50Z",
+  "generated_at": "2026-06-22T13:48:36Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 149,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 239,
+    "sends_total": 245,
     "replies_total": 18,
     "replies_positive": 3,
-    "upcoming_14d": 175
+    "upcoming_14d": 169
   },
   "prospects": [
     {
@@ -1852,16 +1852,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:54",
       "updated_at": "2026-06-04 10:41:54",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 12:11:15",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-22 13:38:30",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-gse-mpyot2h2__roland-paul",
@@ -2542,16 +2542,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:38",
       "updated_at": "2026-06-04 10:40:38",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-22 13:03:57",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-lacroix-mpyjuh34__vincent-bedouin",
@@ -2782,16 +2782,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:34",
       "updated_at": "2026-06-04 10:40:34",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-22 13:00:16",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_marchesini_group_maurizio_marchesini",
@@ -3262,16 +3262,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:44",
       "updated_at": "2026-06-04 10:40:44",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-22 13:20:42",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-motion-mpyd0n9i__samir-maha",
@@ -3352,16 +3352,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:00",
       "updated_at": "2026-06-04 10:42:00",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 15:45:28",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 13:48:33",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-mullerbbm-mpqc5key__guenter-lang",
@@ -3892,16 +3892,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:46",
       "updated_at": "2026-06-04 10:41:46",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 12:05:34",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-22 13:24:14",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-permabond-mpy9dioa__rebecca-wilmot",
@@ -6029,8 +6029,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:00",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6074,8 +6074,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:54",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6134,8 +6134,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:46",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -6269,8 +6269,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:44",
       "assignments": 3,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6284,8 +6284,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:39",
       "assignments": 2,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6329,8 +6329,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:34",
       "assignments": 2,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7085,33 +7085,9 @@
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
-      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
       "company": "Porcher Industries",
       "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lacroix-mpyjuh34__louis-pourdieu",
-      "company": "LACROIX Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-permabond-mpy9dioa__paolo-grossi",
-      "company": "Permabond Engineering Adhesives",
-      "touch_n": 3,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
@@ -7124,18 +7100,6 @@
       "prospect_id": "bd-platform-ga-mpyp92gu__elodie-le-breton",
       "company": "GA Smart Building",
       "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-gse-mpyot2h2__olivia-nail",
-      "company": "GSE Group",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-myra-mpyi5y2t__philipp-herrmann",
-      "company": "Myra Security",
-      "touch_n": 2,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
