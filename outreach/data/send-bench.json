@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-22T09:19:16Z",
+  "generated_at": "2026-06-22T10:00:16Z",
   "totals": {
-    "sends_total": 573,
-    "sends_bounced": 9,
-    "replies_total": 37,
+    "sends_total": 592,
+    "sends_bounced": 10,
+    "replies_total": 38,
     "replies_positive": 5,
-    "reply_rate": 0.0646,
-    "bounce_rate": 0.0157
+    "reply_rate": 0.0642,
+    "bounce_rate": 0.0169
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 223,
-      "sends_ok": 219,
+      "sends_total": 227,
+      "sends_ok": 223,
       "sends_bounced": 3,
       "sends_error": 5,
       "replies_total": 18,
@@ -23,17 +23,17 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0807,
-      "bounce_rate": 0.0135,
-      "positive_rate": 0.0135
+      "reply_rate": 0.0793,
+      "bounce_rate": 0.0132,
+      "positive_rate": 0.0132
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 181,
-      "sends_ok": 176,
-      "sends_bounced": 2,
+      "sends_total": 196,
+      "sends_ok": 190,
+      "sends_bounced": 3,
       "sends_error": 3,
-      "replies_total": 6,
+      "replies_total": 7,
       "replies_positive": 1,
       "replies_negative": 0,
       "replies_ooo": 1,
@@ -41,9 +41,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0331,
-      "bounce_rate": 0.011,
-      "positive_rate": 0.0055
+      "reply_rate": 0.0357,
+      "bounce_rate": 0.0153,
+      "positive_rate": 0.0051
     },
     {
       "program": "SPA_24H",
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 58,
+      "sends_total": 61,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -84,10 +84,10 @@
     {
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 32,
+      "sends_total": 33,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0625
+      "reply_rate": 0.0606
     },
     {
       "touch_n": 4,
@@ -108,15 +108,15 @@
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 56,
-      "replies_total": 1,
-      "bounced": 0,
-      "reply_rate": 0.0179
+      "sends_total": 69,
+      "replies_total": 2,
+      "bounced": 1,
+      "reply_rate": 0.029
     },
     {
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
-      "sends_total": 11,
+      "sends_total": 13,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -402,6 +402,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the room actually works",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the Spa weekend works",
       "program": "SPA_24H",
       "sends_total": 2,
@@ -451,6 +458,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Comment ça marche concrètement",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "votre pilote F1, en vrai",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -479,6 +493,69 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "paddock x IABG validation",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "paddock x HORIBA MIRA validation",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "paddock x HEITEC validation",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "paddock x Cognata sdv",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "paddock x Codico engineering",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "paddock x Aurora Labs sdv",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "paddock x Alpitronic engineering",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "paddock x ATESTEO validation",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "not a season, entry point",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "l'image F1 que vous utilisez déjà",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -487,6 +564,20 @@
     },
     {
       "subject": "je clos le sujet",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "elms paddock x Geotab",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "elms paddock x Comms365",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -1137,6 +1228,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The room, not just the logo",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The room, and how it works",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -1489,6 +1587,13 @@
     {
       "subject": "Spa, le 23 août, votre course",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Spa this August, 2h from you",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2110,8 +2215,22 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Le vrai sujet: la relation",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Le seul circuit où UTAC est invité",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Le mécanisme, en 3 lignes",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2398,13 +2517,6 @@
     },
     {
       "subject": "How the room works",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "How the room actually works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -3125,6 +3237,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Concrètement, comment ça marche",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Concrètement, comment ça fonctionne",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -3147,13 +3266,6 @@
     },
     {
       "subject": "Comment ça se branche au plan 2026",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Comment ça marche concrètement",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -3834,6 +3946,14 @@
   ],
   "recent_replies": [
     {
+      "company": "Applus+ IDIADA",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-06-22T11:55:28Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 2
+    },
+    {
       "company": "NCAB Group",
       "program": "BD_ELMS_HOSPITALITY",
       "received_at": "2026-06-19T10:18:12Z",
@@ -4062,14 +4182,6 @@
       "program": "SPA_24H",
       "received_at": "2026-06-03T16:36:58Z",
       "sentiment": "positive",
-      "method": "keyword",
-      "touch_n": 1
-    },
-    {
-      "company": "Groupe Louyet",
-      "program": "SPA_24H",
-      "received_at": "2026-06-03T15:29:50Z",
-      "sentiment": "negative",
       "method": "keyword",
       "touch_n": 1
     }

@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-22T09:19:16Z",
+  "generated_at": "2026-06-22T10:00:16Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 149,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 223,
+    "sends_total": 227,
     "replies_total": 18,
     "replies_positive": 3,
-    "upcoming_14d": 320
+    "upcoming_14d": 187
   },
   "prospects": [
     {
@@ -90,8 +90,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-atesteo-mppt6fso__tim-willers",
@@ -120,8 +120,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_aikido_security_willem_delbare",
@@ -240,8 +240,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-allforone-mpxt7z3e__stefan-land",
@@ -270,8 +270,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_ankorstore_nicolas_cohen",
@@ -442,16 +442,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:06",
       "updated_at": "2026-06-04 10:42:06",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 15:53:40",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 09:52:28",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
@@ -480,8 +480,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-argan-mpyp1ry8__stephane-cassagne",
@@ -600,8 +600,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-banca-mpxu5u8d__roberto-cerratti",
@@ -780,8 +780,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-csl-mpydhpmz__ed-heale",
@@ -810,8 +810,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-csl-mpydhpmz__greville-coe",
@@ -900,8 +900,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-cymotive-mpyhplaq__tsafrir-kats",
@@ -930,8 +930,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-caracol-mpxrec8s__francesco-de-stefano",
@@ -1110,8 +1110,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
@@ -1320,8 +1320,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-duferco-mpxudv3y__subhendu-bose",
@@ -1440,8 +1440,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-edag-mpx3utxi__harald-keller",
@@ -1500,8 +1500,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-efg-mpyqiww3__giorgio-pradelli",
@@ -1530,8 +1530,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-emc-mpqchadg__ema-ziga",
@@ -1762,16 +1762,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:47",
       "updated_at": "2026-06-04 10:41:47",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 14:06:21",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-22 09:46:58",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-ga-mpyp92gu__elodie-le-breton",
@@ -1890,8 +1890,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
@@ -1920,8 +1920,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_h_essers_gert_bervoets",
@@ -2100,8 +2100,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-horiba-mpq8kmow__roisin-hopkins",
@@ -2280,8 +2280,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-ipg-mppol07t__ralf-sauer",
@@ -2310,8 +2310,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-ipg-mppol07t__steffen-schmidt",
@@ -2580,8 +2580,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_lansweeper_dave_goossens",
@@ -2760,8 +2760,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
@@ -2970,8 +2970,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-microlise-mpx2lbsw__nadeem-raza",
@@ -3030,8 +3030,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-16T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_mirabaud_camille_vial",
@@ -3390,8 +3390,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-mullerbbm-mpqc5key__josef-hobelsberger",
@@ -3540,8 +3540,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-ncab-mppuhbof__peter-kruk",
@@ -3600,8 +3600,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-note-mpynl6fa__johannes-lind-widestam",
@@ -3630,8 +3630,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_ns_partners_frederic_de_poix",
@@ -3930,8 +3930,8 @@
       "last_touch_n": 1,
       "last_reply_at": "2026-06-13T11:45:37Z",
       "last_sentiment": "ooo",
-      "next_scheduled": "2026-06-15T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_personio_hanno_renner",
@@ -4072,16 +4072,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:07",
       "updated_at": "2026-06-04 10:42:07",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 15:56:19",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 09:53:27",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd_pigment_eleonore_crespo",
@@ -4440,8 +4440,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-reply-mpx1q4el__vincent-ohana",
@@ -4560,8 +4560,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sgl-mpyfb1co__steffen-janetzko",
@@ -4590,8 +4590,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sgl-mpyfb1co__thomas-dippold",
@@ -4650,8 +4650,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-scanfil-mpyo823g__christophe-sut",
@@ -4710,8 +4710,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
@@ -4762,16 +4762,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:05",
       "updated_at": "2026-06-04 10:42:05",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-15 15:52:15",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-22 09:51:14",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-sensirion-mpyjecwz__luca-villani",
@@ -4800,8 +4800,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sensirion-mpyjecwz__maximilian-eichberger",
@@ -4830,8 +4830,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sibros-mpp0qq00__albert-lilly",
@@ -5010,8 +5010,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-11T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-simscale-mpy4o1ja__jon-wilde",
@@ -5340,8 +5340,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-targa-mpppwfby__elena-bellini",
@@ -5700,8 +5700,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-12T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-discoverie-mpyoeql2__simon-gibbins",
@@ -5820,8 +5820,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-17T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-rfpro-mpyba492__matt-daley",
@@ -5880,8 +5880,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-18T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-tesa-mpyev9zf__david-caro",
@@ -5954,8 +5954,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:08",
       "assignments": 3,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -5969,8 +5969,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:06",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -5984,8 +5984,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:05",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6119,8 +6119,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:47",
       "assignments": 3,
-      "sends_total": 6,
-      "sends_ok": 6,
+      "sends_total": 7,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7043,400 +7043,10 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "bd-platform-atesteo-mppt6fso__tim-willers",
-      "company": "ATESTEO",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
-      "company": "Geotab",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-horiba-mpq8kmow__alastair-evanson",
-      "company": "HORIBA MIRA",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mullerbbm-mpqc5key__guenter-lang",
-      "company": "Müller-BBM VibroAkustik Systeme GmbH",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ncab-mppuhbof__howard-goff",
-      "company": "NCAB Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-targa-mpppwfby__alberto-falcione",
-      "company": "Targa Telematics",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-edag-mpx3utxi__holger-merz",
-      "company": "EDAG Engineering",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
-      "company": "AB Dynamics",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-reply-mpx1q4el__tatiana-rizzante",
-      "company": "Reply",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__simon-holloway",
-      "company": "Dynisma",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-note-mpynl6fa__bahare-mackinovski",
-      "company": "NOTE AB",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__christina-wiklund",
-      "company": "Scanfil",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-atesteo-mppt6fso__tim-willers",
-      "company": "ATESTEO",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
-      "company": "Geotab",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-horiba-mpq8kmow__alastair-evanson",
-      "company": "HORIBA MIRA",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mullerbbm-mpqc5key__guenter-lang",
-      "company": "Müller-BBM VibroAkustik Systeme GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ncab-mppuhbof__howard-goff",
-      "company": "NCAB Group",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-targa-mpppwfby__alberto-falcione",
-      "company": "Targa Telematics",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-simscale-mpy4o1ja__david-heiny",
-      "company": "SimScale",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__andreas-klein",
-      "company": "SGL Carbon",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-note-mpynl6fa__johannes-lind-widestam",
-      "company": "NOTE AB",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-gse-mpyot2h2__roland-paul",
-      "company": "GSE Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__steffen-janetzko",
-      "company": "SGL Carbon",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__mike-blackburn",
-      "company": "Microlise",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__lars-skanke",
-      "company": "Scanfil",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__patrick-arnold",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__nick-jefferies",
-      "company": "discoverIE Group plc",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-12T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ipg-mppol07t__ralf-sauer",
-      "company": "IPG Automotive",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ipg-mppol07t__mara-schmidt",
-      "company": "IPG Automotive",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-permabond-mpy9dioa__rebecca-wilmot",
-      "company": "Permabond Engineering Adhesives",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-15T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-edag-mpx3utxi__holger-merz",
-      "company": "EDAG Engineering",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
-      "company": "AB Dynamics",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-reply-mpx1q4el__tatiana-rizzante",
-      "company": "Reply",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__simon-holloway",
-      "company": "Dynisma",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__trevor-mcgahan",
-      "company": "Microlise",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-note-mpynl6fa__bahare-mackinovski",
-      "company": "NOTE AB",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__christina-wiklund",
-      "company": "Scanfil",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
-      "company": "Argan",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-atesteo-mppt6fso__tim-willers",
-      "company": "ATESTEO",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-geotab-mppqvl95__christoph-ludewig",
-      "company": "Geotab",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-horiba-mpq8kmow__alastair-evanson",
-      "company": "HORIBA MIRA",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mullerbbm-mpqc5key__guenter-lang",
-      "company": "Müller-BBM VibroAkustik Systeme GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ncab-mppuhbof__howard-goff",
-      "company": "NCAB Group",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-targa-mpppwfby__alberto-falcione",
-      "company": "Targa Telematics",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-simscale-mpy4o1ja__david-heiny",
-      "company": "SimScale",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-rfpro-mpyba492__chris-archer",
-      "company": "rFpro",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__andreas-klein",
-      "company": "SGL Carbon",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-note-mpynl6fa__johannes-lind-widestam",
-      "company": "NOTE AB",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-gse-mpyot2h2__roland-paul",
-      "company": "GSE Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-rfpro-mpyba492__peter-daley",
-      "company": "rFpro",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__steffen-janetzko",
-      "company": "SGL Carbon",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__mike-blackburn",
-      "company": "Microlise",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-delo-mpyeme1z__nina-bosch",
-      "company": "DELO Industrial Adhesives",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__lars-skanke",
-      "company": "Scanfil",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__patrick-arnold",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__nick-jefferies",
-      "company": "discoverIE Group plc",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-18T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ipg-mppol07t__ralf-sauer",
-      "company": "IPG Automotive",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
       "company": "VI-grade",
       "touch_n": 3,
       "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__julian-mentz",
-      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bossard-mpyolgfb__daniel-bossard",
-      "company": "Bossard Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-permabond-mpy9dioa__rebecca-wilmot",
-      "company": "Permabond Engineering Adhesives",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ga-mpyp92gu__aurelien-ngangue",
-      "company": "GA Smart Building",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-schukat-mpyn5kfu__georg-schukat",
-      "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-argan-mpyp1ry8__aymar-de-germay",
-      "company": "Argan",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__russell-humphrey",
-      "company": "Petraco Oil Company",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ipg-mppol07t__mara-schmidt",
-      "company": "IPG Automotive",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
       "prospect_id": "bd-platform-ncab-mppuhbof__david-straberg",
@@ -7451,32 +7061,8 @@
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-edag-mpx3utxi__holger-merz",
-      "company": "EDAG Engineering",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
-      "company": "AB Dynamics",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
       "company": "HBK – Hottinger Brüel & Kjær",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-reply-mpx1q4el__tatiana-rizzante",
-      "company": "Reply",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__simon-holloway",
-      "company": "Dynisma",
       "touch_n": 3,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
@@ -7512,12 +7098,6 @@
     },
     {
       "prospect_id": "bd-platform-microlise-mpx2lbsw__nadeem-raza",
-      "company": "Microlise",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__trevor-mcgahan",
       "company": "Microlise",
       "touch_n": 2,
       "scheduled_for": "2026-06-22T09:30:00Z"
@@ -7619,18 +7199,6 @@
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-note-mpynl6fa__bahare-mackinovski",
-      "company": "NOTE AB",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__christina-wiklund",
-      "company": "Scanfil",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-gse-mpyot2h2__olivia-nail",
       "company": "GSE Group",
       "touch_n": 3,
@@ -7667,12 +7235,6 @@
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
-      "company": "Argan",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-argan-mpyp1ry8__stephane-cassagne",
       "company": "Argan",
       "touch_n": 2,
@@ -7693,24 +7255,6 @@
     {
       "prospect_id": "bd-platform-dynisma-mpy9mo3i__graeme-cook",
       "company": "Dynisma",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-simscale-mpy4o1ja__david-heiny",
-      "company": "SimScale",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-rfpro-mpyba492__chris-archer",
-      "company": "rFpro",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__andreas-klein",
-      "company": "SGL Carbon",
       "touch_n": 3,
       "scheduled_for": "2026-06-23T09:30:00Z"
     },
@@ -7763,38 +7307,14 @@
       "scheduled_for": "2026-06-23T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-lacroix-mpyjuh34__vincent-bedouin",
-      "company": "LACROIX Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
       "company": "Motion Applied (ex-McLaren Applied)",
       "touch_n": 1,
       "scheduled_for": "2026-06-23T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-allforone-mpxt7z3e__michael-zitz",
-      "company": "All for One Group SE",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-note-mpynl6fa__johannes-lind-widestam",
-      "company": "NOTE AB",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-scanfil-mpyo823g__christophe-sut",
       "company": "Scanfil",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-gse-mpyot2h2__roland-paul",
-      "company": "GSE Group",
       "touch_n": 3,
       "scheduled_for": "2026-06-23T09:30:00Z"
     },
@@ -7823,26 +7343,8 @@
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-rfpro-mpyba492__peter-daley",
-      "company": "rFpro",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__steffen-janetzko",
-      "company": "SGL Carbon",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-lohmann-mpy72e9a__nicole-ehrmann",
       "company": "Lohmann GmbH & Co. KG",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__mike-blackburn",
-      "company": "Microlise",
       "touch_n": 3,
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
@@ -7883,12 +7385,6 @@
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-delo-mpyeme1z__nina-bosch",
-      "company": "DELO Industrial Adhesives",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",
       "company": "Cruden B.V.",
       "touch_n": 2,
@@ -7907,12 +7403,6 @@
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-allforone-mpxt7z3e__stefan-land",
-      "company": "All for One Group SE",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
       "company": "Devoteam",
       "touch_n": 1,
@@ -7925,44 +7415,14 @@
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-cymotive-mpyhplaq__tsafrir-kats",
-      "company": "CYMOTIVE Technologies",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
       "company": "NAGASE (Europa) GmbH",
       "touch_n": 1,
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-efg-mpyqiww3__giorgio-pradelli",
-      "company": "EFG International",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__lars-skanke",
-      "company": "Scanfil",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-myra-mpyi5y2t__paul-kaffsack",
       "company": "Myra Security",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__patrick-arnold",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__nick-jefferies",
-      "company": "discoverIE Group plc",
       "touch_n": 3,
       "scheduled_for": "2026-06-24T09:30:00Z"
     },
@@ -8027,20 +7487,8 @@
       "scheduled_for": "2026-06-25T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__julian-mentz",
-      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
       "company": "Porcher Industries",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bossard-mpyolgfb__daniel-bossard",
-      "company": "Bossard Group",
       "touch_n": 2,
       "scheduled_for": "2026-06-25T09:30:00Z"
     },
@@ -8051,26 +7499,8 @@
       "scheduled_for": "2026-06-25T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-csl-mpydhpmz__ed-heale",
-      "company": "CSL Group (incl. Caburn Telecom)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-cymotive-mpyhplaq__tamir-bechor",
-      "company": "CYMOTIVE Technologies",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
       "company": "NAGASE (Europa) GmbH",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sensirion-mpyjecwz__maximilian-eichberger",
-      "company": "Sensirion Automotive Solutions",
       "touch_n": 1,
       "scheduled_for": "2026-06-25T09:30:00Z"
     },
@@ -8078,12 +7508,6 @@
       "prospect_id": "bd-platform-banca-mpxu5u8d__roberto-cerratti",
       "company": "Banca del Ceresio (Ceresio Investors)",
       "touch_n": 1,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-permabond-mpy9dioa__rebecca-wilmot",
-      "company": "Permabond Engineering Adhesives",
-      "touch_n": 4,
       "scheduled_for": "2026-06-25T09:30:00Z"
     },
     {
@@ -8111,32 +7535,8 @@
       "scheduled_for": "2026-06-25T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-edag-mpx3utxi__holger-merz",
-      "company": "EDAG Engineering",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
-      "company": "AB Dynamics",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
       "company": "HBK – Hottinger Brüel & Kjær",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-reply-mpx1q4el__tatiana-rizzante",
-      "company": "Reply",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__simon-holloway",
-      "company": "Dynisma",
       "touch_n": 4,
       "scheduled_for": "2026-06-26T09:30:00Z"
     },
@@ -8189,18 +7589,6 @@
       "scheduled_for": "2026-06-26T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-sensirion-mpyjecwz__luca-villani",
-      "company": "Sensirion Automotive Solutions",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-banca-mpxu5u8d__gabriele-corte",
-      "company": "Banca del Ceresio (Ceresio Investors)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-permabond-mpy9dioa__paolo-grossi",
       "company": "Permabond Engineering Adhesives",
       "touch_n": 4,
@@ -8213,18 +7601,6 @@
       "scheduled_for": "2026-06-26T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-note-mpynl6fa__bahare-mackinovski",
-      "company": "NOTE AB",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__christina-wiklund",
-      "company": "Scanfil",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-gse-mpyot2h2__olivia-nail",
       "company": "GSE Group",
       "touch_n": 4,
@@ -8233,12 +7609,6 @@
     {
       "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
       "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
-      "company": "Argan",
       "touch_n": 3,
       "scheduled_for": "2026-06-26T09:30:00Z"
     },
@@ -8261,33 +7631,15 @@
       "scheduled_for": "2026-06-29T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-simscale-mpy4o1ja__david-heiny",
-      "company": "SimScale",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-simscale-mpy4o1ja__richard-szoke-schuller",
       "company": "SimScale",
       "touch_n": 3,
       "scheduled_for": "2026-06-29T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-rfpro-mpyba492__chris-archer",
-      "company": "rFpro",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-rfpro-mpyba492__matt-daley",
       "company": "rFpro",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__andreas-klein",
-      "company": "SGL Carbon",
-      "touch_n": 4,
       "scheduled_for": "2026-06-29T09:30:00Z"
     },
     {
@@ -8310,12 +7662,6 @@
     },
     {
       "prospect_id": "bd-platform-microlise-mpx2lbsw__nadeem-raza",
-      "company": "Microlise",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__trevor-mcgahan",
       "company": "Microlise",
       "touch_n": 3,
       "scheduled_for": "2026-06-29T09:30:00Z"
@@ -8417,12 +7763,6 @@
       "scheduled_for": "2026-06-29T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-lacroix-mpyjuh34__vincent-bedouin",
-      "company": "LACROIX Group",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
       "company": "Motion Applied (ex-McLaren Applied)",
       "touch_n": 2,
@@ -8435,38 +7775,14 @@
       "scheduled_for": "2026-06-29T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-allforone-mpxt7z3e__michael-zitz",
-      "company": "All for One Group SE",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-ga-mpyp92gu__elodie-le-breton",
       "company": "GA Smart Building",
       "touch_n": 4,
       "scheduled_for": "2026-06-29T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-note-mpynl6fa__johannes-lind-widestam",
-      "company": "NOTE AB",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-scanfil-mpyo823g__christophe-sut",
       "company": "Scanfil",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__lars-skanke",
-      "company": "Scanfil",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-gse-mpyot2h2__roland-paul",
-      "company": "GSE Group",
       "touch_n": 4,
       "scheduled_for": "2026-06-29T09:30:00Z"
     },
@@ -8525,26 +7841,8 @@
       "scheduled_for": "2026-06-30T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-rfpro-mpyba492__peter-daley",
-      "company": "rFpro",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__steffen-janetzko",
-      "company": "SGL Carbon",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-lohmann-mpy72e9a__nicole-ehrmann",
       "company": "Lohmann GmbH & Co. KG",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__mike-blackburn",
-      "company": "Microlise",
       "touch_n": 4,
       "scheduled_for": "2026-06-30T09:30:00Z"
     },
@@ -8573,12 +7871,6 @@
       "scheduled_for": "2026-06-30T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-delo-mpyeme1z__nina-bosch",
-      "company": "DELO Industrial Adhesives",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",
       "company": "Cruden B.V.",
       "touch_n": 3,
@@ -8588,12 +7880,6 @@
       "prospect_id": "bd-platform-sika-mpyf3e5d__paulo-silva",
       "company": "Sika",
       "touch_n": 3,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-allforone-mpxt7z3e__stefan-land",
-      "company": "All for One Group SE",
-      "touch_n": 2,
       "scheduled_for": "2026-06-30T09:30:00Z"
     },
     {
@@ -8609,38 +7895,14 @@
       "scheduled_for": "2026-06-30T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-cymotive-mpyhplaq__tsafrir-kats",
-      "company": "CYMOTIVE Technologies",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
       "company": "NAGASE (Europa) GmbH",
       "touch_n": 2,
       "scheduled_for": "2026-06-30T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-efg-mpyqiww3__giorgio-pradelli",
-      "company": "EFG International",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-myra-mpyi5y2t__paul-kaffsack",
       "company": "Myra Security",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__patrick-arnold",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__nick-jefferies",
-      "company": "discoverIE Group plc",
       "touch_n": 4,
       "scheduled_for": "2026-06-30T09:30:00Z"
     },
@@ -8669,20 +7931,8 @@
       "scheduled_for": "2026-07-01T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__julian-mentz",
-      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
       "company": "Porcher Industries",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bossard-mpyolgfb__daniel-bossard",
-      "company": "Bossard Group",
       "touch_n": 3,
       "scheduled_for": "2026-07-01T09:30:00Z"
     },
@@ -8693,26 +7943,8 @@
       "scheduled_for": "2026-07-01T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-csl-mpydhpmz__ed-heale",
-      "company": "CSL Group (incl. Caburn Telecom)",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-cymotive-mpyhplaq__tamir-bechor",
-      "company": "CYMOTIVE Technologies",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
       "company": "NAGASE (Europa) GmbH",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sensirion-mpyjecwz__maximilian-eichberger",
-      "company": "Sensirion Automotive Solutions",
       "touch_n": 2,
       "scheduled_for": "2026-07-01T09:30:00Z"
     },
@@ -8789,26 +8021,8 @@
       "scheduled_for": "2026-07-02T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-sensirion-mpyjecwz__luca-villani",
-      "company": "Sensirion Automotive Solutions",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-banca-mpxu5u8d__gabriele-corte",
-      "company": "Banca del Ceresio (Ceresio Investors)",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
       "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-argan-mpyp1ry8__ronan-le-lan",
-      "company": "Argan",
       "touch_n": 4,
       "scheduled_for": "2026-07-02T09:30:00Z"
     },
@@ -8915,20 +8129,8 @@
       "scheduled_for": "2026-07-03T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-lacroix-mpyjuh34__vincent-bedouin",
-      "company": "LACROIX Group",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
       "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-allforone-mpxt7z3e__michael-zitz",
-      "company": "All for One Group SE",
       "touch_n": 3,
       "scheduled_for": "2026-07-03T09:30:00Z"
     },

@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-06-22T08:21:12Z",
+  "generated_at": "2026-06-22T10:00:16Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 53,
@@ -32,7 +32,7 @@
     "sends_total": 169,
     "replies_total": 13,
     "replies_positive": 1,
-    "upcoming_14d": 37
+    "upcoming_14d": 22
   },
   "prospects": [
     {
@@ -92,8 +92,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-aerospacelab-mpys433x__tina-ghataore",
@@ -1412,8 +1412,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-melexis-klaus__klaus-wilczek",
@@ -1502,8 +1502,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa24-millers-mpyg04ga__jody-blair",
@@ -1622,8 +1622,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-10T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_ovhcloud_benjamin_revcolevschi",
@@ -2642,8 +2642,8 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-05T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "spa_tractable_alex_dalyac",
@@ -3370,84 +3370,6 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "spa24-mpogxocw__paul-laval",
-      "company": "Melexis",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-melexis-gerald__gerald-meyer",
-      "company": "Melexis",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-tractable__venkat-sathyamurthy",
-      "company": "Tractable",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-05T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-mollie-mpxsz6ib__koen-koppen",
-      "company": "Mollie",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-aerospacelab-mpys433x__celia-berlemont",
-      "company": "Aerospacelab",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-mpogxocw__paul-laval",
-      "company": "Melexis",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-melexis-gerald__gerald-meyer",
-      "company": "Melexis",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-tractable__venkat-sathyamurthy",
-      "company": "Tractable",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-11T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-mollie-mpxsz6ib__koen-koppen",
-      "company": "Mollie",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-aerospacelab-mpys433x__celia-berlemont",
-      "company": "Aerospacelab",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-16T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-mpogxocw__paul-laval",
-      "company": "Melexis",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-melexis-gerald__gerald-meyer",
-      "company": "Melexis",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-tractable__venkat-sathyamurthy",
-      "company": "Tractable",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-17T09:30:00Z"
-    },
-    {
       "prospect_id": "spa24-kempower-mppp8zdn__jussi-vanhanen",
       "company": "Kempower",
       "touch_n": 4,
@@ -3456,12 +3378,6 @@
     {
       "prospect_id": "spa24-punch-mpqu8t2o__koen-morrhey",
       "company": "Punch Powertrain",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-mollie-mpxsz6ib__koen-koppen",
-      "company": "Mollie",
       "touch_n": 4,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
@@ -3576,12 +3492,6 @@
     {
       "prospect_id": "spa24-baltic-mpyrvw16__etienne-malec",
       "company": "Baltic Watches",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "spa24-aerospacelab-mpys433x__celia-berlemont",
-      "company": "Aerospacelab",
       "touch_n": 4,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
