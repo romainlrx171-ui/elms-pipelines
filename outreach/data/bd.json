@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-22T08:21:13Z",
+  "generated_at": "2026-06-22T09:19:16Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 149,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 221,
+    "sends_total": 223,
     "replies_total": 18,
     "replies_positive": 3,
-    "upcoming_14d": 322
+    "upcoming_14d": 320
   },
   "prospects": [
     {
@@ -4162,16 +4162,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:35",
       "updated_at": "2026-06-04 10:40:35",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-22 09:17:49",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-porcher-mpyfs7vk__andre-genton",
@@ -5272,16 +5272,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:20",
       "updated_at": "2026-06-04 10:40:20",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-22 09:04:12",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-taoglas-mpx4k2s9__taylor-kimmerle",
@@ -6314,8 +6314,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:35",
       "assignments": 3,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6419,8 +6419,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:20",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7391,20 +7391,8 @@
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
-      "company": "Taoglas",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-mankiewicz-mpy8gzed__julian-mentz",
       "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
-      "company": "Porcher Industries",
       "touch_n": 1,
       "scheduled_for": "2026-06-19T09:30:00Z"
     },
