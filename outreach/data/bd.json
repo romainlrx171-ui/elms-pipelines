@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-22T14:14:56Z",
+  "generated_at": "2026-06-23T07:11:21Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 148,
@@ -30,7 +30,7 @@
     "sends_total": 247,
     "replies_total": 19,
     "replies_positive": 3,
-    "upcoming_14d": 165
+    "upcoming_14d": 181
   },
   "prospects": [
     {
@@ -8031,6 +8031,102 @@
       "company": "Petraco Oil Company",
       "touch_n": 4,
       "scheduled_for": "2026-07-03T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lohmann-mpy72e9a__phil-lotz",
+      "company": "Lohmann GmbH & Co. KG",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
+      "company": "Bertrandt",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-toray-mpyfiz6l__nadine-friji",
+      "company": "Toray Carbon Fibers Europe",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
+      "company": "Taoglas",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
+      "company": "Taoglas",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
+      "company": "Velos IoT",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",
+      "company": "Cruden B.V.",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sika-mpyf3e5d__paulo-silva",
+      "company": "Sika",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
+      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
+      "company": "Porcher Industries",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
+      "company": "Porcher Industries",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__paolo-bargiacchi",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
+      "company": "Devoteam",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-csl-mpydhpmz__greville-coe",
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
+      "company": "NAGASE (Europa) GmbH",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
+      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-06T09:30:00Z"
     }
   ]
 }
