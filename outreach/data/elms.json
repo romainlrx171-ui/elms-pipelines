@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-24T15:00:26Z",
+  "generated_at": "2026-06-24T16:00:48Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 210,
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 248,
+    "sends_total": 252,
     "replies_total": 11,
     "replies_positive": 1,
-    "upcoming_14d": 413
+    "upcoming_14d": 402
   },
   "prospects": [
     {
@@ -399,8 +399,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms_apollo_avisto_christophe_unknown",
@@ -879,8 +879,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms-apexai-mpq1p9rd__nicole-pavelka",
@@ -1149,8 +1149,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms-beck-mppxx9bu__alexander-beck",
@@ -2259,8 +2259,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms_apollo_codico_walter_unknown",
@@ -2319,8 +2319,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms_cognata_gadi_sznajder",
@@ -2559,8 +2559,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms_comms365_tbd",
@@ -4689,8 +4689,8 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms_apollo_guardknox_anat_unknown",
@@ -8911,16 +8911,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-25 18:46:02",
       "updated_at": "2026-05-26T08:31:20+00:00",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 15:47:12",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_tttech_auto_friedhelm_pickhard",
@@ -9091,16 +9091,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-25 18:46:02",
       "updated_at": "2026-05-26T08:31:20+00:00",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 15:50:49",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-teltonika-mpqrjltb__darius-malisauskas",
@@ -9331,16 +9331,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-25 18:46:02",
       "updated_at": "2026-05-26T08:31:20+00:00",
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 15:55:30",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_utac_laurent_benoit",
@@ -9391,16 +9391,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-05-25 18:52:01",
       "updated_at": "2026-05-26T08:31:20+00:00",
-      "sends_total": 0,
+      "sends_total": 1,
       "sends_ok": 0,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 15:59:38",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_upstream_security_yonatan_appel",
@@ -12173,8 +12173,8 @@
       "ended_at": null,
       "created_at": "2026-05-25 18:01:05",
       "assignments": 139,
-      "sends_total": 23,
-      "sends_ok": 19,
+      "sends_total": 27,
+      "sends_ok": 21,
       "sends_bounced": 4,
       "replies_total": 3,
       "replies_positive": 0
@@ -12216,72 +12216,6 @@
       "company": "Monogoto",
       "touch_n": 2,
       "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_atesteo_sebastian_buenger",
-      "company": "ATESTEO",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_alpitronic_patrik_unknown",
-      "company": "Alpitronic",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_aurora_labs_zohar_fox",
-      "company": "Aurora Labs",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_codico_magnus_unknown",
-      "company": "Codico",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_cognata_danny_atsmon",
-      "company": "Cognata",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_apollo_comms365_will_unknown",
-      "company": "Comms365",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_geotab_neil_cawse",
-      "company": "Geotab",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_tttech_auto_dirk_linzmeier",
-      "company": "TTTech Auto",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_targa_telematics_adriano_scardellato",
-      "company": "Targa Telematics",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_utac_connor_mccormack",
-      "company": "UTAC",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms_upstream_security_yoav_levy",
-      "company": "Upstream Security",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-23T09:30:00Z"
     },
     {
       "prospect_id": "elms_apollo_workz_mark_unknown",
