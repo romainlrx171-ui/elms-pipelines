@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-24T16:00:48Z",
+  "generated_at": "2026-06-24T17:00:53Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 148,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 266,
+    "sends_total": 270,
     "replies_total": 19,
     "replies_positive": 3,
-    "upcoming_14d": 174
+    "upcoming_14d": 170
   },
   "prospects": [
     {
@@ -682,16 +682,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:10",
       "updated_at": "2026-06-04 10:40:10",
-      "sends_total": 1,
+      "sends_total": 2,
       "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 13:02:46",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-24 16:44:19",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
@@ -1402,16 +1402,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:46",
       "updated_at": "2026-06-04 10:39:46",
-      "sends_total": 2,
+      "sends_total": 3,
       "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 10:17:06",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-24 16:12:23",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-dynisma-mpy9mo3i__simon-holloway",
@@ -3802,16 +3802,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:14",
       "updated_at": "2026-06-04 10:40:14",
-      "sends_total": 1,
+      "sends_total": 2,
       "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 13:04:14",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-24 16:52:56",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-p3-mpx41m62__marius-mailat",
@@ -5422,16 +5422,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:15",
       "updated_at": "2026-06-04 10:40:15",
-      "sends_total": 1,
+      "sends_total": 2,
       "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 13:05:41",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-24 16:57:15",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-23T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
@@ -6434,7 +6434,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
-      "sends_total": 4,
+      "sends_total": 5,
       "sends_ok": 3,
       "sends_bounced": 1,
       "replies_total": 1,
@@ -6449,7 +6449,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
-      "sends_total": 4,
+      "sends_total": 5,
       "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -6464,7 +6464,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:10",
       "assignments": 3,
-      "sends_total": 4,
+      "sends_total": 5,
       "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -6644,7 +6644,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:46",
       "assignments": 3,
-      "sends_total": 4,
+      "sends_total": 5,
       "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -7065,30 +7065,6 @@
       "company": "GA Smart Building",
       "touch_n": 3,
       "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__graeme-cook",
-      "company": "Dynisma",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bertrandt-mpx3tga2__andreas-fink",
-      "company": "Bertrandt",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-p3-mpx41m62__klaus-lerner",
-      "company": "P3 group GmbH",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-marc-guilhempey",
-      "company": "Toray Carbon Fibers Europe",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-23T09:30:00Z"
     },
     {
       "prospect_id": "bd-platform-taoglas-mpx4k2s9__taylor-kimmerle",
