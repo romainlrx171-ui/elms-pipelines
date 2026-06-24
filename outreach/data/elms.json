@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-23T07:11:21Z",
+  "generated_at": "2026-06-24T14:10:21Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 210,
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 234,
+    "sends_total": 247,
     "replies_total": 11,
     "replies_positive": 1,
-    "upcoming_14d": 408
+    "upcoming_14d": 413
   },
   "prospects": [
     {
@@ -271,16 +271,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:30",
       "updated_at": "2026-06-04 10:40:30",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 13:48:48",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-abax-mppykp9y__sofia-toll",
@@ -1411,16 +1411,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:57",
       "updated_at": "2026-06-04 10:39:57",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 14:00:15",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-24 13:08:26",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_apollo_beck_elektronik_nicolai_unknown",
@@ -1651,16 +1651,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 3,
+      "sends_total": 4,
       "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 12:00:14",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-06-24 12:57:52",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-19T09:30:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-cadfem-mpq0lagr__matthias-alberts",
@@ -3391,16 +3391,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:29",
       "updated_at": "2026-06-04 10:40:29",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 13:45:34",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-elmos-mppsizv1__jan-dienstuhl",
@@ -4381,16 +4381,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:05",
       "updated_at": "2026-06-04 10:40:05",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 11:04:30",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-24 13:26:47",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_foretellix_doron_ilan",
@@ -5461,16 +5461,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:47",
       "updated_at": "2026-06-04 10:41:47",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 08:23:51",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-24 14:06:29",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms_apollo_karamba_security_adar_unknown",
@@ -5911,16 +5911,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:33",
       "updated_at": "2026-06-04 10:40:33",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 13:56:35",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-konrad-mpq08oi3__laurent-chatard",
@@ -6001,16 +6001,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:24",
       "updated_at": "2026-06-04 10:40:24",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 13:42:10",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms_apollo_konrad_technologies_murali_unknown",
@@ -6151,16 +6151,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:31",
       "updated_at": "2026-06-04 10:40:31",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-06-24 13:52:41",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "elms-lauterbach-mppzjv6w__thomas-ullmann",
@@ -6391,16 +6391,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:07",
       "updated_at": "2026-06-04 10:40:07",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 11:07:04",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-24 13:38:49",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms_apollo_monogoto_leonardo_unknown",
@@ -7861,16 +7861,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:48",
       "updated_at": "2026-06-04 10:41:48",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 08:25:21",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-24 14:10:18",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms-scaleway-mpwrw9sf__paola-gabriele",
@@ -8221,16 +8221,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:03",
       "updated_at": "2026-06-04 10:40:03",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-16 14:04:30",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-24 13:23:14",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "elms-shiftmove-mppy8zb7__jason-kolt",
@@ -9571,16 +9571,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:38:36",
       "updated_at": "2026-06-04 10:38:36",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-17 13:00:14",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-24 13:04:49",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms-verimatrix-mpqcuqqx__carlo-stramaglia",
@@ -11033,8 +11033,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:49",
       "assignments": 2,
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11048,8 +11048,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:48",
       "assignments": 2,
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11558,8 +11558,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:34",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11603,8 +11603,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:31",
       "assignments": 3,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11633,8 +11633,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:30",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11648,8 +11648,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:29",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11693,8 +11693,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:25",
       "assignments": 3,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11873,8 +11873,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:08",
       "assignments": 3,
-      "sends_total": 5,
-      "sends_ok": 4,
+      "sends_total": 6,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11888,8 +11888,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:05",
       "assignments": 2,
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11918,8 +11918,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:03",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 1,
       "replies_total": 1,
       "replies_positive": 0
@@ -11948,8 +11948,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:57",
       "assignments": 3,
-      "sends_total": 5,
-      "sends_ok": 5,
+      "sends_total": 6,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12098,8 +12098,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:38:36",
       "assignments": 3,
-      "sends_total": 8,
-      "sends_ok": 8,
+      "sends_total": 9,
+      "sends_ok": 9,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12128,7 +12128,7 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 3,
-      "sends_total": 11,
+      "sends_total": 12,
       "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -12212,87 +12212,9 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "elms-cadfem-mpq0lagr__elena-vallejo",
-      "company": "CADFEM",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-19T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-vector-mpx32ndn__matthias-traub",
-      "company": "Vector Informatik",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-bcomp-mpxrolz4__per-martensson",
-      "company": "Bcomp",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-shiftmove-mppy8zb7__francine-gervazio",
-      "company": "Shiftmove",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-foretellix-mpq79p8s__ziv-binyamini",
-      "company": "Foretellix",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-monogoto-mpq4mrjp__maor-efrati",
-      "company": "Monogoto",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
       "prospect_id": "elms-monogoto-mpq4mrjp__israel-cohen",
       "company": "Monogoto",
       "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-konrad-mpq08oi3__olivier-chatard",
-      "company": "Konrad Technologies",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-elmos-mppsizv1__carla-siebel",
-      "company": "Elmos Semiconductor SE",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-abax-mppykp9y__emma-dyga",
-      "company": "ABAX",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-lauterbach-mppzjv6w__stephan-lauterbach",
-      "company": "Lauterbach GmbH",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-kognic-mpx3cgxx__jon-jaleby",
-      "company": "Kognic",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-karamba-mpq305n9__david-barzilai",
-      "company": "Karamba Security",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-scaleway-mpwrw9sf__damien-lucas",
-      "company": "Scaleway",
-      "touch_n": 3,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
@@ -14658,6 +14580,114 @@
       "company": "Pelion",
       "touch_n": 2,
       "scheduled_for": "2026-07-06T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cubic-telecom-mpoog0mv__matt-simmons",
+      "company": "Cubic Telecom",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-konrad-mpq08oi3__laurent-chatard",
+      "company": "Konrad Technologies",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-elmos-mppsizv1__arne-schneider",
+      "company": "Elmos Semiconductor SE",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-emnify-mppwht5n__frank-stoecker",
+      "company": "emnify",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-abax-mppykp9y__sofia-toll",
+      "company": "ABAX",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-lauterbach-mppzjv6w__norbert-weiss",
+      "company": "Lauterbach GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-segger-mpq6x4n6__ivo-geilenbruegge",
+      "company": "SEGGER Microcontroller",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-multiverse-mpwucqhv__alfonso-rubio",
+      "company": "Multiverse Computing",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-kognic-mpx3cgxx__daniel-langkilde",
+      "company": "Kognic",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-mapon-mpydq9t4__raitis-purins",
+      "company": "Mapon",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-keepit-mpwsty1g__morten-felsvang",
+      "company": "Keepit",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-heilind-mppwtj4z__stefan-barrig",
+      "company": "Heilind Electronics Europe",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-yeswehack-mpqfhrwm__marine-magnant",
+      "company": "YesWeHack",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-smartmicro-mpy8wsc5__ralph-mende",
+      "company": "smartmicro (s.m.s, smart microwave sensors GmbH)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cohda-mpq3bvm2__andrea-ash",
+      "company": "Cohda Wireless",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-kigen-mpq3nll5__vincent-korstanje",
+      "company": "Kigen",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-ermenegildo-mpxv25v8__edoardo-zegna",
+      "company": "Ermenegildo Zegna (Zegna Group)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-cybelangel-mpqf5oei__gregory-faitas",
+      "company": "CybelAngel",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-07T09:30:00Z"
     }
   ]
 }
