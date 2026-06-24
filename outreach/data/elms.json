@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-06-24T14:10:21Z",
+  "generated_at": "2026-06-24T15:00:26Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 210,
@@ -36,7 +36,7 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 247,
+    "sends_total": 248,
     "replies_total": 11,
     "replies_positive": 1,
     "upcoming_14d": 413
@@ -1651,11 +1651,11 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-03 10:20:59",
       "updated_at": "2026-06-03 10:20:59",
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-24 12:57:52",
+      "last_sent_at": "2026-06-24 14:58:56",
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
@@ -12128,8 +12128,8 @@
       "ended_at": null,
       "created_at": "2026-06-03 10:21:38",
       "assignments": 3,
-      "sends_total": 12,
-      "sends_ok": 11,
+      "sends_total": 13,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0

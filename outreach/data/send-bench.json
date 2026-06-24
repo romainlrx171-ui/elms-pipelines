@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-24T14:10:21Z",
+  "generated_at": "2026-06-24T15:00:26Z",
   "totals": {
-    "sends_total": 693,
+    "sends_total": 696,
     "sends_bounced": 14,
     "replies_total": 46,
     "replies_positive": 5,
-    "reply_rate": 0.0664,
-    "bounce_rate": 0.0202
+    "reply_rate": 0.0661,
+    "bounce_rate": 0.0201
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 255,
+      "sends_total": 257,
       "sends_ok": 245,
       "sends_bounced": 4,
-      "sends_error": 10,
+      "sends_error": 12,
       "replies_total": 19,
       "replies_positive": 3,
       "replies_negative": 1,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0745,
-      "bounce_rate": 0.0157,
-      "positive_rate": 0.0118
+      "reply_rate": 0.0739,
+      "bounce_rate": 0.0156,
+      "positive_rate": 0.0117
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 247,
-      "sends_ok": 237,
+      "sends_total": 248,
+      "sends_ok": 238,
       "sends_bounced": 6,
       "sends_error": 4,
       "replies_total": 11,
@@ -41,8 +41,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0445,
-      "bounce_rate": 0.0243,
+      "reply_rate": 0.0444,
+      "bounce_rate": 0.0242,
       "positive_rate": 0.004
     },
     {
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 79,
+      "sends_total": 81,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -124,7 +124,7 @@
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 7,
+      "sends_total": 8,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -2713,6 +2713,13 @@
     },
     {
       "subject": "Last note before the season ends",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note before Silverstone",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
