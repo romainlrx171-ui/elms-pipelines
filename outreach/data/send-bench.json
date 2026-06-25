@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-24T19:15:13Z",
+  "generated_at": "2026-06-25T06:00:35Z",
   "totals": {
-    "sends_total": 757,
+    "sends_total": 758,
     "sends_bounced": 15,
     "replies_total": 47,
     "replies_positive": 5,
-    "reply_rate": 0.0621,
+    "reply_rate": 0.062,
     "bounce_rate": 0.0198
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 286,
-      "sends_ok": 248,
+      "sends_total": 287,
+      "sends_ok": 249,
       "sends_bounced": 4,
       "sends_error": 38,
       "replies_total": 19,
@@ -23,8 +23,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0664,
-      "bounce_rate": 0.014,
+      "reply_rate": 0.0662,
+      "bounce_rate": 0.0139,
       "positive_rate": 0.0105
     },
     {
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 108,
+      "sends_total": 109,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -3323,6 +3323,13 @@
     {
       "subject": "How a race weekend moves pipeline",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How a race day closes",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0

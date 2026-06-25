@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-25T05:54:39Z",
+  "generated_at": "2026-06-25T06:00:35Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 148,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 286,
+    "sends_total": 287,
     "replies_total": 19,
     "replies_positive": 3,
-    "upcoming_14d": 178
+    "upcoming_14d": 177
   },
   "prospects": [
     {
@@ -2692,16 +2692,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:58",
       "updated_at": "2026-06-04 10:39:58",
-      "sends_total": 6,
-      "sends_ok": 1,
+      "sends_total": 7,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-24 18:25:21",
+      "last_sent_at": "2026-06-25 06:00:10",
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-lohmann-mpy72e9a__siddhant-srivastava",
@@ -6569,8 +6569,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:58",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 5,
+      "sends_total": 11,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7046,12 +7046,6 @@
       "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
       "company": "HBK – Hottinger Brüel & Kjær",
       "touch_n": 3,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lohmann-mpy72e9a__phil-lotz",
-      "company": "Lohmann GmbH & Co. KG",
-      "touch_n": 2,
       "scheduled_for": "2026-06-22T09:30:00Z"
     },
     {
