@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-24T19:15:13Z",
+  "generated_at": "2026-06-25T05:54:39Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 148,
@@ -30,7 +30,7 @@
     "sends_total": 286,
     "replies_total": 19,
     "replies_positive": 3,
-    "upcoming_14d": 176
+    "upcoming_14d": 178
   },
   "prospects": [
     {
@@ -8097,6 +8097,18 @@
       "company": "Banca del Ceresio (Ceresio Investors)",
       "touch_n": 3,
       "scheduled_for": "2026-07-07T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-csl-mpydhpmz__helen-badger",
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-08T09:30:00Z"
     }
   ]
 }
