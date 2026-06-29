@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-25T06:00:35Z",
+  "generated_at": "2026-06-29T12:43:14Z",
   "totals": {
-    "sends_total": 758,
+    "sends_total": 770,
     "sends_bounced": 15,
     "replies_total": 47,
     "replies_positive": 5,
-    "reply_rate": 0.062,
-    "bounce_rate": 0.0198
+    "reply_rate": 0.061,
+    "bounce_rate": 0.0195
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 287,
-      "sends_ok": 249,
+      "sends_total": 296,
+      "sends_ok": 254,
       "sends_bounced": 4,
-      "sends_error": 38,
+      "sends_error": 42,
       "replies_total": 19,
       "replies_positive": 3,
       "replies_negative": 1,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0662,
-      "bounce_rate": 0.0139,
-      "positive_rate": 0.0105
+      "reply_rate": 0.0642,
+      "bounce_rate": 0.0135,
+      "positive_rate": 0.0101
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 280,
-      "sends_ok": 251,
+      "sends_total": 283,
+      "sends_ok": 254,
       "sends_bounced": 7,
       "sends_error": 22,
       "replies_total": 12,
@@ -41,9 +41,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0429,
-      "bounce_rate": 0.025,
-      "positive_rate": 0.0036
+      "reply_rate": 0.0424,
+      "bounce_rate": 0.0247,
+      "positive_rate": 0.0035
     },
     {
       "program": "SPA_24H",
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 109,
+      "sends_total": 116,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -84,10 +84,10 @@
     {
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 39,
+      "sends_total": 41,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0513
+      "reply_rate": 0.0488
     },
     {
       "touch_n": 4,
@@ -108,10 +108,10 @@
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 117,
+      "sends_total": 120,
       "replies_total": 6,
       "bounced": 5,
-      "reply_rate": 0.0513
+      "reply_rate": 0.05
     },
     {
       "touch_n": 3,
@@ -1193,6 +1193,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Why not just the Expo",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Why it's additive",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -1650,6 +1657,13 @@
     {
       "subject": "The mechanism, concretely",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The mechanism, briefly",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -3007,6 +3021,13 @@
     },
     {
       "subject": "How the paddock day works",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the paddock day works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -3265,6 +3286,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How it works",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How it stays off-brand",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -3274,6 +3302,13 @@
     {
       "subject": "How it returns",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How it moves your accounts",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -3477,6 +3512,13 @@
     {
       "subject": "From market leader to global brand",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "From brochure render to proof",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -3748,6 +3790,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Course et bas-carbone, sans friction",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Construire la liste invités",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -3784,6 +3833,13 @@
     },
     {
       "subject": "Concrètement, comment ça fonctionne",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Concrètement, comment",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
