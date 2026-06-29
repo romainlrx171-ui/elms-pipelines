@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-29T14:00:11Z",
+  "generated_at": "2026-06-29T15:00:12Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 146,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 333,
+    "sends_total": 337,
     "replies_total": 22,
     "replies_positive": 3,
-    "upcoming_14d": 135
+    "upcoming_14d": 100
   },
   "prospects": [
     {
@@ -450,7 +450,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T09:30:00Z",
+      "next_scheduled": "2026-07-06T12:48:00Z",
       "next_touch_n": 4
     },
     {
@@ -510,7 +510,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-02T12:48:00Z",
       "next_touch_n": 3
     },
     {
@@ -630,7 +630,7 @@
       "last_touch_n": 1,
       "last_reply_at": "2026-06-29T13:40:51Z",
       "last_sentiment": "ooo",
-      "next_scheduled": "2026-07-01T09:30:00Z",
+      "next_scheduled": "2026-07-06T12:10:00Z",
       "next_touch_n": 2
     },
     {
@@ -690,7 +690,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-01T10:09:00Z",
       "next_touch_n": 3
     },
     {
@@ -720,7 +720,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-08T09:15:00Z",
       "next_touch_n": 3
     },
     {
@@ -750,7 +750,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-06-30T09:23:00Z",
       "next_touch_n": 3
     },
     {
@@ -840,7 +840,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-07T11:41:00Z",
       "next_touch_n": 2
     },
     {
@@ -870,7 +870,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-06-30T11:24:00Z",
       "next_touch_n": 1
     },
     {
@@ -1020,7 +1020,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-07T09:40:00Z",
       "next_touch_n": 3
     },
     {
@@ -1080,7 +1080,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-08T10:26:00Z",
       "next_touch_n": 3
     },
     {
@@ -1140,7 +1140,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-06-30T11:16:00Z",
       "next_touch_n": 1
     },
     {
@@ -1170,7 +1170,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-08T11:45:00Z",
       "next_touch_n": 2
     },
     {
@@ -1290,7 +1290,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-06-30T12:56:00Z",
       "next_touch_n": 3
     },
     {
@@ -1342,16 +1342,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:01",
       "updated_at": "2026-06-04 10:42:01",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-22 14:00:21",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-29 14:04:11",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-07-08T12:19:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-dynisma-mpy9mo3i__ash-warne",
@@ -1380,7 +1380,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-08T08:00:00Z",
       "next_touch_n": 4
     },
     {
@@ -1410,7 +1410,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-01T09:15:00Z",
       "next_touch_n": 4
     },
     {
@@ -1650,7 +1650,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-08T10:09:00Z",
       "next_touch_n": 3
     },
     {
@@ -1770,7 +1770,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-07-01T12:19:00Z",
       "next_touch_n": 4
     },
     {
@@ -1800,7 +1800,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-09T12:02:00Z",
       "next_touch_n": 4
     },
     {
@@ -1830,7 +1830,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-07-02T12:10:00Z",
       "next_touch_n": 4
     },
     {
@@ -1980,7 +1980,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-07-09T08:00:00Z",
       "next_touch_n": 4
     },
     {
@@ -2010,7 +2010,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-07-01T09:11:00Z",
       "next_touch_n": 4
     },
     {
@@ -2160,7 +2160,7 @@
       "last_touch_n": 3,
       "last_reply_at": "2026-06-16T10:09:04Z",
       "last_sentiment": "ooo",
-      "next_scheduled": "2026-07-01T09:30:00Z",
+      "next_scheduled": "2026-07-09T09:11:00Z",
       "next_touch_n": 4
     },
     {
@@ -2460,7 +2460,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-09T08:46:00Z",
       "next_touch_n": 3
     },
     {
@@ -2490,7 +2490,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-07-01T09:49:00Z",
       "next_touch_n": 3
     },
     {
@@ -2520,7 +2520,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-07-02T10:18:00Z",
       "next_touch_n": 3
     },
     {
@@ -2700,7 +2700,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-02T09:52:00Z",
       "next_touch_n": 3
     },
     {
@@ -2730,7 +2730,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-01T09:32:00Z",
       "next_touch_n": 3
     },
     {
@@ -2782,16 +2782,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:34",
       "updated_at": "2026-06-04 10:40:34",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-22 13:00:16",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-06-29 14:02:35",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-07-09T10:26:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd_marchesini_group_maurizio_marchesini",
@@ -3000,7 +3000,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T09:30:00Z",
+      "next_scheduled": "2026-07-09T08:34:00Z",
       "next_touch_n": 4
     },
     {
@@ -3180,7 +3180,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-01T09:40:00Z",
       "next_touch_n": 3
     },
     {
@@ -3210,7 +3210,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-09T08:37:00Z",
       "next_touch_n": 4
     },
     {
@@ -3240,7 +3240,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:30:00Z",
+      "next_scheduled": "2026-06-30T10:09:00Z",
       "next_touch_n": 1
     },
     {
@@ -3270,7 +3270,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-07-01T11:24:00Z",
       "next_touch_n": 2
     },
     {
@@ -3300,7 +3300,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-09T10:47:00Z",
       "next_touch_n": 2
     },
     {
@@ -3330,7 +3330,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-09T12:39:00Z",
       "next_touch_n": 4
     },
     {
@@ -3360,7 +3360,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-01T12:39:00Z",
       "next_touch_n": 3
     },
     {
@@ -3450,7 +3450,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-06-30T11:41:00Z",
       "next_touch_n": 1
     },
     {
@@ -3480,7 +3480,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-09T11:16:00Z",
       "next_touch_n": 2
     },
     {
@@ -3810,7 +3810,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-02T10:47:00Z",
       "next_touch_n": 3
     },
     {
@@ -3870,7 +3870,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T09:30:00Z",
+      "next_scheduled": "2026-07-09T09:23:00Z",
       "next_touch_n": 4
     },
     {
@@ -4020,7 +4020,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-03T12:34:00Z",
       "next_touch_n": 3
     },
     {
@@ -4050,7 +4050,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-07-02T12:56:00Z",
       "next_touch_n": 3
     },
     {
@@ -4080,7 +4080,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T09:30:00Z",
+      "next_scheduled": "2026-07-10T12:44:00Z",
       "next_touch_n": 4
     },
     {
@@ -4170,7 +4170,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-07-02T11:53:00Z",
       "next_touch_n": 2
     },
     {
@@ -4200,7 +4200,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-03T11:32:00Z",
       "next_touch_n": 2
     },
     {
@@ -4230,7 +4230,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-10T10:32:00Z",
       "next_touch_n": 2
     },
     {
@@ -4500,7 +4500,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-10T12:19:00Z",
       "next_touch_n": 4
     },
     {
@@ -4620,7 +4620,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T09:30:00Z",
+      "next_scheduled": "2026-07-10T08:44:00Z",
       "next_touch_n": 4
     },
     {
@@ -4680,7 +4680,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-10T11:50:00Z",
       "next_touch_n": 4
     },
     {
@@ -4740,7 +4740,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-07-02T12:39:00Z",
       "next_touch_n": 3
     },
     {
@@ -4770,7 +4770,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-01T09:30:00Z",
+      "next_scheduled": "2026-07-10T12:34:00Z",
       "next_touch_n": 4
     },
     {
@@ -4920,7 +4920,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-10T12:24:00Z",
       "next_touch_n": 4
     },
     {
@@ -4980,7 +4980,7 @@
       "last_touch_n": 2,
       "last_reply_at": "2026-06-18T09:16:53Z",
       "last_sentiment": "ooo",
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-10T10:12:00Z",
       "next_touch_n": 3
     },
     {
@@ -5040,7 +5040,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-10T08:09:00Z",
       "next_touch_n": 4
     },
     {
@@ -5070,7 +5070,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-02T09:23:00Z",
       "next_touch_n": 3
     },
     {
@@ -5100,7 +5100,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-07-02T10:30:00Z",
       "next_touch_n": 3
     },
     {
@@ -5130,7 +5130,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
+      "next_scheduled": "2026-07-03T10:30:00Z",
       "next_touch_n": 3
     },
     {
@@ -5160,7 +5160,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-10T09:23:00Z",
       "next_touch_n": 3
     },
     {
@@ -5250,7 +5250,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:30:00Z",
+      "next_scheduled": "2026-07-02T11:16:00Z",
       "next_touch_n": 2
     },
     {
@@ -5280,7 +5280,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-07-03T11:01:00Z",
       "next_touch_n": 2
     },
     {
@@ -5310,7 +5310,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-10T09:57:00Z",
       "next_touch_n": 3
     },
     {
@@ -5430,7 +5430,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-02T10:55:00Z",
       "next_touch_n": 3
     },
     {
@@ -5452,16 +5452,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:15",
       "updated_at": "2026-06-04 10:40:15",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-22 12:46:25",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-29 14:21:38",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-26T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-07-10T09:28:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-toray-mpyfiz6l__nadine-friji",
@@ -5550,7 +5550,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-25T09:30:00Z",
+      "next_scheduled": "2026-07-02T09:03:00Z",
       "next_touch_n": 4
     },
     {
@@ -5580,7 +5580,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-10T10:07:00Z",
       "next_touch_n": 3
     },
     {
@@ -5610,7 +5610,7 @@
       "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-24T09:30:00Z",
+      "next_scheduled": "2026-07-02T11:24:00Z",
       "next_touch_n": 2
     },
     {
@@ -5722,16 +5722,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:02",
       "updated_at": "2026-06-04 10:42:02",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-22 14:03:41",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-06-29 14:04:46",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-07-08T12:22:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd_hyperexponential_amrit_santhirasenan",
@@ -5850,7 +5850,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T09:30:00Z",
+      "next_scheduled": "2026-07-10T08:39:00Z",
       "next_touch_n": 4
     },
     {
@@ -5910,7 +5910,7 @@
       "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:30:00Z",
+      "next_scheduled": "2026-07-10T09:03:00Z",
       "next_touch_n": 4
     },
     {
@@ -5940,7 +5940,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-29T09:30:00Z",
+      "next_scheduled": "2026-07-02T10:09:00Z",
       "next_touch_n": 3
     }
   ],
@@ -5999,8 +5999,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:02",
       "assignments": 2,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6014,8 +6014,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:01",
       "assignments": 3,
-      "sends_total": 9,
-      "sends_ok": 3,
+      "sends_total": 10,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6329,8 +6329,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:34",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6449,8 +6449,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:15",
       "assignments": 3,
-      "sends_total": 6,
-      "sends_ok": 4,
+      "sends_total": 7,
+      "sends_ok": 5,
       "sends_bounced": 1,
       "replies_total": 1,
       "replies_positive": 0
@@ -7043,814 +7043,604 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
-      "company": "Taoglas",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-24T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
-      "company": "Velos IoT",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-24T09:30:00Z"
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__michael-lucke",
+      "company": "Bertrandt",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T09:23:00Z"
     },
     {
       "prospect_id": "bd-platform-motion-mpyd0n9i__paolo-bargiacchi",
       "company": "Motion Applied (ex-McLaren Applied)",
       "touch_n": 1,
-      "scheduled_for": "2026-06-24T09:30:00Z"
+      "scheduled_for": "2026-06-30T10:09:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
+      "company": "Devoteam",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-30T11:16:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-csl-mpydhpmz__helen-badger",
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-30T11:24:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
+      "company": "NAGASE (Europa) GmbH",
+      "touch_n": 1,
+      "scheduled_for": "2026-06-30T11:41:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
+      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
+      "touch_n": 3,
+      "scheduled_for": "2026-06-30T12:56:00Z"
     },
     {
       "prospect_id": "bd-platform-hbk-mpya4gms__meredith-foster",
       "company": "HBK – Hottinger Brüel & Kjær",
       "touch_n": 4,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
-      "company": "VI-grade",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__frank-werner",
-      "company": "Klüber Lubrication",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__carmen-koch",
-      "company": "Speedgoat",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
-      "company": "Taoglas",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
-      "company": "Porcher Industries",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
-      "company": "Devoteam",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
-      "company": "NAGASE (Europa) GmbH",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ga-mpyp92gu__aurelien-ngangue",
-      "company": "GA Smart Building",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-25T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
-      "company": "HBK – Hottinger Brüel & Kjær",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
-      "company": "Klüber Lubrication",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
-      "company": "Speedgoat",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bertrandt-mpx3tga2__michael-lucke",
-      "company": "Bertrandt",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
-      "company": "Toray Carbon Fibers Europe",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-csl-mpydhpmz__helen-badger",
-      "company": "CSL Group (incl. Caburn Telecom)",
-      "touch_n": 1,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ga-mpyp92gu__marc-daumas",
-      "company": "GA Smart Building",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
-      "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
-      "company": "Petraco Oil Company",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-26T09:30:00Z"
+      "scheduled_for": "2026-07-01T09:11:00Z"
     },
     {
       "prospect_id": "bd-platform-dynisma-mpy9mo3i__graeme-cook",
       "company": "Dynisma",
       "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__ash-warne",
-      "company": "Dynisma",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-simscale-mpy4o1ja__richard-szoke-schuller",
-      "company": "SimScale",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T09:15:00Z"
     },
     {
       "prospect_id": "bd-platform-lohmann-mpy72e9a__siddhant-srivastava",
       "company": "Lohmann GmbH & Co. KG",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lohmann-mpy72e9a__phil-lotz",
-      "company": "Lohmann GmbH & Co. KG",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T09:32:00Z"
     },
     {
       "prospect_id": "bd-platform-monolith-mpx2t36q__francesco-montomoli",
       "company": "Monolith AI",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T09:40:00Z"
     },
     {
-      "prospect_id": "bd-platform-tesa-mpyev9zf__dr-kourosh-bahrami",
-      "company": "tesa SE",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__chris-licursi",
+      "prospect_id": "bd-platform-klber-mpyg8nwd__frank-werner",
       "company": "Klüber Lubrication",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__patric-schenk",
-      "company": "Speedgoat",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T09:49:00Z"
     },
     {
       "prospect_id": "bd-platform-bertrandt-mpx3tga2__andreas-fink",
       "company": "Bertrandt",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T10:09:00Z"
     },
     {
-      "prospect_id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
-      "company": "Bertrandt",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-p3-mpx41m62__klaus-lerner",
-      "company": "P3 group GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-marc-guilhempey",
-      "company": "Toray Carbon Fibers Europe",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__taylor-kimmerle",
-      "company": "Taoglas",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
-      "company": "Element Materials Technology",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-velos-mpydak23__colin-chew",
-      "company": "Velos IoT",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
-      "company": "DELO Industrial Adhesives",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
-      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
-      "company": "Porcher Industries",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
-      "company": "Porcher Industries",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
+      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
       "company": "Motion Applied (ex-McLaren Applied)",
       "touch_n": 2,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T11:24:00Z"
     },
     {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__paolo-bargiacchi",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ga-mpyp92gu__elodie-le-breton",
+      "prospect_id": "bd-platform-ga-mpyp92gu__aurelien-ngangue",
       "company": "GA Smart Building",
       "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-scanfil-mpyo823g__christophe-sut",
-      "company": "Scanfil",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-se-mpxreakr__marius-wuestefeld",
-      "company": "SE Spezial-Electronic GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sicomin-mpxrwmo5__marc-denjean",
-      "company": "Sicomin",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T12:19:00Z"
     },
     {
       "prospect_id": "bd-platform-myra-mpyi5y2t__philipp-herrmann",
       "company": "Myra Security",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-01T12:39:00Z"
     },
     {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__subhendu-bose",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "prospect_id": "bd-platform-vigrade-mpyb1kv1__guido-bairati",
+      "company": "VI-grade",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T09:03:00Z"
     },
     {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
+      "prospect_id": "bd-platform-simscale-mpy4o1ja__richard-szoke-schuller",
+      "company": "SimScale",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-02T09:23:00Z"
     },
     {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__simon-gibbins",
-      "company": "discoverIE Group plc",
+      "prospect_id": "bd-platform-lohmann-mpy72e9a__phil-lotz",
+      "company": "Lohmann GmbH & Co. KG",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-02T09:52:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-tesa-mpyev9zf__dr-kourosh-bahrami",
+      "company": "tesa SE",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T10:09:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
+      "company": "Klüber Lubrication",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T10:18:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__carmen-koch",
+      "company": "Speedgoat",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T10:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-p3-mpx41m62__klaus-lerner",
+      "company": "P3 group GmbH",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T10:47:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-marc-guilhempey",
+      "company": "Toray Carbon Fibers Europe",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T10:55:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
+      "company": "Taoglas",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-02T11:16:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
+      "company": "Velos IoT",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-02T11:24:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
+      "company": "Porcher Industries",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-02T11:53:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ga-mpyp92gu__marc-daumas",
+      "company": "GA Smart Building",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-02T12:10:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
+      "company": "Schukat electronic Vertriebs GmbH",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T12:39:00Z"
     },
     {
       "prospect_id": "bd-platform-argan-mpyp1ry8__stephane-cassagne",
       "company": "Argan",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
+      "scheduled_for": "2026-07-02T12:48:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
+      "company": "Petraco Oil Company",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-02T12:56:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
+      "company": "Speedgoat",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-03T10:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
+      "company": "Taoglas",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-03T11:01:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
+      "company": "Porcher Industries",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-03T11:32:00Z"
     },
     {
       "prospect_id": "bd-platform-petraco-mpxuncd4__alberto-salsiccia",
       "company": "Petraco Oil Company",
       "touch_n": 3,
-      "scheduled_for": "2026-06-29T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-simscale-mpy4o1ja__jon-wilde",
-      "company": "SimScale",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-monolith-mpx2t36q__richard-ahlfeld",
-      "company": "Monolith AI",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-tesa-mpyev9zf__david-caro",
-      "company": "tesa SE",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
-      "company": "Taoglas",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
-      "company": "Velos IoT",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",
-      "company": "Cruden B.V.",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sika-mpyf3e5d__paulo-silva",
-      "company": "Sika",
-      "touch_n": 3,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
-      "company": "Devoteam",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-csl-mpydhpmz__greville-coe",
-      "company": "CSL Group (incl. Caburn Telecom)",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
-      "company": "NAGASE (Europa) GmbH",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-myra-mpyi5y2t__paul-kaffsack",
-      "company": "Myra Security",
-      "touch_n": 4,
-      "scheduled_for": "2026-06-30T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__frank-werner",
-      "company": "Klüber Lubrication",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__carmen-koch",
-      "company": "Speedgoat",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hpe-mpy6t79n__andrea-bozzoli",
-      "company": "HPE COXA (HPE Group)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
-      "company": "Taoglas",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
-      "company": "Porcher Industries",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
-      "company": "Devoteam",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
-      "company": "NAGASE (Europa) GmbH",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-banca-mpxu5u8d__roberto-cerratti",
-      "company": "Banca del Ceresio (Ceresio Investors)",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-schukat-mpyn5kfu__georg-schukat",
-      "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-argan-mpyp1ry8__aymar-de-germay",
-      "company": "Argan",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__russell-humphrey",
-      "company": "Petraco Oil Company",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-01T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
-      "company": "Klüber Lubrication",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
-      "company": "Speedgoat",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
+      "scheduled_for": "2026-07-03T12:34:00Z"
     },
     {
       "prospect_id": "bd-platform-bertrandt-mpx3tga2__michael-lucke",
       "company": "Bertrandt",
       "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
+      "scheduled_for": "2026-07-06T08:34:00Z"
     },
     {
-      "prospect_id": "bd-platform-p3-mpx41m62__robert-rendl",
-      "company": "P3 group GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
-      "company": "Toray Carbon Fibers Europe",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
+      "prospect_id": "bd-platform-motion-mpyd0n9i__paolo-bargiacchi",
       "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-02T09:30:00Z"
+      "touch_n": 2,
+      "scheduled_for": "2026-07-06T09:40:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
+      "company": "Devoteam",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-06T10:47:00Z"
     },
     {
       "prospect_id": "bd-platform-csl-mpydhpmz__helen-badger",
       "company": "CSL Group (incl. Caburn Telecom)",
       "touch_n": 2,
-      "scheduled_for": "2026-07-02T09:30:00Z"
+      "scheduled_for": "2026-07-06T10:55:00Z"
     },
     {
-      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
-      "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
-      "company": "Petraco Oil Company",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-simscale-mpy4o1ja__richard-szoke-schuller",
-      "company": "SimScale",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-rfpro-mpyba492__matt-daley",
-      "company": "rFpro",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sgl-mpyfb1co__thomas-dippold",
-      "company": "SGL Carbon",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lohmann-mpy72e9a__siddhant-srivastava",
-      "company": "Lohmann GmbH & Co. KG",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-microlise-mpx2lbsw__nadeem-raza",
-      "company": "Microlise",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-monolith-mpx2t36q__francesco-montomoli",
-      "company": "Monolith AI",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-tesa-mpyev9zf__dr-kourosh-bahrami",
-      "company": "tesa SE",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__chris-licursi",
-      "company": "Klüber Lubrication",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__patric-schenk",
-      "company": "Speedgoat",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bertrandt-mpx3tga2__andreas-fink",
-      "company": "Bertrandt",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-p3-mpx41m62__klaus-lerner",
-      "company": "P3 group GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-marc-guilhempey",
-      "company": "Toray Carbon Fibers Europe",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__taylor-kimmerle",
-      "company": "Taoglas",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
-      "company": "Element Materials Technology",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-velos-mpydak23__colin-chew",
-      "company": "Velos IoT",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
-      "company": "DELO Industrial Adhesives",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-myra-mpyi5y2t__philipp-herrmann",
-      "company": "Myra Security",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-duferco-mpxudv3y__subhendu-bose",
-      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__simon-gibbins",
-      "company": "discoverIE Group plc",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-argan-mpyp1ry8__stephane-cassagne",
-      "company": "Argan",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__alberto-salsiccia",
-      "company": "Petraco Oil Company",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-03T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lohmann-mpy72e9a__phil-lotz",
-      "company": "Lohmann GmbH & Co. KG",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
-      "company": "Bertrandt",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
-      "company": "Taoglas",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
-      "company": "Taoglas",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
-      "company": "Velos IoT",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",
-      "company": "Cruden B.V.",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sika-mpyf3e5d__paulo-silva",
-      "company": "Sika",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
-      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
-      "company": "Porcher Industries",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
-      "company": "Porcher Industries",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__paolo-bargiacchi",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
-      "company": "Devoteam",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-csl-mpydhpmz__greville-coe",
-      "company": "CSL Group (incl. Caburn Telecom)",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-06T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
+      "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
       "company": "NAGASE (Europa) GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-06T09:30:00Z"
+      "touch_n": 2,
+      "scheduled_for": "2026-07-06T11:16:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-banca-mpxu5u8d__roberto-cerratti",
+      "company": "Banca del Ceresio (Ceresio Investors)",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-06T12:10:00Z"
     },
     {
       "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
       "company": "Duferco SA (DITH — Duferco International Trading Holding)",
       "touch_n": 4,
-      "scheduled_for": "2026-07-06T09:30:00Z"
+      "scheduled_for": "2026-07-06T12:39:00Z"
     },
     {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
-      "company": "Porcher Industries",
+      "prospect_id": "bd-platform-argan-mpyp1ry8__aymar-de-germay",
+      "company": "Argan",
       "touch_n": 4,
-      "scheduled_for": "2026-07-07T09:30:00Z"
+      "scheduled_for": "2026-07-06T12:48:00Z"
     },
     {
-      "prospect_id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
-      "company": "Devoteam",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-07T09:30:00Z"
+      "prospect_id": "bd-platform-lohmann-mpy72e9a__siddhant-srivastava",
+      "company": "Lohmann GmbH & Co. KG",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T08:08:00Z"
     },
     {
-      "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
-      "company": "NAGASE (Europa) GmbH",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-07T09:30:00Z"
+      "prospect_id": "bd-platform-monolith-mpx2t36q__francesco-montomoli",
+      "company": "Monolith AI",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T08:17:00Z"
     },
     {
-      "prospect_id": "bd-platform-banca-mpxu5u8d__roberto-cerratti",
-      "company": "Banca del Ceresio (Ceresio Investors)",
+      "prospect_id": "bd-platform-klber-mpyg8nwd__frank-werner",
+      "company": "Klüber Lubrication",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T08:25:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__andreas-fink",
+      "company": "Bertrandt",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-07T08:46:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",
+      "company": "Cruden B.V.",
       "touch_n": 3,
-      "scheduled_for": "2026-07-07T09:30:00Z"
+      "scheduled_for": "2026-07-07T09:40:00Z"
     },
     {
       "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
       "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-08T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-csl-mpydhpmz__helen-badger",
-      "company": "CSL Group (incl. Caburn Telecom)",
       "touch_n": 3,
-      "scheduled_for": "2026-07-08T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-09T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
-      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
-      "company": "Porcher Industries",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__paolo-bargiacchi",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
-      "company": "Devoteam",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T09:30:00Z"
+      "scheduled_for": "2026-07-07T10:55:00Z"
     },
     {
       "prospect_id": "bd-platform-csl-mpydhpmz__greville-coe",
       "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-07T11:41:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-myra-mpyi5y2t__philipp-herrmann",
+      "company": "Myra Security",
       "touch_n": 4,
-      "scheduled_for": "2026-07-10T09:30:00Z"
+      "scheduled_for": "2026-07-07T12:31:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-dynisma-mpy9mo3i__ash-warne",
+      "company": "Dynisma",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T08:00:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-simscale-mpy4o1ja__richard-szoke-schuller",
+      "company": "SimScale",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T08:08:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lohmann-mpy72e9a__phil-lotz",
+      "company": "Lohmann GmbH & Co. KG",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T08:25:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-tesa-mpyev9zf__dr-kourosh-bahrami",
+      "company": "tesa SE",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T08:37:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
+      "company": "Klüber Lubrication",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T08:46:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__carmen-koch",
+      "company": "Speedgoat",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T09:03:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
+      "company": "Bertrandt",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-08T09:15:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-p3-mpx41m62__klaus-lerner",
+      "company": "P3 group GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T09:23:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-marc-guilhempey",
+      "company": "Toray Carbon Fibers Europe",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T09:32:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
+      "company": "Taoglas",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-08T10:01:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
+      "company": "Element Materials Technology",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-08T10:09:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
+      "company": "Velos IoT",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-08T10:18:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
+      "company": "DELO Industrial Adhesives",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-08T10:26:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
+      "company": "Porcher Industries",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-08T11:04:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
+      "company": "Devoteam",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-08T11:45:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-duferco-mpxudv3y__subhendu-bose",
+      "company": "Duferco SA (DITH — Duferco International Trading Holding)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T12:19:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-discoverie-mpyoeql2__simon-gibbins",
+      "company": "discoverIE Group plc",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T12:22:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
+      "company": "Schukat electronic Vertriebs GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T12:39:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-argan-mpyp1ry8__stephane-cassagne",
+      "company": "Argan",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T12:48:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
+      "company": "Petraco Oil Company",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-08T12:56:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
+      "company": "HBK – Hottinger Brüel & Kjær",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T08:00:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-microlise-mpx2lbsw__nadeem-raza",
+      "company": "Microlise",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T08:34:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-monolith-mpx2t36q__richard-ahlfeld",
+      "company": "Monolith AI",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T08:37:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__chris-licursi",
+      "company": "Klüber Lubrication",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-09T08:46:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
+      "company": "Speedgoat",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T09:03:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-hpe-mpy6t79n__andrea-bozzoli",
+      "company": "HPE COXA (HPE Group)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T09:11:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-p3-mpx41m62__robert-rendl",
+      "company": "P3 group GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T09:23:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
+      "company": "Taoglas",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-09T09:40:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
+      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-09T10:26:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
+      "company": "Porcher Industries",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-09T10:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-09T10:47:00Z"
     },
     {
       "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
       "company": "NAGASE (Europa) GmbH",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-09T11:16:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ga-mpyp92gu__elodie-le-breton",
+      "company": "GA Smart Building",
       "touch_n": 4,
-      "scheduled_for": "2026-07-10T09:30:00Z"
+      "scheduled_for": "2026-07-09T12:02:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-myra-mpyi5y2t__paul-kaffsack",
+      "company": "Myra Security",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T12:39:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__alberto-salsiccia",
+      "company": "Petraco Oil Company",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-09T12:56:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-simscale-mpy4o1ja__jon-wilde",
+      "company": "SimScale",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T08:09:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-rfpro-mpyba492__matt-daley",
+      "company": "rFpro",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T08:39:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sgl-mpyfb1co__thomas-dippold",
+      "company": "SGL Carbon",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T08:44:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-tesa-mpyev9zf__david-caro",
+      "company": "tesa SE",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T09:03:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-speedgoat-mpx34a93__patric-schenk",
+      "company": "Speedgoat",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-10T09:23:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-toray-mpyfiz6l__jean-philippe-blanc",
+      "company": "Toray Carbon Fibers Europe",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T09:28:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__taylor-kimmerle",
+      "company": "Taoglas",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-10T09:57:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-velos-mpydak23__colin-chew",
+      "company": "Velos IoT",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-10T10:07:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sika-mpyf3e5d__paulo-silva",
+      "company": "Sika",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-10T10:12:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
+      "company": "Porcher Industries",
+      "touch_n": 2,
+      "scheduled_for": "2026-07-10T10:32:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-scanfil-mpyo823g__christophe-sut",
+      "company": "Scanfil",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T11:50:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-se-mpxreakr__marius-wuestefeld",
+      "company": "SE Spezial-Electronic GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T12:19:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-sicomin-mpxrwmo5__marc-denjean",
+      "company": "Sicomin",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T12:24:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-schukat-mpyn5kfu__georg-schukat",
+      "company": "Schukat electronic Vertriebs GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T12:34:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-petraco-mpxuncd4__russell-humphrey",
+      "company": "Petraco Oil Company",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-10T12:44:00Z"
     }
   ]
 }
