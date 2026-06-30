@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-30T00:00:11Z",
+  "generated_at": "2026-06-30T08:00:12Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 146,
@@ -750,7 +750,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T09:23:00Z",
+      "next_scheduled": "2026-06-30T07:42:46Z",
       "next_touch_n": 3
     },
     {
@@ -870,7 +870,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T11:24:00Z",
+      "next_scheduled": "2026-06-30T07:42:46Z",
       "next_touch_n": 1
     },
     {
@@ -1140,7 +1140,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T11:16:00Z",
+      "next_scheduled": "2026-06-30T07:42:46Z",
       "next_touch_n": 1
     },
     {
@@ -1290,7 +1290,7 @@
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T12:56:00Z",
+      "next_scheduled": "2026-06-30T07:42:46Z",
       "next_touch_n": 3
     },
     {
@@ -3240,7 +3240,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T10:09:00Z",
+      "next_scheduled": "2026-06-30T07:42:46Z",
       "next_touch_n": 1
     },
     {
@@ -3450,7 +3450,7 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-30T11:41:00Z",
+      "next_scheduled": "2026-06-30T07:42:46Z",
       "next_touch_n": 1
     },
     {
@@ -7046,37 +7046,37 @@
       "prospect_id": "bd-platform-bertrandt-mpx3tga2__michael-lucke",
       "company": "Bertrandt",
       "touch_n": 3,
-      "scheduled_for": "2026-06-30T09:23:00Z"
+      "scheduled_for": "2026-06-30T07:42:46Z"
     },
     {
       "prospect_id": "bd-platform-motion-mpyd0n9i__paolo-bargiacchi",
       "company": "Motion Applied (ex-McLaren Applied)",
       "touch_n": 1,
-      "scheduled_for": "2026-06-30T10:09:00Z"
+      "scheduled_for": "2026-06-30T07:42:46Z"
     },
     {
       "prospect_id": "bd-platform-devoteam-mpxsm3r3__stanislas-de-bentzmann",
       "company": "Devoteam",
       "touch_n": 1,
-      "scheduled_for": "2026-06-30T11:16:00Z"
+      "scheduled_for": "2026-06-30T07:42:46Z"
     },
     {
       "prospect_id": "bd-platform-csl-mpydhpmz__helen-badger",
       "company": "CSL Group (incl. Caburn Telecom)",
       "touch_n": 1,
-      "scheduled_for": "2026-06-30T11:24:00Z"
+      "scheduled_for": "2026-06-30T07:42:46Z"
     },
     {
       "prospect_id": "bd-platform-nagase-mpyggse5__maiko-ohashi",
       "company": "NAGASE (Europa) GmbH",
       "touch_n": 1,
-      "scheduled_for": "2026-06-30T11:41:00Z"
+      "scheduled_for": "2026-06-30T07:42:46Z"
     },
     {
       "prospect_id": "bd-platform-duferco-mpxudv3y__matthew-de-morgan",
       "company": "Duferco SA (DITH — Duferco International Trading Holding)",
       "touch_n": 3,
-      "scheduled_for": "2026-06-30T12:56:00Z"
+      "scheduled_for": "2026-06-30T07:42:46Z"
     },
     {
       "prospect_id": "bd-platform-hbk-mpya4gms__meredith-foster",
