@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-06-30T21:10:56Z",
+  "generated_at": "2026-07-01T00:00:18Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 146,
@@ -30,7 +30,7 @@
     "sends_total": 339,
     "replies_total": 22,
     "replies_positive": 3,
-    "upcoming_14d": 104
+    "upcoming_14d": 113
   },
   "prospects": [
     {
@@ -7665,6 +7665,60 @@
       "company": "Banca del Ceresio (Ceresio Investors)",
       "touch_n": 3,
       "scheduled_for": "2026-07-13T12:39:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bertrandt-mpx3tga2__markus-ruf",
+      "company": "Bertrandt",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-14T08:00:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__chris-friend",
+      "company": "Taoglas",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-14T08:22:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
+      "company": "Element Materials Technology",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-14T08:33:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
+      "company": "Velos IoT",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-14T08:44:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
+      "company": "DELO Industrial Adhesives",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-14T08:50:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
+      "company": "Porcher Industries",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-14T10:02:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-14T10:41:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
+      "company": "Devoteam",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-14T11:53:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-csl-mpydhpmz__greville-coe",
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-14T12:04:00Z"
     }
   ]
 }
