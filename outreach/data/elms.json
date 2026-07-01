@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-07-01T00:00:18Z",
+  "generated_at": "2026-07-01T20:53:57Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 208,
@@ -37,9 +37,9 @@
     "campaigns_total": 91,
     "campaigns_active": 89,
     "sends_total": 384,
-    "replies_total": 14,
-    "replies_positive": 1,
-    "upcoming_14d": 260
+    "replies_total": 15,
+    "replies_positive": 2,
+    "upcoming_14d": 259
   },
   "prospects": [
     {
@@ -5404,13 +5404,13 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-06-29 13:22:48",
       "last_touch_n": 1,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-07-09T11:04:00Z",
-      "next_touch_n": 2
+      "last_reply_at": "2026-07-01T18:14:11Z",
+      "last_sentiment": "positive",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-karamba-mpq305n9__ami-dotan",
@@ -11291,8 +11291,8 @@
       "sends_total": 1,
       "sends_ok": 1,
       "sends_bounced": 0,
-      "replies_total": 0,
-      "replies_positive": 0
+      "replies_total": 1,
+      "replies_positive": 1
     },
     {
       "id": "cmp_elms_actility_mppqjvaa",
@@ -13254,12 +13254,6 @@
       "company": "Filigran",
       "touch_n": 2,
       "scheduled_for": "2026-07-09T10:55:00Z"
-    },
-    {
-      "prospect_id": "elms-kdpof-mppsuptr__carlos-pardo",
-      "company": "KD (formerly KDPOF)",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-09T11:04:00Z"
     },
     {
       "prospect_id": "elms-mapon-mpydq9t4__davis-siksnans",

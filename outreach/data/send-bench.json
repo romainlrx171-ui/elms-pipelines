@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-30T21:10:57Z",
+  "generated_at": "2026-07-01T20:53:57Z",
   "totals": {
     "sends_total": 914,
     "sends_bounced": 18,
-    "replies_total": 52,
-    "replies_positive": 5,
-    "reply_rate": 0.0569,
+    "replies_total": 53,
+    "replies_positive": 6,
+    "reply_rate": 0.058,
     "bounce_rate": 0.0197
   },
   "programs": [
@@ -33,17 +33,17 @@
       "sends_ok": 354,
       "sends_bounced": 8,
       "sends_error": 22,
-      "replies_total": 14,
-      "replies_positive": 1,
+      "replies_total": 15,
+      "replies_positive": 2,
       "replies_negative": 0,
       "replies_ooo": 4,
       "replies_unsubscribe": 0,
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0365,
+      "reply_rate": 0.0391,
       "bounce_rate": 0.0208,
-      "positive_rate": 0.0026
+      "positive_rate": 0.0052
     },
     {
       "program": "SPA_24H",
@@ -101,9 +101,9 @@
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
       "sends_total": 154,
-      "replies_total": 7,
+      "replies_total": 8,
       "bounced": 2,
-      "reply_rate": 0.0455
+      "reply_rate": 0.0519
     },
     {
       "touch_n": 2,
@@ -355,6 +355,13 @@
     {
       "subject": "A Spa story for Melexis",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "10GBASE-AU under endurance load",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -5400,13 +5407,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "10GBASE-AU under endurance load",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "100 years, and what comes next",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -5429,6 +5429,14 @@
     }
   ],
   "recent_replies": [
+    {
+      "company": "KD (formerly KDPOF)",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-07-01T18:14:11Z",
+      "sentiment": "positive",
+      "method": "keyword",
+      "touch_n": 1
+    },
     {
       "company": "Toray Carbon Fibers Europe",
       "program": "BD_ELMS_HOSPITALITY",
@@ -5660,14 +5668,6 @@
       "sentiment": "unclassified",
       "method": "keyword",
       "touch_n": 1
-    },
-    {
-      "company": "Sibros",
-      "program": "BD_ELMS_HOSPITALITY",
-      "received_at": "2026-06-15T10:04:09Z",
-      "sentiment": "positive",
-      "method": "keyword",
-      "touch_n": 3
     }
   ]
 }
