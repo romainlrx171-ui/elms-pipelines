@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-01T20:53:57Z",
+  "generated_at": "2026-07-01T22:00:24Z",
   "totals": {
     "prospects_total": 652,
-    "prospects_active": 407,
-    "sends_total": 914,
-    "replies_total": 53,
+    "prospects_active": 404,
+    "sends_total": 948,
+    "replies_total": 56,
     "replies_positive": 6,
     "campaigns_active": 192,
-    "upcoming_14d": 372
+    "upcoming_14d": 333
   },
   "programs": [
     {
@@ -15,19 +15,19 @@
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
         "prospects_total": 360,
-        "prospects_active": 208,
+        "prospects_active": 206,
         "prospects_paused": 117,
         "prospects_replied": 0,
-        "prospects_bounced": 10,
+        "prospects_bounced": 11,
         "prospects_with_email": 360,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 313,
         "by_status": {
-          "active": 208,
+          "active": 206,
           "paused": 117,
           "archived": 23,
-          "bounced": 10,
-          "do_not_contact": 2
+          "bounced": 11,
+          "do_not_contact": 3
         },
         "by_tier": {
           "MED": 186,
@@ -48,10 +48,10 @@
         },
         "campaigns_total": 91,
         "campaigns_active": 89,
-        "sends_total": 384,
-        "replies_total": 15,
+        "sends_total": 408,
+        "replies_total": 17,
         "replies_positive": 2,
-        "upcoming_14d": 259
+        "upcoming_14d": 231
       }
     },
     {
@@ -96,18 +96,18 @@
       "label": "BD Platform — ELMS Executive Hospitality",
       "kpis": {
         "prospects_total": 197,
-        "prospects_active": 146,
+        "prospects_active": 145,
         "prospects_paused": 40,
         "prospects_replied": 0,
-        "prospects_bounced": 8,
+        "prospects_bounced": 9,
         "prospects_with_email": 197,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 140,
         "by_status": {
-          "active": 146,
+          "active": 145,
           "paused": 40,
-          "do_not_contact": 3,
-          "bounced": 8
+          "bounced": 9,
+          "do_not_contact": 3
         },
         "by_tier": {
           "MED": 157,
@@ -120,10 +120,10 @@
         },
         "campaigns_total": 73,
         "campaigns_active": 72,
-        "sends_total": 339,
-        "replies_total": 22,
+        "sends_total": 349,
+        "replies_total": 23,
         "replies_positive": 3,
-        "upcoming_14d": 113
+        "upcoming_14d": 102
       }
     },
     {
