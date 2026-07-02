@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-01T22:00:24Z",
+  "generated_at": "2026-07-02T00:00:18Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 145,
@@ -30,7 +30,7 @@
     "sends_total": 349,
     "replies_total": 23,
     "replies_positive": 3,
-    "upcoming_14d": 102
+    "upcoming_14d": 108
   },
   "prospects": [
     {
@@ -7653,6 +7653,42 @@
       "company": "CSL Group (incl. Caburn Telecom)",
       "touch_n": 3,
       "scheduled_for": "2026-07-14T12:04:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-klber-mpyg8nwd__chris-licursi",
+      "company": "Klüber Lubrication",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-15T08:00:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
+      "company": "Taoglas",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-15T08:39:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mankiewicz-mpy8gzed__michael-grau",
+      "company": "Mankiewicz Gebr. & Co. (GmbH & Co. KG)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-15T09:52:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
+      "company": "Porcher Industries",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-15T10:00:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-15T10:26:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
+      "company": "NAGASE (Europa) GmbH",
+      "touch_n": 3,
+      "scheduled_for": "2026-07-15T11:39:00Z"
     }
   ]
 }
