@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T16:00:18Z",
+  "generated_at": "2026-07-06T17:00:15Z",
   "totals": {
-    "sends_total": 1033,
+    "sends_total": 1035,
     "sends_bounced": 22,
     "replies_total": 58,
     "replies_positive": 6,
-    "reply_rate": 0.0561,
+    "reply_rate": 0.056,
     "bounce_rate": 0.0213
   },
   "programs": [
@@ -29,8 +29,8 @@
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 470,
-      "sends_ok": 439,
+      "sends_total": 472,
+      "sends_ok": 441,
       "sends_bounced": 9,
       "sends_error": 22,
       "replies_total": 17,
@@ -41,9 +41,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0362,
+      "reply_rate": 0.036,
       "bounce_rate": 0.0191,
-      "positive_rate": 0.0043
+      "positive_rate": 0.0042
     },
     {
       "program": "SPA_24H",
@@ -124,7 +124,7 @@
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 58,
+      "sends_total": 60,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -550,6 +550,13 @@
     },
     {
       "subject": "Last note from the paddock",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note from me",
       "program": "ELMS_SPONSORS",
       "sends_total": 2,
       "replies_total": 0,
@@ -3615,13 +3622,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Last note from me",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Last note for this year",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -4925,6 +4925,13 @@
     },
     {
       "subject": "Dernière note avant Imola",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Dernier mot, promis",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
