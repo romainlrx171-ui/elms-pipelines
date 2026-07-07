@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-07-07T09:06:50Z",
+  "generated_at": "2026-07-07T10:07:12Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 205,
@@ -36,10 +36,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 473,
+    "sends_total": 474,
     "replies_total": 17,
     "replies_positive": 2,
-    "upcoming_14d": 210
+    "upcoming_14d": 209
   },
   "prospects": [
     {
@@ -2791,16 +2791,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:26",
       "updated_at": "2026-06-04 10:40:26",
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 13:17:23",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-07-07 10:04:04",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-07T09:49:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-07-13T08:46:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "elms_compredict_matthias_von_blohn",
@@ -11663,8 +11663,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:27",
       "assignments": 1,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 3,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -12366,12 +12366,6 @@
       "company": "Konrad Technologies",
       "touch_n": 3,
       "scheduled_for": "2026-07-07T09:32:00Z"
-    },
-    {
-      "prospect_id": "elms-compredict-mppoa84u__stephane-foulard",
-      "company": "Compredict",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-07T09:49:00Z"
     },
     {
       "prospect_id": "elms-elmos-mppsizv1__arne-schneider",
