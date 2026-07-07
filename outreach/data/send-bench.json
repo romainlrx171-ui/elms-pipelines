@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-06T17:00:15Z",
+  "generated_at": "2026-07-07T09:06:50Z",
   "totals": {
-    "sends_total": 1035,
+    "sends_total": 1037,
     "sends_bounced": 22,
     "replies_total": 58,
     "replies_positive": 6,
-    "reply_rate": 0.056,
-    "bounce_rate": 0.0213
+    "reply_rate": 0.0559,
+    "bounce_rate": 0.0212
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 372,
-      "sends_ok": 325,
+      "sends_total": 373,
+      "sends_ok": 326,
       "sends_bounced": 9,
       "sends_error": 42,
       "replies_total": 25,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0672,
-      "bounce_rate": 0.0242,
-      "positive_rate": 0.0081
+      "reply_rate": 0.067,
+      "bounce_rate": 0.0241,
+      "positive_rate": 0.008
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 472,
-      "sends_ok": 441,
+      "sends_total": 473,
+      "sends_ok": 442,
       "sends_bounced": 9,
       "sends_error": 22,
       "replies_total": 17,
@@ -41,8 +41,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.036,
-      "bounce_rate": 0.0191,
+      "reply_rate": 0.0359,
+      "bounce_rate": 0.019,
       "positive_rate": 0.0042
     },
     {
@@ -92,10 +92,10 @@
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 35,
+      "sends_total": 36,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0571
+      "reply_rate": 0.0556
     },
     {
       "touch_n": 1,
@@ -124,7 +124,7 @@
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 60,
+      "sends_total": 61,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -423,6 +423,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Closing the loop",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 4,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The mechanism, briefly",
       "program": "ELMS_SPONSORS",
       "sends_total": 3,
@@ -493,13 +500,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Closing the loop",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 3,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "last note before Imola",
       "program": "ELMS_SPONSORS",
       "sends_total": 2,
@@ -565,6 +565,13 @@
     {
       "subject": "Last note",
       "program": "SPA_24H",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -3679,13 +3686,6 @@
     },
     {
       "subject": "Last note + Portimão",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Last note",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
