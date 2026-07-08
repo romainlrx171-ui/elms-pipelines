@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-08T12:29:20Z",
+  "generated_at": "2026-07-08T18:00:13Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 143,
@@ -28,7 +28,7 @@
     "campaigns_total": 73,
     "campaigns_active": 72,
     "sends_total": 394,
-    "replies_total": 25,
+    "replies_total": 26,
     "replies_positive": 3,
     "upcoming_14d": 79
   },
@@ -2333,12 +2333,12 @@
       "created_at": "2026-06-01 11:32:49",
       "updated_at": "2026-06-01 11:32:49",
       "sends_total": 3,
-      "sends_ok": 4,
+      "sends_ok": 5,
       "sends_bounced": 0,
-      "replies_total": 2,
+      "replies_total": 3,
       "last_sent_at": "2026-06-13 12:51:09",
       "last_touch_n": 3,
-      "last_reply_at": "2026-06-15T12:07:40Z",
+      "last_reply_at": "2026-07-08T17:44:46Z",
       "last_sentiment": "unclassified",
       "next_scheduled": null,
       "next_touch_n": null
@@ -6885,9 +6885,9 @@
       "created_at": "2026-06-01 11:32:50",
       "assignments": 3,
       "sends_total": 7,
-      "sends_ok": 8,
+      "sends_ok": 9,
       "sends_bounced": 0,
-      "replies_total": 2,
+      "replies_total": 3,
       "replies_positive": 0
     },
     {

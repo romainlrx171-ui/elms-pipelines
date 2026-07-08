@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-08T14:00:15Z",
+  "generated_at": "2026-07-08T18:00:13Z",
   "totals": {
     "prospects_total": 652,
     "prospects_active": 399,
     "sends_total": 1099,
-    "replies_total": 61,
+    "replies_total": 62,
     "replies_positive": 6,
     "campaigns_active": 192,
     "upcoming_14d": 264
@@ -121,7 +121,7 @@
         "campaigns_total": 73,
         "campaigns_active": 72,
         "sends_total": 394,
-        "replies_total": 25,
+        "replies_total": 26,
         "replies_positive": 3,
         "upcoming_14d": 79
       }
