@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-08T00:00:11Z",
+  "generated_at": "2026-07-08T08:49:44Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 143,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 374,
+    "sends_total": 379,
     "replies_total": 25,
     "replies_positive": 3,
-    "upcoming_14d": 99
+    "upcoming_14d": 94
   },
   "prospects": [
     {
@@ -1822,16 +1822,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:47",
       "updated_at": "2026-06-04 10:41:47",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-24 14:03:19",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-08 08:18:26",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-02T12:10:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-gse-mpyot2h2__olivia-nail",
@@ -4012,16 +4012,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:07",
       "updated_at": "2026-06-04 10:42:07",
-      "sends_total": 5,
-      "sends_ok": 1,
+      "sends_total": 6,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-25 06:06:35",
+      "last_sent_at": "2026-07-08 08:00:18",
       "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-06-22T09:30:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-07-03T12:34:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-petraco-mpxuncd4__francis-reilly",
@@ -4192,16 +4192,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:35",
       "updated_at": "2026-06-04 10:40:35",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-24 14:00:03",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-07-08 08:46:15",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T11:32:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-07-09T10:30:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
@@ -5122,16 +5122,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:05",
       "updated_at": "2026-06-04 10:40:05",
-      "sends_total": 3,
-      "sends_ok": 2,
+      "sends_total": 4,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-24 15:09:48",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-07-08 08:39:12",
+      "last_touch_n": 3,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T10:30:00Z",
-      "next_touch_n": 3
+      "next_scheduled": "2026-07-09T09:03:00Z",
+      "next_touch_n": 4
     },
     {
       "id": "bd-platform-speedgoat-mpx34a93__patric-schenk",
@@ -5272,16 +5272,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:20",
       "updated_at": "2026-06-04 10:40:20",
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-22 09:04:12",
-      "last_touch_n": 1,
+      "last_sent_at": "2026-07-08 08:42:40",
+      "last_touch_n": 2,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-03T11:01:00Z",
-      "next_touch_n": 2
+      "next_scheduled": "2026-07-09T09:40:00Z",
+      "next_touch_n": 3
     },
     {
       "id": "bd-platform-taoglas-mpx4k2s9__taylor-kimmerle",
@@ -5954,8 +5954,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:08",
       "assignments": 3,
-      "sends_total": 14,
-      "sends_ok": 6,
+      "sends_total": 15,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6119,8 +6119,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:47",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 10,
+      "sends_total": 11,
+      "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6314,8 +6314,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:35",
       "assignments": 3,
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6419,8 +6419,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:20",
       "assignments": 3,
-      "sends_total": 6,
-      "sends_ok": 5,
+      "sends_total": 7,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6479,8 +6479,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:06",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 7,
+      "sends_total": 11,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7043,46 +7043,16 @@
   ],
   "upcoming": [
     {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__alberto-salsiccia",
-      "company": "Petraco Oil Company",
-      "touch_n": 2,
-      "scheduled_for": "2026-06-22T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-bertrandt-mpx3tga2__andreas-fink",
       "company": "Bertrandt",
       "touch_n": 2,
       "scheduled_for": "2026-06-23T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-ga-mpyp92gu__marc-daumas",
-      "company": "GA Smart Building",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-02T12:10:00Z"
-    },
-    {
       "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
       "company": "Petraco Oil Company",
       "touch_n": 3,
       "scheduled_for": "2026-07-02T12:56:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-speedgoat-mpx34a93__martin-stoller",
-      "company": "Speedgoat",
-      "touch_n": 3,
-      "scheduled_for": "2026-07-03T10:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-taoglas-mpx4k2s9__dermot-oshea",
-      "company": "Taoglas",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-03T11:01:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__andre-genton",
-      "company": "Porcher Industries",
-      "touch_n": 2,
-      "scheduled_for": "2026-07-03T11:32:00Z"
     },
     {
       "prospect_id": "bd-platform-petraco-mpxuncd4__alberto-salsiccia",
