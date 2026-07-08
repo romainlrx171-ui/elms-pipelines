@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-07T10:07:12Z",
+  "generated_at": "2026-07-08T00:00:11Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 143,
@@ -30,7 +30,7 @@
     "sends_total": 374,
     "replies_total": 25,
     "replies_positive": 3,
-    "upcoming_14d": 95
+    "upcoming_14d": 99
   },
   "prospects": [
     {
@@ -7611,6 +7611,30 @@
       "company": "Banca del Ceresio (Ceresio Investors)",
       "touch_n": 4,
       "scheduled_for": "2026-07-20T12:23:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
+      "company": "Motion Applied (ex-McLaren Applied)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-21T08:14:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
+      "company": "Devoteam",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-21T10:01:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-csl-mpydhpmz__greville-coe",
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-21T10:10:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
+      "company": "NAGASE (Europa) GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-21T10:52:00Z"
     }
   ]
 }
