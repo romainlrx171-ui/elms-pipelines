@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-08T12:29:20Z",
+  "generated_at": "2026-07-08T13:03:35Z",
   "totals": {
-    "sends_total": 1098,
+    "sends_total": 1099,
     "sends_bounced": 24,
     "replies_total": 60,
     "replies_positive": 6,
     "reply_rate": 0.0546,
-    "bounce_rate": 0.0219
+    "bounce_rate": 0.0218
   },
   "programs": [
     {
@@ -29,8 +29,8 @@
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 513,
-      "sends_ok": 480,
+      "sends_total": 514,
+      "sends_ok": 481,
       "sends_bounced": 11,
       "sends_error": 22,
       "replies_total": 19,
@@ -108,10 +108,10 @@
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 174,
+      "sends_total": 175,
       "replies_total": 6,
       "bounced": 5,
-      "reply_rate": 0.0345
+      "reply_rate": 0.0343
     },
     {
       "touch_n": 3,
@@ -4260,6 +4260,13 @@
     },
     {
       "subject": "How the format actually delivers",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the film series works",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
