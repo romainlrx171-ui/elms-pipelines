@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-08T13:03:35Z",
+  "generated_at": "2026-07-08T14:00:15Z",
   "totals": {
     "sends_total": 1099,
     "sends_bounced": 24,
-    "replies_total": 60,
+    "replies_total": 61,
     "replies_positive": 6,
-    "reply_rate": 0.0546,
+    "reply_rate": 0.0555,
     "bounce_rate": 0.0218
   },
   "programs": [
@@ -33,7 +33,7 @@
       "sends_ok": 481,
       "sends_bounced": 11,
       "sends_error": 22,
-      "replies_total": 19,
+      "replies_total": 20,
       "replies_positive": 2,
       "replies_negative": 1,
       "replies_ooo": 4,
@@ -41,7 +41,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.037,
+      "reply_rate": 0.0389,
       "bounce_rate": 0.0214,
       "positive_rate": 0.0039
     },
@@ -125,9 +125,9 @@
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
       "sends_total": 74,
-      "replies_total": 0,
+      "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0
+      "reply_rate": 0.0135
     },
     {
       "touch_n": 1,
@@ -381,6 +381,13 @@
       "reply_rate": 0.3333
     },
     {
+      "subject": "Closing the loop before Imola",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 3,
+      "replies_total": 1,
+      "reply_rate": 0.3333
+    },
+    {
       "subject": "Last note on Spa",
       "program": "SPA_24H",
       "sends_total": 20,
@@ -509,13 +516,6 @@
     {
       "subject": "Closing the loop on Spa",
       "program": "SPA_24H",
-      "sends_total": 3,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Closing the loop before Imola",
-      "program": "ELMS_SPONSORS",
       "sends_total": 3,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -6382,6 +6382,14 @@
   ],
   "recent_replies": [
     {
+      "company": "Exoscale",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-07-08T15:45:52Z",
+      "sentiment": "unclassified",
+      "method": "keyword",
+      "touch_n": 4
+    },
+    {
       "company": "BECK GmbH & Co. Elektronik Bauelemente KG",
       "program": "ELMS_SPONSORS",
       "received_at": "2026-07-08T12:03:36Z",
@@ -6612,14 +6620,6 @@
       "sentiment": "ooo",
       "method": "keyword",
       "touch_n": 3
-    },
-    {
-      "company": "Melexis",
-      "program": "SPA_24H",
-      "received_at": "2026-06-17T10:50:43Z",
-      "sentiment": "negative",
-      "method": "manual",
-      "touch_n": 1
     }
   ]
 }
