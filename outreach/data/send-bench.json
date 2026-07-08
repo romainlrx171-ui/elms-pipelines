@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-08T10:00:18Z",
+  "generated_at": "2026-07-08T11:00:13Z",
   "totals": {
-    "sends_total": 1072,
-    "sends_bounced": 23,
-    "replies_total": 59,
+    "sends_total": 1084,
+    "sends_bounced": 24,
+    "replies_total": 60,
     "replies_positive": 6,
-    "reply_rate": 0.055,
-    "bounce_rate": 0.0215
+    "reply_rate": 0.0554,
+    "bounce_rate": 0.0221
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 384,
-      "sends_ok": 337,
+      "sends_total": 386,
+      "sends_ok": 339,
       "sends_bounced": 9,
       "sends_error": 42,
       "replies_total": 25,
@@ -23,17 +23,17 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0651,
-      "bounce_rate": 0.0234,
+      "reply_rate": 0.0648,
+      "bounce_rate": 0.0233,
       "positive_rate": 0.0078
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 497,
-      "sends_ok": 465,
-      "sends_bounced": 10,
+      "sends_total": 507,
+      "sends_ok": 474,
+      "sends_bounced": 11,
       "sends_error": 22,
-      "replies_total": 18,
+      "replies_total": 19,
       "replies_positive": 2,
       "replies_negative": 1,
       "replies_ooo": 4,
@@ -41,9 +41,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0362,
-      "bounce_rate": 0.0201,
-      "positive_rate": 0.004
+      "reply_rate": 0.0375,
+      "bounce_rate": 0.0217,
+      "positive_rate": 0.0039
     },
     {
       "program": "SPA_24H",
@@ -76,10 +76,10 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 139,
+      "sends_total": 140,
       "replies_total": 1,
       "bounced": 1,
-      "reply_rate": 0.0072
+      "reply_rate": 0.0071
     },
     {
       "touch_n": 3,
@@ -92,10 +92,10 @@
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 41,
+      "sends_total": 42,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0488
+      "reply_rate": 0.0476
     },
     {
       "touch_n": 1,
@@ -108,23 +108,23 @@
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 170,
+      "sends_total": 173,
       "replies_total": 6,
       "bounced": 5,
-      "reply_rate": 0.0353
+      "reply_rate": 0.0347
     },
     {
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
-      "sends_total": 93,
-      "replies_total": 3,
-      "bounced": 2,
-      "reply_rate": 0.0323
+      "sends_total": 96,
+      "replies_total": 4,
+      "bounced": 3,
+      "reply_rate": 0.0417
     },
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 66,
+      "sends_total": 70,
       "replies_total": 0,
       "bounced": 0,
       "reply_rate": 0.0
@@ -423,6 +423,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 4,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How it works, briefly",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 4,
@@ -465,13 +472,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Last note",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 3,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "How the race weekend works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 3,
@@ -495,6 +495,13 @@
     {
       "subject": "Closing the loop on Spa",
       "program": "SPA_24H",
+      "sends_total": 3,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Closing the loop before Imola",
+      "program": "ELMS_SPONSORS",
       "sends_total": 3,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -683,13 +690,6 @@
     },
     {
       "subject": "Comment ça marche concrètement",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 2,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Closing the loop before Imola",
       "program": "ELMS_SPONSORS",
       "sends_total": 2,
       "replies_total": 0,
@@ -1565,6 +1565,13 @@
     },
     {
       "subject": "What the car proves",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "What the car actually proves",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -2866,6 +2873,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "One reframe on cost and fit",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "One lever in a commodity market",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -3706,6 +3720,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note on timing",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last note on this",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -3729,6 +3750,13 @@
     {
       "subject": "Last note on Spa",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note on Imola",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -4043,6 +4071,13 @@
     },
     {
       "subject": "How the race day runs",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the race day actually works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -4513,6 +4548,13 @@
     {
       "subject": "How a race day closes",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How a race day actually works",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -5134,6 +5176,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Dernier mot avant l'été",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Derendinger's racing chapter",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -5407,6 +5456,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Cheaper than the booth",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Cementing the Volvo Cars relationship",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -5549,6 +5605,13 @@
     {
       "subject": "Bamford on a GT3 at Spa",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "BRICK2 on a 296 GT3",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -6242,6 +6305,14 @@
   ],
   "recent_replies": [
     {
+      "company": "BECK GmbH & Co. Elektronik Bauelemente KG",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-07-08T12:03:36Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 3
+    },
+    {
       "company": "WALLIX Group",
       "program": "ELMS_SPONSORS",
       "received_at": "2026-07-08T10:49:41Z",
@@ -6471,14 +6542,6 @@
       "received_at": "2026-06-17T10:50:43Z",
       "sentiment": "negative",
       "method": "manual",
-      "touch_n": 1
-    },
-    {
-      "company": "Candera",
-      "program": "ELMS_SPONSORS",
-      "received_at": "2026-06-16T13:19:10Z",
-      "sentiment": "bounce",
-      "method": "keyword",
       "touch_n": 1
     }
   ]

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-08T10:00:18Z",
+  "generated_at": "2026-07-08T11:00:13Z",
   "totals": {
     "prospects_total": 652,
-    "prospects_active": 400,
-    "sends_total": 1072,
-    "replies_total": 59,
+    "prospects_active": 399,
+    "sends_total": 1084,
+    "replies_total": 60,
     "replies_positive": 6,
     "campaigns_active": 192,
-    "upcoming_14d": 292
+    "upcoming_14d": 279
   },
   "programs": [
     {
@@ -15,18 +15,18 @@
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
         "prospects_total": 360,
-        "prospects_active": 204,
+        "prospects_active": 203,
         "prospects_paused": 117,
         "prospects_replied": 0,
-        "prospects_bounced": 13,
+        "prospects_bounced": 14,
         "prospects_with_email": 360,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 313,
         "by_status": {
-          "active": 204,
+          "active": 203,
           "paused": 117,
           "archived": 23,
-          "bounced": 13,
+          "bounced": 14,
           "do_not_contact": 3
         },
         "by_tier": {
@@ -48,10 +48,10 @@
         },
         "campaigns_total": 91,
         "campaigns_active": 89,
-        "sends_total": 497,
-        "replies_total": 18,
+        "sends_total": 507,
+        "replies_total": 19,
         "replies_positive": 2,
-        "upcoming_14d": 203
+        "upcoming_14d": 192
       }
     },
     {
@@ -120,10 +120,10 @@
         },
         "campaigns_total": 73,
         "campaigns_active": 72,
-        "sends_total": 384,
+        "sends_total": 386,
         "replies_total": 25,
         "replies_positive": 3,
-        "upcoming_14d": 89
+        "upcoming_14d": 87
       }
     },
     {
