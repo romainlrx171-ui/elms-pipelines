@@ -1,20 +1,20 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-07-08T08:49:44Z",
+  "generated_at": "2026-07-08T09:00:12Z",
   "kpis": {
     "prospects_total": 360,
-    "prospects_active": 205,
+    "prospects_active": 204,
     "prospects_paused": 117,
     "prospects_replied": 0,
-    "prospects_bounced": 12,
+    "prospects_bounced": 13,
     "prospects_with_email": 360,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 313,
     "by_status": {
-      "active": 205,
+      "active": 204,
       "paused": 117,
       "archived": 23,
-      "bounced": 12,
+      "bounced": 13,
       "do_not_contact": 3
     },
     "by_tier": {
@@ -37,9 +37,9 @@
     "campaigns_total": 91,
     "campaigns_active": 89,
     "sends_total": 484,
-    "replies_total": 17,
+    "replies_total": 18,
     "replies_positive": 2,
-    "upcoming_14d": 217
+    "upcoming_14d": 216
   },
   "prospects": [
     {
@@ -9797,7 +9797,7 @@
       "company": "WALLIX Group",
       "role": "Chief Revenue Officer (CRO)",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -9806,21 +9806,21 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-07-08T08:58:06Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:55",
       "updated_at": "2026-06-04 10:41:55",
       "sends_total": 3,
-      "sends_ok": 3,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 2,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "last_sent_at": "2026-07-08 08:49:40",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-07-09T12:19:00Z",
-      "next_touch_n": 4
+      "last_reply_at": "2026-07-08T10:49:41Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-wallix-mpqe7mnz__jean-noel-de-galzain",
@@ -10974,9 +10974,9 @@
       "created_at": "2026-06-04 10:41:55",
       "assignments": 3,
       "sends_total": 9,
-      "sends_ok": 9,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 8,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -12672,12 +12672,6 @@
       "company": "PCCW Global",
       "touch_n": 4,
       "scheduled_for": "2026-07-09T12:10:00Z"
-    },
-    {
-      "prospect_id": "elms-wallix-mpqe7mnz__eric-gatrio",
-      "company": "WALLIX Group",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-09T12:19:00Z"
     },
     {
       "prospect_id": "elms-gatewatcher-mpqetyf3__nicolas-benisti",

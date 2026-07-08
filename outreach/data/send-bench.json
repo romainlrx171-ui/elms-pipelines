@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-08T08:49:44Z",
+  "generated_at": "2026-07-08T09:00:12Z",
   "totals": {
-    "sends_total": 1054,
-    "sends_bounced": 22,
-    "replies_total": 58,
+    "sends_total": 1055,
+    "sends_bounced": 23,
+    "replies_total": 59,
     "replies_positive": 6,
-    "reply_rate": 0.055,
-    "bounce_rate": 0.0209
+    "reply_rate": 0.0559,
+    "bounce_rate": 0.0218
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 379,
-      "sends_ok": 332,
+      "sends_total": 380,
+      "sends_ok": 333,
       "sends_bounced": 9,
       "sends_error": 42,
       "replies_total": 25,
@@ -23,17 +23,17 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.066,
+      "reply_rate": 0.0658,
       "bounce_rate": 0.0237,
       "positive_rate": 0.0079
     },
     {
       "program": "ELMS_SPONSORS",
       "sends_total": 484,
-      "sends_ok": 453,
-      "sends_bounced": 9,
+      "sends_ok": 452,
+      "sends_bounced": 10,
       "sends_error": 22,
-      "replies_total": 17,
+      "replies_total": 18,
       "replies_positive": 2,
       "replies_negative": 1,
       "replies_ooo": 4,
@@ -41,8 +41,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0351,
-      "bounce_rate": 0.0186,
+      "reply_rate": 0.0372,
+      "bounce_rate": 0.0207,
       "positive_rate": 0.0041
     },
     {
@@ -76,7 +76,7 @@
     {
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 138,
+      "sends_total": 139,
       "replies_total": 1,
       "bounced": 1,
       "reply_rate": 0.0072
@@ -117,9 +117,9 @@
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
       "sends_total": 88,
-      "replies_total": 2,
-      "bounced": 1,
-      "reply_rate": 0.0227
+      "replies_total": 3,
+      "bounced": 2,
+      "reply_rate": 0.0341
     },
     {
       "touch_n": 4,
@@ -2726,13 +2726,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Pilote contrôlé, pas saison entière",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Picks, shovels, and a race car",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -4637,6 +4630,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "From spec sheet to track",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "From quadrant to working proof",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -6137,6 +6137,14 @@
   ],
   "recent_replies": [
     {
+      "company": "WALLIX Group",
+      "program": "ELMS_SPONSORS",
+      "received_at": "2026-07-08T10:49:41Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 3
+    },
+    {
       "company": "Toray Carbon Fibers Europe",
       "program": "BD_ELMS_HOSPITALITY",
       "received_at": "2026-07-06T17:20:17Z",
@@ -6367,14 +6375,6 @@
       "sentiment": "bounce",
       "method": "keyword",
       "touch_n": 1
-    },
-    {
-      "company": "Eurol",
-      "program": "ELMS_SPONSORS",
-      "received_at": "2026-06-16T10:28:14Z",
-      "sentiment": "positive",
-      "method": "keyword",
-      "touch_n": 2
     }
   ]
 }
