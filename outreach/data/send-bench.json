@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-09T08:14:00Z",
+  "generated_at": "2026-07-09T15:37:32Z",
   "totals": {
-    "sends_total": 1103,
+    "sends_total": 1118,
     "sends_bounced": 24,
     "replies_total": 62,
     "replies_positive": 6,
-    "reply_rate": 0.0562,
-    "bounce_rate": 0.0218
+    "reply_rate": 0.0555,
+    "bounce_rate": 0.0215
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 398,
-      "sends_ok": 352,
+      "sends_total": 402,
+      "sends_ok": 356,
       "sends_bounced": 9,
       "sends_error": 42,
       "replies_total": 26,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0653,
-      "bounce_rate": 0.0226,
+      "reply_rate": 0.0647,
+      "bounce_rate": 0.0224,
       "positive_rate": 0.0075
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 514,
-      "sends_ok": 481,
+      "sends_total": 525,
+      "sends_ok": 492,
       "sends_bounced": 11,
       "sends_error": 22,
       "replies_total": 20,
@@ -41,9 +41,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0389,
-      "bounce_rate": 0.0214,
-      "positive_rate": 0.0039
+      "reply_rate": 0.0381,
+      "bounce_rate": 0.021,
+      "positive_rate": 0.0038
     },
     {
       "program": "SPA_24H",
@@ -84,18 +84,18 @@
     {
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 83,
+      "sends_total": 84,
       "replies_total": 6,
       "bounced": 4,
-      "reply_rate": 0.0723
+      "reply_rate": 0.0714
     },
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 49,
+      "sends_total": 52,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0408
+      "reply_rate": 0.0385
     },
     {
       "touch_n": 1,
@@ -108,26 +108,26 @@
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 175,
+      "sends_total": 179,
       "replies_total": 6,
       "bounced": 5,
-      "reply_rate": 0.0343
+      "reply_rate": 0.0335
     },
     {
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
-      "sends_total": 97,
+      "sends_total": 102,
       "replies_total": 4,
       "bounced": 3,
-      "reply_rate": 0.0412
+      "reply_rate": 0.0392
     },
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 74,
+      "sends_total": 76,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0135
+      "reply_rate": 0.0132
     },
     {
       "touch_n": 1,
@@ -383,9 +383,9 @@
     {
       "subject": "Closing the loop",
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 7,
+      "sends_total": 8,
       "replies_total": 2,
-      "reply_rate": 0.2857
+      "reply_rate": 0.25
     },
     {
       "subject": "Last note on Spa",
@@ -572,6 +572,20 @@
     {
       "subject": "Last note, Imola",
       "program": "ELMS_SPONSORS",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note on this",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note on Imola",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -1333,6 +1347,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "You already live in paddocks",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Worth a forward to your team",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -1474,6 +1495,13 @@
     },
     {
       "subject": "Where the visibility actually lands",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Where the toolchain decision moved",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -1998,6 +2026,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The mechanism, two minutes",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The mechanism, in brief",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -2173,6 +2208,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The capital-discipline question, answered",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The buyers you sell to, trackside",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -2308,6 +2350,20 @@
     {
       "subject": "Stuttgart and Spa, same week",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Start with one round",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Stack, roadside, telemetry",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2594,6 +2650,13 @@
     },
     {
       "subject": "Reliability under stress, measured",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Real proving ground, not a slogan",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -3132,6 +3195,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Not fan marketing, reference deployment",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Not entertainment, integration work",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -3629,6 +3699,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last one, Phil",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last one, Per",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -3769,13 +3846,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Last note on this",
-      "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Last note on the season",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -3799,13 +3869,6 @@
     {
       "subject": "Last note on Imola",
       "program": "ELMS_SPONSORS",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Last note on Imola",
-      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -4581,6 +4644,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How an ELMS round could work",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How a single ELMS round sizes",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -5086,6 +5156,13 @@
     },
     {
       "subject": "Easy to take upstairs",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Easy to size down",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -5668,6 +5745,13 @@
     {
       "subject": "Beyond Aprilia: a different instrument",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Before we prep Imola",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
