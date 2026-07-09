@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-08T18:00:13Z",
+  "generated_at": "2026-07-09T07:51:28Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 143,
@@ -30,7 +30,7 @@
     "sends_total": 394,
     "replies_total": 26,
     "replies_positive": 3,
-    "upcoming_14d": 79
+    "upcoming_14d": 80
   },
   "prospects": [
     {
@@ -7515,6 +7515,12 @@
       "company": "NAGASE (Europa) GmbH",
       "touch_n": 4,
       "scheduled_for": "2026-07-21T10:52:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
+      "company": "Porcher Industries",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T08:00:00Z"
     }
   ]
 }

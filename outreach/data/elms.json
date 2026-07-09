@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-07-08T14:00:15Z",
+  "generated_at": "2026-07-09T07:51:28Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 203,
@@ -39,7 +39,7 @@
     "sends_total": 514,
     "replies_total": 20,
     "replies_positive": 2,
-    "upcoming_14d": 185
+    "upcoming_14d": 196
   },
   "prospects": [
     {
@@ -13320,6 +13320,72 @@
       "company": "Pelion",
       "touch_n": 4,
       "scheduled_for": "2026-07-21T12:48:00Z"
+    },
+    {
+      "prospect_id": "elms-tracetronic-mppzwyj4__rocco-deutschmann",
+      "company": "tracetronic GmbH",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T08:26:00Z"
+    },
+    {
+      "prospect_id": "elms-verimatrix-mpqcuqqx__carlo-stramaglia",
+      "company": "Verimatrix",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T08:52:00Z"
+    },
+    {
+      "prospect_id": "elms-commsignia-mppywf8m__laszlo-virag",
+      "company": "Commsignia",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T09:18:00Z"
+    },
+    {
+      "prospect_id": "elms-vayyar-mpye69sw__ian-podkamien",
+      "company": "Vayyar Imaging",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T09:44:00Z"
+    },
+    {
+      "prospect_id": "elms-u-blox-mpooeacx__matthias-poppel",
+      "company": "u-blox",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T10:05:00Z"
+    },
+    {
+      "prospect_id": "elms-yeswehack-mpqfhrwm__marine-magnant",
+      "company": "YesWeHack",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T10:31:00Z"
+    },
+    {
+      "prospect_id": "elms-smartmicro-mpy8wsc5__ralph-mende",
+      "company": "smartmicro (s.m.s, smart microwave sensors GmbH)",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T10:57:00Z"
+    },
+    {
+      "prospect_id": "elms-cohda-mpq3bvm2__andrea-ash",
+      "company": "Cohda Wireless",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T11:23:00Z"
+    },
+    {
+      "prospect_id": "elms-pelion-mpqrjngi__dave-weidner",
+      "company": "Pelion",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T11:49:00Z"
+    },
+    {
+      "prospect_id": "elms-quantexa-mpwtrmam__matt-hooper",
+      "company": "Quantexa",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T12:10:00Z"
+    },
+    {
+      "prospect_id": "elms-tether-mpxtx5b6__paolo-ardoino",
+      "company": "Tether / Plan ₿ Lugano",
+      "touch_n": 4,
+      "scheduled_for": "2026-07-22T12:36:00Z"
     }
   ]
 }
