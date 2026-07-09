@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-09T07:51:28Z",
+  "generated_at": "2026-07-09T08:14:00Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 143,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 394,
+    "sends_total": 398,
     "replies_total": 26,
     "replies_positive": 3,
-    "upcoming_14d": 80
+    "upcoming_14d": 76
   },
   "prospects": [
     {
@@ -1972,16 +1972,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:42",
       "updated_at": "2026-06-04 10:39:42",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 12:25:36",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-09 08:10:32",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-09T08:00:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-hbk-mpya4gms__meredith-foster",
@@ -4042,12 +4042,12 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:07",
       "updated_at": "2026-06-04 10:42:07",
-      "sends_total": 6,
-      "sends_ok": 2,
+      "sends_total": 7,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-06 14:43:30",
-      "last_touch_n": 2,
+      "last_sent_at": "2026-07-09 08:07:04",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
       "next_scheduled": "2026-07-02T12:56:00Z",
@@ -4732,16 +4732,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:05",
       "updated_at": "2026-06-04 10:42:05",
-      "sends_total": 3,
-      "sends_ok": 2,
+      "sends_total": 4,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-06 15:29:15",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-09 08:03:27",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T12:39:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-schukat-mpyn5kfu__georg-schukat",
@@ -5722,16 +5722,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:02",
       "updated_at": "2026-06-04 10:42:02",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 14:04:46",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-09 08:00:15",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-08T12:22:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_hyperexponential_amrit_santhirasenan",
@@ -5954,8 +5954,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:08",
       "assignments": 3,
-      "sends_total": 15,
-      "sends_ok": 7,
+      "sends_total": 16,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -5984,8 +5984,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:05",
       "assignments": 2,
-      "sends_total": 6,
-      "sends_ok": 5,
+      "sends_total": 7,
+      "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -5999,8 +5999,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:02",
       "assignments": 2,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6689,8 +6689,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:39:42",
       "assignments": 2,
-      "sends_total": 7,
-      "sends_ok": 7,
+      "sends_total": 8,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7103,34 +7103,10 @@
       "scheduled_for": "2026-07-08T12:19:00Z"
     },
     {
-      "prospect_id": "bd-platform-discoverie-mpyoeql2__simon-gibbins",
-      "company": "discoverIE Group plc",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-08T12:22:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-schukat-mpyn5kfu__bert-schukat",
-      "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-08T12:39:00Z"
-    },
-    {
       "prospect_id": "bd-platform-argan-mpyp1ry8__stephane-cassagne",
       "company": "Argan",
       "touch_n": 4,
       "scheduled_for": "2026-07-08T12:48:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__francis-reilly",
-      "company": "Petraco Oil Company",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-08T12:56:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hbk-mpya4gms__ben-bryson",
-      "company": "HBK – Hottinger Brüel & Kjær",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-09T08:00:00Z"
     },
     {
       "prospect_id": "bd-platform-microlise-mpx2lbsw__nadeem-raza",
