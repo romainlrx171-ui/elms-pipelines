@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-10T13:27:06Z",
+  "generated_at": "2026-07-10T14:21:51Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 143,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 426,
+    "sends_total": 430,
     "replies_total": 26,
     "replies_positive": 3,
-    "upcoming_14d": 48
+    "upcoming_14d": 44
   },
   "prospects": [
     {
@@ -4072,16 +4072,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:07",
       "updated_at": "2026-06-04 10:42:07",
-      "sends_total": 3,
+      "sends_total": 4,
       "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 13:46:19",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-10 14:13:38",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T12:44:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_pigment_eleonore_crespo",
@@ -4492,16 +4492,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:56",
       "updated_at": "2026-06-04 10:41:56",
-      "sends_total": 3,
+      "sends_total": 4,
       "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 13:03:05",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-10 14:01:38",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T12:19:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-serma-mpqbtugc__philippe-berlie",
@@ -4762,16 +4762,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:05",
       "updated_at": "2026-06-04 10:42:05",
-      "sends_total": 3,
+      "sends_total": 4,
       "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 13:44:12",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-10 14:09:22",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T12:34:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sensirion-mpyjecwz__luca-villani",
@@ -4912,16 +4912,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:58",
       "updated_at": "2026-06-04 10:41:58",
-      "sends_total": 3,
+      "sends_total": 4,
       "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 13:04:10",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-10 14:05:07",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T12:24:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-sicomin-mpxrwmo5__philippe-marcovich",
@@ -5954,7 +5954,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:08",
       "assignments": 3,
-      "sends_total": 19,
+      "sends_total": 20,
       "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -5984,7 +5984,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:05",
       "assignments": 2,
-      "sends_total": 7,
+      "sends_total": 8,
       "sends_ok": 6,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -6044,7 +6044,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:58",
       "assignments": 2,
-      "sends_total": 4,
+      "sends_total": 5,
       "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 2,
@@ -6059,7 +6059,7 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:57",
       "assignments": 1,
-      "sends_total": 3,
+      "sends_total": 4,
       "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
@@ -7089,30 +7089,6 @@
       "company": "Porcher Industries",
       "touch_n": 2,
       "scheduled_for": "2026-07-10T10:32:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-se-mpxreakr__marius-wuestefeld",
-      "company": "SE Spezial-Electronic GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T12:19:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sicomin-mpxrwmo5__marc-denjean",
-      "company": "Sicomin",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T12:24:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-schukat-mpyn5kfu__georg-schukat",
-      "company": "Schukat electronic Vertriebs GmbH",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T12:34:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__russell-humphrey",
-      "company": "Petraco Oil Company",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T12:44:00Z"
     },
     {
       "prospect_id": "bd-platform-cruden-mpy9vj7m__dennis-marcus",

@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-10T13:27:06Z",
+  "generated_at": "2026-07-10T14:21:52Z",
   "totals": {
-    "sends_total": 1178,
+    "sends_total": 1183,
     "sends_bounced": 24,
     "replies_total": 62,
     "replies_positive": 6,
-    "reply_rate": 0.0526,
-    "bounce_rate": 0.0204
+    "reply_rate": 0.0524,
+    "bounce_rate": 0.0203
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 426,
+      "sends_total": 430,
       "sends_ok": 361,
       "sends_bounced": 9,
-      "sends_error": 61,
+      "sends_error": 65,
       "replies_total": 26,
       "replies_positive": 3,
       "replies_negative": 1,
@@ -23,16 +23,16 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.061,
-      "bounce_rate": 0.0211,
+      "reply_rate": 0.0605,
+      "bounce_rate": 0.0209,
       "positive_rate": 0.007
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 561,
+      "sends_total": 562,
       "sends_ok": 504,
       "sends_bounced": 11,
-      "sends_error": 46,
+      "sends_error": 47,
       "replies_total": 20,
       "replies_positive": 2,
       "replies_negative": 1,
@@ -41,7 +41,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0357,
+      "reply_rate": 0.0356,
       "bounce_rate": 0.0196,
       "positive_rate": 0.0036
     },
@@ -92,10 +92,10 @@
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 67,
+      "sends_total": 71,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0299
+      "reply_rate": 0.0282
     },
     {
       "touch_n": 1,
@@ -124,10 +124,10 @@
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 92,
+      "sends_total": 93,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0109
+      "reply_rate": 0.0108
     },
     {
       "touch_n": 1,
