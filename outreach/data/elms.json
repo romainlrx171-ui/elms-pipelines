@@ -1,20 +1,20 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-07-10T14:21:51Z",
+  "generated_at": "2026-07-10T16:00:23Z",
   "kpis": {
     "prospects_total": 360,
-    "prospects_active": 203,
+    "prospects_active": 202,
     "prospects_paused": 117,
     "prospects_replied": 0,
-    "prospects_bounced": 14,
+    "prospects_bounced": 15,
     "prospects_with_email": 360,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 313,
     "by_status": {
-      "active": 203,
+      "active": 202,
       "paused": 117,
       "archived": 23,
-      "bounced": 14,
+      "bounced": 15,
       "do_not_contact": 3
     },
     "by_tier": {
@@ -37,9 +37,9 @@
     "campaigns_total": 91,
     "campaigns_active": 89,
     "sends_total": 562,
-    "replies_total": 20,
+    "replies_total": 21,
     "replies_positive": 2,
-    "upcoming_14d": 148
+    "upcoming_14d": 147
   },
   "prospects": [
     {
@@ -6557,7 +6557,7 @@
       "company": "Multiverse Computing",
       "role": "Chief Marketing Officer",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -6566,21 +6566,21 @@
       "has_email": true,
       "has_linkedin": false,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-07-10T16:00:20Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:33",
       "updated_at": "2026-06-04 10:40:33",
       "sends_total": 3,
-      "sends_ok": 3,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 2,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "last_sent_at": "2026-07-10 09:43:51",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-07-15T09:26:00Z",
-      "next_touch_n": 4
+      "last_reply_at": "2026-07-10T11:43:20Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-multiverse-mpwucqhv__enrique-lizaso",
@@ -11574,9 +11574,9 @@
       "created_at": "2026-06-04 10:40:33",
       "assignments": 3,
       "sends_total": 6,
-      "sends_ok": 6,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 5,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -12684,12 +12684,6 @@
       "company": "Lauterbach GmbH",
       "touch_n": 3,
       "scheduled_for": "2026-07-15T09:13:00Z"
-    },
-    {
-      "prospect_id": "elms-multiverse-mpwucqhv__alfonso-rubio",
-      "company": "Multiverse Computing",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-15T09:26:00Z"
     },
     {
       "prospect_id": "elms-kognic-mpx3cgxx__daniel-langkilde",
