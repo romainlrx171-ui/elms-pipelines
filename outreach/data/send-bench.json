@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-10T11:13:25Z",
+  "generated_at": "2026-07-10T13:27:06Z",
   "totals": {
-    "sends_total": 1159,
+    "sends_total": 1178,
     "sends_bounced": 24,
     "replies_total": 62,
     "replies_positive": 6,
-    "reply_rate": 0.0535,
-    "bounce_rate": 0.0207
+    "reply_rate": 0.0526,
+    "bounce_rate": 0.0204
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 419,
-      "sends_ok": 360,
+      "sends_total": 426,
+      "sends_ok": 361,
       "sends_bounced": 9,
-      "sends_error": 55,
+      "sends_error": 61,
       "replies_total": 26,
       "replies_positive": 3,
       "replies_negative": 1,
@@ -23,16 +23,16 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0621,
-      "bounce_rate": 0.0215,
-      "positive_rate": 0.0072
+      "reply_rate": 0.061,
+      "bounce_rate": 0.0211,
+      "positive_rate": 0.007
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 549,
-      "sends_ok": 501,
+      "sends_total": 561,
+      "sends_ok": 504,
       "sends_bounced": 11,
-      "sends_error": 37,
+      "sends_error": 46,
       "replies_total": 20,
       "replies_positive": 2,
       "replies_negative": 1,
@@ -41,8 +41,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0364,
-      "bounce_rate": 0.02,
+      "reply_rate": 0.0357,
+      "bounce_rate": 0.0196,
       "positive_rate": 0.0036
     },
     {
@@ -84,18 +84,18 @@
     {
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 90,
+      "sends_total": 92,
       "replies_total": 6,
       "bounced": 4,
-      "reply_rate": 0.0667
+      "reply_rate": 0.0652
     },
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 62,
+      "sends_total": 67,
       "replies_total": 2,
       "bounced": 0,
-      "reply_rate": 0.0323
+      "reply_rate": 0.0299
     },
     {
       "touch_n": 1,
@@ -108,26 +108,26 @@
     {
       "touch_n": 2,
       "program": "ELMS_SPONSORS",
-      "sends_total": 187,
+      "sends_total": 193,
       "replies_total": 6,
       "bounced": 5,
-      "reply_rate": 0.0321
+      "reply_rate": 0.0311
     },
     {
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
-      "sends_total": 107,
+      "sends_total": 108,
       "replies_total": 4,
       "bounced": 3,
-      "reply_rate": 0.0374
+      "reply_rate": 0.037
     },
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 87,
+      "sends_total": 92,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0115
+      "reply_rate": 0.0109
     },
     {
       "touch_n": 1,
@@ -2082,6 +2082,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The mechanism, and the deck",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The mechanics, and a one-pager",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -3216,6 +3223,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Not glamour, account acceleration",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Not fan marketing, reference deployment",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -4218,6 +4232,13 @@
     },
     {
       "subject": "How the room works",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How the room works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -4786,6 +4807,13 @@
     {
       "subject": "How a paddock day moves pipeline",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "How a one-round pilot works",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
