@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-13T15:15:41Z",
+  "generated_at": "2026-07-13T16:06:48Z",
   "totals": {
     "prospects_total": 652,
-    "prospects_active": 398,
+    "prospects_active": 397,
     "sends_total": 1202,
-    "replies_total": 63,
+    "replies_total": 64,
     "replies_positive": 6,
     "campaigns_active": 192,
-    "upcoming_14d": 172
+    "upcoming_14d": 171
   },
   "programs": [
     {
@@ -96,17 +96,17 @@
       "label": "BD Platform — ELMS Executive Hospitality",
       "kpis": {
         "prospects_total": 197,
-        "prospects_active": 143,
+        "prospects_active": 142,
         "prospects_paused": 40,
         "prospects_replied": 0,
-        "prospects_bounced": 11,
+        "prospects_bounced": 12,
         "prospects_with_email": 197,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 140,
         "by_status": {
-          "active": 143,
+          "active": 142,
           "paused": 40,
-          "bounced": 11,
+          "bounced": 12,
           "do_not_contact": 3
         },
         "by_tier": {
@@ -121,9 +121,9 @@
         "campaigns_total": 73,
         "campaigns_active": 72,
         "sends_total": 436,
-        "replies_total": 26,
+        "replies_total": 27,
         "replies_positive": 3,
-        "upcoming_14d": 38
+        "upcoming_14d": 37
       }
     },
     {
