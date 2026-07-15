@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-15T12:00:14Z",
+  "generated_at": "2026-07-15T15:00:12Z",
   "totals": {
     "sends_total": 1286,
     "sends_bounced": 26,
-    "replies_total": 65,
+    "replies_total": 66,
     "replies_positive": 6,
-    "reply_rate": 0.0505,
+    "reply_rate": 0.0513,
     "bounce_rate": 0.0202
   },
   "programs": [
@@ -15,7 +15,7 @@
       "sends_ok": 394,
       "sends_bounced": 10,
       "sends_error": 68,
-      "replies_total": 28,
+      "replies_total": 29,
       "replies_positive": 3,
       "replies_negative": 1,
       "replies_ooo": 11,
@@ -23,7 +23,7 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.06,
+      "reply_rate": 0.0621,
       "bounce_rate": 0.0214,
       "positive_rate": 0.0064
     },
@@ -85,9 +85,9 @@
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 104,
-      "replies_total": 7,
+      "replies_total": 8,
       "bounced": 5,
-      "reply_rate": 0.0673
+      "reply_rate": 0.0769
     },
     {
       "touch_n": 4,
@@ -201,6 +201,13 @@
     {
       "subject": "Your SunSwift proving-ground, in Europe",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 1,
+      "reply_rate": 1.0
+    },
+    {
+      "subject": "Why discretion is the point",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 1,
       "reply_rate": 1.0
@@ -1496,13 +1503,6 @@
     {
       "subject": "Why it isn't off-strategy",
       "program": "SPA_24H",
-      "sends_total": 1,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Why discretion is the point",
-      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -7047,6 +7047,14 @@
   ],
   "recent_replies": [
     {
+      "company": "Petraco Oil Company",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-07-15T14:45:04Z",
+      "sentiment": "unclassified",
+      "method": "keyword",
+      "touch_n": 3
+    },
+    {
       "company": "Toray Carbon Fibers Europe",
       "program": "BD_ELMS_HOSPITALITY",
       "received_at": "2026-07-15T11:01:05Z",
@@ -7274,14 +7282,6 @@
       "company": "NCAB Group",
       "program": "BD_ELMS_HOSPITALITY",
       "received_at": "2026-06-19T10:18:12Z",
-      "sentiment": "ooo",
-      "method": "keyword",
-      "touch_n": 4
-    },
-    {
-      "company": "HORIBA MIRA",
-      "program": "BD_ELMS_HOSPITALITY",
-      "received_at": "2026-06-19T10:14:06Z",
       "sentiment": "ooo",
       "method": "keyword",
       "touch_n": 4
