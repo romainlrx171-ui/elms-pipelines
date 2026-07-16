@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-07-16T15:29:49Z",
+  "generated_at": "2026-07-16T16:00:48Z",
   "kpis": {
     "prospects_total": 360,
     "prospects_active": 202,
@@ -37,9 +37,9 @@
     "campaigns_total": 91,
     "campaigns_active": 89,
     "sends_total": 644,
-    "replies_total": 21,
-    "replies_positive": 2,
-    "upcoming_14d": 96
+    "replies_total": 22,
+    "replies_positive": 3,
+    "upcoming_14d": 95
   },
   "prospects": [
     {
@@ -6244,13 +6244,13 @@
       "sends_total": 3,
       "sends_ok": 3,
       "sends_bounced": 0,
-      "replies_total": 0,
+      "replies_total": 1,
       "last_sent_at": "2026-07-16 15:13:34",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-07-20T10:45:00Z",
-      "next_touch_n": 4
+      "last_reply_at": "2026-07-16T18:15:41Z",
+      "last_sentiment": "positive",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_melexis_karen_van_griensven",
@@ -11276,8 +11276,8 @@
       "sends_total": 6,
       "sends_ok": 5,
       "sends_bounced": 0,
-      "replies_total": 0,
-      "replies_positive": 0
+      "replies_total": 1,
+      "replies_positive": 1
     },
     {
       "id": "cmp_elms_kdpof_mppsuptr",
@@ -12564,12 +12564,6 @@
       "company": "Actility",
       "touch_n": 4,
       "scheduled_for": "2026-07-20T10:32:00Z"
-    },
-    {
-      "prospect_id": "elms-mapon-mpydq9t4__raitis-purins",
-      "company": "Mapon",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-20T10:45:00Z"
     },
     {
       "prospect_id": "elms-keepit-mpwsty1g__morten-felsvang",
