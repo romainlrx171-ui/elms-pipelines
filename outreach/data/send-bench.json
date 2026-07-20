@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-20T10:48:35Z",
+  "generated_at": "2026-07-20T11:00:08Z",
   "totals": {
     "sends_total": 1339,
-    "sends_bounced": 27,
-    "replies_total": 68,
+    "sends_bounced": 28,
+    "replies_total": 69,
     "replies_positive": 7,
-    "reply_rate": 0.0508,
-    "bounce_rate": 0.0202
+    "reply_rate": 0.0515,
+    "bounce_rate": 0.0209
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 483,
-      "sends_ok": 408,
-      "sends_bounced": 10,
+      "sends_ok": 407,
+      "sends_bounced": 11,
       "sends_error": 70,
-      "replies_total": 29,
+      "replies_total": 30,
       "replies_positive": 3,
       "replies_negative": 1,
       "replies_ooo": 11,
@@ -23,8 +23,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.06,
-      "bounce_rate": 0.0207,
+      "reply_rate": 0.0621,
+      "bounce_rate": 0.0228,
       "positive_rate": 0.0062
     },
     {
@@ -85,9 +85,9 @@
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 110,
-      "replies_total": 8,
-      "bounced": 5,
-      "reply_rate": 0.0727
+      "replies_total": 9,
+      "bounced": 6,
+      "reply_rate": 0.0818
     },
     {
       "touch_n": 4,
@@ -507,13 +507,6 @@
       "reply_rate": 0.0
     },
     {
-      "subject": "Not branding a sales venue",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 3,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
       "subject": "Not a logo on a car",
       "program": "ELMS_SPONSORS",
       "sends_total": 3,
@@ -656,6 +649,13 @@
     {
       "subject": "Same buyers, different room",
       "program": "ELMS_SPONSORS",
+      "sends_total": 2,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Not branding a sales venue",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -7257,6 +7257,14 @@
   ],
   "recent_replies": [
     {
+      "company": "CSL Group (incl. Caburn Telecom)",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-07-20T12:14:12Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 3
+    },
+    {
       "company": "Endrich Bauelemente Vertriebs GmbH (Endrich Group)",
       "program": "ELMS_SPONSORS",
       "received_at": "2026-07-20T11:55:13Z",
@@ -7484,14 +7492,6 @@
       "company": "Millers Oils Ltd",
       "program": "SPA_24H",
       "received_at": "2026-06-22T10:59:57Z",
-      "sentiment": "ooo",
-      "method": "keyword",
-      "touch_n": 4
-    },
-    {
-      "company": "Wetag Consulting",
-      "program": "SPA_24H",
-      "received_at": "2026-06-22T10:36:49Z",
       "sentiment": "ooo",
       "method": "keyword",
       "touch_n": 4

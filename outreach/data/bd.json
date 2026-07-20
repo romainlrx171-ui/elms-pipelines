@@ -1,19 +1,19 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-20T10:48:35Z",
+  "generated_at": "2026-07-20T11:00:08Z",
   "kpis": {
     "prospects_total": 197,
-    "prospects_active": 142,
+    "prospects_active": 141,
     "prospects_paused": 40,
     "prospects_replied": 0,
-    "prospects_bounced": 12,
+    "prospects_bounced": 13,
     "prospects_with_email": 197,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 140,
     "by_status": {
-      "active": 142,
+      "active": 141,
       "paused": 40,
-      "bounced": 12,
+      "bounced": 13,
       "do_not_contact": 3
     },
     "by_tier": {
@@ -28,9 +28,9 @@
     "campaigns_total": 73,
     "campaigns_active": 72,
     "sends_total": 483,
-    "replies_total": 29,
+    "replies_total": 30,
     "replies_positive": 3,
-    "upcoming_14d": 18
+    "upcoming_14d": 17
   },
   "prospects": [
     {
@@ -818,7 +818,7 @@
       "company": "CSL Group (incl. Caburn Telecom)",
       "role": "Chief Commercial Officer (CCO)",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -827,21 +827,21 @@
       "has_email": true,
       "has_linkedin": true,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-07-20T11:00:06Z",
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:54",
       "updated_at": "2026-06-04 10:40:54",
       "sends_total": 3,
-      "sends_ok": 3,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 2,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "last_sent_at": "2026-07-20 10:14:02",
       "last_touch_n": 3,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-07-21T10:10:00Z",
-      "next_touch_n": 4
+      "last_reply_at": "2026-07-20T12:14:12Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-csl-mpydhpmz__helen-badger",
@@ -6225,9 +6225,9 @@
       "created_at": "2026-06-04 10:40:54",
       "assignments": 3,
       "sends_total": 6,
-      "sends_ok": 6,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 5,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -7131,12 +7131,6 @@
       "company": "Devoteam",
       "touch_n": 4,
       "scheduled_for": "2026-07-21T10:01:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-csl-mpydhpmz__greville-coe",
-      "company": "CSL Group (incl. Caburn Telecom)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T10:10:00Z"
     },
     {
       "prospect_id": "bd-platform-nagase-mpyggse5__mark-hruska",
