@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-16T16:00:48Z",
+  "generated_at": "2026-07-20T09:58:25Z",
   "totals": {
-    "sends_total": 1309,
+    "sends_total": 1324,
     "sends_bounced": 26,
     "replies_total": 67,
     "replies_positive": 7,
-    "reply_rate": 0.0512,
-    "bounce_rate": 0.0199
+    "reply_rate": 0.0506,
+    "bounce_rate": 0.0196
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 474,
-      "sends_ok": 399,
+      "sends_total": 478,
+      "sends_ok": 403,
       "sends_bounced": 10,
       "sends_error": 70,
       "replies_total": 29,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0612,
-      "bounce_rate": 0.0211,
+      "reply_rate": 0.0607,
+      "bounce_rate": 0.0209,
       "positive_rate": 0.0063
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 644,
-      "sends_ok": 581,
+      "sends_total": 655,
+      "sends_ok": 592,
       "sends_bounced": 12,
       "sends_error": 51,
       "replies_total": 22,
@@ -41,9 +41,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0342,
-      "bounce_rate": 0.0186,
-      "positive_rate": 0.0047
+      "reply_rate": 0.0336,
+      "bounce_rate": 0.0183,
+      "positive_rate": 0.0046
     },
     {
       "program": "SPA_24H",
@@ -92,10 +92,10 @@
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 94,
+      "sends_total": 98,
       "replies_total": 3,
       "bounced": 0,
-      "reply_rate": 0.0319
+      "reply_rate": 0.0306
     },
     {
       "touch_n": 1,
@@ -116,18 +116,18 @@
     {
       "touch_n": 3,
       "program": "ELMS_SPONSORS",
-      "sends_total": 137,
+      "sends_total": 140,
       "replies_total": 6,
       "bounced": 4,
-      "reply_rate": 0.0438
+      "reply_rate": 0.0429
     },
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 126,
+      "sends_total": 134,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0079
+      "reply_rate": 0.0075
     },
     {
       "touch_n": 1,
@@ -395,18 +395,18 @@
       "reply_rate": 0.25
     },
     {
-      "subject": "Last note on this",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 5,
-      "replies_total": 1,
-      "reply_rate": 0.2
-    },
-    {
       "subject": "Closing the loop",
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 11,
+      "sends_total": 12,
       "replies_total": 2,
-      "reply_rate": 0.1818
+      "reply_rate": 0.1667
+    },
+    {
+      "subject": "Last note on this",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 6,
+      "replies_total": 1,
+      "reply_rate": 0.1667
     },
     {
       "subject": "Last note on Spa",
@@ -425,14 +425,14 @@
     {
       "subject": "Last note before Imola",
       "program": "ELMS_SPONSORS",
-      "sends_total": 10,
+      "sends_total": 11,
       "replies_total": 0,
       "reply_rate": 0.0
     },
     {
       "subject": "Last note",
       "program": "ELMS_SPONSORS",
-      "sends_total": 8,
+      "sends_total": 9,
       "replies_total": 0,
       "reply_rate": 0.0
     },
@@ -543,6 +543,13 @@
     },
     {
       "subject": "Last note before Imola",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 3,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note Imola",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 3,
       "replies_total": 0,
@@ -669,13 +676,6 @@
     },
     {
       "subject": "Last note Imola in July",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 2,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Last note Imola",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
@@ -3209,6 +3209,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "One thing on relevance and cost",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "One reframe on cost and fit",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -3461,6 +3468,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Not marketing, product proof",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Not logo spend, a credibility asset",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -3609,6 +3623,13 @@
     },
     {
       "subject": "Not advertising engineering proof",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Not advertising a sales asset",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -4091,7 +4112,28 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note, the 2026 window",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last note, slots before Imola",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note, closing the loop",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note, Spa's your market",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
@@ -4266,6 +4308,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note on the content",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last note on Spa 2026",
       "program": "SPA_24H",
       "sends_total": 1,
@@ -4280,6 +4329,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Last note on ELMS 2026",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Last note from the paddock",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -4288,6 +4344,13 @@
     },
     {
       "subject": "Last note from my side",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Last note from me",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -6101,6 +6164,13 @@
     },
     {
       "subject": "Closing the season's content slots",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Closing the loop, Olivier",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,

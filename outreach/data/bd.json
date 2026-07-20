@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-16T15:29:49Z",
+  "generated_at": "2026-07-20T09:58:25Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 142,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 474,
+    "sends_total": 478,
     "replies_total": 29,
     "replies_positive": 3,
-    "upcoming_14d": 27
+    "upcoming_14d": 23
   },
   "prospects": [
     {
@@ -3262,16 +3262,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:44",
       "updated_at": "2026-06-04 10:40:44",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-09 15:01:59",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-20 09:48:28",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-14T10:41:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-motion-mpyd0n9i__samir-maha",
@@ -4072,16 +4072,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:42:07",
       "updated_at": "2026-06-04 10:42:07",
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-10 14:13:38",
+      "last_sent_at": "2026-07-20 09:10:56",
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-10T12:44:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_pigment_eleonore_crespo",
@@ -4162,16 +4162,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:35",
       "updated_at": "2026-06-04 10:40:35",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-10 08:45:49",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-20 09:38:27",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-14T10:02:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-porcher-mpyfs7vk__andre-genton",
@@ -5602,16 +5602,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:22",
       "updated_at": "2026-06-04 10:40:22",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-08 12:13:06",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-20 09:20:35",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-14T08:44:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-dspace-mppokyl9__bernd-schaefers-maiwald",
@@ -5954,8 +5954,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:42:08",
       "assignments": 3,
-      "sends_total": 23,
-      "sends_ok": 10,
+      "sends_total": 24,
+      "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -6269,8 +6269,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:44",
       "assignments": 3,
-      "sends_total": 9,
-      "sends_ok": 8,
+      "sends_total": 10,
+      "sends_ok": 9,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6314,8 +6314,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:35",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 7,
+      "sends_total": 11,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6389,8 +6389,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:22",
       "assignments": 2,
-      "sends_total": 8,
-      "sends_ok": 6,
+      "sends_total": 9,
+      "sends_ok": 7,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7053,30 +7053,6 @@
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 2,
       "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-petraco-mpxuncd4__russell-humphrey",
-      "company": "Petraco Oil Company",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-10T12:44:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-velos-mpydak23__myros-allegre",
-      "company": "Velos IoT",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-14T08:44:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__alexandre-gaude",
-      "company": "Porcher Industries",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-14T10:02:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__richard-saxby",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-14T10:41:00Z"
     },
     {
       "prospect_id": "bd-platform-devoteam-mpxsm3r3__trine-tirsgaard",
