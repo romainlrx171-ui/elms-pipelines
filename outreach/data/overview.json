@@ -1,57 +1,54 @@
 {
-  "generated_at": "2026-07-20T11:00:08Z",
+  "generated_at": "2026-07-23T08:48:07Z",
   "totals": {
-    "prospects_total": 652,
+    "prospects_total": 626,
     "prospects_active": 395,
-    "sends_total": 1339,
+    "sends_total": 1354,
     "replies_total": 69,
     "replies_positive": 7,
     "campaigns_active": 192,
-    "upcoming_14d": 88
+    "upcoming_14d": 73
   },
   "programs": [
     {
       "program": "ELMS_SPONSORS",
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
-        "prospects_total": 360,
+        "prospects_total": 334,
         "prospects_active": 201,
-        "prospects_paused": 117,
+        "prospects_paused": 114,
         "prospects_replied": 0,
         "prospects_bounced": 16,
-        "prospects_with_email": 360,
+        "prospects_with_email": 334,
         "prospects_without_email": 0,
-        "prospects_with_linkedin": 313,
+        "prospects_with_linkedin": 296,
         "by_status": {
           "active": 201,
-          "paused": 117,
-          "archived": 23,
+          "paused": 114,
           "bounced": 16,
           "do_not_contact": 3
         },
         "by_tier": {
           "MED": 186,
           "HIGH": 123,
-          "LOW": 51
+          "LOW": 25
         },
         "by_geo": {
-          "unknown": 285,
+          "unknown": 261,
           "EU": 62,
           "France": 1,
-          "Germany": 1,
           "Paris": 6,
           "Denver": 1,
           "Detroit": 1,
-          "Hong Kong": 1,
           "Greece": 1,
           "Saint-Germain-en-Laye": 1
         },
         "campaigns_total": 91,
         "campaigns_active": 89,
-        "sends_total": 665,
+        "sends_total": 677,
         "replies_total": 23,
         "replies_positive": 3,
-        "upcoming_14d": 71
+        "upcoming_14d": 59
       }
     },
     {
@@ -120,10 +117,10 @@
         },
         "campaigns_total": 73,
         "campaigns_active": 72,
-        "sends_total": 483,
+        "sends_total": 486,
         "replies_total": 30,
         "replies_positive": 3,
-        "upcoming_14d": 17
+        "upcoming_14d": 14
       }
     },
     {
