@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-23T10:32:20Z",
+  "generated_at": "2026-07-23T14:38:17Z",
   "totals": {
-    "prospects_total": 626,
-    "prospects_active": 395,
-    "sends_total": 1378,
+    "prospects_total": 634,
+    "prospects_active": 412,
+    "sends_total": 1388,
     "replies_total": 69,
     "replies_positive": 7,
-    "campaigns_active": 192,
-    "upcoming_14d": 49
+    "campaigns_active": 202,
+    "upcoming_14d": 90
   },
   "programs": [
     {
@@ -92,35 +92,35 @@
       "program": "BD_ELMS_HOSPITALITY",
       "label": "BD Platform — ELMS Executive Hospitality",
       "kpis": {
-        "prospects_total": 197,
-        "prospects_active": 141,
-        "prospects_paused": 40,
+        "prospects_total": 205,
+        "prospects_active": 158,
+        "prospects_paused": 31,
         "prospects_replied": 0,
         "prospects_bounced": 13,
-        "prospects_with_email": 197,
+        "prospects_with_email": 205,
         "prospects_without_email": 0,
         "prospects_with_linkedin": 140,
         "by_status": {
-          "active": 141,
-          "paused": 40,
+          "active": 158,
+          "paused": 31,
           "bounced": 13,
           "do_not_contact": 3
         },
         "by_tier": {
-          "MED": 157,
-          "LOW": 28,
+          "MED": 174,
+          "LOW": 19,
           "HIGH": 12
         },
         "by_geo": {
-          "unknown": 157,
-          "EU": 40
+          "unknown": 174,
+          "EU": 31
         },
-        "campaigns_total": 73,
-        "campaigns_active": 72,
-        "sends_total": 492,
+        "campaigns_total": 83,
+        "campaigns_active": 82,
+        "sends_total": 502,
         "replies_total": 30,
         "replies_positive": 3,
-        "upcoming_14d": 8
+        "upcoming_14d": 49
       }
     },
     {
