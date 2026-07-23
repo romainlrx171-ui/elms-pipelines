@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-23T09:50:31Z",
+  "generated_at": "2026-07-23T10:32:20Z",
   "totals": {
-    "sends_total": 1369,
+    "sends_total": 1378,
     "sends_bounced": 28,
     "replies_total": 69,
     "replies_positive": 7,
-    "reply_rate": 0.0504,
-    "bounce_rate": 0.0205
+    "reply_rate": 0.0501,
+    "bounce_rate": 0.0203
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 488,
-      "sends_ok": 412,
+      "sends_total": 492,
+      "sends_ok": 416,
       "sends_bounced": 11,
       "sends_error": 70,
       "replies_total": 30,
@@ -23,14 +23,14 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0615,
-      "bounce_rate": 0.0225,
+      "reply_rate": 0.061,
+      "bounce_rate": 0.0224,
       "positive_rate": 0.0061
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 690,
-      "sends_ok": 626,
+      "sends_total": 695,
+      "sends_ok": 631,
       "sends_bounced": 13,
       "sends_error": 51,
       "replies_total": 23,
@@ -41,8 +41,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0333,
-      "bounce_rate": 0.0188,
+      "reply_rate": 0.0331,
+      "bounce_rate": 0.0187,
       "positive_rate": 0.0043
     },
     {
@@ -92,10 +92,10 @@
     {
       "touch_n": 4,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 104,
+      "sends_total": 108,
       "replies_total": 3,
       "bounced": 0,
-      "reply_rate": 0.0288
+      "reply_rate": 0.0278
     },
     {
       "touch_n": 1,
@@ -124,10 +124,10 @@
     {
       "touch_n": 4,
       "program": "ELMS_SPONSORS",
-      "sends_total": 144,
+      "sends_total": 149,
       "replies_total": 1,
       "bounced": 0,
-      "reply_rate": 0.0069
+      "reply_rate": 0.0067
     },
     {
       "touch_n": 1,
@@ -397,9 +397,9 @@
     {
       "subject": "Closing the loop",
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 13,
+      "sends_total": 14,
       "replies_total": 2,
-      "reply_rate": 0.1538
+      "reply_rate": 0.1429
     },
     {
       "subject": "Last note on this",
@@ -425,7 +425,7 @@
     {
       "subject": "Last note before Imola",
       "program": "ELMS_SPONSORS",
-      "sends_total": 13,
+      "sends_total": 14,
       "replies_total": 0,
       "reply_rate": 0.0
     },
@@ -439,21 +439,21 @@
     {
       "subject": "Closing the loop",
       "program": "ELMS_SPONSORS",
-      "sends_total": 10,
+      "sends_total": 11,
       "replies_total": 0,
       "reply_rate": 0.0
     },
     {
       "subject": "Last note",
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 6,
+      "sends_total": 8,
       "replies_total": 0,
       "reply_rate": 0.0
     },
     {
       "subject": "Last note on Imola",
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 5,
+      "sends_total": 6,
       "replies_total": 0,
       "reply_rate": 0.0
     },
@@ -593,6 +593,13 @@
     {
       "subject": "How it actually works",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 3,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Dernier mot avant Imola",
+      "program": "ELMS_SPONSORS",
       "sends_total": 3,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -789,13 +796,6 @@
     {
       "subject": "How a client day actually works",
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 2,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "Dernier mot avant Imola",
-      "program": "ELMS_SPONSORS",
       "sends_total": 2,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -4147,6 +4147,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Leaving it with Edoardo",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Le vrai sujet: la relation",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
@@ -5745,6 +5752,13 @@
     {
       "subject": "Final partner slots for Spa",
       "program": "SPA_24H",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Final note on timing",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
