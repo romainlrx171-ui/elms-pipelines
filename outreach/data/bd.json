@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-23T08:48:07Z",
+  "generated_at": "2026-07-23T09:50:31Z",
   "kpis": {
     "prospects_total": 197,
     "prospects_active": 141,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 73,
     "campaigns_active": 72,
-    "sends_total": 486,
+    "sends_total": 488,
     "replies_total": 30,
     "replies_positive": 3,
-    "upcoming_14d": 14
+    "upcoming_14d": 12
   },
   "prospects": [
     {
@@ -4972,16 +4972,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:28",
       "updated_at": "2026-06-04 10:40:28",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 1,
-      "last_sent_at": "2026-07-10 12:43:41",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-23 09:03:53",
+      "last_touch_n": 4,
       "last_reply_at": "2026-06-18T09:16:53Z",
       "last_sentiment": "ooo",
-      "next_scheduled": "2026-07-16T09:07:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-simscale-mpy4o1ja__david-heiny",
@@ -5572,16 +5572,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:22",
       "updated_at": "2026-06-04 10:40:22",
-      "sends_total": 5,
-      "sends_ok": 3,
+      "sends_total": 6,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-15 11:02:22",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-07-23 09:00:07",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-16T08:44:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-velos-mpydak23__myros-allegre",
@@ -6344,8 +6344,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:28",
       "assignments": 1,
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 1,
       "replies_positive": 0
@@ -6389,8 +6389,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:22",
       "assignments": 2,
-      "sends_total": 9,
-      "sends_ok": 7,
+      "sends_total": 10,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7053,18 +7053,6 @@
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 2,
       "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-velos-mpydak23__colin-chew",
-      "company": "Velos IoT",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-16T08:44:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-sika-mpyf3e5d__paulo-silva",
-      "company": "Sika",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-16T09:07:00Z"
     },
     {
       "prospect_id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
