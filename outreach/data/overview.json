@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-23T14:38:17Z",
+  "generated_at": "2026-07-24T10:30:35Z",
   "totals": {
     "prospects_total": 634,
     "prospects_active": 412,
-    "sends_total": 1388,
+    "sends_total": 1408,
     "replies_total": 69,
     "replies_positive": 7,
     "campaigns_active": 202,
-    "upcoming_14d": 90
+    "upcoming_14d": 70
   },
   "programs": [
     {
@@ -45,10 +45,10 @@
         },
         "campaigns_total": 91,
         "campaigns_active": 89,
-        "sends_total": 695,
+        "sends_total": 711,
         "replies_total": 23,
         "replies_positive": 3,
-        "upcoming_14d": 41
+        "upcoming_14d": 25
       }
     },
     {
@@ -117,10 +117,10 @@
         },
         "campaigns_total": 83,
         "campaigns_active": 82,
-        "sends_total": 502,
+        "sends_total": 506,
         "replies_total": 30,
         "replies_positive": 3,
-        "upcoming_14d": 49
+        "upcoming_14d": 45
       }
     },
     {
