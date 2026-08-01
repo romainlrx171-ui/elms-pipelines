@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-07-24T11:20:19Z",
+  "generated_at": "2026-08-01T04:16:47Z",
   "kpis": {
     "prospects_total": 205,
     "prospects_active": 157,
@@ -30,7 +30,7 @@
     "sends_total": 506,
     "replies_total": 31,
     "replies_positive": 3,
-    "upcoming_14d": 45
+    "upcoming_14d": 62
   },
   "prospects": [
     {
@@ -7701,6 +7701,108 @@
       "company": "Norman K",
       "touch_n": 3,
       "scheduled_for": "2026-08-04T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-bda-partners-m0723__euan-rellie",
+      "company": "BDA Partners",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-clairfield-international-m0723__thierry-chetrit",
+      "company": "Clairfield International",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-drake-star-partners-m0723__michael-metzger",
+      "company": "Drake Star Partners",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-drake-star-partners-m0723__milledge-a-hart",
+      "company": "Drake Star Partners",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-eclecticiq-m0723__cody-barrow",
+      "company": "EclecticIQ",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-hyperexponential-m0723__amrit-santhirasenan",
+      "company": "hyperexponential",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-hyperexponential-m0723__richard-gunn",
+      "company": "hyperexponential",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lansweeper-m0723__dave-goossens",
+      "company": "Lansweeper",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-lansweeper-m0723__jonas-goossens",
+      "company": "Lansweeper",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mews-m0723__matthijs-welle",
+      "company": "Mews",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mews-m0723__richard-valtr",
+      "company": "Mews",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mirabaud-m0723__camille-vial",
+      "company": "Mirabaud",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mirabaud-m0723__ricardo-castillo",
+      "company": "Mirabaud",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mirakl-m0723__adrien-nussenbaum",
+      "company": "Mirakl",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-mirakl-m0723__philippe-corrot",
+      "company": "Mirakl",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-norman-k-m0723__nicolas-lhermite",
+      "company": "Norman K",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-norman-k-m0723__nicolas-mayer",
+      "company": "Norman K",
+      "touch_n": 4,
+      "scheduled_for": "2026-08-10T09:30:00Z"
     }
   ]
 }
