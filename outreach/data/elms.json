@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-07-24T11:20:19Z",
+  "generated_at": "2026-08-10T08:51:59Z",
   "kpis": {
     "prospects_total": 334,
     "prospects_active": 201,
@@ -33,10 +33,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 717,
+    "sends_total": 725,
     "replies_total": 23,
     "replies_positive": 3,
-    "upcoming_14d": 19
+    "upcoming_14d": 11
   },
   "prospects": [
     {
@@ -2218,16 +2218,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:06",
       "updated_at": "2026-06-04 10:41:06",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-20 10:20:57",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:22:56",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T11:57:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-cohda-mpq3bvm2__paul-gray",
@@ -2368,16 +2368,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:47",
       "updated_at": "2026-06-04 10:40:47",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-20 09:58:21",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:08:03",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T08:56:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-commsignia-mppywf8m__laszlo-virag",
@@ -3238,16 +3238,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:44",
       "updated_at": "2026-06-04 10:40:44",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 08:20:39",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:04:35",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T08:28:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-eseye-mppvud7n__david-langton",
@@ -4498,16 +4498,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:02",
       "updated_at": "2026-06-04 10:41:02",
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 08:33:23",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:15:16",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T11:29:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_heliox_tbd",
@@ -5158,16 +5158,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:06",
       "updated_at": "2026-06-04 10:41:06",
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 08:41:11",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:26:06",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T12:11:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms_apollo_kigen_said_unknown",
@@ -8698,16 +8698,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:48",
       "updated_at": "2026-06-04 10:40:48",
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 09:18:24",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:33:25",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-22T09:44:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-vayyar-mpye69sw__raviv-melamed",
@@ -9358,16 +9358,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:03",
       "updated_at": "2026-06-04 10:41:03",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-20 10:17:39",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:19:04",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T11:43:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-yeswehack-mpqfhrwm__marine-magnant",
@@ -9958,16 +9958,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:49",
       "updated_at": "2026-06-04 10:40:49",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-20 10:00:07",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:11:58",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T09:05:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-u-blox-mpooeacx__matthias-poppel",
@@ -10385,8 +10385,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:07",
       "assignments": 2,
-      "sends_total": 8,
-      "sends_ok": 7,
+      "sends_total": 9,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10400,8 +10400,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:06",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 10,
+      "sends_total": 11,
+      "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10430,8 +10430,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:03",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 10,
+      "sends_total": 11,
+      "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10445,8 +10445,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:02",
       "assignments": 2,
-      "sends_total": 8,
-      "sends_ok": 7,
+      "sends_total": 9,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10580,8 +10580,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:50",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 10,
+      "sends_total": 11,
+      "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10595,8 +10595,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:48",
       "assignments": 2,
-      "sends_total": 8,
-      "sends_ok": 7,
+      "sends_total": 9,
+      "sends_ok": 8,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10610,8 +10610,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:47",
       "assignments": 3,
-      "sends_total": 10,
-      "sends_ok": 10,
+      "sends_total": 11,
+      "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10655,8 +10655,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:44",
       "assignments": 3,
-      "sends_total": 11,
-      "sends_ok": 11,
+      "sends_total": 12,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11465,48 +11465,6 @@
       "scheduled_for": "2026-07-14T12:54:00Z"
     },
     {
-      "prospect_id": "elms-eseye-mppvud7n__anand-gandhi",
-      "company": "Eseye",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T08:28:00Z"
-    },
-    {
-      "prospect_id": "elms-commsignia-mppywf8m__andras-takacs",
-      "company": "Commsignia",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T08:56:00Z"
-    },
-    {
-      "prospect_id": "elms-u-blox-mpooeacx__andreas-thiel",
-      "company": "u-blox",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T09:05:00Z"
-    },
-    {
-      "prospect_id": "elms-heilind-mppwtj4z__stefan-barrig",
-      "company": "Heilind Electronics Europe",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T11:29:00Z"
-    },
-    {
-      "prospect_id": "elms-yeswehack-mpqfhrwm__guillaume-vassault-houliere",
-      "company": "YesWeHack",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T11:43:00Z"
-    },
-    {
-      "prospect_id": "elms-cohda-mpq3bvm2__bernd-lubben",
-      "company": "Cohda Wireless",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T11:57:00Z"
-    },
-    {
-      "prospect_id": "elms-kigen-mpq3nll5__vincent-korstanje",
-      "company": "Kigen",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T12:11:00Z"
-    },
-    {
       "prospect_id": "elms-pelion-mpqrjngi__niall-strachan",
       "company": "Pelion",
       "touch_n": 4,
@@ -11517,12 +11475,6 @@
       "company": "Commsignia",
       "touch_n": 4,
       "scheduled_for": "2026-07-22T09:18:00Z"
-    },
-    {
-      "prospect_id": "elms-vayyar-mpye69sw__ian-podkamien",
-      "company": "Vayyar Imaging",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-22T09:44:00Z"
     },
     {
       "prospect_id": "elms-u-blox-mpooeacx__matthias-poppel",

@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-08-01T04:16:47Z",
+  "generated_at": "2026-08-10T08:52:00Z",
   "kpis": {
     "prospects_total": 205,
     "prospects_active": 157,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 83,
     "campaigns_active": 82,
-    "sends_total": 506,
+    "sends_total": 513,
     "replies_total": 31,
     "replies_positive": 3,
-    "upcoming_14d": 62
+    "upcoming_14d": 55
   },
   "prospects": [
     {
@@ -1282,16 +1282,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-07-23 13:33:18",
       "updated_at": "2026-07-23 13:33:18",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-08-10 08:37:16",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-23T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-07-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_drake_star_partners_gregory_bedrosian",
@@ -2722,16 +2722,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-07-23 13:33:20",
       "updated_at": "2026-07-23 13:33:20",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-08-10 08:44:45",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-23T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-07-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-lohmann-mpy72e9a__nicole-ehrmann",
@@ -2992,16 +2992,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-07-23 13:33:21",
       "updated_at": "2026-07-23 13:33:21",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-08-10 08:48:41",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-23T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-07-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_mews_matthijs_welle",
@@ -3232,16 +3232,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-07-23 13:33:21",
       "updated_at": "2026-07-23 13:33:21",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-08-10 08:51:53",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-23T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-07-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-mirakl-m0723__adrien-nussenbaum",
@@ -3472,16 +3472,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:44",
       "updated_at": "2026-06-04 10:40:44",
-      "sends_total": 4,
-      "sends_ok": 3,
+      "sends_total": 5,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 08:17:26",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:00:38",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-21T08:14:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-myra-mpyi5y2t__paul-kaffsack",
@@ -4402,16 +4402,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:35",
       "updated_at": "2026-06-04 10:40:35",
-      "sends_total": 4,
-      "sends_ok": 2,
+      "sends_total": 5,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-24 09:00:09",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-10 08:30:01",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-22T08:00:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_puratos_group_pierre_tossut",
@@ -5962,16 +5962,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-07-23 13:33:20",
       "updated_at": "2026-07-23 13:33:20",
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": null,
-      "last_touch_n": null,
+      "last_sent_at": "2026-08-10 08:41:10",
+      "last_touch_n": 1,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-23T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-07-29T09:30:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_hyperexponential_amrit_santhirasenan",
@@ -6209,8 +6209,8 @@
       "ended_at": null,
       "created_at": "2026-07-23 13:33:22",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6239,8 +6239,8 @@
       "ended_at": null,
       "created_at": "2026-07-23 13:33:21",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6254,8 +6254,8 @@
       "ended_at": null,
       "created_at": "2026-07-23 13:33:20",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6269,8 +6269,8 @@
       "ended_at": null,
       "created_at": "2026-07-23 13:33:20",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6284,8 +6284,8 @@
       "ended_at": null,
       "created_at": "2026-07-23 13:33:19",
       "assignments": 2,
-      "sends_total": 1,
-      "sends_ok": 1,
+      "sends_total": 2,
+      "sends_ok": 2,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6659,8 +6659,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:44",
       "assignments": 3,
-      "sends_total": 12,
-      "sends_ok": 11,
+      "sends_total": 13,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -6704,8 +6704,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:35",
       "assignments": 3,
-      "sends_total": 13,
-      "sends_ok": 10,
+      "sends_total": 14,
+      "sends_ok": 11,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7443,48 +7443,6 @@
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 2,
       "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-motion-mpyd0n9i__samir-maha",
-      "company": "Motion Applied (ex-McLaren Applied)",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-21T08:14:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-porcher-mpyfs7vk__yves-gardet",
-      "company": "Porcher Industries",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-22T08:00:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-drake-star-partners-m0723__milledge-a-hart",
-      "company": "Drake Star Partners",
-      "touch_n": 1,
-      "scheduled_for": "2026-07-23T08:00:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-hyperexponential-m0723__richard-gunn",
-      "company": "hyperexponential",
-      "touch_n": 1,
-      "scheduled_for": "2026-07-23T08:00:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-lansweeper-m0723__jonas-goossens",
-      "company": "Lansweeper",
-      "touch_n": 1,
-      "scheduled_for": "2026-07-23T08:00:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mews-m0723__richard-valtr",
-      "company": "Mews",
-      "touch_n": 1,
-      "scheduled_for": "2026-07-23T08:00:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-mirabaud-m0723__ricardo-castillo",
-      "company": "Mirabaud",
-      "touch_n": 1,
-      "scheduled_for": "2026-07-23T08:00:00Z"
     },
     {
       "prospect_id": "bd-platform-mirakl-m0723__philippe-corrot",
