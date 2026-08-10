@@ -1,19 +1,19 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-08-10T09:19:56Z",
+  "generated_at": "2026-08-10T10:00:15Z",
   "kpis": {
     "prospects_total": 205,
-    "prospects_active": 157,
+    "prospects_active": 156,
     "prospects_paused": 31,
     "prospects_replied": 0,
-    "prospects_bounced": 14,
+    "prospects_bounced": 15,
     "prospects_with_email": 205,
     "prospects_without_email": 0,
     "prospects_with_linkedin": 140,
     "by_status": {
-      "active": 157,
+      "active": 156,
       "paused": 31,
-      "bounced": 14,
+      "bounced": 15,
       "do_not_contact": 3
     },
     "by_tier": {
@@ -28,9 +28,9 @@
     "campaigns_total": 83,
     "campaigns_active": 82,
     "sends_total": 518,
-    "replies_total": 31,
+    "replies_total": 32,
     "replies_positive": 3,
-    "upcoming_14d": 50
+    "upcoming_14d": 48
   },
   "prospects": [
     {
@@ -1658,7 +1658,7 @@
       "company": "EclecticIQ",
       "role": "CEO",
       "tier": "MED",
-      "status": "active",
+      "status": "bounced",
       "confidence": null,
       "geo": "",
       "language": "EN",
@@ -1667,21 +1667,21 @@
       "has_email": true,
       "has_linkedin": false,
       "has_phone": false,
-      "outcome": null,
-      "outcome_at": null,
+      "outcome": "bounced",
+      "outcome_at": "2026-08-10T10:00:12Z",
       "outcome_value_eur": null,
       "created_at": "2026-07-23 13:33:19",
       "updated_at": "2026-07-23 13:33:19",
       "sends_total": 2,
-      "sends_ok": 2,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 1,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "last_sent_at": "2026-08-10 09:16:06",
       "last_touch_n": 2,
-      "last_reply_at": null,
-      "last_sentiment": null,
-      "next_scheduled": "2026-08-04T09:30:00Z",
-      "next_touch_n": 3
+      "last_reply_at": "2026-08-10T11:16:15Z",
+      "last_sentiment": "bounce",
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd_eclecticiq_cody_barrow",
@@ -6300,9 +6300,9 @@
       "created_at": "2026-07-23 13:33:19",
       "assignments": 1,
       "sends_total": 2,
-      "sends_ok": 2,
-      "sends_bounced": 0,
-      "replies_total": 0,
+      "sends_ok": 1,
+      "sends_bounced": 1,
+      "replies_total": 1,
       "replies_positive": 0
     },
     {
@@ -7553,12 +7553,6 @@
       "scheduled_for": "2026-08-04T09:30:00Z"
     },
     {
-      "prospect_id": "bd-platform-eclecticiq-m0723__cody-barrow",
-      "company": "EclecticIQ",
-      "touch_n": 3,
-      "scheduled_for": "2026-08-04T09:30:00Z"
-    },
-    {
       "prospect_id": "bd-platform-hyperexponential-m0723__amrit-santhirasenan",
       "company": "hyperexponential",
       "touch_n": 3,
@@ -7651,12 +7645,6 @@
     {
       "prospect_id": "bd-platform-drake-star-partners-m0723__milledge-a-hart",
       "company": "Drake Star Partners",
-      "touch_n": 4,
-      "scheduled_for": "2026-08-10T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-eclecticiq-m0723__cody-barrow",
-      "company": "EclecticIQ",
       "touch_n": 4,
       "scheduled_for": "2026-08-10T09:30:00Z"
     },

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-10T09:19:56Z",
+  "generated_at": "2026-08-10T10:00:15Z",
   "totals": {
     "sends_total": 1434,
-    "sends_bounced": 29,
-    "replies_total": 70,
+    "sends_bounced": 30,
+    "replies_total": 71,
     "replies_positive": 7,
-    "reply_rate": 0.0488,
-    "bounce_rate": 0.0202
+    "reply_rate": 0.0495,
+    "bounce_rate": 0.0209
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 518,
-      "sends_ok": 441,
-      "sends_bounced": 12,
+      "sends_ok": 440,
+      "sends_bounced": 13,
       "sends_error": 70,
-      "replies_total": 31,
+      "replies_total": 32,
       "replies_positive": 3,
       "replies_negative": 1,
       "replies_ooo": 11,
@@ -23,8 +23,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0598,
-      "bounce_rate": 0.0232,
+      "reply_rate": 0.0618,
+      "bounce_rate": 0.0251,
       "positive_rate": 0.0058
     },
     {
@@ -77,9 +77,9 @@
       "touch_n": 2,
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 151,
-      "replies_total": 1,
-      "bounced": 1,
-      "reply_rate": 0.0066
+      "replies_total": 2,
+      "bounced": 2,
+      "reply_rate": 0.0132
     },
     {
       "touch_n": 3,
@@ -760,13 +760,6 @@
     },
     {
       "subject": "How the weekend works",
-      "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 2,
-      "replies_total": 0,
-      "reply_rate": 0.0
-    },
-    {
-      "subject": "How the weekend actually works",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 2,
       "replies_total": 0,
@@ -4945,6 +4938,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "How the weekend actually works",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "How the visibility actually works",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -7663,6 +7663,14 @@
   ],
   "recent_replies": [
     {
+      "company": "EclecticIQ",
+      "program": "BD_ELMS_HOSPITALITY",
+      "received_at": "2026-08-10T11:16:15Z",
+      "sentiment": "bounce",
+      "method": "keyword",
+      "touch_n": 2
+    },
+    {
       "company": "NAGASE (Europa) GmbH",
       "program": "BD_ELMS_HOSPITALITY",
       "received_at": "2026-07-24T12:16:25Z",
@@ -7893,14 +7901,6 @@
       "sentiment": "bounce",
       "method": "keyword",
       "touch_n": 2
-    },
-    {
-      "company": "Wetag Consulting",
-      "program": "SPA_24H",
-      "received_at": "2026-06-22T11:01:32Z",
-      "sentiment": "ooo",
-      "method": "keyword",
-      "touch_n": 4
     }
   ]
 }
