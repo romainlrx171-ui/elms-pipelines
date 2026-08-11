@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-08-10T08:51:59Z",
+  "generated_at": "2026-08-11T14:57:43Z",
   "kpis": {
     "prospects_total": 334,
     "prospects_active": 201,
@@ -33,10 +33,10 @@
     },
     "campaigns_total": 91,
     "campaigns_active": 89,
-    "sends_total": 725,
+    "sends_total": 729,
     "replies_total": 23,
     "replies_positive": 3,
-    "upcoming_14d": 11
+    "upcoming_14d": 7
   },
   "prospects": [
     {
@@ -2188,16 +2188,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:06",
       "updated_at": "2026-06-04 10:41:06",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 08:37:13",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-11 14:22:04",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-22T11:23:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-cohda-mpq3bvm2__bernd-lubben",
@@ -2398,16 +2398,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:47",
       "updated_at": "2026-06-04 10:40:47",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 08:24:05",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-11 14:11:00",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-22T09:18:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-commsignia-mppywf8m__szabolcs-patay",
@@ -9388,16 +9388,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:41:03",
       "updated_at": "2026-06-04 10:41:03",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 09:24:51",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-11 14:18:19",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-22T10:31:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-yeswehack-mpqfhrwm__rodolphe-harand",
@@ -9988,16 +9988,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:49",
       "updated_at": "2026-06-04 10:40:49",
-      "sends_total": 3,
-      "sends_ok": 3,
+      "sends_total": 4,
+      "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-23 09:21:37",
-      "last_touch_n": 3,
+      "last_sent_at": "2026-08-11 14:14:59",
+      "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-07-22T10:05:00Z",
-      "next_touch_n": 4
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-u-blox-mpooeacx__stefania-sesia",
@@ -10400,8 +10400,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:06",
       "assignments": 3,
-      "sends_total": 11,
-      "sends_ok": 11,
+      "sends_total": 12,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10430,8 +10430,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:41:03",
       "assignments": 3,
-      "sends_total": 11,
-      "sends_ok": 11,
+      "sends_total": 12,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10580,8 +10580,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:50",
       "assignments": 3,
-      "sends_total": 11,
-      "sends_ok": 11,
+      "sends_total": 12,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -10610,8 +10610,8 @@
       "ended_at": null,
       "created_at": "2026-06-04 10:40:47",
       "assignments": 3,
-      "sends_total": 11,
-      "sends_ok": 11,
+      "sends_total": 12,
+      "sends_ok": 12,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -11469,30 +11469,6 @@
       "company": "Pelion",
       "touch_n": 4,
       "scheduled_for": "2026-07-21T12:48:00Z"
-    },
-    {
-      "prospect_id": "elms-commsignia-mppywf8m__laszlo-virag",
-      "company": "Commsignia",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-22T09:18:00Z"
-    },
-    {
-      "prospect_id": "elms-u-blox-mpooeacx__matthias-poppel",
-      "company": "u-blox",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-22T10:05:00Z"
-    },
-    {
-      "prospect_id": "elms-yeswehack-mpqfhrwm__marine-magnant",
-      "company": "YesWeHack",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-22T10:31:00Z"
-    },
-    {
-      "prospect_id": "elms-cohda-mpq3bvm2__andrea-ash",
-      "company": "Cohda Wireless",
-      "touch_n": 4,
-      "scheduled_for": "2026-07-22T11:23:00Z"
     }
   ]
 }
