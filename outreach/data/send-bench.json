@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-13T08:32:13Z",
+  "generated_at": "2026-08-14T10:00:59Z",
   "totals": {
-    "sends_total": 1456,
+    "sends_total": 1463,
     "sends_bounced": 30,
     "replies_total": 71,
     "replies_positive": 7,
-    "reply_rate": 0.0488,
-    "bounce_rate": 0.0206
+    "reply_rate": 0.0485,
+    "bounce_rate": 0.0205
   },
   "programs": [
     {
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 536,
-      "sends_ok": 458,
+      "sends_total": 543,
+      "sends_ok": 465,
       "sends_bounced": 13,
       "sends_error": 70,
       "replies_total": 32,
@@ -23,9 +23,9 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0597,
-      "bounce_rate": 0.0243,
-      "positive_rate": 0.0056
+      "reply_rate": 0.0589,
+      "bounce_rate": 0.0239,
+      "positive_rate": 0.0055
     },
     {
       "program": "ELMS_SPONSORS",
@@ -84,10 +84,10 @@
     {
       "touch_n": 3,
       "program": "BD_ELMS_HOSPITALITY",
-      "sends_total": 114,
+      "sends_total": 121,
       "replies_total": 9,
       "bounced": 6,
-      "reply_rate": 0.0789
+      "reply_rate": 0.0744
     },
     {
       "touch_n": 4,
@@ -1788,6 +1788,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Where deals actually warm up",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "Where European deals actually warm",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -2055,6 +2062,13 @@
     },
     {
       "subject": "Two days with your pipeline",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Turnkey, your name on it",
       "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
@@ -2334,8 +2348,22 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "The off-the-desk argument",
+      "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "The off-brand worry",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The next generation angle",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -2497,6 +2525,13 @@
     {
       "subject": "The distributor objection",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "The content nobody expects",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -3729,6 +3764,13 @@
     {
       "subject": "Not fan marketing",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Not entertainment, pipeline time",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -7579,6 +7621,13 @@
     {
       "subject": "A final note",
       "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "A differentiator you cannot buy",
+      "program": "BD_ELMS_HOSPITALITY",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
