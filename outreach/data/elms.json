@@ -1,28 +1,28 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-08-20T09:00:18Z",
+  "generated_at": "2026-11-16T07:00:10Z",
   "kpis": {
-    "prospects_total": 334,
-    "prospects_active": 201,
+    "prospects_total": 339,
+    "prospects_active": 206,
     "prospects_paused": 114,
     "prospects_replied": 0,
     "prospects_bounced": 16,
-    "prospects_with_email": 334,
+    "prospects_with_email": 339,
     "prospects_without_email": 0,
-    "prospects_with_linkedin": 296,
+    "prospects_with_linkedin": 298,
     "by_status": {
-      "active": 201,
+      "active": 206,
       "paused": 114,
       "bounced": 16,
       "do_not_contact": 3
     },
     "by_tier": {
-      "MED": 186,
+      "MED": 191,
       "HIGH": 123,
       "LOW": 25
     },
     "by_geo": {
-      "unknown": 261,
+      "unknown": 266,
       "EU": 62,
       "France": 1,
       "Paris": 6,
@@ -31,12 +31,12 @@
       "Greece": 1,
       "Saint-Germain-en-Laye": 1
     },
-    "campaigns_total": 91,
-    "campaigns_active": 89,
+    "campaigns_total": 94,
+    "campaigns_active": 92,
     "sends_total": 729,
     "replies_total": 23,
     "replies_positive": 3,
-    "upcoming_14d": 0
+    "upcoming_14d": 15
   },
   "prospects": [
     {
@@ -6100,6 +6100,36 @@
       "next_touch_n": null
     },
     {
+      "id": "elms-ovhcloud-mpwrffo2__bruno-ronsse",
+      "company": "OVHcloud",
+      "role": "Chief Revenue Officer, Corporate Business",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": false,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-11-16 06:30:02",
+      "updated_at": "2026-11-16 06:30:02",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-11-16T08:00:00Z",
+      "next_touch_n": 1
+    },
+    {
       "id": "elms-onomondo-mppx593q__jillian-falconi",
       "company": "Onomondo",
       "role": "Chief Commercial Officer",
@@ -8350,6 +8380,66 @@
       "next_touch_n": null
     },
     {
+      "id": "elms-televic-mpquukgz__alexander-biron-von-curland",
+      "company": "Televic",
+      "role": "General Manager Germany (a.i.), Televic Rail",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-11-16 06:30:02",
+      "updated_at": "2026-11-16 06:30:02",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-11-16T08:00:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "elms-televic-mpquukgz__emma-storey",
+      "company": "Televic",
+      "role": "Marketing & Communications, Televic",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": false,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-11-16 06:30:02",
+      "updated_at": "2026-11-16 06:30:02",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-11-16T08:00:00Z",
+      "next_touch_n": 1
+    },
+    {
       "id": "elms-teltonika-mpqrjltb__darius-malisauskas",
       "company": "Teltonika Mobility",
       "role": "CEO, Teltonika Telematics",
@@ -8678,6 +8768,66 @@
       "last_sentiment": null,
       "next_scheduled": null,
       "next_touch_n": null
+    },
+    {
+      "id": "elms-utimaco-mpxsbgvs__stefan-auerbach",
+      "company": "Utimaco",
+      "role": "Chief Executive Officer",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": false,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-11-16 06:30:03",
+      "updated_at": "2026-11-16 06:30:03",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-11-16T08:00:00Z",
+      "next_touch_n": 1
+    },
+    {
+      "id": "elms-utimaco-mpxsbgvs__tina-stewart",
+      "company": "Utimaco",
+      "role": "Chief Marketing Officer",
+      "tier": "MED",
+      "status": "active",
+      "confidence": null,
+      "geo": "",
+      "language": "EN",
+      "universe": "sponsors_b2b",
+      "source": "pitline:elms",
+      "has_email": true,
+      "has_linkedin": true,
+      "has_phone": false,
+      "outcome": null,
+      "outcome_at": null,
+      "outcome_value_eur": null,
+      "created_at": "2026-11-16 06:30:03",
+      "updated_at": "2026-11-16 06:30:03",
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "last_sent_at": null,
+      "last_touch_n": null,
+      "last_reply_at": null,
+      "last_sentiment": null,
+      "next_scheduled": "2026-11-16T08:00:00Z",
+      "next_touch_n": 1
     },
     {
       "id": "elms-vayyar-mpye69sw__ian-podkamien",
@@ -10062,6 +10212,51 @@
   ],
   "campaigns": [
     {
+      "id": "cmp_elms_televic_mpquukgz",
+      "name": "Televic — executive_hospitality (elms)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-11-16 06:30:03",
+      "ended_at": null,
+      "created_at": "2026-11-16 06:30:03",
+      "assignments": 2,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
+      "id": "cmp_elms_utimaco_mpxsbgvs",
+      "name": "Utimaco — automotive_credibility (elms)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-11-16 06:30:03",
+      "ended_at": null,
+      "created_at": "2026-11-16 06:30:03",
+      "assignments": 2,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
+      "id": "cmp_elms_ovhcloud_mpwrffo2",
+      "name": "OVHcloud — european_market_visibility (elms)",
+      "status": "active",
+      "goal": "book_15min_call",
+      "started_at": "2026-11-16 06:30:02",
+      "ended_at": null,
+      "created_at": "2026-11-16 06:30:02",
+      "assignments": 1,
+      "sends_total": 0,
+      "sends_ok": 0,
+      "sends_bounced": 0,
+      "replies_total": 0,
+      "replies_positive": 0
+    },
+    {
       "id": "cmp_elms_texys_mpxvonct",
       "name": "Texys / Texense — technical_performance_reliability (elms)",
       "status": "active",
@@ -11427,5 +11622,96 @@
       "replies_positive": 0
     }
   ],
-  "upcoming": []
+  "upcoming": [
+    {
+      "prospect_id": "elms-ovhcloud-mpwrffo2__bruno-ronsse",
+      "company": "OVHcloud",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-16T08:00:00Z"
+    },
+    {
+      "prospect_id": "elms-televic-mpquukgz__emma-storey",
+      "company": "Televic",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-16T08:00:00Z"
+    },
+    {
+      "prospect_id": "elms-televic-mpquukgz__alexander-biron-von-curland",
+      "company": "Televic",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-16T08:00:00Z"
+    },
+    {
+      "prospect_id": "elms-utimaco-mpxsbgvs__tina-stewart",
+      "company": "Utimaco",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-16T08:00:00Z"
+    },
+    {
+      "prospect_id": "elms-utimaco-mpxsbgvs__stefan-auerbach",
+      "company": "Utimaco",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-16T08:00:00Z"
+    },
+    {
+      "prospect_id": "elms-ovhcloud-mpwrffo2__bruno-ronsse",
+      "company": "OVHcloud",
+      "touch_n": 2,
+      "scheduled_for": "2026-11-20T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-televic-mpquukgz__emma-storey",
+      "company": "Televic",
+      "touch_n": 2,
+      "scheduled_for": "2026-11-20T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-televic-mpquukgz__alexander-biron-von-curland",
+      "company": "Televic",
+      "touch_n": 2,
+      "scheduled_for": "2026-11-20T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-utimaco-mpxsbgvs__tina-stewart",
+      "company": "Utimaco",
+      "touch_n": 2,
+      "scheduled_for": "2026-11-20T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-utimaco-mpxsbgvs__stefan-auerbach",
+      "company": "Utimaco",
+      "touch_n": 2,
+      "scheduled_for": "2026-11-20T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-ovhcloud-mpwrffo2__bruno-ronsse",
+      "company": "OVHcloud",
+      "touch_n": 3,
+      "scheduled_for": "2026-11-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-televic-mpquukgz__emma-storey",
+      "company": "Televic",
+      "touch_n": 3,
+      "scheduled_for": "2026-11-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-televic-mpquukgz__alexander-biron-von-curland",
+      "company": "Televic",
+      "touch_n": 3,
+      "scheduled_for": "2026-11-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-utimaco-mpxsbgvs__tina-stewart",
+      "company": "Utimaco",
+      "touch_n": 3,
+      "scheduled_for": "2026-11-26T09:30:00Z"
+    },
+    {
+      "prospect_id": "elms-utimaco-mpxsbgvs__stefan-auerbach",
+      "company": "Utimaco",
+      "touch_n": 3,
+      "scheduled_for": "2026-11-26T09:30:00Z"
+    }
+  ]
 }

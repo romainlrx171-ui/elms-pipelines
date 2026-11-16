@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-20T09:00:18Z",
+  "generated_at": "2026-11-16T07:00:10Z",
   "totals": {
-    "prospects_total": 634,
-    "prospects_active": 410,
+    "prospects_total": 639,
+    "prospects_active": 415,
     "sends_total": 1463,
     "replies_total": 71,
     "replies_positive": 7,
-    "campaigns_active": 202,
-    "upcoming_14d": 2
+    "campaigns_active": 205,
+    "upcoming_14d": 17
   },
   "programs": [
     {
       "program": "ELMS_SPONSORS",
       "label": "ELMS 2026 — Ferrari Kessel",
       "kpis": {
-        "prospects_total": 334,
-        "prospects_active": 201,
+        "prospects_total": 339,
+        "prospects_active": 206,
         "prospects_paused": 114,
         "prospects_replied": 0,
         "prospects_bounced": 16,
-        "prospects_with_email": 334,
+        "prospects_with_email": 339,
         "prospects_without_email": 0,
-        "prospects_with_linkedin": 296,
+        "prospects_with_linkedin": 298,
         "by_status": {
-          "active": 201,
+          "active": 206,
           "paused": 114,
           "bounced": 16,
           "do_not_contact": 3
         },
         "by_tier": {
-          "MED": 186,
+          "MED": 191,
           "HIGH": 123,
           "LOW": 25
         },
         "by_geo": {
-          "unknown": 261,
+          "unknown": 266,
           "EU": 62,
           "France": 1,
           "Paris": 6,
@@ -43,12 +43,12 @@
           "Greece": 1,
           "Saint-Germain-en-Laye": 1
         },
-        "campaigns_total": 91,
-        "campaigns_active": 89,
+        "campaigns_total": 94,
+        "campaigns_active": 92,
         "sends_total": 729,
         "replies_total": 23,
         "replies_positive": 3,
-        "upcoming_14d": 0
+        "upcoming_14d": 15
       }
     },
     {
