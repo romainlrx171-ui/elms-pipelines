@@ -1,6 +1,6 @@
 {
   "program": "ELMS_SPONSORS",
-  "generated_at": "2026-11-16T07:00:10Z",
+  "generated_at": "2026-11-16T09:00:20Z",
   "kpis": {
     "prospects_total": 339,
     "prospects_active": 206,
@@ -36,7 +36,7 @@
     "sends_total": 729,
     "replies_total": 23,
     "replies_positive": 3,
-    "upcoming_14d": 15
+    "upcoming_14d": 0
   },
   "prospects": [
     {
@@ -6126,8 +6126,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-16T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-onomondo-mppx593q__jillian-falconi",
@@ -8406,8 +8406,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-16T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-televic-mpquukgz__emma-storey",
@@ -8436,8 +8436,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-16T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-teltonika-mpqrjltb__darius-malisauskas",
@@ -8796,8 +8796,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-16T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-utimaco-mpxsbgvs__tina-stewart",
@@ -8826,8 +8826,8 @@
       "last_touch_n": null,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-16T08:00:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "elms-vayyar-mpye69sw__ian-podkamien",
@@ -11622,96 +11622,5 @@
       "replies_positive": 0
     }
   ],
-  "upcoming": [
-    {
-      "prospect_id": "elms-ovhcloud-mpwrffo2__bruno-ronsse",
-      "company": "OVHcloud",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-16T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms-televic-mpquukgz__emma-storey",
-      "company": "Televic",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-16T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms-televic-mpquukgz__alexander-biron-von-curland",
-      "company": "Televic",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-16T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms-utimaco-mpxsbgvs__tina-stewart",
-      "company": "Utimaco",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-16T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms-utimaco-mpxsbgvs__stefan-auerbach",
-      "company": "Utimaco",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-16T08:00:00Z"
-    },
-    {
-      "prospect_id": "elms-ovhcloud-mpwrffo2__bruno-ronsse",
-      "company": "OVHcloud",
-      "touch_n": 2,
-      "scheduled_for": "2026-11-20T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-televic-mpquukgz__emma-storey",
-      "company": "Televic",
-      "touch_n": 2,
-      "scheduled_for": "2026-11-20T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-televic-mpquukgz__alexander-biron-von-curland",
-      "company": "Televic",
-      "touch_n": 2,
-      "scheduled_for": "2026-11-20T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-utimaco-mpxsbgvs__tina-stewart",
-      "company": "Utimaco",
-      "touch_n": 2,
-      "scheduled_for": "2026-11-20T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-utimaco-mpxsbgvs__stefan-auerbach",
-      "company": "Utimaco",
-      "touch_n": 2,
-      "scheduled_for": "2026-11-20T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-ovhcloud-mpwrffo2__bruno-ronsse",
-      "company": "OVHcloud",
-      "touch_n": 3,
-      "scheduled_for": "2026-11-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-televic-mpquukgz__emma-storey",
-      "company": "Televic",
-      "touch_n": 3,
-      "scheduled_for": "2026-11-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-televic-mpquukgz__alexander-biron-von-curland",
-      "company": "Televic",
-      "touch_n": 3,
-      "scheduled_for": "2026-11-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-utimaco-mpxsbgvs__tina-stewart",
-      "company": "Utimaco",
-      "touch_n": 3,
-      "scheduled_for": "2026-11-26T09:30:00Z"
-    },
-    {
-      "prospect_id": "elms-utimaco-mpxsbgvs__stefan-auerbach",
-      "company": "Utimaco",
-      "touch_n": 3,
-      "scheduled_for": "2026-11-26T09:30:00Z"
-    }
-  ]
+  "upcoming": []
 }
