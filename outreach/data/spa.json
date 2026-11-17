@@ -1,6 +1,6 @@
 {
   "program": "SPA_24H",
-  "generated_at": "2026-11-16T16:24:16Z",
+  "generated_at": "2026-11-17T15:02:08Z",
   "kpis": {
     "prospects_total": 95,
     "prospects_active": 53,
@@ -28,7 +28,7 @@
       "unknown": 55
     },
     "campaigns_total": 33,
-    "campaigns_active": 31,
+    "campaigns_active": 32,
     "sends_total": 191,
     "replies_total": 16,
     "replies_positive": 1,
@@ -2890,9 +2890,9 @@
     {
       "id": "cmp_relaunch27_spa",
       "name": "Relaunch 2027 #548 (SPA_24H)",
-      "status": "draft",
+      "status": "active",
       "goal": "Re-open 2026 silent contacts with a 2027 angle: host key customers at race weekends",
-      "started_at": null,
+      "started_at": "2026-11-18",
       "ended_at": null,
       "created_at": "2026-11-16 15:36:00",
       "assignments": 4,

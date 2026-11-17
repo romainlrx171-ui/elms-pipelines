@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-16T16:24:16Z",
+  "generated_at": "2026-11-17T15:02:08Z",
   "totals": {
     "prospects_total": 639,
     "prospects_active": 415,
     "sends_total": 1463,
     "replies_total": 71,
     "replies_positive": 7,
-    "campaigns_active": 205,
-    "upcoming_14d": 2
+    "campaigns_active": 208,
+    "upcoming_14d": 28
   },
   "programs": [
     {
@@ -44,11 +44,11 @@
           "Saint-Germain-en-Laye": 1
         },
         "campaigns_total": 95,
-        "campaigns_active": 92,
+        "campaigns_active": 93,
         "sends_total": 729,
         "replies_total": 23,
         "replies_positive": 3,
-        "upcoming_14d": 0
+        "upcoming_14d": 8
       }
     },
     {
@@ -81,7 +81,7 @@
           "unknown": 55
         },
         "campaigns_total": 33,
-        "campaigns_active": 31,
+        "campaigns_active": 32,
         "sends_total": 191,
         "replies_total": 16,
         "replies_positive": 1,
@@ -116,11 +116,11 @@
           "EU": 31
         },
         "campaigns_total": 84,
-        "campaigns_active": 82,
+        "campaigns_active": 83,
         "sends_total": 543,
         "replies_total": 32,
         "replies_positive": 3,
-        "upcoming_14d": 2
+        "upcoming_14d": 20
       }
     },
     {
