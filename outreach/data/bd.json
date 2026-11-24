@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-11-17T15:02:08Z",
+  "generated_at": "2026-11-24T13:00:43Z",
   "kpis": {
     "prospects_total": 205,
     "prospects_active": 156,
@@ -30,7 +30,7 @@
     "sends_total": 543,
     "replies_total": 32,
     "replies_positive": 3,
-    "upcoming_14d": 20
+    "upcoming_14d": 16
   },
   "prospects": [
     {
@@ -60,7 +60,7 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T09:05:00Z",
+      "next_scheduled": "2026-11-25T09:05:00Z",
       "next_touch_n": 1
     },
     {
@@ -360,7 +360,7 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T09:31:00Z",
+      "next_scheduled": "2026-11-25T09:33:00Z",
       "next_touch_n": 1
     },
     {
@@ -1020,7 +1020,7 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T09:58:00Z",
+      "next_scheduled": "2026-11-25T10:02:00Z",
       "next_touch_n": 1
     },
     {
@@ -1140,7 +1140,7 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T10:24:00Z",
+      "next_scheduled": "2026-11-25T10:31:00Z",
       "next_touch_n": 1
     },
     {
@@ -1440,8 +1440,8 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T10:51:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-dynisma-mpy9mo3i__graeme-cook",
@@ -1740,7 +1740,7 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T11:17:00Z",
+      "next_scheduled": "2026-11-25T11:00:00Z",
       "next_touch_n": 1
     },
     {
@@ -1860,7 +1860,7 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T11:44:00Z",
+      "next_scheduled": "2026-11-25T11:28:00Z",
       "next_touch_n": 1
     },
     {
@@ -2610,8 +2610,8 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T12:10:00Z",
-      "next_touch_n": 1
+      "next_scheduled": null,
+      "next_touch_n": null
     },
     {
       "id": "bd-platform-lacroix-mpyjuh34__louis-pourdieu",
@@ -4710,7 +4710,7 @@
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-18T12:37:00Z",
+      "next_scheduled": "2026-11-25T11:57:00Z",
       "next_touch_n": 1
     },
     {
@@ -7463,109 +7463,85 @@
       "prospect_id": "bd-platform-ab-mpx2dn1p__ben-russell",
       "company": "AB Dynamics",
       "touch_n": 1,
-      "scheduled_for": "2026-11-18T09:05:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
-      "company": "Applus+ IDIADA",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T09:31:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-clairfield-international-m0723__thierry-chetrit",
-      "company": "Clairfield International",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T09:58:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
-      "company": "DELO Industrial Adhesives",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T10:24:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__ash-warne",
-      "company": "Dynisma",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T10:51:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
-      "company": "Element Materials Technology",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T11:17:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ga-mpyp92gu__aurelien-ngangue",
-      "company": "GA Smart Building",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T11:44:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
-      "company": "Klüber Lubrication",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T12:10:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-serma-mpqbtugc__philippe-berlie",
-      "company": "SERMA Group",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-18T12:37:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ab-mpx2dn1p__ben-russell",
-      "company": "AB Dynamics",
-      "touch_n": 2,
       "scheduled_for": "2026-11-25T09:05:00Z"
     },
     {
       "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
       "company": "Applus+ IDIADA",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-25T09:33:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-clairfield-international-m0723__thierry-chetrit",
+      "company": "Clairfield International",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-25T10:02:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
+      "company": "DELO Industrial Adhesives",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-25T10:31:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
+      "company": "Element Materials Technology",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-25T11:00:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ga-mpyp92gu__aurelien-ngangue",
+      "company": "GA Smart Building",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-25T11:28:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-serma-mpqbtugc__philippe-berlie",
+      "company": "SERMA Group",
+      "touch_n": 1,
+      "scheduled_for": "2026-11-25T11:57:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-ab-mpx2dn1p__ben-russell",
+      "company": "AB Dynamics",
       "touch_n": 2,
-      "scheduled_for": "2026-11-25T09:31:00Z"
+      "scheduled_for": "2026-12-02T09:05:00Z"
+    },
+    {
+      "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
+      "company": "Applus+ IDIADA",
+      "touch_n": 2,
+      "scheduled_for": "2026-12-02T09:33:00Z"
     },
     {
       "prospect_id": "bd-platform-clairfield-international-m0723__thierry-chetrit",
       "company": "Clairfield International",
       "touch_n": 2,
-      "scheduled_for": "2026-11-25T09:58:00Z"
+      "scheduled_for": "2026-12-02T10:02:00Z"
     },
     {
       "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
       "company": "DELO Industrial Adhesives",
       "touch_n": 2,
-      "scheduled_for": "2026-11-25T10:24:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-dynisma-mpy9mo3i__ash-warne",
-      "company": "Dynisma",
-      "touch_n": 2,
-      "scheduled_for": "2026-11-25T10:51:00Z"
+      "scheduled_for": "2026-12-02T10:31:00Z"
     },
     {
       "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
       "company": "Element Materials Technology",
       "touch_n": 2,
-      "scheduled_for": "2026-11-25T11:17:00Z"
+      "scheduled_for": "2026-12-02T11:00:00Z"
     },
     {
       "prospect_id": "bd-platform-ga-mpyp92gu__aurelien-ngangue",
       "company": "GA Smart Building",
       "touch_n": 2,
-      "scheduled_for": "2026-11-25T11:44:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-klber-mpyg8nwd__wolfgang-sammer",
-      "company": "Klüber Lubrication",
-      "touch_n": 2,
-      "scheduled_for": "2026-11-25T12:10:00Z"
+      "scheduled_for": "2026-12-02T11:28:00Z"
     },
     {
       "prospect_id": "bd-platform-serma-mpqbtugc__philippe-berlie",
       "company": "SERMA Group",
       "touch_n": 2,
-      "scheduled_for": "2026-11-25T12:37:00Z"
+      "scheduled_for": "2026-12-02T11:57:00Z"
     }
   ]
 }
