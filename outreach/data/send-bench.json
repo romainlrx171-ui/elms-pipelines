@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T15:00:14Z",
+  "generated_at": "2026-11-25T16:00:17Z",
   "totals": {
-    "sends_total": 1471,
+    "sends_total": 1475,
     "sends_bounced": 30,
     "replies_total": 71,
     "replies_positive": 7,
-    "reply_rate": 0.0483,
-    "bounce_rate": 0.0204
+    "reply_rate": 0.0481,
+    "bounce_rate": 0.0203
   },
   "programs": [
     {
@@ -29,8 +29,8 @@
     },
     {
       "program": "ELMS_SPONSORS",
-      "sends_total": 730,
-      "sends_ok": 665,
+      "sends_total": 734,
+      "sends_ok": 669,
       "sends_bounced": 13,
       "sends_error": 52,
       "replies_total": 23,
@@ -41,8 +41,8 @@
       "placement_primary": 0,
       "placement_promotions": 0,
       "placement_spam": 0,
-      "reply_rate": 0.0315,
-      "bounce_rate": 0.0178,
+      "reply_rate": 0.0313,
+      "bounce_rate": 0.0177,
       "positive_rate": 0.0041
     },
     {
@@ -100,10 +100,10 @@
     {
       "touch_n": 1,
       "program": "ELMS_SPONSORS",
-      "sends_total": 169,
+      "sends_total": 173,
       "replies_total": 9,
       "bounced": 3,
-      "reply_rate": 0.0533
+      "reply_rate": 0.052
     },
     {
       "touch_n": 2,
@@ -2007,6 +2007,13 @@
     {
       "subject": "Une idée pour Clairfield en 2027",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "Une idée pour Advens en 2027",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -7038,6 +7045,13 @@
       "reply_rate": 0.0
     },
     {
+      "subject": "Apex.AI and motorsport",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
       "subject": "And the bigger commercial angle",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
@@ -7082,6 +7096,13 @@
     {
       "subject": "An idea for Schukat's partners",
       "program": "BD_ELMS_HOSPITALITY",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "An idea for Quantexa in 2027",
+      "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
       "reply_rate": 0.0
@@ -7305,6 +7326,13 @@
     },
     {
       "subject": "AEC-Q100 made visible",
+      "program": "ELMS_SPONSORS",
+      "sends_total": 1,
+      "replies_total": 0,
+      "reply_rate": 0.0
+    },
+    {
+      "subject": "ABAX and endurance racing",
       "program": "ELMS_SPONSORS",
       "sends_total": 1,
       "replies_total": 0,
