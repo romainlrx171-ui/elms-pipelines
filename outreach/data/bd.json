@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-11-25T10:00:24Z",
+  "generated_at": "2026-11-25T11:00:50Z",
   "kpis": {
     "prospects_total": 205,
     "prospects_active": 156,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 84,
     "campaigns_active": 83,
-    "sends_total": 545,
+    "sends_total": 547,
     "replies_total": 32,
     "replies_positive": 3,
-    "upcoming_14d": 14
+    "upcoming_14d": 12
   },
   "prospects": [
     {
@@ -1012,16 +1012,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-07-23 13:33:18",
       "updated_at": "2026-07-23 13:33:18",
-      "sends_total": 4,
-      "sends_ok": 4,
+      "sends_total": 5,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-08-13 08:28:24",
+      "last_sent_at": "2026-11-25 10:08:31",
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-25T10:02:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-12-02T10:02:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd_clairfield_international_thierry_chetrit",
@@ -1132,16 +1132,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:40:23",
       "updated_at": "2026-06-04 10:40:23",
-      "sends_total": 5,
+      "sends_total": 6,
       "sends_ok": 4,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-07-15 11:20:00",
+      "last_sent_at": "2026-11-25 10:39:46",
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-25T10:31:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-12-02T10:31:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-delo-mpyeme1z__nina-bosch",
@@ -6194,8 +6194,8 @@
       "ended_at": null,
       "created_at": "2026-11-16 15:36:00",
       "assignments": 26,
-      "sends_total": 2,
-      "sends_ok": 2,
+      "sends_total": 4,
+      "sends_ok": 3,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7458,18 +7458,6 @@
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 2,
       "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-clairfield-international-m0723__thierry-chetrit",
-      "company": "Clairfield International",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-25T10:02:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-delo-mpyeme1z__matthias-stollberg",
-      "company": "DELO Industrial Adhesives",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-25T10:31:00Z"
     },
     {
       "prospect_id": "bd-platform-element-mpyakgjc__james-leroy",
