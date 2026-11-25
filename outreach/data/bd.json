@@ -1,6 +1,6 @@
 {
   "program": "BD_ELMS_HOSPITALITY",
-  "generated_at": "2026-11-24T13:00:43Z",
+  "generated_at": "2026-11-25T09:09:48Z",
   "kpis": {
     "prospects_total": 205,
     "prospects_active": 156,
@@ -27,10 +27,10 @@
     },
     "campaigns_total": 84,
     "campaigns_active": 83,
-    "sends_total": 543,
+    "sends_total": 544,
     "replies_total": 32,
     "replies_positive": 3,
-    "upcoming_14d": 16
+    "upcoming_14d": 15
   },
   "prospects": [
     {
@@ -52,16 +52,16 @@
       "outcome_value_eur": null,
       "created_at": "2026-06-04 10:39:41",
       "updated_at": "2026-06-04 10:39:41",
-      "sends_total": 5,
-      "sends_ok": 4,
+      "sends_total": 6,
+      "sends_ok": 5,
       "sends_bounced": 0,
       "replies_total": 0,
-      "last_sent_at": "2026-06-29 13:30:33",
+      "last_sent_at": "2026-11-25 09:07:14",
       "last_touch_n": 4,
       "last_reply_at": null,
       "last_sentiment": null,
-      "next_scheduled": "2026-11-25T09:05:00Z",
-      "next_touch_n": 1
+      "next_scheduled": "2026-12-02T09:05:00Z",
+      "next_touch_n": 2
     },
     {
       "id": "bd-platform-ab-mpx2dn1p__sarah-matthews-demers",
@@ -6194,8 +6194,8 @@
       "ended_at": null,
       "created_at": "2026-11-16 15:36:00",
       "assignments": 26,
-      "sends_total": 0,
-      "sends_ok": 0,
+      "sends_total": 1,
+      "sends_ok": 1,
       "sends_bounced": 0,
       "replies_total": 0,
       "replies_positive": 0
@@ -7458,12 +7458,6 @@
       "company": "Toray Carbon Fibers Europe",
       "touch_n": 2,
       "scheduled_for": "2026-06-23T09:30:00Z"
-    },
-    {
-      "prospect_id": "bd-platform-ab-mpx2dn1p__ben-russell",
-      "company": "AB Dynamics",
-      "touch_n": 1,
-      "scheduled_for": "2026-11-25T09:05:00Z"
     },
     {
       "prospect_id": "bd-platform-applus-mpq88v5v__aitor-retes-aguado",
